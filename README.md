@@ -7,8 +7,38 @@ launch.turing.edu website
 
 This site is built with Jekyll. Find the docs [here](https://jekyllrb.com/docs/usage/)
 
-### Contributing
+## Contributing
 
+### General
+
+The production branch for this repo is `gh-pages`.  Branches that you create need to be merged into `gh-pages`.
+
+### Windows
+1. Set Up [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
+    * In PowerShell `wsl --install`
+    * Restart your machine
+    * Ubuntu will startup on restart; create your username and password  
+* From here, all commands are run in Ubuntu terminal.
+2. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+    * `sudo apt-get update`
+    * `sudo apt-get install ruby-full`
+    * `echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc`
+    * `echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc`
+    * `echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc`
+    * `source ~/.bashrc`
+3. Install Ubuntu Dev Tools
+    * `sudo apt-get install ubuntu-dev-tools`
+4. [Configure git SSH key](https://mod0.turing.edu/computer-setup#configure-github)
+5. Set Up [Jekyll](https://jekyllrb.com/docs/installation/ubuntu/)
+    * `gem install jekyll bundler`
+6. Clone and Set Up Local Repo
+    * Clone the repo: `git clone git@github.com:turingschool/launch-curriculum.git`
+    * Open the repository: `cd launch-curriculum`
+    * Bundle your gems: `bundle install`
+    * To start the server: `bundle exec jekyll serve`
+    * Navigate to `http://localhost:4000` to see the site.
+
+### Mac
 * Clone the repo `git clone git@github.com:turingschool/launch-curriculum.git`
 * Install ruby, and run `bundle install`
 * NOTE: you may need to first install eventmachine setting the `openssl-dir`:
