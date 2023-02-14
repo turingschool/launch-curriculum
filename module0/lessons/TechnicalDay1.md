@@ -4,17 +4,17 @@ This is an introduction designed to get you looking at code, getting familiar wi
 
 ## Decision Making, and Why It Matters
 
-Other than very basic functions of staying alive (breathing, circulation, reflexes, etc...), we must make decisions in order to take action.  Nearly everything you have done today has been the result of a decision: what should I eat for breakfast, what should I wear, where should I work.  Withouth the ability to make decisions, we would be very uninteresting animals.
+Other than very basic functions of staying alive (breathing, circulation, reflexes, etc...), we must make decisions in order to take action.  Nearly everything you have done today has been the result of a decision: what should I eat for breakfast, what should I wear, where should I work.  Without the ability to make decisions, we would be very uninteresting animals.
 
 But, how do we make decisions?  In general, we can break the decision making process down into 3 steps:
-1. Observation - taking in relevent data.
+1. Observation - taking in relevant data.
 2. Analysis - determining what is important about the data we have observed.
 3. Action - Doing something that logically follows the analysis.
 
 For example, when determining what to wear we would:
 * Observe the weather conditions by
     * Looking outside to see if the sun is shining.
-    * Go outside to feel the tempurature.
+    * Go outside to feel the temperature.
 * Analyze our findings
     * It is cold out.
     * The sun is shining.
@@ -22,7 +22,7 @@ For example, when determining what to wear we would:
     * Wearing a coat.
     * Leaving our umbrella at home.
 
-It is important for us to understand how we make decisions, so that we can create programs that are good at making decisions. Just like humans, computer programs need to make decisions in order to operate.  Programs need to decide: which view should a user see, what should I do with the data a user gives me.
+It is important for us to understand how we make decisions so that we can create programs that are good at making decisions. Just like humans, computer programs need to make decisions in order to operate.  Programs need to decide: which view should a user see, what should I do with the data a user gives me.
 
 ** Instructor Note **  Organize students into groups of 3/4 to work through these sections together in breakout rooms.
 

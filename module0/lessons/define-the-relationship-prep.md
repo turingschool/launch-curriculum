@@ -3,7 +3,7 @@ layout:     page
 title:      DTR (Define the Relationship) Prep
 permalink:  dtr-prep
 ---
-
+# Define the Relationship Prep
 ## Purpose
 
 You will be a contributor in team settings throughout your Turing career working on complex technical challenges. You may be surprised to find out that < 1% of failing projects at Turing are due solely to technical deficiencies - in fact, the majority of failing projects are due to intrapersonal/team issues. In order to set yourself (and your teammates) up for success, it is critical to clearly communicate and set expectations with your teammates. 

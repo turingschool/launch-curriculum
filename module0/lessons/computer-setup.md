@@ -3,6 +3,7 @@ layout:     page
 title:      Computer Setup
 permalink:  computer-setup
 ---
+# Computer Setup in Mod 0
 
 Complete the following steps before your first Mod 0 session in order to get the tools you'll need on your machine. Plan to spend 60-120 minutes on this.
 
