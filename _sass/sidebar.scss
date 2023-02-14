@@ -8,10 +8,10 @@ nav {
 
 .nav-links {
   display: grid;
-  grid-template-columns: auto 100px 100px 100px 100px 100px 100px 215px;
+  grid-template-columns: auto 75px 75px 75px 75px 75px 75px 75px 75px 200px;
   grid-template-rows: 120px;
   align-items: center;
-  justify-items: center;
+  justify-items: left;
   grid-gap: 0 10px;
 
   list-style: none;
