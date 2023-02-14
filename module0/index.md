@@ -6,11 +6,15 @@ subheading: Preparing for Success at Turing and Beyond
 
 ## Overview
 
-In Module 0, students will begin to dive into the skills and mindsets necessary to succeed as a Turing student and a developer. 
+In Module 0, students will begin to dive into the skills and mindsets necessary to succeed as a Turing student and a developer.
 
 ## Instructors
 
 * Megan McMahon
-* Richard Tillies 
+* Richard Tillies
 * Zoe Farrell
 
+## Curriculum
+
+* [Lessons](./lessons)
+* [Projects](./projects)
