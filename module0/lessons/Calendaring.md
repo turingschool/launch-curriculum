@@ -2,7 +2,7 @@
 layout: lesson
 title: Calendaring & Time Management
 ---
-
+# Calendaring & Time Management
 ## Learning Goals
 
 - Implement a calendar system
@@ -16,7 +16,7 @@ For the Launch program, we estimate students work an **average of 40-50 hours pe
 
 <div class="s-card">
   <h3>40-55 hours per week</h3>
-  <p>In whatever way makes most sense to you, visualize what 40-50 hours per week would look like on a daily basis.</p>
+  <p>In whatever way makes the most sense to you, visualize what 40-50 hours per week would look like on a daily basis.</p>
   <p>Think about the details of that "daily" life. If you said you'd work ~8 hours/day - what do you do with your other 16 hours? How do you plan in time to eat? How many hours are allotted to sleep? When do you grocery shop? Spend time with family? Walk the dogs? And - whatever else is important or essential to you?</p>
   <p>Jot down notes about this if you'd like; you don't need to submit anything for this specific prompt, but it should help you get in the right frame of mind for the rest of this activity.</p>
 </div>
@@ -26,14 +26,14 @@ For the Launch program, we estimate students work an **average of 40-50 hours pe
 
 One strategy we’ve seen our most successful students employ is using some type of calendar system to track, manage and plan their time while in the program. A few key notes:
 
-- Calendaring is a very difficult skill to master - you will need to commit to practicing it in order to improve.
+- Calendaring is a very difficult skill to master - you will need to commit to practicing it to improve.
 - Find a calendar tool and stick with it. Everyone’s system, calendar tool, etc. might be a little different, but those who don't use any tool typically struggle with time management while at Turing. We **strongly recommend** you use Google Calendar for two reasons: it's what we use at Turing and it is a very popular tool in the industry, so it is good to practice using it now.
 - Calendars are meant to be **living documents** that can change. You can’t plan for everything, and sometimes we don’t accurately estimate how long something will take. Being able to make adjustments to calendars as things change is a very important skill to start practicing. This is another reason a digital tool like Google Calendar is helpful - it's super easy to adjust things as needed.
 
 ### Time Management and Calendar Tips from Successful Students
 
-- **Purposefully build in scheduled time for health, wellness and whatever else you need to be your best self.** If you don’t plan for it, chances are it won’t happen. Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine? If you are working part-time, be sure to block that time off as well! 
-- **Color coding can be your friend.** Choose different colors for Turing-related and Life-related tasks. This way you can get a quick glimpse of how well you are finding balance between these two competing priorites. 
+- **Purposefully build in the scheduled time for health, wellness and whatever else you need to be your best self.** If you don’t plan for it, chances are it won’t happen. Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine? If you are working part-time, be sure to block that time off as well! 
+- **Color coding can be your friend.** Choose different colors for Turing-related and Life-related tasks. This way you can get a quick glimpse of how well you are finding a balance between these two competing priorities. 
 - **Break down time blocks as much as possible.** Anything over an hour will usually be unproductive and give too much time to procrastinate. Additionally, on each calendar event, name the specific task you expect you to complete in that time. If you don't finish or something else takes longer, you just move that block instead of losing your tasks. It’s like a task list and a calendar in one!
 - **Avoid context-shifting too frequently.** On the flip side, don’t break down your blocks too much. For example, trying to cram 4-5 different tasks into a single hour is also not productive and can be extremely exhausting.
 - **Treat your blocks of time as appointments that shouldn’t be missed.** You wouldn’t miss an appointment with a manager; treat your other blocks the same way, even for independent work or study time.
@@ -53,4 +53,26 @@ When it comes to the way they spend their time, there are two major pitfalls we 
 
 Since each Mod is only 6 weeks long, if you fall behind by one week, it can be really hard to catch up. Having a proactive and realistic plan is the best way to set yourself up for success
 
+<section class="call-to-action">
+### In Your Notebook
 
+What would you expect to be logged when we get to line 10? Why?
+</section>
+
+<section class="answer">
+### The Answer  
+
+Here is an answer to the On Your Own section...
+</section>
+
+<section class="note">
+### Note
+
+This hoisting behavior adds some complexity to the JavaScript language, and is important to understand thoroughly in order to anticipate the values of your variables at any given time.
+</section>
+
+<section class="checks-for-understanding">
+### Exit Ticket
+
+What are 3 easy and actionable accessibility steps you can take in all of your projects from here on out?
+</section>
