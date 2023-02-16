@@ -53,4 +53,4 @@ Your instructor will create a chat thread for each of the questions below; when 
 2. What questions do you have about lists so far?
 3. Imagine you are going to create an application like Instagram; what types of objects will you program need to know about? Take a look at the screenshot below for inspiration!
 
-![](/Mod0/instagram.png)
+![](/module0/images/instagram.png)
