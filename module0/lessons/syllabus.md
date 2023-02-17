@@ -78,8 +78,9 @@ Every student must pass Mod 0 before they are officially accepted and enrolled i
 This may be your first time learning and/or working in a remote setting. There are a few key tools we recommend to set yourself up for success as a remote student. 
 
 - **Notebook + Writing Utensils:** While you will be working on your laptop while you code, work on projects, etc., we recommend using a physical notebook to take notes during class and workshops. Yeah, that's right: good ol' paper and pencil/marker/pen/etc! 
-- **External Monitor/Display:** There are plenty of great used options available on eBay, Facebook Marketplace, Craigslist, etc. All you really need is something that fits in your workspace and can connect to your MacBook! If you are unable to acquire an external monitor prior to Mod 1, please DM the Mod 0 Lead on Slack and we can discuss other options.
-- **USB-C to HDMI Cable:** This cable will allow you to connect your MacBook to your external monitor/display. If you are purchasing a new monitor, it will likely come with the cable to you, but you may need to acquire one.
+
+- **External Monitor/Display:** You will be receiving an external monitor in a separate shipment from your laptop. You should have also received a cable to connect your laptop to your monitor. This extra monitor will allow you to have more screen space to write code, review technical documentation, and be more efficient in a remote workspace.  If you have any issues or questions, please reach out to Eric Weissman on Slack
+
 - **Dedicated Workspace:** It is crucial to have a workspace that has access to a reliable internet connection and is both quiet and free from distractions. Take time before Mod 0 to build your workspace and experiment with different setups until you find a configuration that works for you.
 
 
