@@ -1,7 +1,6 @@
 ---
 layout:     page
 title:      Computer Setup
-permalink:  computer-setup
 ---
 # Computer Setup in Mod 0
 

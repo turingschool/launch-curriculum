@@ -1,7 +1,6 @@
 ---
 layout:     page
 title:      Google Suite
-permalink:  google-suite
 ---
 Today we are going to dive into several common tools that are part of Google's suite of cloud-based products, allowing you to work with them anywhere that has an internet connection. These products are included in your Google account for free and are very common tools in the workplace.
 
@@ -91,10 +90,10 @@ One of the best features of Google products like Slides is that it automatically
 1. You can easily add images and other content using the Insert functionality
 
 
-<section class="call-to-action">
+
 ### Practice
 
-We will use [this Practice Deck](https://docs.google.com/presentation/d/1eZ4Q-o-08n5Ttwz1WkWZiM6VgxQV0Nw8IyH45eebUjQ/edit?usp=sharing) to work through some basic Google Slide functionality. </section>
+We will use [this Practice Deck](https://docs.google.com/presentation/d/1eZ4Q-o-08n5Ttwz1WkWZiM6VgxQV0Nw8IyH45eebUjQ/edit?usp=sharing) to work through some basic Google Slide functionality.
 
 # Google Docs
 Docs is essentially Google’s answer to Microsoft Word. Like other cloud-based products in Google Suite, you can easily share this with others to collaborate and work on it anywhere that has an internet connection.
