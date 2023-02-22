@@ -52,6 +52,20 @@ gem install eventmachine -- --with-openssl-dir=/usr/local/opt/openssl@1.1
 * You can push changes to production by pushing the `gh-pages` branch to github. `git push origin gh-pages`.
 * The changes may take a minute or two to be recognized on production. Please make sure you review your changes on production.
 
+## Style Notes
+
+### Instructor Notes
+
+You can include 'hidden' instructor notes in your lessons by using the following syntax:
+
+```html
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Your Note.</p>
+</aside>
+```
+
+These notes are available by calling `showInstructorNotes()` in console.
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
