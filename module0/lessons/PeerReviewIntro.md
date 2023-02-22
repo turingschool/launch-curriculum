@@ -2,7 +2,6 @@
 layout:     page
 title:      Intro to Peer Review
 ---
-# Intro to Peer Review
 
 As part of project based learning, it is critical for students to have opportunities to give and receive feedback with one another.
 

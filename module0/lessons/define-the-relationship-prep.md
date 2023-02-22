@@ -1,7 +1,6 @@
 ---
 layout:     page
 title:      DTR (Define the Relationship) Prep
-permalink:  dtr-prep
 ---
 # Define the Relationship Prep
 ## Purpose

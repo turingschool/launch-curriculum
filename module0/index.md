@@ -14,23 +14,23 @@ In Module 0, students will begin to dive into the skills and mindsets necessary 
 * Zoe Farrell
 
 ## Mod 0 Syllabus
-* [Syllabus](./lessons/syllabus.md)
+* [Syllabus](./lessons/syllabus)
 
 ## Mod 0 Resources
 ### Day 1
-* [Computer Setup](./lessons/computer-setup.md)
-* [Observations + Decision Making in Programming](./lessons/TechnicalDay1.md)
-* [Mod 0 Final Project](./projects/Mod0FinalProject.md)
+* [Computer Setup](./lessons/computer-setup)
+* [Observations + Decision Making in Programming](./lessons/TechnicalDay1)
+* [Mod 0 Final Project](./projects/Mod0FinalProject)
 
 ### Day 2 
-* [Calendaring](./lessons/Calendaring.md)
-* [Intro to Email](./lessons/IntroToEmail.md)
-* [Keeping Track of Information in Programming](./lessons/TechnicalDay2.md)
+* [Calendaring](./lessons/Calendaring)
+* [Intro to Email](./lessons/IntroToEmail)
+* [Keeping Track of Information in Programming](./lessons/TechnicalDay2)
 
 ### Day 3 
-* [Google Suite](./lessons/GoogleSuite.md)
-* [Define the Relationship - Prep](./lessons/define-the-relationship-prep.md)
+* [Google Suite](./lessons/GoogleSuite)
+* [Define the Relationship - Prep](./lessons/define-the-relationship-prep)
 
 ### Day 4 
-* [Peer Review Intro](./lessons/PeerReviewIntro.md)
-* [Mod 0 Final Project](./projects/Mod0FinalProject.md)
+* [Peer Review Intro](./lessons/PeerReviewIntro)
+* [Mod 0 Final Project](./projects/Mod0FinalProject)
