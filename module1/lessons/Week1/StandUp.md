@@ -1,8 +1,8 @@
-# Stand-Ups
+# Daily Stand-Up Meeting
 
 ## What x Why
 
-Stand-ups are a fundamental part of agile development. Think of a stand-up as an opportunity to huddle with your team in order to stay informed and connected throughout a *sprint*.
+The Daily Stand-up Meeting is a fundamental part of agile development. Think of a stand-up as an opportunity to huddle with your team in order to stay informed and connected throughout a *sprint*.
 
 We will work on our ability to contribute to and report out of daily stand-up meetings throughout the Launch program. This exercise will give you a jumpstart on other new hires when you begin your first job after Turing!
 
