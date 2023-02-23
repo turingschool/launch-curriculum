@@ -38,4 +38,5 @@ Here is an outline for each stand-up meeting:
   * In the event that we cannot have a live stand-up meeting, we will have an async stand-up via Slack. An instructor will create a thread in the cohort channel, and you will reply to the thread with your stand-up responses.
 * Be prepared with a response for each question above before the meeting starts. This will allow you to convey your answers concisely and accurately.
 * Be specific with your accomplishments. For example, _"I created the database for my project and wrote a script to populate the tables"_ is better than _"I worked on my project"_.
-* Oftentimes, one group member will be responsible for capturing the notes from the standup. You can create a simple Google document or spreadsheet to accomplish this. You can also do this individually to keep yourself on task. 
+* Oftentimes, one group member will be responsible for capturing the notes from the standup. You can create a simple Google document or spreadsheet to accomplish this. 
+* Make a copy of [this document](https://docs.google.com/document/d/1plk7cegfcio7skNZ68p2_4ZH3OZh77wBkanuzrmTGYw/copy) to log your personal daily stand-up entries to keep yourself on task. 
