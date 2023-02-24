@@ -52,17 +52,18 @@ There are several steps you must complete before attending your first session of
 Students are expected to attend all scheduled live sessions, on time. Staff will work on a case-by-case basis with students who communicate any prior commitments or have emergencies arise. If a student must miss a live session, it is the student's responsibility to proactively let staff know, and make a plan for how they will make up for any content missed. 
 
 ### Schedule
+All sessions will be held via zoom.  Your cohort's zoom link will be bookmarked in your Mod0 Slack channel.
 - Monday 2/27
-    - Morning Session @ 9am-12pm MST / [Zoom Link](https://turingschool.zoom.us/j/97395000854)
-    - Afternoon Session @ 1pm-4pm MST / [Zoom Link](https://turingschool.zoom.us/j/92230356051)
+    - Morning Session @ 9am-12pm MST 
+    - Afternoon Session @ 1pm-4pm MST 
 - Tuesday 2/28
-    - Morning Session @ 9am-12pm MST / [Zoom Link](https://turingschool.zoom.us/j/97016774346)
-    - Afternoon Session @ 1pm-4pm MST / [Zoom Link](https://turingschool.zoom.us/j/98720055193)
+    - Morning Session @ 9am-12pm MST 
+    - Afternoon Session @ 1pm-4pm MST 
 - Wednesday 3/1
-    - Morning Session @ 9am-12pm MST / [Zoom Link](https://turingschool.zoom.us/j/92124382241)
-    - Afternoon Session @ 1pm-4pm MST / [Zoom Link](https://turingschool.zoom.us/j/93790526219)
+    - Morning Session @ 9am-12pm MST 
+    - Afternoon Session @ 1pm-4pm MST 
 - Thursday 3/2
-    - Morning Session @ 9am-12pm MST / [Zoom Link](https://turingschool.zoom.us/j/95311550500)
+    - Morning Session @ 9am-12pm MST 
 
 ### Communication 
 All Turing staff members will use Slack as the primary means of communication with students. As an incoming student, any information you need can usually be found in our Turing Slack workspace. As a norm, we expect members of our community to respond to Slack messages within 24 hours.
