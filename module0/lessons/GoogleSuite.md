@@ -93,7 +93,7 @@ One of the best features of Google products like Slides is that it automatically
 
 ### Practice
 
-We will use [this Practice Deck](https://docs.google.com/presentation/d/1eZ4Q-o-08n5Ttwz1WkWZiM6VgxQV0Nw8IyH45eebUjQ/edit?usp=sharing) to work through some basic Google Slide functionality.
+We will use [this Practice Deck](https://docs.google.com/presentation/d/1eZ4Q-o-08n5Ttwz1WkWZiM6VgxQV0Nw8IyH45eebUjQ/edit?usp=copy) to work through some basic Google Slide functionality.
 
 # Google Docs
 Docs is essentially Google’s answer to Microsoft Word. Like other cloud-based products in Google Suite, you can easily share this with others to collaborate and work on it anywhere that has an internet connection.

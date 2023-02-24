@@ -44,7 +44,7 @@ Work through the tutorial linked below to learn about how C# outputs information
 
 Computers make observations by receiving input.  A computer _only_ knows what we input into it; it has no other view of 'the world'.  To learn more about computer observations, work through the tutorials below.  Make sure to walk through each `Try it yourself` Section.
 
-* [Variables](https://www.w3schools.com/cs/cs_variables.php) & [Variables](https://www.w3schools.com/cs/cs_variables_display.php)
+* [Variables](https://www.w3schools.com/cs/cs_variables.php) & [Display Variables](https://www.w3schools.com/cs/cs_variables_display.php)
 * [Input](https://www.w3schools.com/cs/cs_user_input.php)
 * [Boolean](https://www.w3schools.com/cs/cs_booleans.php)
 * [Comparisons](https://www.w3schools.com/cs/cs_operators_comparison.php)
