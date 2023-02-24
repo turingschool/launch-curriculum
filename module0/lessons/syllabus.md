@@ -43,7 +43,7 @@ There are several steps you must complete before attending your first session of
 1. Review the information for your first Mod 0 session:
     - Date: Monday February 27th
     - Start time: 9am MST (feel free to sign on a few minutes early!)
-    - Zoom link: https://turingschool.zoom.us/j/97395000854
+    - Zoom link: https://turingschool.zoom.us/j/92581733018
 1. Prep Your "Why" - During the first session of Mod 0, you will break out into small groups and share your "why" for taking this step to launch your career in tech, and your goals moving forward for your life. Spend some time reflecting on your motivations for being here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
 
 ## Expectations
@@ -73,7 +73,7 @@ Every student must pass Mod 0 before they are officially accepted and enrolled i
 - **Maintaining a safe and inclusive learning environment**: We will be creating norms for our cohort to ensure we are creating a safe and inclusive learning environment. If your actions, words, communication or behaviors violate these norms, you will not be continuing on to the Launch program.
 - **Accountability**: As a Turing student, you are in class during the scheduled times. If you have any issues that come up, you communicate those proactively with your instructors.
 - **Engagement**: As a Turing student, you are expected to actively engage and participate in every session. This looks like having your camera on, responding to questions, collaborating with your group in breakout rooms, etc.
-- **Succesfully completing the Mod 0 Final Project**: You will be creating and presenting your reflections and understandings from Mod 0 to your instructors. We will provide more details on this project when we start Mod 0!
+- **Successfully completing the Mod 0 Final Project**: You will be creating and presenting your reflections and understandings from Mod 0 to your instructors. We will provide more details on this project when we start Mod 0!
 
 ## Required Supplies
 This may be your first time learning and/or working in a remote setting. There are a few key tools we recommend to set yourself up for success as a remote student. 
