@@ -7,7 +7,7 @@ Like yesterday, this is an introduction designed to get you looking at code, get
 
 ### Warm Up
 
-In small groups, take a look at the code below.  Identify as many pieces as you can from [yesterday's technical session](/Mod0/TechnicalDay1.md).  It is ok if not all of this code makes sense or is familiar!
+In small groups, take a look at the code below.  Identify as many pieces as you can from [yesterday's technical session](./TechnicalDay1.md).  It is ok if not all of this code makes sense or is familiar!
 
 ```c#
 var name = "Megan";
