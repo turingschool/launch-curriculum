@@ -23,7 +23,7 @@ Be ready to share out some of your observations.
 
 ### What is a Thing?
 
-As humans, we often interact with physical objects in the world; let's call them `things`.  We use ourknowledge and experience to work with many different types of things with no issue.  We know to sit on a chair, and lay on a bed; even though these things are both furniture, we know that they have different uses.
+As humans, we often interact with physical objects in the world; let's call them `things`.  We use our knowledge and experience to work with many different types of things with no issue.  We know to sit on a chair, and lay on a bed; even though these things are both furniture, we know that they have different uses.
 
 We also use non-tangible objects like vocabulary, numbers, and dates which allow us to communicate with each other; let's call these objects `data`.  We can use data to communicate our needs, perform math and statistics, and relate spans of time (and many other tasks!). Using data, we can understand sentences like: On Tuesday, my son will be 12 years old. He is getting 2 lego sets for his birthday.
 
