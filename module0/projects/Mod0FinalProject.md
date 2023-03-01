@@ -14,7 +14,7 @@ For your final project, you will create a presentation that outlines your plan f
 1. Any final words of wisdom or messages for your fellow cohort-mates and future instructors!
 
 ## Creating Your Plan
-Create a presentation of a plan for how you will use the time from now through the start of Mod 1 to ensure you set yourself up for success. We recommend creating a slidedeck that outlines your plan and how you will use your time to ensure you are prepared for the start of your Turing journey. Some artifacts we would like to see are:
+Create a plan for how you will use the time from now through the start of Mod 1 to ensure you set yourself up for success. We recommend creating a slidedeck that outlines your plan and how you will use your time to ensure you are prepared for the start of your Turing journey. Some artifacts we would like to see are:
 1. Your calendar between now and Mod 1
     - How are you planning to spend your time? Are you working? What obligations things do you need to take care of between now and the start of Mod 1
 1. Who is your support group as you start your Turing journey? What does support look like for you?
