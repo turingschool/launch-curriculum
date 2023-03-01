@@ -4,7 +4,7 @@ title:      Mod 0 Final Project
 ---
 As you finish Mod 0 and now have a few weeks until Mod 1 starts, your team of Instructors want to support you in maintaining strong habits, taking care of yourself, and coming into Mod 1 in a great place. To do this well, you will need to approach this precious time thoughtfully.
 
-For your final project, you will create a presentation that outlines your plan for success and your reflections on your Mod 0 experience. 
+For your final project, you will create a presentation that outlines your plan for success and your reflections on your Mod 0 experience. Your presentations should be 5 - 10 minutes long.
 
 ## Reflection Questions
 1. As you look back on your time in Mod 0, what are you most proud of?
