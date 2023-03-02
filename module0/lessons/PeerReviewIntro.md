@@ -9,7 +9,7 @@ Giving and receiving feedback is a tricky skill that we will continue to practic
 
 Today, we are going to provide a framework for you to give and receive feedback for our presentations.
 
-## Protocol for Feedback in M0
+## Protocol for Feedback in Mod 0
 You will be pairing up with another student to take turns executing your presentation and providing feedback - both positive and constructive.
 
 Positive feedback is anything the presenter is doing well, which could include:
@@ -22,7 +22,7 @@ Constructive feedback is something the presenter could consider for improving th
 - Reducing the speed at which they communicate the information on slides
 - Removing unnecessary or unrelated visuals
 
-For our time today, we will use the following protocol to conduct the peer reviews and use [this template](https://docs.google.com/document/d/13IsvmUK6YCV2mIPLu_izjZE3OwVXd6n3FN4bK9YRonM/copy) to capture feedback
+For our time today, we will use the following protocol to conduct the peer reviews and use [this template](https://docs.google.com/document/d/13IsvmUK6YCV2mIPLu_izjZE3OwVXd6n3FN4bK9YRonM/copy) to capture feedback.
 
 1. Determine who will present first
 1. Presenter will send their slides to the person giving feedback.
