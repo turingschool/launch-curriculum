@@ -29,7 +29,7 @@ The production branch for this repo is `gh-pages`.  Branches that you create nee
 3. Install Ubuntu Dev Tools
     * `sudo apt-get install ubuntu-dev-tools`
 4. [Configure git SSH key](https://mod0.turing.edu/computer-setup#configure-github)
-    * I think because I was on windows, I had to start the ssh-agent using `eval 'ssh-agent -s\'` before running `ssh-add ~/.ssh/id_rsa.pub`
+    * I think because I was on windows, I had to start the ssh-agent using `eval 'ssh-agent -s'` before running `ssh-add ~/.ssh/id_rsa.pub`
 6. Set Up [Jekyll](https://jekyllrb.com/docs/installation/ubuntu/)
     * `gem install jekyll bundler`
 7. Clone and Set Up Local Repo
