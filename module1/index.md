@@ -16,10 +16,10 @@ Students will learn the basics of Object Oriented Programming to build software 
 
 ## Lessons
 ### Week 1
-* [Intro to Programming](./lessons/Week1/introToProgramming.md)
-* [Conditional Logic](./lessons/Week1/ConditionalLogic.md)
-* [Data Types and Variables](./lessons/Week1/introToProgramming.md)
-* [Week 1 - Check Your Understanding](./lessons/Week1/CFUReview.md)
+* [Intro to Programming](./lessons/Week1/introToProgramming)
+* [Conditional Logic](./lessons/Week1/ConditionalLogic)
+* [Data Types and Variables](./lessons/Week1/datatypesAndVariables)
+* [Week 1 - Check Your Understanding](./lessons/Week1/CFUReview)
 
 ### Week 2
 * [Collections](./lessons/Week2/Collections.md)

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Week 1 Review Guide
 
 ## Small Group 1

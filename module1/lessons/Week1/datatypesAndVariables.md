@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## Learning Goals
 
 * Recognize each of the main c# datatypes.
@@ -7,31 +11,30 @@
 ## Warm Up
 
 With a partner, group the following items into two or more categories (you get to determine appropriate categories!)
-
-> * horse
-> * 3
-> * run
-> * jump
-> * fourteen
-> * dog
-> * true
-> * rock
-> * apple
-> * 525600
-> * nothingness
-> * 3.14
+- horse
+- 3
+- run
+- jump
+- fourteen
+- dog
+- true
+- rock
+- apple
+- 525600
+- nothingness
+- 3.14
 
 # Variables
 
 One of the most important concepts in programming is assigning information to a variable.  Let's take a look at [this replit project](https://replit.com/@launch-team/M1W1-VariablesLesson1) to get a better understanding.
 
-![Screenshot showing two variables being assigned and used](/Mod1/Images/Week1/VariableAssignment1.png)
+![Screenshot showing two variables being assigned and used](/assets/images/module1/Week1/VariableAssignment1.png)
 
 > With a partner discuss what this program is doing - what is happening on each line?  What is printed to the console when the program is run, and why?
 
 Admittedly, this is a somewhat silly example, but it illustrates an important programming problem.  We often need to re-use the same piece of information over and over again throughout out our application (as in the need for "Megan McMahon" in three different places).  And/Or, we need to use information that might change periodically (as in a person's job title).  It would be time consuming and allows for more data-entry errors. **Variables** give us a way to put a label on a piece of information, and then use that label throughout our program.  That way, if we need to update the information, we only have to make the change in one place.  For example, if we want to change `"Megan McMahon"` to `"Megan"`, we only need to change the value on line 7 and we will see the change throughout our program.
 
-![Screenshot showing variable values changed](/Mod1/Images/Week1/VariableAssignment2.png)
+![Screenshot showing variable values changed](/assets/images/module1/Week1/VariableAssignment2.png)
 
 ## Declaration and Assignment
 <!-- Rather than having this written out in a large block of text, I wonder if breaking things out into smaller steps/recipes helps make processes more clear? ✅-->
@@ -47,10 +50,10 @@ These two operations can be performed separately, or at the same time.
 <!-- Similar thought on the below, are there ways we can use formatting to our advantage to make the content easier to digest? ✅ --> 
 **2 Step Declaration and Assignment**
 
-![Exaple of variable declaration and assignment](/Mod1/Images/Week1/2StepDeclarationAndAssignment.png)
+![Exaple of variable declaration and assignment](/assets/images/module1/Week1/2StepDeclarationAndAssignment.png)
 
 **1 Step Declaration and Assignment**
-![Example of combined declaration and assignment](/Mod1/Images/Week1/1StepDeclarationAndAssigment.png)
+![Example of combined declaration and assignment](/assets/images/module1/Week1/1StepDeclarationAndAssigment.png)
 
 There is no limit to the number of times we can assign a new value to a variable.
 
@@ -184,7 +187,7 @@ bool hatesCoffee = false;
 
 Strings are special datatypes in c# because they are actually **objects**.  We will discuss objects more later, but for now, we can say that objects have special abilities; not only do strings represent information, but they can also tell you things about that information.  Take a look at the code below:
 
-![Code snippet showing the string property Length and Method ToUpper()](/Mod1/Images/Week1/StringPropertiesAndMethods.png)
+![Code snippet showing the string property Length and Method ToUpper()](/assets/images/module1/Week1/StringPropertiesAndMethods.png)
 
 Strings have a **property** of Length which returns the number of characters in that string.  Strings also have **methods**, one of which is ToUpper(), which returns an all-caps version of that string.
 
