@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Intro to Programming (How computers work!)
 
 ## Learning Goals
