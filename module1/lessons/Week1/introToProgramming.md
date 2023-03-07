@@ -47,9 +47,9 @@ Inside of all computers are a bunch of wires and circuits that carry all of the 
 
 The electricity is either on or off.  So, the state of this wire can represent any data that has only two options: on/off, yes/no, true/false, 1/0.  This single wire is called a **bit** (it's just a little bit of information...).  This one wire can only have two possible pieces of information - 1 or 0.  How do we store more information?  With more wires!
 
-**1 Wire:** `1` or `0`  (2 combinations)
-**2 Wires:** `0|0` or `1|0` or `0|1` or `1|1` (4 combinations)
-**3 Wires:** `0|0|0` or `0|0|1` or `0|1|0` or `0|1|1` or `1|0|0` or `1|0|1` or `1|1|0` or `1|1|1`  (8 combinations)
+**1 Wire:** `1` or `0`  (2 combinations)  
+**2 Wires:** `0|0` or `1|0` or `0|1` or `1|1` (4 combinations)  
+**3 Wires:** `0|0|0` or `0|0|1` or `0|1|0` or `0|1|1` or `1|0|0` or `1|0|1` or `1|1|0` or `1|1|1`  (8 combinations)  
 
 More bits, more combinations!
 
@@ -61,13 +61,9 @@ To learn more, let's check out this video:
 
 [![Link to 'How Computers Work' YouTube Video](/assets/images/module1/Week1/HowComputersWorkYouTube.png)](https://www.youtube.com/watch?v=ewokFOSxabs)
 
-<!-- This might be a good place to add a quick CFU from the video - what is one or two things we want to reinforce with students from watching this? ✅-->
-
 > With a partner:
 > * What are some types of data we can store using binary?
 > * If you were going to build an audio speaker, what number of bits would you want your storage system to be based on?
-
-<!-- ** Instructor Note ** We want students to understand that even though computers operate on ones and zeros (seemingly simple), we can add as much complexity as we want because computers operate on a high enough bit consumption. -->
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>We want students to understand that even though computers operate on ones and zeros (seemingly simple), we can add as much complexity as we want because computers operate on a high enough bit consumption.</p>
@@ -97,7 +93,6 @@ There are ALOT of languages that we can choose from when we write code.  We are 
 
 To get a feel for how this works, let's jump right in to creating our first program!
 
-<!-- this below paragraph feels like good context for th -->
 We are going to use a site called [replit](https://replit.com/) for this exploration.  If this is your first time using replit, you will need to sign up (its free!).  If you have used this site before, you can go ahead and sign in.  
 
 In programming, a REPL stands for Read-Evaluate-Print Loop.  So a REPL takes input, stores/processes that input, and then outputs the result, and then loops back ready to take additional input - sound familiar?  A REPL is a computer! Replit (the site) is a place where you can write and store small programs; you can also share programs that you have written with other people.

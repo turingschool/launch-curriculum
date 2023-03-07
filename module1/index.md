@@ -47,9 +47,9 @@ Students will learn the basics of Object Oriented Programming to build software 
 
 ## Labs
 ### Week 1 Labs
-* [Intro to Labs](./labs/Week1/IntroToLabs.md)
-* [Data Types and Variables](./labs/Week1/DatatypesAndVariables.md)
-* [Conditional Logic](./labs/Week1/ConditionalLogic.md)
+* [Intro to Labs](./labs/Week1/IntroToLabs)
+* [Data Types and Variables](./labs/Week1/DatatypesAndVariables)
+* [Conditional Logic](./labs/Week1/ConditionalLogic)
 
 ### Week 2 Labs
 * [Collections](./labs/Week2/Collections.md)
