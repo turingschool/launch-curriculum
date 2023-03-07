@@ -22,7 +22,7 @@ There are many objects that we interact with every day that are computers - lapt
 1. Process
 1. Output
 
-![Diagram of the four tasks of a comptuer](/assets/images/module1/Week1/ComputerTasks.png)
+![Diagram of the four tasks of a computer](/assets/images/module1/Week1/ComputerTasks.png)
 
 
 All computers have some mechanism for taking input, storing that input as data, processing the data, and outputting the results.
@@ -67,7 +67,11 @@ To learn more, let's check out this video:
 > * What are some types of data we can store using binary?
 > * If you were going to build an audio speaker, what number of bits would you want your storage system to be based on?
 
-** Instructor Note ** We want students to understand that even though computers operate on ones and zeros (seemingly simple), we can add as much complexity as we want because computers operate on a high enough bit consumption.
+<!-- ** Instructor Note ** We want students to understand that even though computers operate on ones and zeros (seemingly simple), we can add as much complexity as we want because computers operate on a high enough bit consumption. -->
+
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>We want students to understand that even though computers operate on ones and zeros (seemingly simple), we can add as much complexity as we want because computers operate on a high enough bit consumption.</p>
+</aside>
 
 ## Storage and Processing
 
