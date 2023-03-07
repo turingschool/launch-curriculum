@@ -1,9 +1,15 @@
+---
+layout: page
+---
+
 ## Lab Objectives
 * Practice common iteration patterns: transform, find, and build.
 * Convert strings into a collection.
 * Define **method** as it relates to programming.
 
-** Instructor Note ** Before this lab, prep groups of 3-4 students.  The groups will be exploring some common iterative problems, and then they will break out individually to practice what they have discussed.  Plan on bringing the whole cohort back together after individual practice to review at least one of each of the three patterns (transform, find, build).
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Before this lab, prep groups of 3-4 students.  The groups will be exploring some common iterative problems, and then they will break out individually to practice what they have discussed.  Plan on bringing the whole cohort back together after individual practice to review at least one of each of the three patterns (transform, find, build).</p>
+</aside>
 
 ## Practice
 
@@ -78,7 +84,9 @@ Choose one person in your group who will share out highlights from your discussi
 
 **Keep an Eye on Slack** We will be coming back together to discuss what you all have learned.
 
-** Instructor Note ** Students will be working through the remainder of the lab individually, but they should be encouraged to discuss what they are learning with each other, and ask questions as they go.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Students will be working through the remainder of the lab individually, but they should be encouraged to discuss what they are learning with each other, and ask questions as they go.</p>
+</aside>
 
 ### Manipulating Strings as Collections
 
@@ -110,6 +118,3 @@ There are many pre-built methods that we can use in c# (or in any other language
 In your notebook, create a list of the built-in methods you have used recently.  What is the name of the method, and what does it do?
 
 **Keep an Eye on slack** we will be coming back together to do a quick oerview of .Split(), and the definition of **method**.
-
-
-<!-- Another great lab! I think you do a good job of blending fun, exploratory work with "Real world" type exercises. I also love that this lab includes some pre-work for the next day that builds off of the learning students have already done! Not to keep repeating myself, but I am really excited for how you are building these labs - on the surface it seems like a great blend of exploration, practice, individual vs team work, opportunities for whole group. We will see how it all plays out in practice haha!  -->
