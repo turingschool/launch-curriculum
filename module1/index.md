@@ -28,10 +28,10 @@ Students will learn the basics of Object Oriented Programming to build software 
 * [Week 2 - Check Your Understanding](./lessons/Week2/CFUReview)
 
 ### Week 3
-* [Classes](./lessons/Week3/Classes.md)
-* [Class Interaction](./lessons/Week3/ClassInteraction.md)
-* [Object Oriented Programming (OOP)](./lessons/Week3/OOP.md)
-* [Week 3 - Check Your Understanding](./lessons/Week3/CFUReview.md)
+* [Classes](./lessons/Week3/Classes)
+* [Class Interaction](./lessons/Week3/ClassInteraction)
+* [Object Oriented Programming (OOP)](./lessons/Week3/OOP)
+* [Week 3 - Check Your Understanding](./lessons/Week3/CFUReview)
 
 ### Week 4
 * [Intro to IDE](./lessons/Week4/IntroToIDE.md)
@@ -57,9 +57,9 @@ Students will learn the basics of Object Oriented Programming to build software 
 * [Methods](./labs/Week2/Methods)
 
 ### Week 3 Labs
-* [Classes](./labs/Week3/Classes.md)
-* [Class Interaction](./labs/Week3/ClassInteraction.md)
-* [Object Oriented Programming (OOP)](./labs/Week3/OOP.md)
+* [Classes](./labs/Week3/Classes)
+* [Class Interaction](./labs/Week3/ClassInteraction)
+* [Object Oriented Programming (OOP)](./labs/Week3/OOP)
 
 ### Week 4 Labs
 * [Intro to IDE](./labs/Week4/IntrotoIDE.md)

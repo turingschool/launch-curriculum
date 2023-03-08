@@ -1,16 +1,21 @@
+---
+layout: page
+---
+
 ## Lab Objectives
 * Reinforce Creating Classes that have a collection of Objects
 * Practice using object methods within other class methods.
 
-** Instructor Notes ** Before the lab, prepare groups of 2/3 students and post to slack. Today's lab will be heavy on the practice side.  Plan to bring the group back together partway through the practice section to answer any questions and cover common misunderstandings (from your observations in breakout rooms.)
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Before the lab, prepare groups of 2/3 students and post to slack. Today's lab will be heavy on the practice side.  Plan to bring the group back together partway through the practice section to answer any questions and cover common misunderstandings (from your observations in breakout rooms.)</p>
+</aside>
 
 ## Practice
-To re-inforce the concept of object interaction, and classes including references to other classes, let's build on the Library exercise from todays [warmup](/Mod1/Lessons/Week4/ClassInteraction.md#warm-up).
+To re-inforce the concept of object interaction, and classes including references to other classes, let's build on the Library exercise from todays [warmup](/module1/lessons/Week3/ClassInteraction#warm-up).
 
 In small groups, create a new Console app called DenverLibrary. In this project, create the following classes:
-<!-- I love that you are really specific on what each class should contain/do. However, this can get a little tricky to parse out with larger requirements. Could we possibly break these out into a bullet or checklist style to make it a little easier for students to follow along? -->
 
-![Image of three class diagrams with required Properties and Methods](/Mod1/Images/Week4/LibraryUML.png)
+![Image of three class diagrams with required Properties and Methods](/assets/images/module1/Week3/LibraryUML.png)
 
 A `Book` should have two properties that are set on instantiation: string Title, and string Author.  Other than a constructor, `Book` does not need any methods.
 
@@ -64,6 +69,5 @@ Up to this point, we've been using [Replit](https://replit.com/), an online vers
 
 As our first step, we will install an IDE called Visual Studio directly on our machines. While there are several versions of Visual Studio, we will use the FREE version called **Visual Studio Community**. Learn more about Visual Studio [here](https://visualstudio.microsoft.com/vs/). We will work through the installation process in the next lesson.
 
-Before we install Visual Studio, we need to install Git on our local machine. [Follow these instructions to install Git](/Mod1/Lessons/Week3/InstallGit.md). We won't use it right away, but it will be important as we continue working on new and existing projects.
+Before we install Visual Studio, we need to install Git on our local machine. [Follow these instructions to install Git](/module1/lessons/Week3/InstallGit). We won't use it right away, but it will be important as we continue working on new and existing projects.
 
-<!-- I think this is a great lab! One thing that I was thinking about re: instructor notes might be to be even more explicit for this particular lab - perhaps do a checkin after each portion of class building (one after Book, one after Branch, one after Library) and giving students some "targets" on how long they should spend on each section (although I recognize that may be difficult for us to predict! ) -->
