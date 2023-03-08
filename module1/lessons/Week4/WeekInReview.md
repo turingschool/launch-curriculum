@@ -2,7 +2,6 @@
 layout:     page
 title:      Week 4 Review Guide
 ---
-<!-- # Week 4 Review Guide -->
 
 ** Instructor Note **  For this review, the CFU question portion is a bit shorter, so we will have 3 small groups.  Small group 1.5 could be pairs of the group 1 groups.
 
@@ -17,7 +16,6 @@ In your group, nominate 1 'spokesperson' to take the lead on sharing your group'
 
 ### Small Group 1.5
 You will pair up with another group to compare your Checks for Understanding responses.  This week, there is a lot of room for variation - this is a great opportunity to see different ways of approaching the same question/problem!  Before starting your comparisons, name one person in this large group to be a 'time keeper' to keep an eye on the time, and keep the conversation moving.
-
 
 ## Small Group 2
 As a group, review the weekly assessment - try to identify a few differences between your implementations.  You can use the following prompts as a starting point:

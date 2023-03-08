@@ -2,7 +2,6 @@
 layout: page
 title:  Week 4 Checks for Understanding
 ---
-<!-- # Week 4 Checks for Understanding -->
 
 With your group, answer each question below.  Spend some time discussing each question _without_ using any resources; use your own recall of the topics covered this week.  If, after you have discussed without resources, your group needs assistance, use the raise hand feature and an instructor will come help!
 
@@ -38,6 +37,3 @@ public class MediaPlayer
 ```
 
 4. In the code above, can you identify any abstractions? A reminder: abstractions are things that are hidden away from the person using this class.
-
-
-

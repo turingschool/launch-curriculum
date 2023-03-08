@@ -3,15 +3,11 @@ layout:     page
 title:      Scope and Access Modifiers
 ---
 
-<!-- # Scope and Access Modifiers -->
-
 ## Learning Goals
 * Identify how **scope** affects where variables can be accessed
 * Have a reference to look at when **scope** errors show up
 * Understand the difference between the **public** and **private** access modifiers
 * Start thinking about when to use **public** vs **private**
-
-# Scope
 
 ## Intro
 Scope is what you have access to and where you have access to it.
@@ -111,7 +107,7 @@ https://learn.microsoft.com/en-us/training/modules/csharp-code-blocks/2-exercise
 
 > In your own words, why did the code in step 2 have an error? </br> In your own words, how did you fix the scope error created in step 2? </br> What would happen if scope didn't exist? What problems might this cause?
 
-# Access Modifiers
+## Access Modifiers
 
 We are already familiar with including access modifiers when adding properties to a class. 
 ```c#
@@ -158,7 +154,7 @@ class BankAccount
 }
 ```
 
-You're teammate Sergio wrote the code below using Isabella's BankAccount class. It's your job to give Sergio feedback on his code. Take 5 minutes and discuss with your partner what feedback you would give Sergio. How is Sergio using the BankAccount class differently than Isabella expected he would? Why is this a problem?
+Your teammate Sergio wrote the code below using Isabella's BankAccount class. It's your job to give Sergio feedback on his code. Take 5 minutes and discuss with your partner what feedback you would give Sergio. How is Sergio using the BankAccount class differently than Isabella expected he would? Why is this a problem?
 
 ```c#
 class MisusingBankAccountClass
@@ -194,7 +190,6 @@ This is where access modifiers come in!
 
 Instead of defining the Balance variable as `public` Isabella could have defined it as `private`. This would have caused Sergio to get the following error.
 
-
 ![Access Modifiers Example](/assets/images/module1/Week5/AccessModifiersExample.png)
 
 ## Definitions
@@ -220,6 +215,5 @@ C# provides other types of access modifiers for more specific situations such as
 * How would you describe scope?
 * How would you describe the difference between the public and private access modifiers?
 
-
 ### Additional Practice
-https://www.w3schools.com/cs/cs_access_modifiers.php
+* [https://www.w3schools.com/cs/cs_access_modifiers.php](https://www.w3schools.com/cs/cs_access_modifiers.php)

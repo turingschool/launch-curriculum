@@ -51,11 +51,6 @@ Be prepared to share one or more of your tests, and how you decided what tests t
   <p><strong>Instructor Note</strong><br>While this should be an activity that builds on group work, we may see some students struggling to complete this on their own - we want to take note of those students for additional support.</p>
 </aside>
 
-<!-- I wonder if it might be useful for when we do these small checkins on the lesson to do some wholegroup work on "What should we test in ____ class" before students go off to writing tests? I think this can be one of the trickier concepts for a new programmer is just the hurdle of trying to figure out what you should even be looking at from a testing perspective -->
-
-<!-- I am glad you have an instructor note around the testing setup for certain tests. I imagine many folks might get tripped up on this - do we have any setup work in the lesson itself? -->
-
-<!-- Overall, I think this lesson + lab combo is probably the biggest/burliest we've had yet. However, this does follow our model of gradual release, so I'm inclined to let it ride and see how it goes. What are you thinking specifically for Unit Testing Pt 2 - is that more of the same/more proactice? Or different concepts that we are adding on? I just wonder about if we push refactoring/scope out if necessary to focus more on the testing in Week 5 if necessary. -->
 ## Preparation
 
 As an introduction to our Refactoring lesson next week, take a few minutes to read this [blog post on Refactoring](https://www.bmc.com/blogs/code-refactoring-explained/).  This is meant to be an _introduction_, don't worry if not everything in the post makes total sense - there are some references to other code practices that we haven't touched on yet, but you will still get a good intro to Refactoring.

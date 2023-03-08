@@ -2,7 +2,6 @@
 layout:     page
 title:      Refactoring
 ---
-<!-- # Refactoring -->
 
 ## Learning Goals
 * Define 'Refactoring' in programming terms.
@@ -134,7 +133,6 @@ namespace ListCalculations
 ```
 
 > In small groups, annotate what is happening in this program.  Take a look at each line and write down what is happening. For example: On line 3, a class called 'Program' is being declared.  When you have a good idea of what the code is doing on each line, see if you can list all of the **responsiblitities** (or steps) that happen as the program runs.  Be prepared to share out!
-<!-- I suggest having students reference the actual line number in their description of "what is happening" - this will help them be more clear and is good practice for technical articulation. -->
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>When bringing students back together to share out, guide them to identify some key words that indicate the end of one responsiblity and the beginning of the next.  For example, "First we get a user input **and then** we split that input into a list **and then** we ...</p>
@@ -153,4 +151,3 @@ Once we have a list of responsibilities, a good refactor would be to create meth
 * Imagine you are working as a developer.  You have just finished a coding task with 2 hours until the product is delivered to the client.  
     - What are some reasons that you **would** refactor your code?  
     - What are some reasons why you **would not** refactor? ('my code is perfect' is not an acceptable answer 😆)
-<!-- Really like the connections to GETTING THE JOB (interview) and DOING THE JOB (working with client) - when we do the review of the CFUs, we want to ensure that instructors are hammering home HOW this prepares students for the challenges they will face! -->
