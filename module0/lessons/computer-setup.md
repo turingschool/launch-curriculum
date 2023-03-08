@@ -1,7 +1,6 @@
 ---
 layout:     page
 title:      Computer Setup
-permalink:  computer-setup
 ---
 # Computer Setup in Mod 0
 
@@ -13,7 +12,6 @@ Here's what we'll cover in this guide. Click a link to jump to that portion of t
 - [Install Slack](#install-slack)
 - [Create a GitHub Account](#create-a-github-account)
 - [Create a Replit Account](#create-a-replit-account)
-- [Create a Trello Account](#create-a-trello-account)
 - [Create a Loom Account](#create-a-loom-account)
 - [Install Zoom](#install-zoom)
 - [Snap your Windows](#snap-your-windows)
@@ -67,20 +65,6 @@ Follow the steps below (if they are not necessary because you have already done 
 - Create a free account using your Turing email address.
 - Bookmark the Replit webpage on Chrome so that you can easily find it again later. [Here's how](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop).
 - [Watch this video](https://www.youtube.com/watch?v=cnLE3bH6fHE) to learn how to navigate the interface and create new projects.
-
-<br>
-
-### Create a Trello Account
-
-[Trello](https://trello.com/) is a Kanban-style project management tool we will use in Mod 0. It and other similar tools are used by most software developers to manage the tasks within a project.
-
-- Please create a free account with Trello using your Turing email address.
-- Bookmark the Trello webpage on Chrome so that you can easily find it again later. [Here's how](https://support.google.com/chrome/answer/188842?hl=en&co=GENIE.Platform%3DDesktop).
-- Create a copy of your program's Mod 0 Trello board by following the steps below:
-  1. Open the [Launch Mod 0 Trello Board]() to get started. *need link*
-  1. In the upper right corner, select the `...Show menu` button.
-  1. Select `... More` about halfway down the side menu.
-  1. Select `Copy board` and create a name for your personalized Trello board. This board will now be saved on your personal Trello account.
 
 <br>
 

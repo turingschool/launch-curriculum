@@ -1,8 +1,15 @@
+---
+layout: page
+title:  Refactoring Lab
+---
+
 ## Lab Objectives
 * Practice refactoring using SRP
 * Introduce the relationship between Tests and Refactoring
 
-** Instructor Note **  Before the lab, prepare groups of 2/3 students and post them in slack.  During the practice time, bring students all together to share out their indentified responsibilities, and then again to share out some refactors.
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>Before the lab, prepare groups of 2/3 students and post them in slack.  During the practice time, bring students all together to share out their indentified responsibilities, and then again to share out some refactors.</p>
+</aside>
 
 ## Practice
 
@@ -24,5 +31,3 @@ Be Prepared to share out the responsibilities you identified, and the refactors 
 In your noteboook, reflect on the following:
 1. During the lesson and this lab, how did you know if your refactor was or was not breaking the function of the program?
 2. What if these examples had included tests?  Would that have impacted your ability to refactor the code?  Why or why not?
-
-<!-- One thing I had a hard time determining is how "spicy" this activity is? It seems like we've done this in the BE program - how has it gone in the past? Obviously don't want to reinvent the wheel, but wonder if there are other examples of not-so-readble code that we could pull from old BE student projects and write in C# that might be easier for students to wrap their heads around. However, if y'all think that this is the right level of spiciness for our students then let's SEND IT! MM: I think this is a medium-spice activity; I want to try it, and adjust down if necessary.-->

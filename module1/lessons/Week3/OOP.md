@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Object Oriented Programming
 
 ## Learning Goals
@@ -113,14 +117,15 @@ Here, we have a **class** that serves as a blueprint for any dog; instead of bui
 
 With this OOP approach, it is much easier to update what a dog can do, or what information a dog stores.  We might want to be able to get a dog's age, for example. In the first version, we would need to calculate the age of each dog individually, but with OOP we can add a method to the Dog class.  Methods that exist on a class definition are available to be called on any instance of that object.
 
-**Instructor Note**: we want to focus on the re-usability of code here.  Also make sure to discuss the different styles of instantiating objects `Dog variableName = new Dog()` vs `Dog variableName = new()` vs `var variableName = new Dog()`
-<!-- I think for the note above it would be great to use an actual example of a class instantiation, like new Dog or new Cat, basically anything besides a one letter varaiable. That is one of my biggest gripes about some documentation (using stuff like "foo" and "bar", which I don't think is very accessible for a lot of learners). It looks like you cover it in the img below but figured it was worth calling out for our new instructors -->
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>we want to focus on the re-usability of code here.  Also make sure to discuss the different styles of instantiating objects `Dog variableName = new Dog()` vs `Dog variableName = new()` vs `var variableName = new Dog()`</p>
+</aside>
 
 ### Creating Instances of Objects
 
 The process of creating instances of objects from a class definition is often referred to as **instantiation**.  In the `Dog` example above, we could say that we `instantiated two Dog objects, nile and sammy`.  Any time you see the `new` keyword being used, some kind of object is being instantiated.
 
-![Image of three examples of object instantiation](/Mod1/Images/Week3/object-instantiation-examples.png)
+![Image of three examples of object instantiation](/assets/images/module1/Week3/object-instantiation-examples.png)
 
 We can see in this example that there are three valid ways to create an instance of a Dog object - any of these instantiation patterns will work for any type of object!
 
@@ -216,7 +221,7 @@ In an ideal OOP application, all attributes and behaviors are grouped into one o
 ### Hiding Complex Functionality
 In addition to organizing related pieces of information, classes can also help us hide more complex parts of a program from users.  Most users do not need to know _exactly_ how an application is working, they just need to know what to do in order for the program to work.  Think about 'liking' a photo on instagram; users do not need to know what the application is doing in the background, users just need to know how to execute that process (by double tapping on a photo).
 
-Think back to our lesson on [Methods](/Mod1/Lessons/Week2/Methods.md#abstraction).  In the section about **Abstraction**, we proposed that a user does not need to know exactly how a coffee machine works in order to make coffee.  They only need to know that they need to add water, add coffee grounds, and push start.  We might mimic that behavior in code like this:
+Think back to our lesson on [Methods](/module1/lessons/Week2/Methods#abstraction).  In the section about **Abstraction**, we proposed that a user does not need to know exactly how a coffee machine works in order to make coffee.  They only need to know that they need to add water, add coffee grounds, and push start.  We might mimic that behavior in code like this:
 
 ```c#
 var coffeeMaker = new CoffeeMachine();
@@ -261,5 +266,3 @@ public class User
 var megan = new User("Megan", "mmcmahon@turing.edu", "test123");
 var username = megan.UserName;
 ```
-
-<!-- I like the way you've introduced some OOP pillars in a more specific way - by tying it into the examples you've been referencing, it feels more natural and I imagine students will be able to follow along a bit easier! I think this also lends to better understanding of the pillars when we cover those in more detail down the road!  -->

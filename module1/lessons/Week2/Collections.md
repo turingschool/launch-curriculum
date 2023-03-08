@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Collections
 
 ## Learning Goals
@@ -70,7 +74,9 @@ Just like arrays, a list can only contain **elements** of the same type - this i
 > 3. [Resource](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.sort?view=net-6.0): Use a method to sort the list alphabetically.
 > 4. [Resource](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0): Use the list to print "GOLDEN RETRIEVER" to the console.
 <!-- Love this inclusion of modeling how to search/utilize documentation -->
-** Instructor Note**: walk throught these examples showing _how_ you would research what to do.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>walk throught these examples showing _how_ you would research what to do.</p>
+</aside>
 
 ## `foreach`
 
@@ -87,7 +93,9 @@ Console.WriteLine(dogBreeds[2]);
 
 This isn't too bad, but what if you needed to print a list of all 199 dog breeds recognized by the Westminster Kennel Club? This would be A LOT of repeated code.
 <!-- I think having students sort using a For Loop is a great idea here!  -->
-** Instructor Note ** Good place to get the students together to see if they can use a regular `for` loop to solve this problem.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Good place to get the students together to see if they can use a regular `for` loop to solve this problem.</p>
+</aside>
 
 When we need to do the same thing to/with an element in a collection, we can use a `foreach` loop:
 

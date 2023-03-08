@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Week 3 Checks for Understanding
 
 With your group, answer each question below.  Spend some time discussing each question _without_ using any resources; use your own recall of the topics covered this week.  If, after you have discussed without resources, your group needs assistance, use the raise hand feature and an instructor will come help!
@@ -94,7 +98,7 @@ public class MediaPlayer
 
 1. A method signature could look like: `void SayHello();` or `string SayHello();`.  Based only on the signatures, what would be different about the implementation of each method?
 
-1.  Revisit some pseudo-code you wrote in the [Methods Lab](/Mod1/Labs/Week2/Methods.md).  Now, you are going to implement the methods! Fork [this repl](https://replit.com/@launch-team/M1W3-CFUReview) and complete the following exercises:
+1.  Revisit some pseudo-code you wrote in the [Methods Lab](/module1/labs/Week2/Methods).  Now, you are going to implement the methods! Fork [this repl](https://replit.com/@launch-team/M1W3-CFUReview) and complete the following exercises:
 
 **Exercise 1**
 Implement a method called `SumSecondNumbers()` that takes a multidementional array as an argument, where each element is an array of 2 integers, and sums the second integer of each sub-array.  You may want to take a look at [this resource](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/passing-arrays-as-arguments#passing-multidimensional-arrays-as-arguments) to help you get started.  The method should be able to be called like this:

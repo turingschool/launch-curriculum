@@ -1,7 +1,6 @@
 ---
 layout:     page
 title:      DTR (Define the Relationship) Prep
-permalink:  dtr-prep
 ---
 # Define the Relationship Prep
 ## Purpose
@@ -25,7 +24,7 @@ As you work through this document, avoid the following pitfalls:
 
 You will learn a lot in between now and the first team project you are assigned in Mod 1 - technical concepts, about yourself, and what working on technical projects collaboratively can look and feel like.
 
-Start preparing for your first DTR conversation with a future project team members by <a href="https://docs.google.com/document/d/1Zdcqm7yOWnzd4fZOD-8gmgFNCkqxYleKzoDUqarX9Wo/edit?usp=sharing" target="_blank">following the directions in this Google Doc</a> and be prepared to share your reflections with your small group in your next session.
+Start preparing for your first DTR conversation with a future project team members by <a href="https://docs.google.com/document/d/1Zdcqm7yOWnzd4fZOD-8gmgFNCkqxYleKzoDUqarX9Wo/copy" target="_blank">following the directions in this Google Doc</a> and be prepared to share your reflections with your small group in your next session.
 
 Be sure to click the `Make a Copy` button and save to your own Google Drive for easy retrieval and sharing!
 

@@ -29,9 +29,10 @@ The production branch for this repo is `gh-pages`.  Branches that you create nee
 3. Install Ubuntu Dev Tools
     * `sudo apt-get install ubuntu-dev-tools`
 4. [Configure git SSH key](https://mod0.turing.edu/computer-setup#configure-github)
-5. Set Up [Jekyll](https://jekyllrb.com/docs/installation/ubuntu/)
+    * I think because I was on windows, I had to start the ssh-agent using `eval 'ssh-agent -s'` before running `ssh-add ~/.ssh/id_rsa.pub`
+6. Set Up [Jekyll](https://jekyllrb.com/docs/installation/ubuntu/)
     * `gem install jekyll bundler`
-6. Clone and Set Up Local Repo
+7. Clone and Set Up Local Repo
     * Clone the repo: `git clone git@github.com:turingschool/launch-curriculum.git`
     * Open the repository: `cd launch-curriculum`
     * Bundle your gems: `bundle install`
@@ -51,6 +52,20 @@ gem install eventmachine -- --with-openssl-dir=/usr/local/opt/openssl@1.1
 * Make changes on the `gh-pages` branch.
 * You can push changes to production by pushing the `gh-pages` branch to github. `git push origin gh-pages`.
 * The changes may take a minute or two to be recognized on production. Please make sure you review your changes on production.
+
+## Style Notes
+
+### Instructor Notes
+
+You can include 'hidden' instructor notes in your lessons by using the following syntax:
+
+```html
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Your Note.</p>
+</aside>
+```
+
+These notes are available by calling `showInstructorNotes()` in console.
 
 ## License
 

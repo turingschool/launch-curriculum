@@ -1,12 +1,13 @@
-# Scope and Access Modifiers
+---
+layout:     page
+title:      Scope and Access Modifiers
+---
 
 ## Learning Goals
 * Identify how **scope** affects where variables can be accessed
 * Have a reference to look at when **scope** errors show up
 * Understand the difference between the **public** and **private** access modifiers
 * Start thinking about when to use **public** vs **private**
-
-# Scope
 
 ## Intro
 Scope is what you have access to and where you have access to it.
@@ -20,10 +21,10 @@ You've probably already run into scope errors.
 Here are two screenshots of situations where I got an error because I didn't have access to a variable I wanted.
 
 Example 1:
-![Scope Example 1](/Mod1/Images/Week5/ScopeExample1.png)
+![Scope Example 1](/assets/images/module1/Week5/ScopeExample1.png)
 
 Example 2:
-![Scope Example 2](/Mod1/Images/Week5/ScopeExample2.png)
+![Scope Example 2](/assets/images/module1/Week5/ScopeExample2.png)
 
 Take 3 minutes to brainstorm: Have you encountered this error before? What did you do to fix the issue?
 
@@ -35,15 +36,17 @@ I like this definition from a [Microsoft Tutorial](https://learn.microsoft.com/e
 
 With this new definition in mind, we can see why the above code examples caused errors.
 
-<!-- Instructor Note: Look to see if students ask what a code block is. We could include it, but I'm leaning on the side of less. -->
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Look to see if students ask what a code block is. We could include it, but I'm leaning on the side of less.</p>
+</aside>
 
 Example 1:
-![Scope Example 1 With Highlighting](/Mod1/Images/Week5/ScopeExample1Highlighting.png)
+![Scope Example 1 With Highlighting](/assets/images/module1/Week5/ScopeExample1Highlighting.png)
 
 We are trying to access the `username` variable outside of the scope where it is defined.
 
 Example 2:
-![Scope Example 2 With Highlighting](/Mod1/Images/Week5/ScopeExample2Highlighting.png)
+![Scope Example 2 With Highlighting](/assets/images/module1/Week5/ScopeExample2Highlighting.png)
 
 Note that a variable is accessible **everywhere** inside the code block in which it's defined, even from within a nested code block.
 
@@ -93,7 +96,7 @@ class Person
 ```
 <details><summary>Solution</summary><br/>
 
-![Scope Example 3 With Highlighting](/Mod1/Images/Week5/ScopeExample3.png)
+![Scope Example 3 With Highlighting](/assets/images/module1/Week5/ScopeExample3.png)
 </details>
 
 ## Fixing Scope Errors
@@ -104,7 +107,7 @@ https://learn.microsoft.com/en-us/training/modules/csharp-code-blocks/2-exercise
 
 > In your own words, why did the code in step 2 have an error? </br> In your own words, how did you fix the scope error created in step 2? </br> What would happen if scope didn't exist? What problems might this cause?
 
-# Access Modifiers
+## Access Modifiers
 
 We are already familiar with including access modifiers when adding properties to a class. 
 ```c#
@@ -151,7 +154,7 @@ class BankAccount
 }
 ```
 
-You're teammate Sergio wrote the code below using Isabella's BankAccount class. It's your job to give Sergio feedback on his code. Take 5 minutes and discuss with your partner what feedback you would give Sergio. How is Sergio using the BankAccount class differently than Isabella expected he would? Why is this a problem?
+Your teammate Sergio wrote the code below using Isabella's BankAccount class. It's your job to give Sergio feedback on his code. Take 5 minutes and discuss with your partner what feedback you would give Sergio. How is Sergio using the BankAccount class differently than Isabella expected he would? Why is this a problem?
 
 ```c#
 class MisusingBankAccountClass
@@ -187,8 +190,7 @@ This is where access modifiers come in!
 
 Instead of defining the Balance variable as `public` Isabella could have defined it as `private`. This would have caused Sergio to get the following error.
 
-
-![Access Modifiers Example](/Mod1/Images/Week5/AccessModifiersExample.png)
+![Access Modifiers Example](/assets/images/module1/Week5/AccessModifiersExample.png)
 
 ## Definitions
 
@@ -213,6 +215,5 @@ C# provides other types of access modifiers for more specific situations such as
 * How would you describe scope?
 * How would you describe the difference between the public and private access modifiers?
 
-
 ### Additional Practice
-https://www.w3schools.com/cs/cs_access_modifiers.php
+* [https://www.w3schools.com/cs/cs_access_modifiers.php](https://www.w3schools.com/cs/cs_access_modifiers.php)

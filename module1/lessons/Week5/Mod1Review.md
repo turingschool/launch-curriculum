@@ -1,3 +1,8 @@
+---
+layout: page
+title:  Mod 1 Review
+---
+
 Week1
 <!-- * Understand what makes something a computer -->
 1. We write programs so that humans can better interact with computers.  Computers, at their most basic level, understand [binary inputs](https://www.youtube.com/watch?v=USCBCmwMCDA); so, why do we not write programs in binary?

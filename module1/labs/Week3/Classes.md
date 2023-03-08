@@ -1,9 +1,15 @@
+---
+layout: page
+---
+
 ## Lab Objectives
 * Practice brainstorming the classes that might exist in an application
 * Reinforce the syntax and structure of classes
 * Introduce the `Date` object: create and manipulate dates
 
-** Instructor Note ** Before the lab, set up groups of 3/4 students and post in slack.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Before the lab, set up groups of 3/4 students and post in slack.</p>
+</aside>
 
 ## Practice
 ### Brainstorming Classes
@@ -25,9 +31,9 @@ Spend up to 10 minutes brainstorming, before moving on to the next application.
 
 Take a look at the screenshots of the Instagram app below - what Classes might exist in the source code for the Instagram application.  What properties and behaviors might exist on those classes?
 
-![Instagram Profile Pages](/Mod1/Images/Week3/instagram-profile.jpeg)
+![Instagram Profile Pages](/assets/images/module1/Week3/instagram-profile.jpeg)
 
-![Instagram Post](/Mod1/Images/Week3/instagram-post.png)
+![Instagram Post](/assets/images/module1/Week3/instagram-post.png)
 
 Spend up to 10 minutes brainstorming, before moving on to the next section of the lab.
 
@@ -86,7 +92,7 @@ Now that we have been working with Visual Studio for a few days, you should be f
 
 If you are inside of a class and type `ctor`, the intellisense will give you a suggestion for creating the class constructor!
 
-![screenshot of ctor shortcut](/Mod1/Images/Week3/ctor-shortcut.png)
+![screenshot of ctor shortcut](/assets/images/module1/Week3/ctor-shortcut.png)
 
 Using code snippets is not required to write code, but they can be helpful.  If you are interested in learning about more code snippets, take a look at the [Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets?view=vs-2022)!
 
@@ -98,9 +104,3 @@ Watch [this video](https://docs.microsoft.com/en-us/shows/csharp-fundamentals-fo
 * How would you create a DateTime variable that holds your birthdate?
 * Given the two birthdates called `megansBirthdate` and `andysBirthdate`, how would you determine the age difference between them?
 * Let's think about the possible `Patient` class that has an attribute of `Birthdate`.  Write a method that would live in this class called `Age()`; it should return an integer that represents the Patient's age in years.
-
-<!-- I LOVE the brainstorming aspects of this lab - having students get more comfortable with just thinking about code concepts. I think this lab also lends itself well to having opportunities to come back together whole group to share ideas and spur more ways of thinking! -->
-
-<!-- Love that you gave students some starting code w. a familiar app (Order Taker App) - I think this should save some time and allow students to feel more confident jumping in to implement their new learning -->
-
-<!-- Also a big fan of the Date work - it's definitely important but likely not worth it's own lesson + a good thing for students to wade into on the self-teaching front! Will be interesting to see how the lab timing plays out - could easily make this section HW or something if students don't get to this part -->

@@ -1,7 +1,14 @@
+---
+layout: page
+title:  Debugging Lab
+---
+
 # Lab
 Lab time is designed for you to prepare for upcoming lessons, and practice what you have learned so far.  Both aspects are important for your success.  During this time, you are encouraged to collaborate with fellow students, and reach out to instructors with any and all questions!
 
-** Instructor Note ** Before this lab, set up groups of 2-3 students.  They will be working through a broken order taking application, similar to the one they completed during week1.  The app has 4 bugs (outlined below).  Initially, keep an eye on how students are approaching the exercise - we may need to nudge them to describe how they believe the application is or should be running before jumping into fixing the bugs.
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>Before this lab, set up groups of 2-3 students.  They will be working through a broken order taking application, similar to the one they completed during week1.  The app has 4 bugs (outlined below).  Initially, keep an eye on how students are approaching the exercise - we may need to nudge them to describe how they believe the application is or should be running before jumping into fixing the bugs.</p>
+</aside>
 
 ## Lab Objectives
 * Practice placing and using breakpoints to debug an application.
@@ -75,12 +82,16 @@ Total: $46.64
 
 **Keep an eye on slack** We will be coming back together and asking groups to share out their findings on specific issues, so be ready to share some notes!
 
-**Instructor Note** The 4 bugs that we want to identify are on lines:
-    6> We should convert .ToInt16() or .ToInt32().
-    7> combinedOrder needs to either be initialized as an empty string.
-    9> numGuesses should not be incremented.
-    13> We need to call .ToLower() on the order.
-    23> Instead of replacing `", "`, they should repleace `"\n"` to get the correct price calculation.
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>The 4 bugs that we want to identify are on lines:</p>
+  <ul>
+    <li>6> We should convert .ToInt16() or .ToInt32().</li>
+    <li>7> combinedOrder needs to either be initialized as an empty string.</li>
+    <li>9> numGuesses should not be incremented.</li>
+    <li>13> We need to call .ToLower() on the order.</li>
+    <li>23> Instead of replacing `", "`, they should repleace `"\n"` to get the correct price calculation.</li>
+  </ul>
+</aside>
 
 ## Preparation
 
@@ -88,9 +99,3 @@ Individually, spend 10-15 minutes reflecting on the following questions. Take no
 
 * Up to now, how have you known if your code was functioning?
 * Imagine you are a developer working at Google; what might be some drawbacks to your current approach?
-
-<!-- I love that this lab combines some technical exploration with some preparation for the following day! I think it would be great if we had even a small Preparation section for an upcoming lesson in each lab. Doesn't need to be too involved, but potentially some small exploration into the next day's topic! -->
-
-<!-- I remember there was an activity like this back in the day in FE and one pain point I remember was that students sometimes struggled to tinker enough with the small application to figure out where a bug might even exist. I like how you explained in the directions that there needs to be some exploration to find all of the bugs. I wonder if we will need to be even more explicit or if folks will figure it out on their own. I think having some language around having students discuss HOW they think the program should run vs. the observed behavior might have them hone in on where it might be screwing up. I think we can wait and see how this works in practice before making any tweaks! - I added a note in the instructor notes; great call out!!
-
- -->

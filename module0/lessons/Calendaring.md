@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: page
 title: Calendaring & Time Management
 ---
 # Calendaring & Time Management
@@ -15,7 +15,7 @@ Turing is a full-time, immersive program. You are going to learn the technical a
 For the Launch program, we estimate students work an **average of 40-50 hours per week** at Turing; some weeks with fewer hours, some weeks with more hours. While at Turing, **time** is your most valuable commodity. How you use your time will be a determining factor in your overall success in the program.
 
 <div class="s-card">
-  <h3>40-55 hours per week</h3>
+  <h3>40-50 hours per week</h3>
   <p>In whatever way makes the most sense to you, visualize what 40-50 hours per week would look like on a daily basis.</p>
   <p>Think about the details of that "daily" life. If you said you'd work ~8 hours/day - what do you do with your other 16 hours? How do you plan in time to eat? How many hours are allotted to sleep? When do you grocery shop? Spend time with family? Walk the dogs? And - whatever else is important or essential to you?</p>
   <p>Jot down notes about this if you'd like; you don't need to submit anything for this specific prompt, but it should help you get in the right frame of mind for the rest of this activity.</p>
@@ -51,28 +51,4 @@ When it comes to the way they spend their time, there are two major pitfalls we 
 1. Not dedicating any time to their personal needs: scheduling seven 14-hour days of coding a week.
 1. Underestimating the commitment and then being very disappointed when they don't have time to do things they enjoy (play guitar for 3 hours a day, work a part-time job, go to Happy Hour several evenings a week, or go skiing every weekend).
 
-Since each Mod is only 6 weeks long, if you fall behind by one week, it can be really hard to catch up. Having a proactive and realistic plan is the best way to set yourself up for success
-
-<section class="call-to-action">
-### In Your Notebook
-
-What would you expect to be logged when we get to line 10? Why?
-</section>
-
-<section class="answer">
-### The Answer  
-
-Here is an answer to the On Your Own section...
-</section>
-
-<section class="note">
-### Note
-
-This hoisting behavior adds some complexity to the JavaScript language, and is important to understand thoroughly in order to anticipate the values of your variables at any given time.
-</section>
-
-<section class="checks-for-understanding">
-### Exit Ticket
-
-What are 3 easy and actionable accessibility steps you can take in all of your projects from here on out?
-</section>
+Since each Mod is only 6 weeks long, if you fall behind by one week, it can be really hard to catch up. Having a proactive and realistic plan is the best way to set yourself up for success.

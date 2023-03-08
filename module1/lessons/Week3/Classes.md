@@ -1,3 +1,8 @@
+---
+layout: page
+title: Classes
+---
+
 ## Learning Goals
 
 * Describe the difference between a class and an instance of that class
@@ -97,7 +102,9 @@ Now that we have some executing code, let's talk about what is happening.
 
 > With a partner: what is familiar about this code?  Where have you seen patterns like this before?  What is different?  Try to put some words to what is happening on each line.
 
-**Instructor Note**: make comparisons back to variable assignment; discuss the difference between explicit type declaration and using `var`.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>make comparisons back to variable assignment; discuss the difference between explicit type declaration and using `var`.</p>
+</aside>
 
 > Practice using the appropriate language to describe what is happening:
 > We are creating 2 new instances of a Unicorn class and assigning those objects to the variables 'fred' and 'gloria'
@@ -168,7 +175,9 @@ Remember that a **class** is like the blueprint for specific **instances**.  As 
 
 > With a partner, try to run the program.  Use what you know about methods and arguments to get the code to compile and run.  Bonus: can you tell the program to introduce us to your new unicorns?
 
-**Instructor Note** Make sure to touch on how we call property information out of an instance of a class: `fred.Name`.  Discuss the difference between calling this property, and calling a method - you could use the example of `"hello world".Length` vs `"hello world".ToUpper()"`
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Make sure to touch on how we call property information out of an instance of a class: `fred.Name`.  Discuss the difference between calling this property, and calling a method - you could use the example of `"hello world".Length` vs `"hello world".ToUpper()"`</p>
+</aside>
 
 -----------------------------------------
 
@@ -178,7 +187,7 @@ When we include the arguments in our constructor, we will need to pass those arg
 Unicorn fred = new Unicorn("Fred", "Silver");
 ```
 
-![diagram of constructor attribute assignment](/Mod1/Images/Week3/ctor-attribute-assignment.png)
+![diagram of constructor attribute assignment](/assets/images/module1/Week3/ctor-attribute-assignment.png)
 
 <!-- I think if possible it might be a good idea to have a diagram that shows the order dependantness of the arguments. Like some arrows pointing from the arguments to where the "fill in" in the class instance? Just a thought. ✅ -->
 What we have just done is a very common pattern. We gave our constructor some arguments and we saved those arguments to **properties**. While this is a strong pattern, it is not a rule. For instance, you may want to set a property in your constructor that has a default value that isn't set using an argument:
@@ -334,5 +343,3 @@ On your own, answer the questions below.
     * What are arguments?
     * What is a return value? How do you know what the return value of a method is? Do all methods have return values?
 
-
-    <!-- This seems like one of the "heavier" technical lessons so far - a lot of sytnax, building on previous skills, etc. Excited to see how it goes for students! I think that given there is a LOT going on here, adding some diagrams/code blocks with circles/highlights may be a way to help ease the burden on students. Not sure if it is necessary, but perhaps being mindful of small ways to reduce the mental overhead on students can really add up over a lesson, day, week, etc. -->

@@ -1,7 +1,6 @@
 ---
 layout:     page
 title:      Intro to Email at Turing
-permalink:  email-at-turing
 ---
 
 Email is a common communication tool across organizations for team-wide communications and communications with external partners, such as clients (people/companies you are writing code for) or vendors (companies that provide a service that you use).
@@ -56,4 +55,5 @@ Take a look at the email example below. In small groups, be sure to answer:
 - What are some things that stand out about this email?
 - What could be improved or adjusted?
 
-![](/Mod0/Images/email_jam.png)
+
+![image](/module0/images/email_jam.png)

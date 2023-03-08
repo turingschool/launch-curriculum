@@ -1,10 +1,13 @@
-# How Humans Keep Track of Information and What That Means for Programming
+---
+layout: page
+title: How Humans and Computers Keep Track of Information
+---
 
 Like yesterday, this is an introduction designed to get you looking at code, getting familiar with syntax, and starting to think like a developer.  The expectation is that you will NOT master any topics today! We will be covering these topics in much more detail in Mod1.
 
 ### Warm Up
 
-In small groups, take a look at the code below.  Identify as many pieces as you can from [yesterday's technical session](/Mod0/TechnicalDay1.md).  It is ok if not all of this code makes sense or is familiar!
+In small groups, take a look at the code below.  Identify as many pieces as you can from [yesterday's technical session](./TechnicalDay1.md).  It is ok if not all of this code makes sense or is familiar!
 
 ```c#
 var name = "Megan";
@@ -14,11 +17,13 @@ Console.WriteLine($"Hello {name}");
 
 Be ready to share out some of your observations.
 
-** Instructor Note ** We want to use this warmup as a review of variables.  Just to remind them generally what a variable is, and how to identify one.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>We want to use this warmup as a review of variables.  Just to remind them generally what a variable is, and how to identify one.</p>
+</aside>
 
 ### What is a Thing?
 
-As humans, we often interact with physical objects in the world; let's call them `things`.  We use ourknowledge and experience to work with many different types of things with no issue.  We know to sit on a chair, and lay on a bed; even though these things are both furniture, we know that they have different uses.
+As humans, we often interact with physical objects in the world; let's call them `things`.  We use our knowledge and experience to work with many different types of things with no issue.  We know to sit on a chair, and lay on a bed; even though these things are both furniture, we know that they have different uses.
 
 We also use non-tangible objects like vocabulary, numbers, and dates which allow us to communicate with each other; let's call these objects `data`.  We can use data to communicate our needs, perform math and statistics, and relate spans of time (and many other tasks!). Using data, we can understand sentences like: On Tuesday, my son will be 12 years old. He is getting 2 lego sets for his birthday.
 
@@ -27,7 +32,9 @@ With objects and data, we have everything we need to accomplish our daily tasks.
 
 ### Things and Computers
 
-** Instructor Note **  Organize students into groups of 3/4 to work through these sections together in breakout rooms.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Organize students into groups of 3/4 to work through these sections together in breakout rooms.</p>
+</aside>
 
 Unlike humans, computers don't know about very many things or data; but, they do know a few types of things and a few types of data. And, they can store lists!
 
@@ -53,4 +60,4 @@ Your instructor will create a chat thread for each of the questions below; when 
 2. What questions do you have about lists so far?
 3. Imagine you are going to create an application like Instagram; what types of objects will you program need to know about? Take a look at the screenshot below for inspiration!
 
-![](/Mod0/instagram.png)
+![](/module0/images/instagram.png)

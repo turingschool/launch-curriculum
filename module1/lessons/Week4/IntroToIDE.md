@@ -1,4 +1,7 @@
-# Using an Integrated Development Environment
+---
+layout: page
+title:  Using an Integrated Development Environment
+---
 
 ## Learning Goals
 * Define and start using an IDE
@@ -29,18 +32,18 @@ We will follow these steps to download Visual Studio Community (a free IDE that 
 
 1. Go to [https://visualstudio.microsoft.com/free-developer-offers/](https://visualstudio.microsoft.com/free-developer-offers/)
 2. Click `Free Download` for the Windows Visual Studio Community option
-![](/Mod1/Images/Week4/VisualStudioDownloadButton.png)
+![](/assets/images/module1/Week4/VisualStudioDownloadButton.png)
 3. Click on the VisualStudioSetup.Exe file download
-![](/Mod1/Images/Week4/EXEfiledownload.png)
+![](/assets/images/module1/Week4/EXEfiledownload.png)
 4. When asked if you want to allow this program to make changes to your computer, click `YES`.
 5. Follow the prompts of the download wizard to complete setup.  We will use all of the default settings.
 6. When completed, you should see a screen like this (with fewer options on the left hand side)
-![](/Mod1/Images/Week4/VisualStudioDownloaded.png)
+![](/assets/images/module1/Week4/VisualStudioDownloaded.png)
 
 ### .NET and Different Types of Programs
 Now that we have our IDE downloaded, let's start by creating a new program.
 
-![](/Mod1/Images/Week4/CreateANewProject.png)
+![](/assets/images/module1/Week4/CreateANewProject.png)
 
 In REPLit, when we create a new project, all we do is select a language and we are good to go.  With the Visual Studio IDE, there is a bit more to it.
 
@@ -53,29 +56,29 @@ A **Framework** is a developer tool that gives us additional classes and methods
 
 A **Common Language Runtime (CLR)** is the engine that handles running applications. CLRs translate the code that we write into Machine Code (ones and zeros).  The .NET CLR can handle C#, F#, and Visual Basic Code.  We will continue to code in C#, but it is good to understand that there are other options available to us!
 
-![Diagram of .NET CLR](/Mod1/Images/Week4/NET-CLR.png)
+![Diagram of .NET CLR](/assets/images/module1/Week4/NET-CLR.png)
 
 Let's go back to our Visual Studio, select `Console App`, and click `Next`.
 
-![](/Mod1/Images/Week4/ChooseANewProject.png)
+![](/assets/images/module1/Week4/ChooseANewProject.png)
 
 We will choose the framework we want to use - `.NET 6.0`, and click `Create`.
 
-![](/Mod1/Images/Week4/ChooseFrameworkCreate.png)
+![](/assets/images/module1/Week4/ChooseFrameworkCreate.png)
 
 Lastly, we will give our project a name, `HelloWorld`.  We can leave the project in the suggested folder, and let the solution name autocomplete.
 
-![](/Mod1/Images/Week4/NewProjectName.png)
+![](/assets/images/module1/Week4/NewProjectName.png)
 
 After we click `Next`, .NET will build all the components we need to edit, build, debug and run a Console Application.  We should see something like this:
 
-![](/Mod1/Images/Week4/HelloWorldCode.png)
+![](/assets/images/module1/Week4/HelloWorldCode.png)
 
 One thing to note: IDEs are highly customizable to suit the needs of an individual developer.  Your setup may not look exactly the same as mine, but it will have all the same components.
 
 We already have some code in this project, so let's run it, and see what happens.  To run this program, click the button in the middle of the toolbar with the green 'play' icon.
 
-![](/Mod1/Images/Week4/HelloWorldConsole.png)
+![](/assets/images/module1/Week4/HelloWorldConsole.png)
 
 After running, you will see a Console Window appear.  This is slightly different from the layout of REPLit, but you can think of it as the console pane on the right side of a replit project. Press any key to close that window, or close out of it with the 'X' in the upper right corner.
 
@@ -86,7 +89,7 @@ There is a lot that we will be using in Video Studio over the coming months.  We
 - Run/Debug Functions
 - Build/Debugging Output
 
-![](/Mod1/Images/Week4/AnatomyOfVisualStudio.png)
+![](/assets/images/module1/Week4/AnatomyOfVisualStudio.png)
 
 **Code Editor**: This is where you will write and edit code.
 
@@ -98,7 +101,7 @@ There is a lot that we will be using in Video Studio over the coming months.  We
 
 If at any point, your solution explorer or output panes disappear, you can use the `View` options to show them again.
 
-![](/Mod1/Images/Week4/ViewOptions.png)
+![](/assets/images/module1/Week4/ViewOptions.png)
 
 ### Intellisense
 
@@ -106,15 +109,15 @@ One of the benefits of using an IDE is the built-in auto-completion capabilities
 
 If you start typing something, the IDE is going to try to guess what you want - you can accept the auto-completion with `Tab`.  Try typing `str`; you'll see that Visual Studio is suggesting keywords that it knows start with `str...`.
 
-![](/Mod1/Images/Week4/IntellisenseString.png)
+![](/assets/images/module1/Week4/IntellisenseString.png)
 
 Intellisense will also offer suggestions for more complex snippets.  For example, it will try to guess if you are assigning a variable:
 
-![](/Mod1/Images/Week4/IntellisenseAssignment.png)
+![](/assets/images/module1/Week4/IntellisenseAssignment.png)
 
 You might come across an even more complex suggestion when creating specific code blocks - these suggestions can be accepted by hitting `Tab` **twice**.
 
-![](/Mod1/Images/Week4/IntellisenseIf.png)
+![](/assets/images/module1/Week4/IntellisenseIf.png)
 
 ### Customization
 The Visual Studio IDE is highly customizable.  There are a lot of changes you _could_ make to the appearance.  One customization that we will definitely want to make is to add the line numbers to the code editor (this will be helpful when describing your code, and debugging).
@@ -125,11 +128,10 @@ Follow these steps:
 3. Select `General`
 4. Check the box for `Line Numbers` and click `OK`
 
-![](/Mod1/Images/Week4/LineNumberOption.png)
+![](/assets/images/module1/Week4/LineNumberOption.png)
 
 For more information on customizations, you can review the [Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/ide/personalizing-the-visual-studio-ide?view=vs-2022).
 
-<!-- Line numbers were already enabled for me and I'm not seeing the autocomplete for assigning a variable -->
 ### Practice
 
 > With a partner, work through the following exercises.  You should collaborate on how to complete the tasks, and both complete them on your own machine.
@@ -140,14 +142,6 @@ For more information on customizations, you can review the [Microsoft Docs](http
 > 2. Ask a user for a movie genre; continue asking if the genre provided is not a key in the dictionary (you can hard-code this, or take a look at the [Contains()](https://www.geeksforgeeks.org/c-sharp-dictionary-containskey-method/) method.)
 > 3. Output a movie to the user based on their suggestion.
 
-
-
 ## Checks for Understanding
 * What is an IDE?
 * What are some benefits of using an IDE?
-
-
-<!-- Really strong use of visuals/screenshots in this lesson. I think some of the arrows get a little hard to see at times so it might be worth adjusting to a more prominent color/weight, but overall pretty solid!
-
-I am excited to see what the lab looks like for this! 
- -->

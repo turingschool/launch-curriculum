@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## Learning Goals
 * Identify and implement code blocks.
 * Use `while`, and `for` to repeat code blocks.
@@ -12,7 +16,9 @@ Imagine you are writing a program that will shuffle and deal a deck of cards to 
 
 What if we need to deal 5 cards to 5 players?  Will the answers to the questions above change?
 
-**Instructor Note**: lead a discussion around the pros and cons of explicitly repeating actions.  You could even pull up [this repo](https://replit.com/@launch-team/M1W2-CardShuffle) to show the card example.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>lead a discussion around the pros and cons of explicitly repeating actions.  You could even pull up [this repo](https://replit.com/@launch-team/M1W2-CardShuffle) to show the card example.</p>
+</aside>
 
 ## Looping
 
@@ -37,7 +43,7 @@ or it may be a question that returns a true/false (boolean) answer. For example:
 
 A `while` loop will execute a block of code as long as a specific condition is `true`. 
 
-![Diagram of while loop logic](/Mod1/Images/Week2/whileLoop.png)
+![Diagram of while loop logic](/assets/images/module1/Week2/whileLoop.png)
 
 ```c#
 while (condition)
@@ -57,7 +63,9 @@ while (parkingSpace == "full")
 
 > With a partner: What do you think will happen if we run the code above?
 
-** Instructor Note **: discuss infinte loops.  In replit, you will need to `stop` the program to exit out.  
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>discuss infinte loops.  In replit, you will need to `stop` the program to exit out.</p>
+</aside>  
 
 When we have a loop where the condition always evaluates to `true`, we have created an **infinite loop**.  The loop will continue running forever (or until our computers run out of processing power!).  Because of this danger, it is always good to consider early in the implementation process, how a loop will stop.
 
@@ -65,7 +73,9 @@ When we have a loop where the condition always evaluates to `true`, we have crea
 
 > Practice: in a replit project, write a program that continuously asks a user for a random fact until the user enters 'exit'.
 
-** Instructor Note **: this would be a great time to ask a few students to share out there code (implementations AND bugs!).
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>this would be a great time to ask a few students to share out there code (implementations AND bugs!).</p>
+</aside>
 
 ### Code Blocks
 Now that we have worked with if statements and loops, you might have started to notice that we often group statements inside of two curly brackets `{}`.  We refer to this group of statements as a **block of code** or a **code block**.
@@ -157,7 +167,9 @@ Then we set a **condition** that tells the loop when to stop running: `i < 5`;. 
   * `i` is incremented (`i` is now 5)
   * The condition is **not** met, and the loop stops.
 
-** Instructor Note ** This would be a good opportunity to do some diagramming, keeping track of index values during iteration, and demostrating _explicit_ code annotation.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>This would be a good opportunity to do some diagramming, keeping track of index values during iteration, and demostrating _explicit_ code annotation.</p>
+</aside>
 
 The condition _may_ use a variable that is assigned a value. for example:
 ```c#
@@ -176,7 +188,9 @@ Finally, with the statement `i++` we update the value of our counter, `i`. This 
 This syntax is using the increment operator `++`, which is a way of writing `i = i + 1`. It is also possible to decrement downwards using the decrement operator `--`, which is a way of writing `i = i - 1`.  While is is most common to increment or decrement by 1, you could update the value by any number (add 3 each time, subtract 10 each time, etc...).
 
 
-**instructor note** discuss increment and decrement operator here!
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>discuss increment and decrement operator here!</p>
+</aside>
 <!-- In the below example, is declaring the initializer as "m" intentional? haha - nope. I also think that maybe we start with a more basic exampel first (such as only decrementing by 1/incrementing by 1) before launching right into a more fancy version that decrments by 3. Also, I imagine more loops generally will only incrrement/decrement by 1, so seems like a good place to start/something to call out -->
 > With a partner, walk through the code below; at each point, indicate what the value of `i` is.  How many loops will be completed?
 > ```c#

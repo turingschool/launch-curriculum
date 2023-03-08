@@ -1,4 +1,8 @@
-# How Humans make Decisions and What That Means for Programming
+---
+layout: page
+title: Decision Making for Humans and Computers
+subheading: Why is decision making important?
+---
 
 This is an introduction designed to get you looking at code, getting familiar with syntax, and starting to think like a developer.  The expectation is that you will NOT master any topics today!  We will be covering these topics in much more detail in Mod1.
 
@@ -11,7 +15,7 @@ But, how do we make decisions?  In general, we can break the decision making pro
 2. Analysis - determining what is important about the data we have observed.
 3. Action - Doing something that logically follows the analysis.
 
-For example, when determining what to wear we would:
+For example, when determining what to wear we would:  
 * Observe the weather conditions by
     * Looking outside to see if the sun is shining.
     * Go outside to feel the temperature.
@@ -24,7 +28,10 @@ For example, when determining what to wear we would:
 
 It is important for us to understand how we make decisions so that we can create programs that are good at making decisions. Just like humans, computer programs need to make decisions in order to operate.  Programs need to decide: which view should a user see, what should I do with the data a user gives me.
 
-** Instructor Note **  Organize students into groups of 3/4 to work through these sections together in breakout rooms.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Organize students into groups of 3/4 to work through these sections together in breakout rooms.</p>
+</aside>
+
 
 ## Computer Action
 
@@ -37,7 +44,7 @@ Work through the tutorial linked below to learn about how C# outputs information
 
 Computers make observations by receiving input.  A computer _only_ knows what we input into it; it has no other view of 'the world'.  To learn more about computer observations, work through the tutorials below.  Make sure to walk through each `Try it yourself` Section.
 
-* [Variables](https://www.w3schools.com/cs/cs_variables.php) & [Variables](https://www.w3schools.com/cs/cs_variables_display.php)
+* [Variables](https://www.w3schools.com/cs/cs_variables.php) & [Display Variables](https://www.w3schools.com/cs/cs_variables_display.php)
 * [Input](https://www.w3schools.com/cs/cs_user_input.php)
 * [Boolean](https://www.w3schools.com/cs/cs_booleans.php)
 * [Comparisons](https://www.w3schools.com/cs/cs_operators_comparison.php)
@@ -59,7 +66,9 @@ Open [this repl](https://replit.com/@MeganMcMahon1/MakingDecisions#main.cs) and 
 2. Identify as many of the tools you learned about above as you can.  Make a [comment](https://www.w3schools.com/cs/cs_comments.php) above each line where you see something you recognize. You may not recognize everything in this code - that's ok!
 3. Run the program by clicking on the green play button!
 
-** Instructor Note ** Check in with students and ask for volunteers to share their annotated code!
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Check in with students and ask for volunteers to share their annotated code!</p>
+</aside>
 
 ## Thinking Like a Developer
 
