@@ -20,8 +20,6 @@ In small groups you are going to be writing tests and adding some functionality 
 3. Identify what methods need tests, and determine if each method is a command or query method.
 3. Write tests for the method you identified in the previous step.
 
-<!-- Do  you think it would be helpful before students actually write some tests is to have a step where they just identify a) what to test and b) is it a command or query test? I think that way if we have students who can't even do that first step, we know exactly where we need to work with them on. ✅-->
-
 **Be ready to share out the tests that you have written!**
 
 4. After you have written tests fo all of the existing methods, take another look at the program and identify one additional class that could improve the re-usability and extendability (the ease or difficulty of adding features) of the code. To help you think through this, you can start by answering the following questions:
@@ -30,7 +28,3 @@ In small groups you are going to be writing tests and adding some functionality 
     * Is there additional information that would be useful about an album?
 There is no "right" class to build - there are a lot of ways we could improve this code.  The important thing to focus on is the idea generation!
 5. Implement the class that you decided on, and make sure that all of its methods are tested!  This will require you to change the code in `Program.cs` to maintain the functionality of the application; that's ok!  Refactoring often requires small tweaks to how the classes and methods are used in the application.
-
-
-
-
