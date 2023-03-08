@@ -1,4 +1,9 @@
-# Scope and Access Modifiers
+---
+layout:     page
+title:      Scope and Access Modifiers
+---
+
+<!-- # Scope and Access Modifiers -->
 
 ## Learning Goals
 * Identify how **scope** affects where variables can be accessed

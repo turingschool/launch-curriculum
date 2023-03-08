@@ -1,4 +1,8 @@
-# Refactoring
+---
+layout:     page
+title:      Refactoring
+---
+<!-- # Refactoring -->
 
 ## Learning Goals
 * Define 'Refactoring' in programming terms.
