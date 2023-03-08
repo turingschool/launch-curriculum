@@ -40,7 +40,9 @@ I like this definition from a [Microsoft Tutorial](https://learn.microsoft.com/e
 
 With this new definition in mind, we can see why the above code examples caused errors.
 
-<!-- Instructor Note: Look to see if students ask what a code block is. We could include it, but I'm leaning on the side of less. -->
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Look to see if students ask what a code block is. We could include it, but I'm leaning on the side of less.</p>
+</aside>
 
 Example 1:
 ![Scope Example 1 With Highlighting](/assets/images/module1/Week5/ScopeExample1Highlighting.png)

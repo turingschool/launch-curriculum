@@ -34,7 +34,9 @@ Finally, we will verify that the method has worked by making an **Assertion** th
 
 ![](/assets/images/module1/Week5/TestsForAAANotation.png)
 
-** Instructor Note ** We want to make sure that students start to recognize that some tests may have a combined act/assert.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>We want to make sure that students start to recognize that some tests may have a combined act/assert.</p>
+</aside>
 
 ## Test Patterns for Different Method Types
 
@@ -74,13 +76,17 @@ public class Student
 }
 ```
 
-** Instructor note ** It would be helpful for students to identify that the presence of a return value (or not) can be an indicator of the method's purpose.  A good question for the group might be "Are there any key words that indicate one way or the other?"
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>It would be helpful for students to identify that the presence of a return value (or not) can be an indicator of the method's purpose.  A good question for the group might be "Are there any key words that indicate one way or the other?"</p>
+</aside>
 
 These two categories of methods are sometimes referred to as **command** and **query**.  A command method changes the state of a program, and a query method gives us information about the state of a program.  Because these two types of methods are intended to do different things, their test structures will look different as well.  We have already been testing both command and query methods, but you may not yet have picked up on the two different test structures that verify a command or a query method.
 
 > With a partner, on paper or in slack, write the tests that would verify the behavior of the methods `Learn()` and `AllSkills()` above.  You do not need to write the tests in a project, you can outline them in a notebook or slack - it doesn't have to be perfect code structure.  When we come back together, we will write the tests as a group - so be ready to share out your ideas!
 
-** Instructor Note **  When you pull the group back together, go through writing each test step by step - Arrange, Act, Assert - by asking students to navigate while you drive.  Highlight that when testing a Command method, you often need to use other methods or even other objects to confirm that the effect of the method has taken place.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>When you pull the group back together, go through writing each test step by step - Arrange, Act, Assert - by asking students to navigate while you drive.  Highlight that when testing a Command method, you often need to use other methods or even other objects to confirm that the effect of the method has taken place.</p>
+</aside>
 
 <!-- I think we want to be clear about WHERE this is happening. Where are students writing tests? In a REPL? In a forked repo? Just trying to think of places where we might "lose" students due to our directions so we can avoid any unnecessary pain points. ✅-->
 
