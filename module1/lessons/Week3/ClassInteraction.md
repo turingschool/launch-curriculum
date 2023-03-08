@@ -1,6 +1,12 @@
+---
+layout: page
+---
+
 # Class Interaction
 
-** Instructor Note ** For this lesson, you will want to have a repo with some finished code that you can use if needed to supplement student examples.  Either create your own completed Unicorn & Power classes, or you can [fork this example](https://replit.com/@launch-team/M1W3-ClassInteractionLesson)
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>For this lesson, you will want to have a repo with some finished code that you can use if needed to supplement student examples.  Either create your own completed Unicorn & Power classes, or you can [fork this example](https://replit.com/@launch-team/M1W3-ClassInteractionLesson)</p>
+</aside>
 
 ## Learning Goals
 * Implement appropriate class file structure
@@ -11,7 +17,7 @@ Outline the classes you might need to create a city-wide library system (multipl
 
 ## Building Necessary Objects
 
-To understand how objects can interact with each other, let's continue building on our Unicorn class from the [Classes Lesson](/Mod1/Lessons/Week3/Classes.md).  Right now, our Unicorn has a list of Magical powers that are simple strings.
+To understand how objects can interact with each other, let's continue building on our Unicorn class from the [Classes Lesson](/module1/lessons/Week3/Classes).  Right now, our Unicorn has a list of Magical powers that are simple strings.
 
 ```c#
 public class Unicorn
@@ -59,11 +65,11 @@ A better way would be to create a `Power` Class that will hold these attributes.
 
 When complete, we should be able to execute the following program:
 
-![Image of crude Unicorn with powers added](/Mod1/Images/Week3/UnicornPowers.png)
+![Image of crude Unicorn with powers added](/assets/images/module1/Week3/UnicornPowers.png)
 
 When we think about creating new classes, one of the first questions we need to answer is: Where should this class live?  (As in, what file should it be in).  Almost always, a class will live in its own file - there should be a one-to-one relationship between classes and files.  So, my file structure for this new class might look like:
 
-![Image of Solution with multiple classes](/Mod1/Images/Week3/SolutionExplorerMultipleClasses.png)
+![Image of Solution with multiple classes](/assets/images/module1/Week3/SolutionExplorerMultipleClasses.png)
 <!-- New image needed? -->
 
 ---------------------------------------
@@ -123,7 +129,9 @@ public void DisplayPowers()
 
 > With a partner, discuss what this method does.  Discuss where `MagicalPowers` is defined.  Discuss where power.`Name` is defined. Be ready to share out what you discussed!
 
-** Instructor Note **  We want to make sure that students start to think about the encapsulation of properties and methods within an object.  You do not need to use the word encapsulation (in fact, you might try to explain this in more layman's terms).  You can discuss the powers in MagicalPowers as 'smart' objects - objects move around with all the 'tools' necessary to run the Properties and Methods defined within the class.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>We want to make sure that students start to think about the encapsulation of properties and methods within an object.  You do not need to use the word encapsulation (in fact, you might try to explain this in more layman's terms).  You can discuss the powers in MagicalPowers as 'smart' objects - objects move around with all the 'tools' necessary to run the Properties and Methods defined within the class.</p>
+</aside>
 
 ----------------------------------------
 
@@ -136,7 +144,9 @@ When an object is instantiated (created), it contains all of information necessa
 >
 > There are many ways to complete this task!  Focus on completing the task, rather than perfecting the task.  We will ask a few groups to share out to demostrate different approaches.
 
-** Instructor Note ** Try to find a few different approaches to the task to share out, using your starter repo only if necessary.  If you use your own code to demonstrate the task, ask students to explain what is happening (instead of you walking through the code).
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Try to find a few different approaches to the task to share out, using your starter repo only if necessary.  If you use your own code to demonstrate the task, ask students to explain what is happening (instead of you walking through the code).</p>
+</aside>
 
 ## Check for Understanding
 
@@ -204,5 +214,3 @@ class Person
     }
 }
 ```
-
-<!-- Overall, I like where this lesson is going! I'm excited to see how it progresses in the lab you have built! -->
