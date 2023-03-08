@@ -2,7 +2,6 @@
 layout: page
 title:  Using an Integrated Development Environment
 ---
-<!-- # Using an Integrated Development Environment -->
 
 ## Learning Goals
 * Define and start using an IDE
@@ -133,7 +132,6 @@ Follow these steps:
 
 For more information on customizations, you can review the [Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/ide/personalizing-the-visual-studio-ide?view=vs-2022).
 
-<!-- Line numbers were already enabled for me and I'm not seeing the autocomplete for assigning a variable -->
 ### Practice
 
 > With a partner, work through the following exercises.  You should collaborate on how to complete the tasks, and both complete them on your own machine.
@@ -144,14 +142,6 @@ For more information on customizations, you can review the [Microsoft Docs](http
 > 2. Ask a user for a movie genre; continue asking if the genre provided is not a key in the dictionary (you can hard-code this, or take a look at the [Contains()](https://www.geeksforgeeks.org/c-sharp-dictionary-containskey-method/) method.)
 > 3. Output a movie to the user based on their suggestion.
 
-
-
 ## Checks for Understanding
 * What is an IDE?
 * What are some benefits of using an IDE?
-
-
-<!-- Really strong use of visuals/screenshots in this lesson. I think some of the arrows get a little hard to see at times so it might be worth adjusting to a more prominent color/weight, but overall pretty solid!
-
-I am excited to see what the lab looks like for this! 
- -->
