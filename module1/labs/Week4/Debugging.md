@@ -1,3 +1,8 @@
+---
+layout: page
+title:  Debugging Lab
+---
+
 # Lab
 Lab time is designed for you to prepare for upcoming lessons, and practice what you have learned so far.  Both aspects are important for your success.  During this time, you are encouraged to collaborate with fellow students, and reach out to instructors with any and all questions!
 
@@ -75,12 +80,16 @@ Total: $46.64
 
 **Keep an eye on slack** We will be coming back together and asking groups to share out their findings on specific issues, so be ready to share some notes!
 
-**Instructor Note** The 4 bugs that we want to identify are on lines:
-    6> We should convert .ToInt16() or .ToInt32().
-    7> combinedOrder needs to either be initialized as an empty string.
-    9> numGuesses should not be incremented.
-    13> We need to call .ToLower() on the order.
-    23> Instead of replacing `", "`, they should repleace `"\n"` to get the correct price calculation.
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>The 4 bugs that we want to identify are on lines:</p>
+  <ul>
+    <li>6> We should convert .ToInt16() or .ToInt32().</li>
+    <li>7> combinedOrder needs to either be initialized as an empty string.</li>
+    <li>9> numGuesses should not be incremented.</li>
+    <li>13> We need to call .ToLower() on the order.</li>
+    <li>23> Instead of replacing `", "`, they should repleace `"\n"` to get the correct price calculation.</li>
+  </ul>
+</aside>
 
 ## Preparation
 

@@ -1,8 +1,15 @@
+---
+layout: page
+title:  Intro to IDE Lab
+---
+
 # Lab
 Lab time is designed for you to prepare for upcoming lessons, and practice what you have learned so far.  Both aspects are important for your success.  During this time, you are encouraged to collaborate with fellow students, and reach out to instructors with any and all questions!
 
-** Instructor Note ** We are going to ask students to do some written reflection during today's lab. As you circulate among students, Be sure to check that students are doing this reflection (not just jumping right into code!).  
-Before the lab: create groups of 2-3 students and post them in slack!  The students will get into these groups to psuedo-code 'Fizz Buzz'
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>We are going to ask students to do some written reflection during today's lab. As you circulate among students, Be sure to check that students are doing this reflection (not just jumping right into code!).<br />
+Before the lab: create groups of 2-3 students and post them in slack!  The students will get into these groups to psuedo-code 'Fizz Buzz'</p>
+</aside>
 
 ## Lab Objectives
 * Practice coding using the Visual Studio IDE
@@ -41,8 +48,10 @@ For example:
 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz...
 ```
 
-1. In small groups, take 10-15 minutes to pseudocode an implementation of 'FizzBuzz' - it will probably be helpful to use one or more of the methods we learned in the [Looping](/Mod1/Lessons/Week2/Looping.md) lesson 😉.  Use [Excalidraw](https://excalidraw.com/) to collaborate on the pseudocoding - send the collaboration link to your instructor, as well!
-** Instructor Note ** Show a quick (1min) demo of how to use and collaborate with Excalidraw.
+1. In small groups, take 10-15 minutes to pseudocode an implementation of 'FizzBuzz' - it will probably be helpful to use one or more of the methods we learned in the [Looping](/module1/lessons/Week2/Looping) lesson 😉.  Use [Excalidraw](https://excalidraw.com/) to collaborate on the pseudocoding - send the collaboration link to your instructor, as well!
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>Show a quick (1min) demo of how to use and collaborate with Excalidraw.</p>
+</aside>
 
 <!-- I think we should be more explicit on WHERE/HOW we want students to pseudocode a solution. I wonder if there are some common collaborative whiteboarding tools we could use to have students practice this habit? Even if we go a more basic route, I think we could still be more clear like "Have one team member write your steps in a Slack message and be prepared to send to a thread when notified by an instructor." I think the more we can come back to pseudocoding/hold students accountable to do it, the more likely they will actually use it as a strategy to help them with problem solving -->
 

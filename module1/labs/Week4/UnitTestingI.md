@@ -1,12 +1,19 @@
+---
+layout: page
+title:  Unit Testing I Lab
+---
+
 ## Lab Objectives
 * Practice creating tests for class Properties and Methods.
 * Introduce Code Refactoring.
 
-** Instructor Note **  Before the lab, prepare groups of 2/3 students and post them in slack.  There will be 3 group discussions (one after each Practice section).
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>Before the lab, prepare groups of 2/3 students and post them in slack.  There will be 3 group discussions (one after each Practice section).</p>
+</aside>
 
 ## Practice
 
-To reinforce our testing lesson, you are going to implement tests for the [Library System](/Mod1/Labs/Week4/ClassInteraction.md) that we worked on earlier this week.  If you would like to use a starter project other than your own, you can clone [this repository](https://github.com/memcmahon/DenverLibrary).
+To reinforce our testing lesson, you are going to implement tests for the [Library System](/module1/labs/Week3/ClassInteraction) that we worked on earlier this week.  If you would like to use a starter project other than your own, you can clone [this repository](https://github.com/memcmahon/DenverLibrary).
 
 **Keep an eye on Slack - we will be re-grouping frequently to discuss our progress**
 
@@ -18,7 +25,9 @@ Write tests for the methods and properties of the `Book` class.  You should end 
 
 Be prepared to share your test(s).
 
-** Instructor Note **  At this point, we want to try to identify any groups or individuals that are having trouble with the procedure of creating a test project.
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>At this point, we want to try to identify any groups or individuals that are having trouble with the procedure of creating a test project.</p>
+</aside>
 
 ### Create Tests for the Branch Class
 
@@ -28,7 +37,9 @@ When finished, you should have a minimum of **3** new tests.
 
 Be prepared to share your tests, and how you determined what should be tested.
 
-** Instructor Note **  During this check-in, we will want to discuss the necessity for creating some setup for certain tests.  For example, some of the Branch tests require some books to be created.
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>During this check-in, we will want to discuss the necessity for creating some setup for certain tests.  For example, some of the Branch tests require some books to be created.</p>
+</aside>
 
 ### Create Tests for the Library Class
 
@@ -36,7 +47,9 @@ Individually, spend 20 minutes writing tests for the `Library` class.  When fini
 
 Be prepared to share one or more of your tests, and how you decided what tests to write.
 
-** Instructor Note ** While this should be an activity that builds on group work, we may see some students struggling to complete this on their own - we want to take note of those students for additional support.
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>While this should be an activity that builds on group work, we may see some students struggling to complete this on their own - we want to take note of those students for additional support.</p>
+</aside>
 
 <!-- I wonder if it might be useful for when we do these small checkins on the lesson to do some wholegroup work on "What should we test in ____ class" before students go off to writing tests? I think this can be one of the trickier concepts for a new programmer is just the hurdle of trying to figure out what you should even be looking at from a testing perspective -->
 
