@@ -7,69 +7,43 @@ subheading: Object Oriented Programming with C#
 ## Overview
 Students will learn the basics of Object Oriented Programming to build software applications.  They will develop skills for pseudo-coding, debugging, and refactoring.  Students will implement automated testing.
 
-
 ## Instructors
 
 * Megan McMahon
 * Richard Tillies
 * Zoe Farrell
 
-## Lessons
+## Curriculum
+
 ### Week 1
-* [Intro to Programming](./lessons/Week1/introToProgramming)
-* [Conditional Logic](./lessons/Week1/ConditionalLogic)
-* [Data Types and Variables](./lessons/Week1/datatypesAndVariables)
+* Introduction: [Intro to Programming](./lessons/Week1/introToProgramming) &#124; [Intro to Labs](./labs/Week1/IntroToLabs)
+* Conditional Logic: [Lesson](./lessons/Week1/ConditionalLogic) &#124; [Lab](./labs/Week1/ConditionalLogic) &#124;
+* Data Types and Variables: [Lesson](./lessons/Week1/introToProgramming) &#124; [Lab](./labs/Week1/DatatypesAndVariables)
 * [Week 1 - Check Your Understanding](./lessons/Week1/CFUReview)
 
 ### Week 2
-* [Collections](./lessons/Week2/Collections)
-* [Looping and Iteration](./lessons/Week2/Looping)
-* [Methods](./lessons/Week2/Methods)
+* Collections : [Lesson](./lessons/Week2/Collections) &#124; [Lab](./labs/Week2/Collections)
+* Looping and Iteration: [Lesson](./lessons/Week2/Looping) &#124; [Lab](./labs/Week2/Looping)
+* Methods: [Lesson](./lessons/Week2/Methods) &#124; [Lab](./labs/Week2/Methods)
 * [Week 2 - Check Your Understanding](./lessons/Week2/CFUReview)
 
 ### Week 3
-* [Classes](./lessons/Week3/Classes)
-* [Class Interaction](./lessons/Week3/ClassInteraction)
-* [Object Oriented Programming (OOP)](./lessons/Week3/OOP)
+* Classes: [Lesson](./lessons/Week3/Classes) &#124; [Lab](./labs/Week3/Classes)
+* Class Interaction: [Lesson](./lessons/Week3/ClassInteraction) &#124; [Lab](./labs/Week3/ClassInteraction)
+* Object Oriented Programming (OOP): [Lesson](./lessons/Week3/OOP) &#124; [Lab](./labs/Week3/OOP)
 * [Week 3 - Check Your Understanding](./lessons/Week3/CFUReview)
 
 ### Week 4
-* [Intro to IDE](./lessons/Week4/IntroToIDE.md)
-* [Debugging](./lessons/Week4/Debugging.md)
-* [Unit Testing - Pt. I](./lessons/Week4/UnitTestingI.md)
-* [Week 4 - Check Your Understanding](./lessons/Week4/CFUReview.md)
+* Intro to IDE: [Lesson](./lessons/Week4/IntroToIDE) &#124; [Lab](./labs/Week4/IntrotoIDE)
+* Debugging: [Lesson](./lessons/Week4/Debugging) &#124; [Lab](./labs/Week4/Debugging)
+* Unit Testing, Part 1: [Lesson](./lessons/Week4/UnitTestingI) &#124; [Lab](./labs/Week4/UnitTestingI)
+* [Week 4 - Check Your Understanding](./lessons/Week4/CFUReview)
 
 ### Week 5
-* [Unit Testing - Pt. II](./lessons/Week5/UnitTestingII.md)
-* [Scope](./lessons/Week5/Scope.md)
-* [Refactoring](./lessons/Week5/Refactoring.md)
-* [Module 1 Review - Check Your Understanding](./lessons/Week5/Mod1Review.md)
+* Unit Testing, Part 2: [Lesson](./lessons/Week5/UnitTestingII) &#124; [Lab](./labs/Week5/UnitTestingII)
+* Scope: [Lesson](./lessons/Week5/Scope)
+* Refactoring: [Lesson](./lessons/Week5/Refactoring) &#124; [Lab](./labs/Week5/Refactoring)
+* [Module 1 Review - Check Your Understanding](./lessons/Week5/Mod1Review)
 
-## Labs
-### Week 1 Labs
-* [Intro to Labs](./labs/Week1/IntroToLabs)
-* [Data Types and Variables](./labs/Week1/DatatypesAndVariables)
-* [Conditional Logic](./labs/Week1/ConditionalLogic)
-
-### Week 2 Labs
-* [Collections](./labs/Week2/Collections)
-* [Looping and Iteration](./labs/Week2/Looping)
-* [Methods](./labs/Week2/Methods)
-
-### Week 3 Labs
-* [Classes](./labs/Week3/Classes)
-* [Class Interaction](./labs/Week3/ClassInteraction)
-* [Object Oriented Programming (OOP)](./labs/Week3/OOP)
-
-### Week 4 Labs
-* [Intro to IDE](./labs/Week4/IntrotoIDE.md)
-* [Unit Testing I](./labs/Week4/UnitTestingI.md)
-* [Debugging](./labs/Week4/Debugging.md)
-
-### Week 5 Labs
-* [Refactoring](./labs/Week5/Refactoring.md)
-* [Unit Testing II](./labs/Week5/UnitTestingII.md)
-
-
-### Mod 1 Project
+## Mod 1 Project
 Coming Soon!
