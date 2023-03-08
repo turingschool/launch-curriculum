@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## Learning Goals
 
 * explain the flow of execution through code  
@@ -26,25 +30,26 @@ We can also use **comparison operators** to create a condition by comparing two 
 
 We can use them like so:
 
-![Image of Comparison Operators in action](/Mod1/Images/Week1/ComparisonOperators.png)
+![Image of Comparison Operators in action](/assets/images/module1/Week1/ComparisonOperators.png)
 
 ## Using `!` 
 
 You can also use the negation operator `!` (also known as a "bang") to reverse something from true to false. The "bang" will always return the opposite boolean of the boolean that is returned from a method or variable. I use the word `not` in my head in conjunction with the negation operator.
 
-![Image of Not Operator](/Mod1/Images/Week1/NotOperator.png)
+![Image of Not Operator](/assets/images/module1/Week1/NotOperator.png)
 
 ## `||` and `&&`
 
 We can use the "or" operator `||` and the "and" operator `&&` to combine two conditions into a single condition. `||` evaluates to true if at least one of the conditions is true. `&&` evaluates to true if both are true:
 
-![Image of And and Or Operators](/Mod1/Images/Week1/AndOrOperators.png)
+![Image of And and Or Operators](/assets/images/module1/Week1/AndOrOperators.png)
 
-<!-- I think the note below would also be a good time to do an example w/ code that shows this common error and hopefully produces an error message? or at least we can have students get in the habit of looking at code AND predicting what might happen when it executes -->
 
 > Now, you need to determine if the dog is mid-aged (older than 3 and younger than 9).  How would you write this condition?
 
-**Instructor Note** Discuss the importance of putting a condition on either side of the operators - c# will not compile code unless you do this, but it is a common error!
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Discuss the importance of putting a condition on either side of the operators - c# will not compile code unless you do this, but it is a common error!</p>
+</aside>
 
 # Conditional Branching
 
@@ -61,8 +66,7 @@ if (age >= 16)
 }
 ```
 
-<!-- Could we also include a version of this diagram that has the specific situation written out? -->
-![inline](/Mod1/Images/Week1/IfStatementFlowChart.png)
+![inline](/assets/images/module1/Week1/IfStatementFlowChart.png)
 
 
 - If you want to spend a lot of money for dinner, go to a fancy restaurant. Otherwise, cook at home. (Two branches)
@@ -77,12 +81,12 @@ else
   Console.WriteLine("Eat at home.");
 }
 ```
-<!-- Could we also include a version of this diagram that has the specific situation written out? -->
-![inline](/Mod1/Images/Week1/IfElseStatementFlowChart.png)
+
+![inline](/assets/images/module1/Week1/IfElseStatementFlowChart.png)
 
 > What are other real world examples of conditional branching?
 
-<!-- For the below examples, I think it could be useful to also include an example that is filled in - more like psuedocode, but somethign that can highlight the different options and how only one option can be "chosen"  -->
+
 ## `if`
 
 All of our conditional branches will begin with an `if`. The code following the `if` will run if the condition is true.
@@ -97,7 +101,7 @@ if (userLoggedIn == True)
 ## `else if`
 
 Use an `else if` to create more branches. Keep in mind that only **one** branch will ever be executed.
-<!-- Do you think the below should be more explicit - specifically for the condition 2, should the comment incorproate that if condition 1 in NOT true AND condition 2 is true? I feel like we may want to be super clear that only one condition will ever trigger, not multiple. We could also include some exercises that focus on how ordering the conditions is really important and can lead to unexpected outputs if you switch them around ✅-->
+
 ```c#
 var age = 30;
 

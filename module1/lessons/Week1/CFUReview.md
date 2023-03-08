@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Week 1 Checks for Understanding
 
 With your group, answer each question below.  Spend some time discussing each question _without_ using any resources; use your own recall of the topics covered this week.  If, after you have discussed without resources, your group needs assistance, use the raise hand feature and an instructor will come help!
@@ -11,6 +15,7 @@ With your group, answer each question below.  Spend some time discussing each qu
 7. What would be the output of the following: `Console.WriteLine("The quick brown fox".Length + 32);`
 8. How would you convert the string `"32"` into the integer `32`?
 9. Review the code below:
+
 ```c#
 var userRole = "Admin";
 var tasks = "process shipping, update users";

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Methods
 
 ## Learning Goals
@@ -36,7 +40,7 @@ All methods _do_ something, they have some instructions.  Some methods have a **
 
 <!-- Really like this use of images/screenshots here! My only tweak would be to include line numbers in the screenshot to make it easier for students/instructors to reference -->
 
-![Image of assigning method calls to variables](/Mod1/Images/Week2/AssigningReturnValues.png)
+![Image of assigning method calls to variables](/assets/images/module1/week2/AssigningReturnValues.png)
 
 In the image above, we can see that it is _sometimes_ possible to assign a variable based on a method call.  The method `ToUpper` has a **return value** that we can store in a variable; its job is to return an up-cased version of the string.  But, `Add()` has no return value; its job is to change the list in some way.
 
@@ -123,7 +127,7 @@ When a method has a **return value**, we must indicate what type of object will 
 
 When we define new methods, we are creating a **method signature**
 
-![Diagram of Method Signature](/Mod1/Images/Week2/MethodSignature.png)
+![Diagram of Method Signature](/assets/images/module1/week2/MethodSignature.png)
 <!-- Love that this is broken down into a color coded diagram! these can be a nice visual way to also break up big blocks of text too -->
 
 A method signature includes the return type of the method (or `void` if there is no value returned), the name of the method, and any arguments necessary for the method to execute. We will discuss more about **static** in a later lesson 😊.

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 ## Labs
 
 Throughout this program, you will be asked to complete some activities during **lab time** (typically in the afternoon after lessons).  
@@ -13,11 +17,13 @@ During lab time, you are **encouraged** to work with your cohort-mates. By discu
 
 During today's lab, we will be assigning you into some groups to get you started down this collaborative path; but in future labs, you will be responsible for reaching out to your cohort for collaboration.
 
-** Instructor Note ** Because this is a shorter lab, we recommend splitting the cohort into groups of 3, and keeping them in those groups for both the Practice and the Preparation sections.  Keep an eye on the time, and with about 30 minutes left, bring the groups back together for some large group shareout (a great opportunity to practice technical articulation!)
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Because this is a shorter lab, we recommend splitting the cohort into groups of 3, and keeping them in those groups for both the Practice and the Preparation sections.  Keep an eye on the time, and with about 30 minutes left, bring the groups back together for some large group shareout (a great opportunity to practice technical articulation!)</p>
+</aside>
 
 ### Practice
 
-With your group, discuss your answers to the Checks for Understanding from the [Intro To Programming Lesson](/Mod1/Lessons/Week1/introToProgramming.md#check-for-understanding).  To get the ball rolling, you can start with these prompts and sentence starters:
+With your group, discuss your answers to the Checks for Understanding from the [Intro To Programming Lesson](/module1/lessons/Week1/introToProgramming#check-for-understanding).  To get the ball rolling, you can start with these prompts and sentence starters:
     * When I described programming, I said that...
     * I didn't quite understand...
     * Let's discuss any differences in our diagrams.
@@ -28,7 +34,7 @@ As you review and discuss, make note of any lingering questions you may have, or
 
 Tomorrow, we will be discussing one of the most important fundamentals of programming, Datatypes and Variables. To prepare for that lesson, watch the video linked below, and discuss the check for understanding question with your group.
 
-[![video image link](/Mod1/Images/Week1/Variables_ProgrammingForBeginners.png)](https://www.youtube.com/watch?v=ghCbURMWBD8)
+[![video image link](/assets/images/module1/Week1/Variables_ProgrammingForBeginners.png)](https://www.youtube.com/watch?v=ghCbURMWBD8)
 
 #### Check for Understanding
 * Which of the following real life items is most similar to a **variable**:
@@ -36,6 +42,3 @@ Tomorrow, we will be discussing one of the most important fundamentals of progra
     - the label 'NonfictionBooks' on a box that contains books
     - a box that contains books
     - 10 books that are inside a box
-
-
-<!-- Like that we are having students do some combined learning + prep for future lessons here. I think it might be helpful to have a breakpoint in between the CFUs on Intro to Prrogramming and watching the video so that as a whole group/with instructor facilitation, we can practice some technical articulation and clear up any misunderstandings.  -->

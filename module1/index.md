@@ -16,16 +16,16 @@ Students will learn the basics of Object Oriented Programming to build software 
 
 ## Lessons
 ### Week 1
-* [Intro to Programming](./lessons/Week1/introToProgramming.md)
-* [Conditional Logic](./lessons/Week1/ConditionalLogic.md)
-* [Data Types and Variables](./lessons/Week1/introToProgramming.md)
-* [Week 1 - Check Your Understanding](./lessons/Week1/CFUReview.md)
+* [Intro to Programming](./lessons/Week1/introToProgramming)
+* [Conditional Logic](./lessons/Week1/ConditionalLogic)
+* [Data Types and Variables](./lessons/Week1/datatypesAndVariables)
+* [Week 1 - Check Your Understanding](./lessons/Week1/CFUReview)
 
 ### Week 2
-* [Collections](./lessons/Week2/Collections.md)
-* [Looping and Iteration](./lessons/Week2/Looping.md)
-* [Methods](./lessons/Week2/Methods.md)
-* [Week 2 - Check Your Understanding](./lessons/Week2/CFUReview.md)
+* [Collections](./lessons/Week2/Collections)
+* [Looping and Iteration](./lessons/Week2/Looping)
+* [Methods](./lessons/Week2/Methods)
+* [Week 2 - Check Your Understanding](./lessons/Week2/CFUReview)
 
 ### Week 3
 * [Classes](./lessons/Week3/Classes.md)
@@ -47,14 +47,14 @@ Students will learn the basics of Object Oriented Programming to build software 
 
 ## Labs
 ### Week 1 Labs
-* [Intro to Labs](./labs/Week1/IntroToLabs.md)
-* [Data Types and Variables](./labs/Week1/DatatypesAndVariables.md)
-* [Conditional Logic](./labs/Week1/ConditionalLogic.md)
+* [Intro to Labs](./labs/Week1/IntroToLabs)
+* [Data Types and Variables](./labs/Week1/DatatypesAndVariables)
+* [Conditional Logic](./labs/Week1/ConditionalLogic)
 
 ### Week 2 Labs
-* [Collections](./labs/Week2/Collections.md)
-* [Looping and Iteration](./labs/Week2/Looping.md)
-* [Methods](./labs/Week2/Methods.md)
+* [Collections](./labs/Week2/Collections)
+* [Looping and Iteration](./labs/Week2/Looping)
+* [Methods](./labs/Week2/Methods)
 
 ### Week 3 Labs
 * [Classes](./labs/Week3/Classes.md)

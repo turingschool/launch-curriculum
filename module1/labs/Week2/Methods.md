@@ -1,15 +1,19 @@
+---
+layout: page
+---
+
 ## Lab Objectives
 * Practice creating methods
 * Reinforce the three common iteration patterns
 * Introduce **Namespaces**
 
-** Instructor Note ** Before the lab, create pairs and post the groups in slack.  Before kicking off the practice exercises, introduce the idea of driver/navigator programming - you don't need to go into too much detail, or even use those words specifically, but we are going to have students start modeling this type of behavior.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Before the lab, create pairs and post the groups in slack.  Before kicking off the practice exercises, introduce the idea of driver/navigator programming - you don't need to go into too much detail, or even use those words specifically, but we are going to have students start modeling this type of behavior.</p>
+</aside>
 
 ## Practice
 
 In your pairs, you will work through the following exercises. As you work through the exercises, take turns being the person typing out code.  For example, Partner A will share their screen and typing code into their Repl for the first exercise; Person B will be helping direct Person A with what they should type.  Then, for the next exercise, switch roles.  Repeat until you work through all of the exercises. This should be a collaborative process!
-
-<!-- In your pairs, you will work through the following exercises.  Both partners will create a Visual Studio Console Application, called 'MethodsLab'.  As you work through the exercises, take turns being the person typing out code.  For example, on the first exercise, Partner A will be sharing their screen and typing code into Visual Studio; Person B will be helping direct Person A with what they should type.  Then, for the next exercise, switch roles.  This should be a collaborative process! -->
 
 For the first three exercises, both partners will [fork this REPL](https://replit.com/@launch-team/M1W2-MethodsLab).
 
@@ -90,7 +94,9 @@ console.WriteLine(jwords);
 
 **Keep an eye on slack** We will come back together as a group to share some of the code we have been working on!
 
-** Instructor Note ** We want to highlight student solutions to the first 3 exercises, and discuss good examples of psuedo-code for the last 3 exercises.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br> We want to highlight student solutions to the first 3 exercises, and discuss good examples of psuedo-code for the last 3 exercises.</p>
+</aside>
 
 
 ## Preparation
@@ -105,8 +111,3 @@ And, answer these questions in your notebook:
 * Why do we use the line `using System;` at the top of our program.cs file?
 * Is `using System;` required for our programs to execute?  Why, or why not?
 * In your own words, what is a `namespace`?
-
-
-<!-- I think these are all pretty good exercises and can see some of these being pretty spicy! I think perhaps for some (if not all of these exercises), it would be good to include some pseudocoding/gameplanning around how they want to implement the method before writing any code. I've found that even with "straightforward" prompts students will ofter overthink, or misinterpret, what the prompt is actually asking them to do. Also, by emphasizing pseudocoding we can have students improve their problem solving AND it would give them some nice concepts to google to actualyl implement their methods -->
-
-<!-- Love the prelearning on namespaces too! -->
