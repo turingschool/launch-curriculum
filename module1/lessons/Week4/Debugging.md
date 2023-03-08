@@ -1,5 +1,8 @@
-# Debugging
-<!-- Let's add some learning goals here - whoops! ✅-->
+---
+layout: page
+title:  Debugging
+---
+<!-- # Debugging -->
 
 ## Learning Goals
 * Understand what a bug is
@@ -33,11 +36,11 @@ A **breakpoint** is a line decoration that we can use to * pause * our progam at
 
 To place a **breakpoint**, we click in the 'gutter' on the line where we want to pause the program.
 
-![](/Mod1/Images/Week4/AddBreakpoint.png)
+![](/assets/images/module1/Week4/AddBreakpoint.png)
 
 Now that there is a breakpoint placed on line 6, when we run the program, it will pause at that point, allowing us to inspect the state of our program in the **Output** panel.
 
-![](/Mod1/Images/Week4/OneBreakpointPause.png)
+![](/assets/images/module1/Week4/OneBreakpointPause.png)
 
 Here, we can see that we are **paused** on line 6 (indicated by the orange arrow).
 
@@ -45,13 +48,15 @@ When we look at the output panel, we can see our variable `dogs` and the value i
 
 > With a partner, discuss why we only see `"Sammy"` in the string.  Why are "Cutty" and "Nile" not in there?
 
-** Instructor Note ** we want students to understand that the breakpoint will pause the program *before* the line its on is executed.
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>We want students to understand that the breakpoint will pause the program *before* the line its on is executed.</p>
+</aside>
 
 ## Continuing or Stopping Program Execution
 
 With a breakpoint, we have **paused** our program at a certain point in its execution.  Once we have gathered the information we need from this point, we can either **contintue** or **stop** the program. To continue running the rest of the program, use the green `Continue` button; to stop execution and exit the program, use the red `stop` icon.
 
-![](/Mod1/Images/Week4/ContinueOrStop.png)
+![](/assets/images/module1/Week4/ContinueOrStop.png)
 
 <!-- I think it would be helpful to also demonstrate "Step Into" here so that students can use that to move the debugger line by line through the code. Not a lot of detail, just letting students know that's a debugging option. -->
 
@@ -59,7 +64,7 @@ With a breakpoint, we have **paused** our program at a certain point in its exec
 
 When you are done debugging, you will want to remove the breakpoints you have placed; you do not want to keep breakpoints in any final project.  You can remove a breakpoint by clicking on it again.  Or, if you are unsure of where your breakpoint(s) is, you can use the `Delete All Breakpoints` option under the Debug menu.
 
-![](/Mod1/Images/Week4/DeleteAllBreakpoints.png)
+![](/assets/images/module1/Week4/DeleteAllBreakpoints.png)
 
 ## Adding Multiple Breakpoints
 
@@ -67,7 +72,7 @@ Often, it will be useful to place multiple breakpoints.  You can do so by clicki
 
 When multiple breakpoints exist, the program will pause at each breakpoint in the order of execution.  In the example below, we pause first on line 6.
 
-![](/Mod1/Images/Week4/FirstOfTwoBreakpoints.png)
+![](/assets/images/module1/Week4/FirstOfTwoBreakpoints.png)
 
 We can see that at this first breakpoint, the only variable that exists _at this moment_ is `dogs`.  The code below line 5 has not yet been executed.
 
@@ -75,16 +80,18 @@ To continue execution to the next breakpoint, we click on the `Continue` button.
 
 In this example, part of the code before the next breakpoint includes a `ReadLine()`; so we will need to provide some user input, just like we would when running this program without breakpoints.  After providing that input, you will see that we are now at the second breakpoint, on line 12; note the difference between the breakpoint icons, the one with the orange arrow is where we are in the program execution.
 
-![](/Mod1/Images/Week4/SecondOfTwoBreakpoints.png)
+![](/assets/images/module1/Week4/SecondOfTwoBreakpoints.png)
 
 
 ## Breakpoints in Loops
 
 > With a partner, take a look at the code snippet below.  If we `Continue`d through the program, how many breakpoints would we hit?
 
-![](/Mod1/Images/Week4/BreakpointsInLoop.png)
+![](/assets/images/module1/Week4/BreakpointsInLoop.png)
 
-** Instructor Note ** Reiterate that breakpoints will cause a pause on a line _every_ time it is executed.  So, in a loop, we will have a break point on each iteration (not just the first one).
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>Reiterate that breakpoints will cause a pause on a line _every_ time it is executed.  So, in a loop, we will have a break point on each iteration (not just the first one).</p>
+</aside>
 
 ## Checks for Understanding
 * In your own words, describe how we use breakpoints to debug.

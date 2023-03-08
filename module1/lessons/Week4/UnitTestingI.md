@@ -1,4 +1,9 @@
-# Intro to Testing
+---
+layout:     page
+title:      Intro to Testing
+---
+
+<!-- # Intro to Testing -->
 
 ## Learning Goals
 * Define Automated Testing.
@@ -7,18 +12,22 @@
 
 ## Warm Up
 
-In small groups, discuss your reflections to yesterday's [Lab preparation questions](/Mod1/Labs/week4/ClassInteraction.md).  Be ready to share out!
+In small groups, discuss your reflections to yesterday's [Lab preparation questions](/module1/lessons/Week3/ClassInteraction).  Be ready to share out!
 
-** Instructor Note ** After the warmup, we want to highlight some of the downsides of manual testing.  Make sure to touch on:
-* the slowness of manual testing
-* the chance for human error
-* the potential lag between writing code and testing that code
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>After the warmup, we want to highlight some of the downsides of manual testing.  Make sure to touch on:</p>
+  <ul>
+    <li>the slowness of manual testing</li>
+    <li>the chance for human error</li>
+    <li>the potential lag between writing code and testing that code</li>
+  </ul>
+</aside>
 
 ## Automated Testing
 
 Up to this point, the way that we have been verifying that our code works would be referred to as **manual testing**.  We have been confirming functionality by running the programs themselves - either after completing our code, or along the way.  While this approach _can_ help us determine the functionality of our code, it also poses some problems:
 * Manual testing takes a lot of human time - time that may be better spent doing other things.
-* Manual testing is more reactive than proactive - we test our code only _after_ it has been written (more on this in a our [Unit Testing II Lesson](/Mod1/Lessons/Week5/UnitTestingII.md)).
+* Manual testing is more reactive than proactive - we test our code only _after_ it has been written (more on this in a our [Unit Testing II Lesson](/module1/lessons/Week5/UnitTestingII)).
 
 The good news: there is a better way to test! We can use **automated testing** to confirm the functionality of our code.  An **automated test** is a separate project that a developer creates alongside their implementation code.  This test project:
 * relies on the implementation code that is being written, and 
@@ -47,22 +56,24 @@ The first thing we need to do is create our XUnit Text Project.
 
 In the Solution Explorer, right-click on the solution name `Solution 'IntroToTestingWithXUnit'` and select `Add > New Project`.
 
-![Add new project](/Mod1/Images/Week4/CreateTestProject1.png)
+![Add new project](/assets/images/module1/Week4/CreateTestProject1.png)
 
 Search for `xUnit` and select the c# xUnit Test Project, then click `Next`.
 
-![Create xUnit Project](/Mod1/Images/Week4/CreateTestProject2.png)
+![Create xUnit Project](/assets/images/module1/Week4/CreateTestProject2.png)
 
 Name your project `IntroToTesting.UnitTests`. Click `Next` and then `Create`.
 
-![Naming the test project](/Mod1/Images/Week4/CreateTestProject3.png)
+![Naming the test project](/assets/images/module1/Week4/CreateTestProject3.png)
 
 <!-- Great work on using screenshots to capture this user flow! -->
 We have now created a new project that is a `Console Application` with a few differences. One of the biggest differences between these two projects is the presence of a `Program.cs` file in IntroToTesting, and a lack of that file in IntroToTesting.UnitTests.
 
 > With a partner, discuss the purpose of the file `Program.cs`; how have we used this file in the past?  Why do you think we _don't_ have that file in the test project? Be ready to share out some ideas!
 
-** Instructor Note **: we want students to start to think about the separation of _writing_ and _executing_ code.  Because the execution of code in tests looks so different from executing code in Program, it can be difficult for them to make the connection that the tests are _executing_ the implementation code.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>we want students to start to think about the separation of <em>writing</em> and <em>executing</em> code.  Because the execution of code in tests looks so different from executing code in Program, it can be difficult for them to make the connection that the tests are <em>executing</em> the implementation code.</p>
+</aside>
 
 ---------------------------------------------
 
@@ -102,7 +113,9 @@ In our starter project, we have an existing class - `User`.  Take a moment to re
     }
 ```
 
-** Instructor Note ** Give students a minute or two to look over the class, and then ask them to share the methods that they identified.
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>Give students a minute or two to look over the class, and then ask them to share the methods that they identified.</p>
+</aside>
 
 -----------------------------------------------
 
@@ -117,7 +130,7 @@ And, we will want to test that we can access the properties that we want availab
 
 Let's start by testing the Properties.  In your IntroToTesting.UnitTest > UnitTest1.cs file, update the first test so that your file looks like this: 
 
-![screenshot of the first test for the User class](/Mod1/Images/Week4/UserUnitTest1.png)
+![screenshot of the first test for the User class](/assets/images/module1/Week4/UserUnitTest1.png)
 
 ### Adding a Project Reference
 
@@ -127,11 +140,11 @@ In any solution, we might have one or more projects; and within those projects, 
 
 To add the reference, right click on the project Name, and select Add > Project Reference.
 
-![Add a project reference](/Mod1/Images/Week4/AddProjectRefernce1.png)
+![Add a project reference](/assets/images/module1/Week4/AddProjectRefernce1.png)
 
 Then, mark the box for `IntroToTesting` and click 'OK'
 
-![Add a project reference](/Mod1/Images/Week4/AddProjectReference2.png)
+![Add a project reference](/assets/images/module1/Week4/AddProjectReference2.png)
 
 Once this reference is added, you should see the red squiggles under `User` disappear - our Test project now knows about any * public * class that exists in the IntroToTesting project.
 <!-- I am sort of excited about havign students use Visual Studio which seems to reduce some unnecessary headaches by incorporting more GUI-type functionality and not having do deal with a lot of filepathing/exports/etc. -->
@@ -149,23 +162,23 @@ The Test Name can be anything that describes the behavior that test is meant to 
 
 The expectations describe how we want an object to behave.  In this case, immediately after the user is created on line 8, we want `user.Name` to be `"Archie"`, and `user.Tweets` to be an empty list of strings.  We are using some objects and methods that we get from xUnit to confirm this (Assert, and .Equal()).
 
-![test syntax breakdown](/Mod1/Images/Week4/TestSyntax.png)
+![test syntax breakdown](/assets/images/module1/Week4/TestSyntax.png)
 
 ### Running Our Test
 
 Now that we have a test written, we can run it by selecting Test > Run All Tests.
 
-![Run all tests](/Mod1/Images/Week4/RunAllTest.png)
+![Run all tests](/assets/images/module1/Week4/RunAllTest.png)
 
 This will open the Test Explorer in either a new window, or in the same pane as your solution explorer.  You should see a cascade of green checks indicating that your test has passed!
 
-![Passing Tests](/Mod1/Images/Week4/PassingTests.png)
+![Passing Tests](/assets/images/module1/Week4/PassingTests.png)
 
 If your test didn't pass, you would see a red indicator, and some information as to why the test did not pass.  Let's update our test to force a failure, just to see what that looks like.  
 
 On line 9 of your test, change the expected name to be `"ARCHIE"`, then run your tests again.  You should see something like:
 
-![Failing Test](/Mod1/Images/Week4/FailingTest.png)
+![Failing Test](/assets/images/module1/Week4/FailingTest.png)
 
 Now, we can see that our test did not pass because what we _expected_ (`"ARCHIE"`) was not what we _actually_ got (`"Archie"`).  This failure means that our User class is syntactically correct (our program didn't crash), but is not behaving as expected.
 
@@ -175,14 +188,16 @@ Let's revert this test back to the passing version, and write some more tests!
 
 We've tested that our user gets created with a Name, and an empty List of Tweets.  Now, let's confirm that we can set and retrieve their Username.
 
-![Username Test](/Mod1/Images/Week4/UsernameTest.png)
+![Username Test](/assets/images/module1/Week4/UsernameTest.png)
 
 We can see that the structure of this test is just a bit different that our first test.  In addition to creating a user and making assertions, we are also executing some code (on line 17).  Frequently, we will need to do some execution of code in our tests to confirm that a particular behavior is working properly.  In this case, in order to verify that our User can be given a username, we have to actually execute that code - if the User class was not set up correctly, our tests will fail.
 
 <!-- I wonder if it makes sense to walk students through an example of a method test rather than two property tests. That way we can have them try those two separate types of test in the CFU portion below? -->
 > With a partner, write two more tests that verify the methods `Tweet()` and `MostRecentTweet()`.  
 
-** Instructor Note ** Jump into some breakout rooms and see if there are any groups that have tests that we can share out and possibly build on to show a completed test.  If after 10 minutes or so, students are getting bogged down by the test for `Tweet()`, or if you are not seeing much progress, you can pull the group back together and walk through that test, and then release them to work on `MostRecentTweet()`
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Jump into some breakout rooms and see if there are any groups that have tests that we can share out and possibly build on to show a completed test.  If after 10 minutes or so, students are getting bogged down by the test for `Tweet()`, or if you are not seeing much progress, you can pull the group back together and walk through that test, and then release them to work on `MostRecentTweet()`</p>
+</aside>
 
 ## Check for Understanding
 * What is automated testing?  How does it differ from manual testing?

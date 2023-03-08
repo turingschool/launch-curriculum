@@ -1,4 +1,8 @@
-# Refactoring
+---
+layout:     page
+title:      Refactoring
+---
+<!-- # Refactoring -->
 
 ## Learning Goals
 * Define 'Refactoring' in programming terms.
@@ -6,7 +10,7 @@
 
 ## What is Refactoring?
 
-Refactoring refers to the process we use to improve the way our code is written.  Though we have not discussed refactoring in detail, we have seen it during some of our lessons!  For instance, we can see a good example of refactoring in our [OOP lesson](/Mod1/Lessons/Week4/OOP.md):
+Refactoring refers to the process we use to improve the way our code is written.  Though we have not discussed refactoring in detail, we have seen it during some of our lessons!  For instance, we can see a good example of refactoring in our [OOP lesson](/module1/lessons/Week3/OOP):
 
 First, we start with some code to help organize Dog Sitting clients.  
 
@@ -79,13 +83,17 @@ This refactored code results in the **same functionality** that has been impleme
 
 > With a partner, come up with your own definition for refactoring.  List some ways you would know if a change to your code is or is not a refactor. Be ready to share out your ideas!
 
-** Instructor Note ** We want students to put their own words to the idea that refactoring does not change the functionality of the program - there is a difference between refactoring and improving functionality/adding features.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>We want students to put their own words to the idea that refactoring does not change the functionality of the program - there is a difference between refactoring and improving functionality/adding features.</p>
+</aside>
 
 Based on the definition of refactoring as an activity that does not change the functionality of a program, you might wonder why refactoring is done at all.  
 
 > With a partner, come up with 2-5 ideas of when or why code would be refactored.  Your instructor with start a thread in slack where you will share these ideas.
 
-** Instructor Note **  As students are brainstorming, post a thread starter in slack to gather their ideas - remind groups to be posting as they finish their list. 
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>As students are brainstorming, post a thread starter in slack to gather their ideas - remind groups to be posting as they finish their list.</p>
+</aside>
 
 ## Responsibilities
 
@@ -128,13 +136,17 @@ namespace ListCalculations
 > In small groups, annotate what is happening in this program.  Take a look at each line and write down what is happening. For example: On line 3, a class called 'Program' is being declared.  When you have a good idea of what the code is doing on each line, see if you can list all of the **responsiblitities** (or steps) that happen as the program runs.  Be prepared to share out!
 <!-- I suggest having students reference the actual line number in their description of "what is happening" - this will help them be more clear and is good practice for technical articulation. -->
 
-** Instructor Note ** When bringing students back together to share out, guide them to identify some key words that indicate the end of one responsiblity and the beginning of the next.  For example, "First we get a user input **and then** we split that input into a list **and then** we ...
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>When bringing students back together to share out, guide them to identify some key words that indicate the end of one responsiblity and the beginning of the next.  For example, "First we get a user input **and then** we split that input into a list **and then** we ...</p>
+</aside>
 
 Once we have a list of responsibilities, a good refactor would be to create methods out of each responsibility.
 
-> Back in your groups, create methods to refactor this program into a cleaner version. You can use [this repo](https://github.com/turingschool-examples/ListCalculations_Launch) as a starting point - fork and clone to create your own copy.  Use [breakpoints](/Mod1/Lessons/week2/Debugging.md), and run the code often to make sure you are maintaining the functionality!
+> Back in your groups, create methods to refactor this program into a cleaner version. You can use [this repo](https://github.com/turingschool-examples/ListCalculations_Launch) as a starting point - fork and clone to create your own copy.  Use [breakpoints](/module1/lessons/Week4/Debugging), and run the code often to make sure you are maintaining the functionality!
 
-** Instructor Note **  As students are working, and during share-out, keep an eye on daisy-chaining methods.  We want students to get in the habit of creating methods that are self-contained - so the Main method might execute multiple methods in sequence instead of one method that executes the next method, that executes the next method, etc...  After the lesson, you _could_ share a possible solution in slack.
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>As students are working, and during share-out, keep an eye on daisy-chaining methods.  We want students to get in the habit of creating methods that are self-contained - so the Main method might execute multiple methods in sequence instead of one method that executes the next method, that executes the next method, etc...  After the lesson, you _could_ share a possible solution in slack.</p>
+</aside>
 
 ## Check for Understanding
 * Imagine you are in an interview.  The interviewer asks you to explain SRP; write down your explanation, making sure to use examples to demonstrate your understanding.

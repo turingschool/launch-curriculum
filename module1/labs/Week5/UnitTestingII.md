@@ -1,8 +1,15 @@
+---
+layout: page
+title:  Unit Testing II Lab
+---
+
 ## Lab Objectives
 * Practice writing tests for existing classes
 * Reinforce the importance of the Arrange testing step
 
-** Instructor Note **  Before the lab, prepare groups of 2/3 students and post them in slack.  Plan to bring the groups back together about halfway through to review the tests for the existing classes.  Send groups back out for 10 minutes to brainstorm on an additional class to write, and bring them back together to share out ideas.
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>Before the lab, prepare groups of 2/3 students and post them in slack.  Plan to bring the groups back together about halfway through to review the tests for the existing classes.  Send groups back out for 10 minutes to brainstorm on an additional class to write, and bring them back together to share out ideas.</p>
+</aside>
 
 ## Practice
 

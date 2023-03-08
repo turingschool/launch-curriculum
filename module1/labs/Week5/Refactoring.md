@@ -1,8 +1,15 @@
+---
+layout: page
+title:  Refactoring Lab
+---
+
 ## Lab Objectives
 * Practice refactoring using SRP
 * Introduce the relationship between Tests and Refactoring
 
-** Instructor Note **  Before the lab, prepare groups of 2/3 students and post them in slack.  During the practice time, bring students all together to share out their indentified responsibilities, and then again to share out some refactors.
+<aside class="instructor-notes">
+  <p><strong>Instructor Note</strong><br>Before the lab, prepare groups of 2/3 students and post them in slack.  During the practice time, bring students all together to share out their indentified responsibilities, and then again to share out some refactors.</p>
+</aside>
 
 ## Practice
 
