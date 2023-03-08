@@ -10,7 +10,7 @@ title:      Refactoring
 
 ## What is Refactoring?
 
-Refactoring refers to the process we use to improve the way our code is written.  Though we have not discussed refactoring in detail, we have seen it during some of our lessons!  For instance, we can see a good example of refactoring in our [OOP lesson](/Mod1/Lessons/Week4/OOP.md):
+Refactoring refers to the process we use to improve the way our code is written.  Though we have not discussed refactoring in detail, we have seen it during some of our lessons!  For instance, we can see a good example of refactoring in our [OOP lesson](/module1/lessons/Week3/OOP):
 
 First, we start with some code to help organize Dog Sitting clients.  
 
@@ -136,7 +136,7 @@ namespace ListCalculations
 
 Once we have a list of responsibilities, a good refactor would be to create methods out of each responsibility.
 
-> Back in your groups, create methods to refactor this program into a cleaner version. You can use [this repo](https://github.com/turingschool-examples/ListCalculations_Launch) as a starting point - fork and clone to create your own copy.  Use [breakpoints](/Mod1/Lessons/week2/Debugging.md), and run the code often to make sure you are maintaining the functionality!
+> Back in your groups, create methods to refactor this program into a cleaner version. You can use [this repo](https://github.com/turingschool-examples/ListCalculations_Launch) as a starting point - fork and clone to create your own copy.  Use [breakpoints](/module1/lessons/Week4/Debugging), and run the code often to make sure you are maintaining the functionality!
 
 ** Instructor Note **  As students are working, and during share-out, keep an eye on daisy-chaining methods.  We want students to get in the habit of creating methods that are self-contained - so the Main method might execute multiple methods in sequence instead of one method that executes the next method, that executes the next method, etc...  After the lesson, you _could_ share a possible solution in slack.
 

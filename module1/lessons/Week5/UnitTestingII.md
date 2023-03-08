@@ -17,22 +17,22 @@ As you have practiced writing tests over the last few days, you may have noticed
 
 When writing a test, we first need to **Arrange** the state of the objects to set things up for testing.  Because each test is run individually, you will likely see the same arrangement reset throughout a test suite.
 
-![Image of a test with the first line highlighted - this is the Arrange step](/Mod1/Images/Week5/ArrangeTestStep.png)
+![Image of a test with the first line highlighted - this is the Arrange step](/assets/images/module1/Week5/ArrangeTestStep.png)
 
 After our test has been set up with the necessary arrangement, we then need to **Act** by executing the method that we are trying to test.
 
-![Image of a test with the second line highlighted - the Act step](/Mod1/Images/Week5/ActTestStep.png)
+![Image of a test with the second line highlighted - the Act step](/assets/images/module1/Week5/ActTestStep.png)
 
 Finally, we will verify that the method has worked by making an **Assertion** that will let us know if the method has worked in the way we intended.
 
-![Image of a test with the third and final line highlighted - the Assertion step](/Mod1/Images/Week5/AssertTestStep.png)
+![Image of a test with the third and final line highlighted - the Assertion step](/assets/images/module1/Week5/AssertTestStep.png)
 
 <!-- LOVE LOVE LOVE the use of visuals here - great way to break up text on the page, arrows help direct student attention, and different colors for syntax highlighting are a great way to make it feel more like actual code! -->
 
 > With a partner, review the tests below - identify the Arrange, Act, and Assert steps for each test. Be prepared to share your findings!
 <!-- Is there a way we could screenshot this code in an editor so that students can reference actual line numbers? Or bring it to a REPL so students can use line numbers AND annotate? Just some thoughts to help students and instructors have clear guidleines for how to share. ✅ -->
 
-![](/Mod1/Images/Week5/TestsForAAANotation.png)
+![](/assets/images/module1/Week5/TestsForAAANotation.png)
 
 ** Instructor Note ** We want to make sure that students start to recognize that some tests may have a combined act/assert.
 

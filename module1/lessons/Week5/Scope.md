@@ -25,10 +25,10 @@ You've probably already run into scope errors.
 Here are two screenshots of situations where I got an error because I didn't have access to a variable I wanted.
 
 Example 1:
-![Scope Example 1](/Mod1/Images/Week5/ScopeExample1.png)
+![Scope Example 1](/assets/images/module1/Week5/ScopeExample1.png)
 
 Example 2:
-![Scope Example 2](/Mod1/Images/Week5/ScopeExample2.png)
+![Scope Example 2](/assets/images/module1/Week5/ScopeExample2.png)
 
 Take 3 minutes to brainstorm: Have you encountered this error before? What did you do to fix the issue?
 
@@ -43,12 +43,12 @@ With this new definition in mind, we can see why the above code examples caused 
 <!-- Instructor Note: Look to see if students ask what a code block is. We could include it, but I'm leaning on the side of less. -->
 
 Example 1:
-![Scope Example 1 With Highlighting](/Mod1/Images/Week5/ScopeExample1Highlighting.png)
+![Scope Example 1 With Highlighting](/assets/images/module1/Week5/ScopeExample1Highlighting.png)
 
 We are trying to access the `username` variable outside of the scope where it is defined.
 
 Example 2:
-![Scope Example 2 With Highlighting](/Mod1/Images/Week5/ScopeExample2Highlighting.png)
+![Scope Example 2 With Highlighting](/assets/images/module1/Week5/ScopeExample2Highlighting.png)
 
 Note that a variable is accessible **everywhere** inside the code block in which it's defined, even from within a nested code block.
 
@@ -98,7 +98,7 @@ class Person
 ```
 <details><summary>Solution</summary><br/>
 
-![Scope Example 3 With Highlighting](/Mod1/Images/Week5/ScopeExample3.png)
+![Scope Example 3 With Highlighting](/assets/images/module1/Week5/ScopeExample3.png)
 </details>
 
 ## Fixing Scope Errors
@@ -193,7 +193,7 @@ This is where access modifiers come in!
 Instead of defining the Balance variable as `public` Isabella could have defined it as `private`. This would have caused Sergio to get the following error.
 
 
-![Access Modifiers Example](/Mod1/Images/Week5/AccessModifiersExample.png)
+![Access Modifiers Example](/assets/images/module1/Week5/AccessModifiersExample.png)
 
 ## Definitions
 
