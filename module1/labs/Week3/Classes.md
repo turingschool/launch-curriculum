@@ -1,5 +1,6 @@
 ---
 layout: page
+title:  Classes Lab
 ---
 
 ## Lab Objectives

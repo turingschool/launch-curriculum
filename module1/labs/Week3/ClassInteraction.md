@@ -1,5 +1,6 @@
 ---
 layout: page
+title:  Class Interaction Lab
 ---
 
 ## Lab Objectives
