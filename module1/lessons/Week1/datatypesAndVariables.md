@@ -1,5 +1,6 @@
 ---
 layout: page
+title:  Data Types and Variables
 ---
 
 ## Learning Goals

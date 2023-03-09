@@ -1,12 +1,12 @@
 ---
 layout: page
+title:  Conditional Logic
 ---
 
 ## Learning Goals
 
 * explain the flow of execution through code  
 * use `if/else` statements to control execution
-
 
 # Conditions
 
@@ -44,7 +44,6 @@ We can use the "or" operator `||` and the "and" operator `&&` to combine two con
 
 ![Image of And and Or Operators](/assets/images/module1/Week1/AndOrOperators.png)
 
-
 > Now, you need to determine if the dog is mid-aged (older than 3 and younger than 9).  How would you write this condition?
 
 <aside class="instructor-notes">
@@ -68,7 +67,6 @@ if (age >= 16)
 
 ![inline](/assets/images/module1/Week1/IfStatementFlowChart.png)
 
-
 - If you want to spend a lot of money for dinner, go to a fancy restaurant. Otherwise, cook at home. (Two branches)
 
 ```c#
@@ -85,7 +83,6 @@ else
 ![inline](/assets/images/module1/Week1/IfElseStatementFlowChart.png)
 
 > What are other real world examples of conditional branching?
-
 
 ## `if`
 
