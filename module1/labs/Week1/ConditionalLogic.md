@@ -1,8 +1,9 @@
 ---
 layout: page
+title:  Conditional Logic Lab
 ---
 
-# Lab
+## Lab Time
 Lab time is designed for you to prepare for upcoming lessons, and practice what you have learned so far.  Both aspects are important for your success.  During this time, you are encouraged to collaborate with fellow students, and reach out to instructors with any and all questions!
 
 <aside class="instructor-notes">
