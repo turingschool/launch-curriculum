@@ -1,8 +1,7 @@
 ---
 layout: page
+title:  Collections
 ---
-
-# Collections
 
 ## Learning Goals
 * Define and use **arrays** and **lists**

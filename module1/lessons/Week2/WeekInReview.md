@@ -1,8 +1,7 @@
 ---
 layout: page
+title:  Week 2 Review Guide
 ---
-
-# Week 1 Review Guide
 
 ## Small Group 1
 In small groups (3/4 students), work through these these [Checks For Understanding](/module1/lessons/Week2/CFUReview) questions that cover each of this week's lessons.  Make a note of any questions or topics that are unclear - instructors will be moving around break-out rooms helping to clarify tricky topics.  If you need an instructor, use the raise hand ✋ feature.
