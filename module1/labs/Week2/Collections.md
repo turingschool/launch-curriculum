@@ -1,5 +1,6 @@
 ---
 layout: page
+title:  Collections Lab
 ---
 
 ## Lab Objectives
