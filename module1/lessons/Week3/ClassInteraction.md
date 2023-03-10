@@ -1,8 +1,7 @@
 ---
 layout: page
+title:  Class Interaction
 ---
-
-# Class Interaction
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>For this lesson, you will want to have a repo with some finished code that you can use if needed to supplement student examples.  Either create your own completed Unicorn & Power classes, or you can [fork this example](https://replit.com/@launch-team/M1W3-ClassInteractionLesson)</p>

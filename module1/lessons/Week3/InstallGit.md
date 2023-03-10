@@ -1,8 +1,8 @@
 ---
 layout: page
+title:  Git Installation
 ---
 
-# Git Installation
 Welcome to the wonderful world of Git, a powerful version control system that is free and open source. Git is designed to handle small to very large projects with speed and efficiency.
 
 Let's walk through how to install Git on your local machine.

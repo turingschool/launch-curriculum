@@ -1,8 +1,7 @@
 ---
 layout: page
+title:  Week 3 Review Guide
 ---
-
-# Week 3 Review Guide
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>For this review, we want to go over the three spicier iteration problems from earlier in the week's labs.  Plan to spend some extra time between groups1 and 2 to highlight students progress toward implementation of these problems.  If necessary, you may demonstrate an implementation of the problems so that students have at a minimum seen the patterns of transforming, finding, and building in iteration.</p>

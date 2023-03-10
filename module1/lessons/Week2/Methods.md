@@ -1,8 +1,7 @@
 ---
 layout: page
+title:  Methods
 ---
-
-# Methods
 
 ## Learning Goals
 * Define the terms Method, Argument, Return Value, and Object.

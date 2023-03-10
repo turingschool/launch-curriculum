@@ -1,4 +1,7 @@
-# Daily Wrap-Up Meeting
+---
+layout: page
+title:  Daily Wrap-Up Meeting
+---
 
 ## What x Why
 

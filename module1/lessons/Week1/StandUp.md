@@ -1,4 +1,7 @@
-# Daily Stand-Up Meeting
+---
+layout: page
+title:  Daily Stand-Up Meeting
+---
 
 ## What x Why
 

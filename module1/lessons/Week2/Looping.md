@@ -1,5 +1,6 @@
 ---
 layout: page
+title:  Looping and Iteration
 ---
 
 ## Learning Goals

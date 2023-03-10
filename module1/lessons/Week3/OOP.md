@@ -1,8 +1,7 @@
 ---
 layout: page
+title:  Object Oriented Programming
 ---
-
-# Object Oriented Programming
 
 ## Learning Goals
 * Define OOP

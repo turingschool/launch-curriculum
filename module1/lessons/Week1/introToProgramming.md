@@ -1,8 +1,8 @@
 ---
 layout: page
+title:  Introduction to Programming
+subheading: (a.k.a. How computers work!)
 ---
-
-# Intro to Programming (How computers work!)
 
 ## Learning Goals
 * Understand what makes something a computer
