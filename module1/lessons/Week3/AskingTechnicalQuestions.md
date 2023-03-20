@@ -42,20 +42,14 @@ When asking your question in Slack, to write the inline code, use a single backt
 ## Examples and Non-Examples
 
 <section class="call-to-action">
-### Megan and `Add`
+<h3> Megan and `Add` </h3>
 
 The question that follows, from Megan, isn't specific and puts a lot of work on the people potentially answering the question. Not only will people not completely know how to answer this question, the answers also won't help Megan's learning much. If an employer saw a question like this from Megan, they'd learn that they aren't resourceful and don't communicate their needs well. An employer might conclude that Megan will be a costly employee who won't contribute much.
-<blockquote>
 <img src="/assets/images/module1/Week3/questionV1.png" alt="Good Question 1" style="width: 60%">
-</blockquote>
 
 After receiving some feedback, Megan re-wrote their question. They provided a code snippet, shared the error message in their Terminal, and told the group what they'd tried. This question is quite easy for someone to read and answer quickly, demonstrating Megan is an effective communicator in a technical environment.
-
-<blockquote>
 <img src="/assets/images/module1/Week3/questionV2.png" alt="Good Question 1" style="width: 60%">
-</blockquote>
 </section>
-<br>
 
 <!-- <div class="s-card">
   <h3>Eric & Homework Help</h3>
