@@ -24,10 +24,10 @@ During today's lab, we will be assigning you into some groups to get you started
 
 ### Practice
 
-With your group, discuss your answers to the Checks for Understanding from the [Intro To Programming Lesson](/module1/lessons/Week1/introToProgramming#check-for-understanding).  To get the ball rolling, you can start with these prompts and sentence starters:
-    * When I described programming, I said that...
-    * I didn't quite understand...
-    * Let's discuss any differences in our diagrams.
+With your group, discuss your answers to the Checks for Understanding from the [Intro To Programming Lesson](/module1/lessons/Week1/introToProgramming#check-for-understanding).  To get the ball rolling, you can start with these prompts and sentence starters:  
+    * When I described programming, I said that...  
+    * I didn't quite understand...  
+    * Let's discuss any differences in our diagrams.  
 
 As you review and discuss, make note of any lingering questions you may have, or of interesting discoveries you make! We will be coming together as a large group to share out before moving on to the next part of the lab.
 
