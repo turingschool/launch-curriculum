@@ -4,6 +4,10 @@ title:  Introduction to Programming
 subheading: (a.k.a. How computers work!)
 ---
 
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>There is a Slides presentation that you can use along with this lesson: https://docs.google.com/presentation/d/1Zv8zHYvOs6kEZHFjwSoNdIl5aJWwh3VDbgbRlcWipao/edit#slide=id.p1</p>
+</aside>
+
 ## Learning Goals
 * Understand what makes something a computer
 * Appreciate the importance of giving instructions
