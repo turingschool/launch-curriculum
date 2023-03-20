@@ -67,6 +67,70 @@ You can include 'hidden' instructor notes in your lessons by using the following
 
 These notes are available by calling `showInstructorNotes()` in console.
 
+### Styling Your Lesson Plans
+
+You can add styled boxes to your lesson plans for different areas of content.
+
+#### Standard Box:
+
+```html
+<section class="call-to-action">
+### In Your Notebook
+
+What would you expect to be logged when we get to line 10? Why?
+</section>
+```
+
+Will result in the following styled box:
+
+![styled-box](https://user-images.githubusercontent.com/17582916/60548262-e75fd180-9cde-11e9-8964-03c4ee6152d9.png)
+
+#### Answer/Solution Box:
+
+The heading in the answer box *must be an h3*. You can include any text within the section after that
+
+```html
+<section class="answer">
+### The Answer  
+
+Here is an answer to the On Your Own section...
+</section>
+```
+
+Will result in the following styled box:
+
+![collapsed answer](https://user-images.githubusercontent.com/17582916/72355972-a725d680-36a5-11ea-8755-077ebf0d34dc.png)
+
+![expanded answer](https://user-images.githubusercontent.com/17582916/72356019-be64c400-36a5-11ea-87e6-a5a7310db2bc.png)
+
+#### Note Box:
+
+```html
+<section class="note">
+### Note
+
+This hoisting behavior adds some complexity to the JavaScript language, and is important to understand thoroughly in order to anticipate the values of your variables at any given time.
+</section>
+```
+
+![note-box](https://user-images.githubusercontent.com/17582916/60548280-f2b2fd00-9cde-11e9-848c-6d58f4b6ebde.png)
+
+#### CFU/Exit Ticket Box:
+
+```html
+<section class="checks-for-understanding">
+### Exit Ticket
+
+What are 3 easy and actionable accessibility steps you can take in all of your projects from here on out?
+</section>
+```
+
+![cfu-box](https://user-images.githubusercontent.com/17582916/60548305-ff375580-9cde-11e9-9e06-739244d68973.png)
+
+**DO NOT INDENT YOUR MARKDOWN** within the section tag, or else it will not work.
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+
