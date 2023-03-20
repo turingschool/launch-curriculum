@@ -27,7 +27,7 @@ There are many objects that we interact with every day that are computers - lapt
 
 All computers have some mechanism for taking input, storing that input as data, processing the data, and outputting the results.
 
-> With a partner, discuss the input and output of one or more of the devices you indentified during the warm up.
+> With a partner, discuss the input and output of one or more of the devices you identified during the warm up.
 
 ## Input
 
@@ -73,7 +73,7 @@ To learn more, let's check out this video:
 
 The storage and processing of information works on many of these wires and circuits, typically organized into specialized circuit boards.  Some circuit boards are for storage, others for adding numbers, others for creating images, and all of the other things that computers can do.  
 
-For a computer like a laptop that has to perform many different tasks, we need a very specialized circuit board called a **CPU (Central Processing Unit)**.  The CPU is responsible for giving instructions to different circuits to perform a more complex task. **CAN WE ADD AN COMPARISON TO SOMETHING ELSE HERE - LIKE THE CPU IS A BRAIN? OR HAVE STUDENTS MAKE A COMPARISON HERE?**
+For a computer like a laptop that has to perform many different tasks, we need a very specialized circuit board called a **CPU (Central Processing Unit)**.  The CPU is responsible for giving instructions to different circuits to perform a more complex task. The CPU is like the brain of your computer 🧠.
 
 All these wires and circuits are referred to as **hardware**.  They are the physical tools that make up your computer.
 
