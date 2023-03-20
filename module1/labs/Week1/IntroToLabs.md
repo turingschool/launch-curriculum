@@ -7,10 +7,10 @@ title:  Introduction to Labs
 
 Throughout this program, you will be asked to complete some activities during **lab time** (typically in the afternoon after lessons).  
 
-Lab time will include activities that are designed to:
-    * reinforce the information that you have learned so far,
-    * present new information for you to explore with minimal instructor input,
-    * and, prepare you for upcoming lessons.
+Lab time will include activities that are designed to:  
+    * reinforce the information that you have learned so far,  
+    * present new information for you to explore with minimal instructor input,  
+    * and, prepare you for upcoming lessons.  
 
 Much of your future work as developers will include doing some independent learning and exploration, so it's a good idea to start practicing this habit now!
 
