@@ -41,18 +41,20 @@ When asking your question in Slack, to write the inline code, use a single backt
 
 ## Examples and Non-Examples
 
-<div class="s-card">
-  <h3>Megan & Add</h3>
-  <p>The question that follows, from Megan, isn't specific and puts a lot of work on the people potentially answering the question. Not only will people not completely know how to answer this question, the answers also won't help Megan's learning much. If an employer saw a question like this from Megan, they'd learn that they aren't resourceful and don't communicate their needs well. An employer might conclude that Megan will be a costly employee who won't contribute much.</p>
+<section class="call-to-action">
+### Megan and `Add`
+
+The question that follows, from Megan, isn't specific and puts a lot of work on the people potentially answering the question. Not only will people not completely know how to answer this question, the answers also won't help Megan's learning much. If an employer saw a question like this from Megan, they'd learn that they aren't resourceful and don't communicate their needs well. An employer might conclude that Megan will be a costly employee who won't contribute much.
 <blockquote>
     <img src="/assets/images/module1/Week3/questionV1.png" alt="Good Question 1" style="width: 60%">
+</blockquote>
+
+After receiving some feedback, Megan re-wrote their question. They provided a code snippet, shared the error message in their Terminal, and told the group what they'd tried. This question is quite easy for someone to read and answer quickly, demonstrating Megan is an effective communicator in a technical environment.
+
+<blockquote>
+    <img src="/assets/images/module1/Week3/questionV2.png" alt="Good Question 1" style="width: 60%">
   </blockquote>
-    ![Question V1](/Mod1/Images/Week3/questionV1.png)
-  <p>After receiving some feedback, Megan re-wrote their question. They provided a code snippet, shared the error message in their Terminal, and told the group what they'd tried. This question is quite easy for someone to read and answer quickly, demonstrating Megan is an effective communicator in a technical environment.</p>
-  <blockquote>
-    <img src="/assets/images/module1/Week3/questionV1.png" alt="Good Question 1" style="width: 60%">
-  </blockquote>
-</div>
+</section>
 <br>
 
 <!-- <div class="s-card">
@@ -72,3 +74,4 @@ When asking your question in Slack, to write the inline code, use a single backt
 As you prepare to ask questions—in written form or in live communications—**think about how you can best present the necessary information to get your question answered and to demonstrate that you are an effective communicator in a technical environment.** Things to be prepared for, and OK with:
 - It's not always easy to write up a question. It might take several minutes to find the words to describe the scenario. Part of the job as a developer is asking questions, so **it's ok to take time on it**. Budget this into your time estimates for projects and work.
 - This usually prompts what we call "rubber ducking"—or talking through the problem to yourself or an inanimate object. **The act of talking or writing through the 4 components of a good question will often help you answer it yourself**. In that case, it's definitely something to celebrate and not a waste of time. If you didn't answer the question yourself and still need to ask, that's ok too!
+
