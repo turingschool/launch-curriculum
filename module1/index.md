@@ -22,7 +22,7 @@ Students will learn the basics of Object Oriented Programming to build software 
 * Data Types and Variables: [Lesson](./lessons/Week1/datatypesAndVariables) &#124; [Lab](./labs/Week1/DatatypesAndVariables)
 * [Week 1 - Check Your Understanding](./lessons/Week1/CFUReview)
 <aside class="instructor-notes">
-    <p><strong><a href="./assessments/Week1">Weekly Assessment</a></strong></p>
+    <p><strong><a href="./assessments/week1">Weekly Assessment</a></strong></p>
 </aside>
 
 ### Week 2
