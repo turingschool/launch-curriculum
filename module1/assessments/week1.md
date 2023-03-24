@@ -47,6 +47,15 @@ This assessment has a total of **20 Points**.  Earning **10 or more** points is 
 
 As a reminder, this assessment is for students and instructors to determine if there are any areas that need additional reinforcement!
 
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br> For Scoring: On the questions, full points only.  We will give points based on logic over syntax errors.  If a program would run but do something unexpected, that is NOT a point.
+
+For the Guessing game: 3 Points for part1, 2 points for one of the if statements working with user input, 3 points for the guessing game, 2 points for excluding non-'a' names.
+    
+    </p>
+</aside>
+
+
 ## Stretch Goals (0 Points, just for some fun 😊)
 These can be done in any order, and should only be completed if you have completed the **Questions and Exercises** and **Build a Guessing Game** portions
 
