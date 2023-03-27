@@ -21,9 +21,6 @@ Students will learn the basics of Object Oriented Programming to build software 
 * Conditional Logic: [Lesson](./lessons/Week1/ConditionalLogic) &#124; [Lab](./labs/Week1/ConditionalLogic)
 * Data Types and Variables: [Lesson](./lessons/Week1/datatypesAndVariables) &#124; [Lab](./labs/Week1/DatatypesAndVariables)
 * [Week 1 - Check Your Understanding](./lessons/Week1/CFUReview)
-<aside class="instructor-notes">
-    <p><strong><a href="./assessments/Week1">Weekly Assessment</a></strong></p>
-</aside>
 
 ### Week 2
 * Collections : [Lesson](./lessons/Week2/Collections) &#124; [Lab](./labs/Week2/Collections)
