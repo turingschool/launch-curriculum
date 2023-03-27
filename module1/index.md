@@ -25,14 +25,14 @@ Students will learn the basics of Object Oriented Programming to build software 
 
 ### Week 2
 * Collections : [Lesson](./lessons/Week2/Collections) &#124; [Lab](./labs/Week2/Collections)
-* Productivity + Time MGMT [Lesson](./lessons/Week2/ProductivityTimeMGMT.md)
+* Asking Technical Questions That Lead to Answers [Lesson](./lessons/Week2/AskingTechnicalQuestions)
 * Looping and Iteration: [Lesson](./lessons/Week2/Looping) &#124; [Lab](./labs/Week2/Looping)
 * Methods: [Lesson](./lessons/Week2/Methods) &#124; [Lab](./labs/Week2/Methods)
 * [Week 2 - Check Your Understanding](./lessons/Week2/CFUReview)
 
 ### Week 3
 * Classes: [Lesson](./lessons/Week3/Classes) &#124; [Lab](./labs/Week3/Classes)
-* Asking Technical Questions That Lead to Answers [Lesson](./lessons/Week3/AskingTechnicalQuestions.md)
+* Productivity + Time MGMT [Lesson](./lessons/Week3/ProductivityTimeMGMT)
 * Class Interaction: [Lesson](./lessons/Week3/ClassInteraction) &#124; [Lab](./labs/Week3/ClassInteraction)
 * Object Oriented Programming (OOP): [Lesson](./lessons/Week3/OOP) &#124; [Lab](./labs/Week3/OOP)
 * [Week 3 - Check Your Understanding](./lessons/Week3/CFUReview)
