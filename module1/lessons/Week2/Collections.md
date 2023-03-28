@@ -21,9 +21,9 @@ Work through [this arrays tutorial](
 https://docs.microsoft.com/en-us/learn/modules/csharp-arrays/1-introduction) (including the Knowledge Check at the end!)
 
 In your notebook, answer the following questions:
-    * What is an array?
-    * How is an array different from a string?
-    * Given this array: `string[] users = { "John", "Paul", "George", "Pete" }`, how would you change `"Pete"` to `"Ringo`?
+  * What is an array?
+  * How is an array different from a string?
+  * Given this array: `string[] users = { "John", "Paul", "George", "Pete" }`, how would you change `"Pete"` to `"Ringo`?
 
 <!-- Where are they answering these questions?
 From yesterday's lab work, in a notebook, answer the following questions.
