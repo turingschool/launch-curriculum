@@ -1,4 +1,7 @@
-# Productivity and Time MGMT
+---
+layout: page
+title: Productivity and Time Management
+---
 
 ## Learning Goals
 - Identify strategies for improving productivity in a fast-paced, learning environment
@@ -15,15 +18,12 @@ In your notebook, reflect on the following questions:
 1. When have you felt least productive at Turing? What does it look like? What does it feel like?
 1. In your previous experiences (work, life, school, etc.), what strategies have you used to influence your productivity?
 
-### Workspace Analysis
-In your notebook, reflect on the following questions:
-1. Where do you typically work during class time? What is your working environment like?
-1. How do you manage your laptop, external monitor, and notebook?
-1. If you could change one thing about your setup, what would you adjust?
-1. What is one part of your workspace that is working well for you?
-
 ### Share Outs
 In small groups, be prepared to share your responses to the questions above. We will come back as a group to review the learnings you and your cohortmates discussed.
+
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>I recommend saying you will randomly call on students, and that you will ask students to share something that stood out from their conversation, either that they said or that a cohortmate said.</p>
+</aside>
 
 ## Productivity in a Remote Setting
 The remote nature of Turing can be a difficult transition for most students - the less structured environment puts a premium on personal accountability and maximizing your time. Today, we are going to cover some strategies to improve your efficiency as a developer and a student.
@@ -31,7 +31,6 @@ The remote nature of Turing can be a difficult transition for most students - th
 1. **Less Mouse/Trackpad, More Keyboard** - Over time, using your keyboard rather than your mouse will save you time and energy for simple tasks. It may not seem like much, but saving a few seconds over the course of a day, week, month, year, etc. adds up. Additionally, having proficiency with keyboard shortcuts can be a great differentiator from other new developers.
     - `Windows + S` to quickly open Windows Search
     - `Windows + D` to quickly show/hide the desktop
-    - `Windows + M` to quickly minimize/maximize all windows
     - `Windows + V` to quickly open your Clipboard history
     - `Windows + .` to quickly open the Emoji panel
     - `CTRL + ESC` to quickly open the Start Menu
@@ -50,10 +49,19 @@ The remote nature of Turing can be a difficult transition for most students - th
 
 1. **Eliminate/Reduce Distractions** - Know Thyself. Identify what causes you to become distracted and find ways to reduce those! For example, if you find yourself checking your phone at times when you want to be focused, consider taking steps to remove that distraction. You could silence your phone, put it in a drawer until designated breaks, or other measures to help curb your distractions. Also, many applications such as Slack have settings to limit the number of notifications you receive - we recommend experimenting with these tools to find a better balance of work and life. 
 
+### Workspace Analysis
+In your notebook, reflect on the following questions:
+1. Where do you typically work during class time? What is your working environment like?
+1. How do you manage your laptop, external monitor, and notebook?
+1. What is one part of your workspace that is working well for you?
+1. If you could change one thing about your setup, what would you adjust?
+
 ## Time Management + Calendaring
 As we discussed in Mod 0, keeping track of your time and managing a calendar is a very difficult skill to master. We are going to revisit some of the concepts we discussed and apply them to your current Mod 1 calendar today.
 
- **Purposefully build in the scheduled time for health, wellness and whatever else you need to be your best self.** If you don’t plan for it, chances are it won’t happen. Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine? If you are working part-time, be sure to block that time off as well! 
+Read through this list of tips on your own. Identify one tip that you have been using and has been working well for you and one tip that you haven't been using and you want to try. I'll call on folks to share out.
+
+- **Purposefully build in the scheduled time for health, wellness and whatever else you need to be your best self.** If you don’t plan for it, chances are it won’t happen. Turing moves fast, but it is still a marathon. How can you make sure you are creating a sustainable schedule/routine? If you are working part-time, be sure to block that time off as well! 
 - **Color coding can be your friend.** Choose different colors for Turing-related and Life-related tasks. This way you can get a quick glimpse of how well you are finding a balance between these two competing priorities. 
 - **Break down time blocks into smaller chunks.** Anything over an hour will usually be unproductive and give too much time to procrastinate. Additionally, on each calendar event, name the specific task you expect you to complete in that time. If you don't finish or something else takes longer, you just move that block instead of losing your tasks. It’s like a task list and a calendar in one!
 - **Avoid context-shifting too frequently.** On the flip side, don’t break down your blocks too much. For example, trying to cram 4-5 different tasks into a single hour is also not productive and can be extremely exhausting.
@@ -71,15 +79,7 @@ We are going to spend some time diving into your calendar for the next 3 weeks a
     - Work (if working while in the Launch program)
 1. Add your known Life obligations to your calendar for the rest of the module
     - Consider using this as a way to track the activities that you need to be a successful human! This could look like blocks of time for exercise, meal prep, connecting with your friends/family, etc.
-    - This is also a space to add other obligations such as appointments and commitments outside of Turing - when do you plan on getting these done given that Turing goes M-Thurs, 9am - 4pm MST? 
+    - This is also a space to add other obligations such as appointments and commitments outside of Turing.
 1. Add your known Work obligations for the rest of the module (if applicable)
 1. Build in at least one time per week to reflect specifically to do some reflection on your time management and review/adjust your calendar
     - We have seen students find success with this approach when they build in reflection time at the end of the week. Consider how you could use 30 mins of your time on Fridays to review your previous week and make adjustments for the week ahead?
-
-### Share Outs
-In small groups, take turns sharing your calendar with one another. As you review your teammate's calendar, reflect on the following questions:
-1. What strategies are they using to manage their different obligations? Are they using color coding? Time blocks? Other approaches?
-1. After reviewing their calendar, is it clear that they have considered how to balance their Turing and non-Turing obligations?
-1. Do they have time blocked off to reflect on/adjust their time management approach?
-
-After you take turns sharing calendars with your partner, take the remaining time to make any adjustments to your own calendar. Afterward, take some screenshots of the week-by-week breakdown of your calendar and be prepared to share them with your instructors. 
