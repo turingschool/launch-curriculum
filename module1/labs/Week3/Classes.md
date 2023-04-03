@@ -6,7 +6,6 @@ title:  Classes Lab
 ## Lab Objectives
 * Practice brainstorming the classes that might exist in an application
 * Reinforce the syntax and structure of classes
-* Introduce the `Date` object: create and manipulate dates
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>Before the lab, set up groups of 3/4 students and post in slack.</p>
@@ -87,21 +86,3 @@ Console.WriteLine($"Order Summary\n{orderSummary}\nTotal: ${orderTotal}");
 When your group has determined at least 2 classes, individually create a Console Application and implement those classes.  Then, implement the order-taking application using the classes that you created.
 
 **Keep and eye on slack** We will be coming together to discuss the brainstorming process, and hear from groups on what classes they came up with for the three scenarios above: Go Fish, Instagram, and OrderTaking.
-
-### Code Snippets
-Now that we have been working with Visual Studio for a few days, you should be feeling more familiar with the intellisense code suggestions and (semi)auto-complete of some started code.  In addition to the auto-complete, Visual Studio also uses **code snippets** that help speed up the typing part of coding.  One of the most useful snippets is `ctor`.
-
-If you are inside of a class and type `ctor`, the intellisense will give you a suggestion for creating the class constructor!
-
-![screenshot of ctor shortcut](/assets/images/module1/Week3/ctor-shortcut.png)
-
-Using code snippets is not required to write code, but they can be helpful.  If you are interested in learning about more code snippets, take a look at the [Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets?view=vs-2022)!
-
-## Preparation
-### Working with `Date`
-Imagine that you are creating a Patient class for a doctor's office.  The Patient class might have attributes like name, height, weight, and birthdate.  When creating the class, name is probably going to be a `string`, height and weight will probably be `double` or `float`.  But what about birthdate?  You might be tempted to make it a string so that we could enter `"12/2/2002"`.  This _could_ work, but its not the best solution.  If birthdate is a string, we might have different patients with birthdays like: `"January 2 1990"`, `"Jan 2 1990"`, `"1/2/1990"`, `"01/02/1990"`, `"2/1/1990"`.  All of these versions could be interpreted the same way, but they do not all follow the same format - so you _have_ to do some interpreting when reading the data.  It would be much better to constrain our birthdate attribute into a specific format.  C# (and many other languages), implement this kind of formatting with `Date` and `DateTime` objects.
-
-Watch [this video](https://docs.microsoft.com/en-us/shows/csharp-fundamentals-for-absolute-beginners/working-with-dates-and-times) about DateTime, and then in your notebook, answer the following questions:
-* How would you create a DateTime variable that holds your birthdate?
-* Given the two birthdates called `megansBirthdate` and `andysBirthdate`, how would you determine the age difference between them?
-* Let's think about the possible `Patient` class that has an attribute of `Birthdate`.  Write a method that would live in this class called `Age()`; it should return an integer that represents the Patient's age in years.
