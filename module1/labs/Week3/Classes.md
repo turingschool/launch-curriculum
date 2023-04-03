@@ -39,7 +39,7 @@ Spend up to 10 minutes brainstorming, before moving on to the next section of th
 
 ### Building on our Order-Taking Application
 
-With your group, take 15 minutes to review a version of the order taking application we have been building upon.  Discuss what classes could exist in this application and decide on at least two classes to implement.
+With your group, take 15 minutes to review the order-taking application below.  Discuss what classes could exist in this application and decide on at least two classes to implement.
 
 When looking at existing code as a starting point for building classes, it can be helpful to start by thinking about what methods might exist, and then see if you can group those methods into related ideas (classes).
 
