@@ -17,7 +17,7 @@ For example:
 
 * Type of object: Car
 * Specific instances:
-    * Megan's Suburu Outback, Madonna's Rolls Royce, that yellow Camaro for sale at Bob's Auto Mart.
+    * Megan's Subaru Outback, Madonna's Rolls Royce, that yellow Camaro for sale at Bob's Auto Mart.
 * Attributes:
   * Make, Model, Color
 * Behaviors:
@@ -324,6 +324,15 @@ Let's update our `program.cs` so that you:
 
 - With your pair, create a `haveBirthday` method for your Dog class. This should increase the age of that dog by 1.
 - Create a method on your Dog class that will return a string to introduce the dog - something like "Bork, my name is <name>.".
+
+## Working with Dates
+Imagine that you are creating a Patient class for a doctor’s office. The Patient class might have attributes like name, height, weight, and birthdate. When creating the class, name is probably going to be a string, height and weight will probably be double or float. But what about birthdate? You might be tempted to make it a string so that we could enter "12/2/2002". This could work, but its not the best solution. If birthdate is a string, we might have different patients with birthdays like: "January 2 1990", "Jan 2 1990", "1/2/1990", "01/02/1990", "2/1/1990". All of these versions could be interpreted the same way, but they do not all follow the same format - so you have to do some interpreting when reading the data. It would be much better to constrain our birthdate attribute into a specific format. C# (and many other languages), implement this kind of formatting with Date and DateTime objects.
+
+Watch [this video](https://docs.microsoft.com/en-us/shows/csharp-fundamentals-for-absolute-beginners/working-with-dates-and-times) about DateTime, and then in your notebook, answer the following questions:
+
+* How would you create a DateTime variable that holds your birthdate?
+* Given the two birthdates called megansBirthdate and andysBirthdate, how would you determine the age difference between them?
+* Let’s think about the possible Patient class that has an attribute of Birthdate. Write a method that would live in this class called Age(); it should return an integer that represents the Patient’s age in years.
 
 
 ### Check for Understanding
