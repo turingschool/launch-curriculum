@@ -33,8 +33,8 @@ Students will learn the basics of Object Oriented Programming to build software 
 ### Week 3
 * Classes: [Lesson](./lessons/Week3/Classes) &#124; [Lab](./labs/Week3/Classes)
 * Productivity + Time MGMT [Lesson](./lessons/Week3/ProductivityTimeMGMT)
-* Class Interaction: [Lesson](./lessons/Week3/ClassInteraction) &#124; [Lab](./labs/Week3/ClassInteraction)
 * Object Oriented Programming (OOP): [Lesson](./lessons/Week3/OOP) &#124; [Lab](./labs/Week3/OOP)
+* Class Interaction: [Lesson](./lessons/Week3/ClassInteraction) &#124; [Lab](./labs/Week3/ClassInteraction)
 * [Week 3 - Check Your Understanding](./lessons/Week3/CFUReview)
 
 ### Week 4
