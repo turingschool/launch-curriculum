@@ -7,7 +7,22 @@ title:  Object Oriented Programming Lab
 * Practice class brainstorming
 * Explore how multiple class definitions can work together
 
-<aside class="instructor-notes">
+### Code Annotations
+
+Take 13 minutes to annotate your forked copy of [this starter repl](https://replit.com/@launch-team/OOPLabStarter#main.cs). Then, we will have 7 minutes to share in small groups.
+
+### Class Brainstorming/Building
+
+In your small groups, decide on one class to create to help clean up this program.  DM your instructor the class and any attributes you think it should have.  When given the ok from your instructor, build the class you decided on, and update the program to maintain it's functionality!.  You should each implement the class, but should work together to answer any questions that arise.
+
+### Spicing it up a bit
+
+As a whole group, we will discuss a second class that could be implemented.  You will then have time to implement that class on your own.
+
+
+
+
+<!-- <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>Before the lab, create groups of 2/3 students and post those in slack.</p>
 </aside>
 
@@ -55,4 +70,4 @@ public void MethodName(object argumentName) // this is the method signature
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>We don't need to go into too much detail on the exact implementation as this is something we will be covering in our object interaction lesson.  But, we do want to reiterate that the *type* of object is indicated for every argument and any method return value - and point out that the same is true for objects that are instances of classes that _we_ have created.</p>
-</aside>
+</aside> -->
