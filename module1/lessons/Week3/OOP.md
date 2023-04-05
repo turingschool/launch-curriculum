@@ -3,6 +3,13 @@ layout: page
 title:  Object Oriented Programming
 ---
 
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Slides for this lesson: 
+https://docs.google.com/presentation/d/10nrHvI_FePGWE9HfdDDjEvADrshGPUcf6_2uT5QP7Kk/edit#slide=id.p1</p>
+</aside>
+
+https://docs.google.com/presentation/d/10nrHvI_FePGWE9HfdDDjEvADrshGPUcf6_2uT5QP7Kk/edit#slide=id.p1
+
 ## Learning Goals
 * Define OOP
 * Discuss the benefits of OOP
