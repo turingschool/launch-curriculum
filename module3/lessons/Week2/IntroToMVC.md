@@ -11,7 +11,7 @@ title:  Introduction to MVC (Model, View, Controller)
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>
     Use this powerpoint for the start and end of the lesson. https://docs.google.com/presentation/d/1YKc7fF2SyeWJUmmw2Elw4HujCgkRUVbwuE9SXzimqdo/edit?usp=sharing
-    <br>It's set up to use Pear Deck, because think that fits very well here, but this can totally be done without pear deck to avoid another thing to keep track of with this lesson!
+    <br>It's set up to use Pear Deck, because think that fits very well here, but this can totally be done without pear deck to avoid another thing to keep track of with this lesson!<br> There is a branch in the starter code repo called finishedMVC that has the finished version of today's lesson. 
     </p>
 </aside>
 
