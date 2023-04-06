@@ -4,174 +4,135 @@ title:  Introduction to MVC (Model, View, Controller)
 ---
 
 ## Learning Goals
-* Identify the elements of the MVC design pattern
-* Describe the single responsibility of each of the Model, View, and Controller
+* Describe the elements of the MVC design pattern
+* Identify the single responsibility of each of the Model, View, and Controller
 * Build our first ASP.NET MVP Application
 
-<!-- Todo insert the plan for the day here.... -->
-https://docs.google.com/presentation/d/1YKc7fF2SyeWJUmmw2Elw4HujCgkRUVbwuE9SXzimqdo/edit?usp=sharing
-
-## Building and Running The Starter Project
-
 <aside class="instructor-notes">
-    <p><strong>Instructor Note</strong><br>This lesson is a modification of the Microsoft tutorial with only the essentials left. https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-6.0&tabs=visual-studio <br> Make sure students don't select the template just titled `asp.net core web app` without the MVC at the end, that uses Razor Pages
+    <p><strong>Instructor Note</strong><br>
+    Use this powerpoint for the start and end of the lesson. https://docs.google.com/presentation/d/1YKc7fF2SyeWJUmmw2Elw4HujCgkRUVbwuE9SXzimqdo/edit?usp=sharing
+    <br>It's set up to use Pear Deck, because think that fits very well here, but this can totally be done without pear deck to avoid another thing to keep track of with this lesson!
     </p>
 </aside>
 
-Our first step is the open up Visual Studio and follow the steps below.
 
-![Creating a Web App](/assets/images/module3/Week2/MVC_1_Create_Web_App.png)
+Today is a big day in your developer journey! We're going to put all of the pieces together and build a full application using the MVC pattern.
 
-Visual Studio has now used the template to create a fully working app! We will build off of that starter project.
+Here is our plan:
 
-But first, let's run this starter project.
+1. Get Starter Project Running
+1. Add a Controller
+1. Add a View
+1. Controller and View Practice
+1. Add a Model
+1. Connect the M, V, and C
+1. Zoom Back Out and Draw a Diagram
 
-Click the outlined outlined "play" button to "Start Without Debugging". You will probably see the following confirmations
+## 1. Get Starter Project Running
+
+For today's lesson, we are going to build off of some starter code. MVC is the focus of today, not the starter code, so don't worry about what's already there.
+
+Let's all fork and clone this repo: https://github.com/turingschool-examples/MvcMovieStarter
+
+If you're curious, this is what has been done so far:
+
+1. Use the ASP.NET Core Web App (Model-View-Controller) template to create a new project
+1. Install the following packages
+    * Npgsql.EntityFrameworkCore.PostgreSQL
+    * Microsoft.EntityFrameworkCore.Tools
+    * EFCore.NamingConventions
+1. Configure database connection string in appsettings.json
+1. Add dbContext in DataAccess/MVCMoviesContext.cs
+1. Register the context in Program.cs using the database connection string and snake_case naming convention
+
+To run this application, click the outlined "play" button to "Start Without Debugging". You will probably see the following confirmations
 
 ![Creating a Web App Confirmation Messages](/assets/images/module3/Week2/MVC_2_Create_Web_App_Confirmations.png)
 
 When you click start, Visual Studio runs the app and opens it in the default browser. You should see a page that says "Welcome Learn about building Web apps with ASP.NET Core."
 
-<!-- TODO, how much to talk about ports. Should that also come in http lesson? -->
 The address bar shows `localhost:<port#>`. Localhost means the application is running on your local computer. When Visual Studio creates a web project, a random port is used for the web server.
 
-## Adding a Controller
+## 2. Add a Controller
 
 <aside class="instructor-notes">
-    <p><strong>Instructor Note</strong><br>I encourage referencing back to the sides from the start of class to refresh what a controller is before diving into this section.
+    <p><strong>Instructor Note</strong><br>I encourage referencing back to the sides from the start of class to refresh what a controller is before diving into this section. Same thing for the View and Model.
     </p>
 </aside>
 
-We're going to use the scaffolding tool in Visual Studio to create our controller.
+We're going to use the scaffolding tool in Visual Studio to create our controller. Follow the instructions in the following image, except call your controller `MoviesController.cs` instead of `HelloWorldController.cs`
 
 ![Creating a Controller](/assets/images/module3/Week2/MVC_3_Create_Controller.png)
 
-Replace the contents of Controllers/HelloWorldController.cs with the following code:
+Your generated controller should look like this:
 ```C#
 using Microsoft.AspNetCore.Mvc;
-using System.Text.Encodings.Web;
 
 namespace MvcMovie.Controllers
 {
-    public class HelloWorldController : Controller
+    public class MoviesController : Controller
     {
-        // 
-        // GET: /HelloWorld/
-        public string Index()
+        //GET: /Movies/
+        public IActionResult Index()
         {
-            return "This is my default action...";
-        }
-
-        // 
-        // GET: /HelloWorld/Welcome/ 
-        public string Welcome()
-        {
-            return "This is the Welcome action method...";
+            return View();
         }
     }
 }
 ```
 
-Every public method in a controller is callable as an HTTP endpoint. In the sample above, both methods return a string.
+Every public method in a controller is callable as an HTTP endpoint.
 
 An HTTP endpoint:
-* Is a targetable URL in the web application, such as https://localhost:5001/HelloWorld.
+* Is a targetable URL in the web application, such as `https://localhost:<port#>/Movies`.
 
 Combines:
 * The protocol used: HTTPS.
 * The network location of the web server, including the port: localhost:5001.
-* The path: HelloWorld.
-<!-- TODO, does request response lesson use path or uri? -->
-In your browser, navigate to https://localhost:{PORT}/HelloWorld.
+* The path: Movies.
 
-![Navigate to a route in the browser](/assets/images/module3/Week2/MVC_4_Route_In_Browser.png)
+In your browser, navigate to `https://localhost:<port#>/Movies`.
 
-❓How can we get "This is the Welcome action method..." to show up in our browser?
+You should get an Error that looks like the following:
+![Error message before creating view](/assets/images/module3/Week2/MVC_View_Error_Message.png)
 
-<!-- Start by making a controller with the same name -->
+`InvalidOperationException: The view 'Index' was not found. The following locations were searched: /Views/Movies/Index.cshtml /Views/Shared/Index.cshtml`
 
-#### Controller Practice
+We know from the Request and Response cycle lesson that our application needs to return something in response to the HTTPS request. We are trying to return `return View();`, but we haven't yet created that view!
 
-> With your partner: Create create a new route in your controller so that when the user visits `https://localhost:{PORT}/cart` they see the string "Here are all of the items in your shopping cart"
+## 3. Add a View
 
-<!-- TODO, Should we talk about path parameters here?? At some point want to talk about taking in data via a path parameter and then sending back that data in the string. Then students can have a lab section here to practice. Maybe split this lesson into CV day 1, M day 2 -->
-
-## Adding a View
-
-In this section, we will modify the HelloWorldController class to use Razor view files instead of just sending back a string.
-
-<!-- TODO, open question, I'm thinking might be good to introduce Razor syntax the day before in addition to interfaces. Maybe we give them a full app and only have them edit a certain file that is using the Razor syntax?-->
 View templates are created using Razor.
 
 Razor-based view templates:
 * Have a .cshtml file extension.
 * Provide an elegant way to create HTML output with C#.
 
-Currently, the Index method returns a string with a message in the controller class. In the HelloWorldController class, replace the Index method with the following code:
+We will use Visual Studio to create a new view. Let's all follow these steps, but instead of calling our folder `HelloWorld` we will call it `Movies`.
 
-```C#
-public IActionResult Index()
-{
-    return View();
-}
-```
-
-This will use the view template that corresponds with this controller to generate an HTML response.
-
-Next, we will use Visual Studio to create a new view.
 ![Adding a View](/assets/images/module3/Week2/MVC_5_Create_View.png)
 
-Replace the contents of the `Views/HelloWorld/Index.cshtml` Razor view file with the following:
+Replace the contents of the `Views/Movies/Index.cshtml` Razor view file with the following:
 
 ```C#
-@{
-    ViewData["Title"] = "Index";
-}
+<h1>Movies</h1>
 
-<h2>Index</h2>
-
-<p>Hello from our View Template!</p>
+<p>All of the movies data will be shown here!</p>
 ```
+<!-- TODO, add some content here about hot reloading. I think you we want to use the fire icon to enable reload on save? -->
 
-Navigate to `https://localhost:{PORT}/HelloWorld`:
+Navigate again to `https://localhost:<port#>/Movies`. The error should be gone, and you should now see "Movies All of the movies data will be shown here!"
 
-The `Index` method in the `HelloWorldController` ran the statement `return View();`, which specified that the method should use a view template file to render a response to the browser.
+The `Index` method in the `MoviesController` ran the statement `return View();`, which specified that the method should use a view template file to render a response to the browser.
 
-A view template file name wasn't specified, so MVC defaulted to using the default view file. The default view has the same name as the action method, `Index` in this example. The view template `/Views/HelloWorld/Index.cshtml` is used.
+A view template file name wasn't specified, so MVC defaulted to using the default view file. The default view has the same name as the action method, `Index` in this example. The view template `/Views/Movies/Index.cshtml` is used.
 
-![After Adding a View](/assets/images/module3/Week2/MVC_6_After_Adding_View.png)
+## 4. Controller and View Practice
+<!-- TODO: Add practice here where students make another named route in their controller and another view with that same name. -->
 
-<!-- TODO, how to get hot reloading??? I have to restart the app to get changes :( -->
+> With your partner: Create create a new route in your controller so that when the user visits `https://localhost:<port#>/cart` they see the string "Here are all of the items in your shopping cart"
 
-> With your partner: 
-
-Change the title and <h2> element as highlighted in the following:
-<!-- Todo: make this a student challenge with a dropdown -->
-```C#
-@{
-    ViewData["Title"] = "Movie List";
-}
-
-<h2>My Movie List</h2>
-
-<p>Hello from our View Template!</p>
-```
-
-
-<!-- TODO, maybe student practice with putting in Razor view template stuff into their views? -->
-
-
-<!-- TODO, changing the layout stuff could be lab time practice? Not necessary for the lesson: https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-view?view=aspnetcore-6.0&tabs=visual-studio#change-views-and-layout-pages How does the title get onto the page, that's part of the layout you will look into that during lab time. -->
-
-
-<!-- ### Passing Data from the Controller to the View
-
-TODO, do we want to show passing data via ViewData or skip right to the model? -->
-
-<!-- TODO, I'm thinking of breaking this lesson into 2 parts and stopping part 1 here. -->
-
-
-## Adding a Model
+## 5. Add a Model
 
 These model classes are used with Entity Framework Core (EF Core) to work with a database.
 
@@ -180,162 +141,167 @@ Let's start by adding a new model class.
 
 Update the Models/Movie.cs file with the following code:
 
-<!-- TODO, this is what's in the tutorial but I vote for a much more simplified model with nothing new. Need to try this out and make sure it works. -->
-
-<!-- ```C#
-using System.ComponentModel.DataAnnotations;
-
-namespace MvcMovie.Models
-{
-    public class Movie
-    {
-        public int Id { get; set; }
-        public string? Title { get; set; }
-
-        [DataType(DataType.Date)]
-        public DateTime ReleaseDate { get; set; }
-        public string? Genre { get; set; }
-        public decimal Price { get; set; }
-    }
-}
-```
-<!-- The Movie class contains an Id field, which is required by the database for the primary key.
-
-The DataType attribute on ReleaseDate specifies the type of the data (Date). With this attribute:
-
-The user isn't required to enter time information in the date field.
-Only the date is displayed, not time information.
-DataAnnotations are covered in a later tutorial.
-
-The question mark after string indicates that the property is nullable. For more information, see Nullable reference types. --> -->
-
 ```C#
-using System.ComponentModel.DataAnnotations;
-
 namespace MvcMovie.Models
 {
     public class Movie
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public DateTime ReleaseDate { get; set; }
         public string Genre { get; set; }
-        public decimal Price { get; set; }
+    }
+}
+```
+The Movie class contains an Id field, which is required by the database for the primary key.
+
+### Setting up our DB
+
+Our next step is to add our `Movie` model to our database context.
+
+Update `DataAccess/MvcMovieContext` to the following:
+```C#
+using Microsoft.EntityFrameworkCore;
+using MvcMovie.Models;
+
+namespace MvcMovie.DataAccess
+{
+    public class MvcMovieContext : DbContext
+    {
+        public DbSet<Movie> Movies { get; set; }
+
+        public MvcMovieContext(DbContextOptions<MvcMovieContext> options) : base(options)
+        {
+
+        }
     }
 }
 ```
 
-### Add NuGet packages
+<!-- TODO: is this part even neede? I think not.  
 
-`From the Tools menu, select NuGet Package Manager > Package Manager Console (PMC)`
+public MvcMovieContext(DbContextOptions<MvcMovieContext> options) : base(options)
+        {
 
-```
-Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
-<!-- Install-Package Microsoft.EntityFrameworkCore.Design -->
-```
-Make sure to install version 6 and not version 7!
+        } 
+        -->
 
-<!-- Todo, why is it still connecting to SQL server DB? -->
-
-#### Scaffold Movie Pages
-
-![Scaffolding out Controller and Views](/assets/images/module3/Week2/MVC_8_Scaffolding_Controller_and_Views.png)
-
-![Scaffolding Options](/assets/images/module3/Week2/MVC_9_Scaffolding_Part2.png)
-
-<!-- TODO, when do we talk about dependency injection, it's key to understanding how the parts connect and how the DBContect gets into the controller, but is too much for this lesson. -->
-
-### Creating our Database
+Then we need to create our migration and apply that migration.
+Open up `Tools > NuGet Package Manager > Package Manager Console`
 ```
 Add-Migration InitialCreate
 Update-Database
 ```
 
-<!-- Scavenger hunt for familiar parts? Where is db connection string? Where is context? What routes exist?-->
+Then we need to insert some data into our database. Open up pgAdmin and use the query tool to run the following SQL to insert some movies.
+```
+INSERT INTO movies (title, genre)
+VALUES ('Elf', 'Holiday');
 
-## Zooming Back Out to MVC
+INSERT INTO movies (title, genre)
+VALUES ('Finding Nemo', 'Kids');
+```
 
-Maybe we zoom in on the details page, easiest to understand??
+## 6. Connect the M, V, and C
 
+We now have created our Model, View, and Controller and it's time to put the pieces together.
+
+### Access Data From Our Controller
+
+We want our controller to access data from our database using our Model.
+
+Update your MoviesController with the following:
 ```C#
-// GET: Movies/Details/5
-        public async Task<IActionResult> Details(int? id)
+using Microsoft.AspNetCore.Mvc;
+using MvcMovie.DataAccess;
+
+namespace MvcMovie.Controllers
+{
+    public class MoviesController : Controller { 
+
+        private readonly MvcMovieContext _context;
+
+        public MoviesController(MvcMovieContext context)
         {
-            if (id == null || _context.Movie == null)
-            {
-                return NotFound();
-            }
-
-            var movie = await _context.Movie
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (movie == null)
-            {
-                return NotFound();
-            }
-
-            return View(movie);
+            _context = context;
         }
-```
-1. What is the url to call this route, what data is passed in?
-1. What data is passed to the View?
-1. Can you figure out what View file will be rendered? How do you know?
-
-
-`Views/Movies/Details.cshtml`
-```C#
-@model MvcMovie.Models.Movie
-
-@{
-    ViewData["Title"] = "Details";
+    
+        public IActionResult Index()
+        {
+            foreach (var movie in _context.Movies)
+                {
+                    Console.WriteLine($"Movie {movie.Id}, Title: {movie.Title}, Genre {movie.Genre}");
+                }
+            return View();
+        }
+    }
 }
+```
+This is using something called `dependency injection` to get access to our database context. We will cover dependency injection later in this mod.
 
-<h1>Details</h1>
+Navigate to `https://localhost:<port#>/Movies` in your browser and take a look in your console. You should see the following which lets us know that we have successfully accessed our Movies!
 
-<div>
-    <h4>Movie</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ReleaseDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ReleaseDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Genre)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Genre)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+```
+Movie 1, Title: Elf, Genre Holiday
+Movie 2, Title: Finding Nemo, Genre Kids
 ```
 
+### Pass data from controller into view
 
-### How are The Model, View, and Controller Connected?
+But we don't just want the data to show up in our console, we want it to show up in the View that we send back as our response.
 
-Controller is passing model data into the View.
+Update your MoviesController with the following to pass the Movies into your view:
 
-Controller, tells what view to send back. Have students find where that happens.
+```C#
+using Microsoft.AspNetCore.Mvc;
+using MvcMovie.DataAccess;
 
-View is using the data from the model in displaying content.
+namespace MvcMovie.Controllers
+{
+    public class MoviesController : Controller { 
+
+        private readonly MvcMovieContext _context;
+
+        public MoviesController(MvcMovieContext context)
+        {
+            _context = context;
+        }
+    
+        public IActionResult Index()
+        {
+            var movies = _context.Movies //This line changed!
+            return View(movies); //This line changed too!
+        }
+    }
+}
+```
+
+Finally, we need to update the View to display the movies.
+
+Update your `Views/Movies/Index.cshtml` file to match the following:
+
+```C#
+// This line tells us what data is getting passed to our View
+@model IEnumerable<MvcMovie.Models.Movie>
+
+<h1>Movies</h1>
+
+<p>All of the movies data will be shown here!</p>
+
+@foreach (var movie in Model)
+{
+    <p>Title: @movie.Title, Genre: @movie.Genre</p>
+}
+```
+
+❓What about this code looks different than typical HTML?
+
+This is an example of the Razor syntax, it allows us to insert C# code into our HTML file. 
+<!-- Todo, figure out more about what's happening in this code and write a little info -->
+
+## 7. Zoom Back Out and Draw a Diagram
+
+We built our first full .Net application! Great job! There are a lot of pieces involved in organizing our code well using the MVC structure.
+
+> With your group: Let's draw out how our Model, View, and Controller are connected in our MvcMovies application. In your drawing add the specific file names for the M, V, and C parts of our application.
 
 
-
-Back to the powerpoint, try to draw out what's going on with the file names in the picture.
