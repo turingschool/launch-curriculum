@@ -13,7 +13,17 @@ title:  Unit Testing I Lab
 
 ## Practice
 
-To reinforce our testing lesson, you are going to implement tests for the [Library System](/module1/labs/Week3/ClassInteraction) that we worked on earlier this week.  If you would like to use a starter project other than your own, you can clone [this repository](https://github.com/memcmahon/DenverLibrary).
+To reinforce our testing lesson, you are going to implement tests for the [Library System](/module1/labs/Week3/ClassInteraction) that we worked on earlier.  Now that we are using the Visual Studio IDE, we will want to re-create this project as a Visual Studio solution.
+
+1. Create a new Visual Studio Console Application - let's call it `DenverPublicLibrary`
+2. Create classes for Book, Branch, and Library:
+
+![DenverLibraryBook](/assets/images/module1/Week4/DenverLibrary_Book.png)
+
+![DenverLibraryBranch](/assets/images/module1/Week4/DenverLibrary_Branch.png)
+
+![DenverLibraryLibrary](/assets/images/module1/Week4/DenverLibrary_Library.png)
+
 
 **Keep an eye on Slack - we will be re-grouping frequently to discuss our progress**
 
