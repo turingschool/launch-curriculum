@@ -3,6 +3,10 @@ layout:     page
 title:      Intro to Testing
 ---
 
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Slides for this lesson: https://docs.google.com/presentation/d/1ku9gYPdpKcbO5_PxgozwDyPaGHhwRRyhqkc_Cjx0qps/edit#slide=id.p24</p>
+</aside>
+
 ## Learning Goals
 * Define Automated Testing.
 * Understand why we use tests.
@@ -10,7 +14,7 @@ title:      Intro to Testing
 
 ## Warm Up
 
-In small groups, discuss your reflections to yesterday's [Lab preparation questions](/module1/lessons/Week3/ClassInteraction).  Be ready to share out!
+In small groups, discuss your reflections to yesterday's [Lab preparation questions](/module1/labs/Week4/Debugging).  Be ready to share out!
 
 <aside class="instructor-notes">
   <p><strong>Instructor Note</strong><br>After the warmup, we want to highlight some of the downsides of manual testing.  Make sure to touch on:</p>
@@ -46,7 +50,42 @@ Solution
    |--SomeClassTests.cs
 ```
 
-For this exploration, we will be using a starter solution: [Intro to Testing in XUnit](https://github.com/memcmahon/IntroToTestingWithXUnit).  Clone this repository to follow along with the lesson code!
+### Creat a Project to Test
+
+We are going to be creating a starter project in order to build some tests.  Follow the steps below to get started:
+1. Create a new Console Application in Visual Studio
+2. Call your project `IntroToTesting`
+3. Create a new class called `User`
+```c#
+using System;
+using System.Collections.Generic;
+
+namespace IntroToTesting
+{
+    public class User
+    {
+        public string Name { get; private set; }
+        public string Username { get; set; }
+        public List<String> Tweets { get; } = new List<String>();
+
+        public User(string name)
+        {
+            Name = name;
+        }
+
+        public void Tweet(string message)
+        {
+            Tweets.Add(message);
+        }
+
+        public string MostRecentTweet()
+        {
+            var lastIndex = Tweets.Count - 1;
+            return Tweets[lastIndex];
+        }
+    }
+}
+```
 
 ### Creating the Test Project
 The first thing we need to do is create our XUnit Text Project.  
