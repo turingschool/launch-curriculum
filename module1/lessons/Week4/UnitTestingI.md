@@ -55,7 +55,7 @@ Solution
 We are going to be creating a starter project in order to build some tests.  Follow the steps below to get started:
 1. Create a new Console Application in Visual Studio
 2. Call your project `IntroToTesting`
-3. Create a new class called `User`
+3. Create a new class called `User`  
 ```c#
 using System;
 using System.Collections.Generic;
