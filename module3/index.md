@@ -16,5 +16,5 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 
 ## Curriculum
 
-* [Lessons](./lessons)
-* [Projects](./projects)
+### Week 2
+* Feature Testing [Prep]() &#124; [Lesson]() &#124; [Lab]()
