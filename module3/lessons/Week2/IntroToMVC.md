@@ -60,11 +60,13 @@ The address bar shows `localhost:<port#>`. Localhost means the application is ru
     </p>
 </aside>
 
-We're going to use the scaffolding tool in Visual Studio to create our controller. Follow the instructions in the following image, except call your controller `MoviesController.cs` instead of `HelloWorldController.cs`
+We're going to use the scaffolding tool in Visual Studio to create our controller. Follow the instructions in the following image
 
 ![Creating a Controller](/assets/images/module3/Week2/MVC_3_Create_Controller.png)
 
-Your generated controller should look like this:
+In the **Add New Item - MvcMovie** dialog, enter `MoviesController.cs` and select **Add**.
+
+Your generated controller should look like this, except for the comment I added for clarity:
 ```C#
 using Microsoft.AspNetCore.Mvc;
 
@@ -72,7 +74,7 @@ namespace MvcMovie.Controllers
 {
     public class MoviesController : Controller
     {
-        //GET: /Movies/
+        //GET: /movies/
         public IActionResult Index()
         {
             return View();
@@ -84,14 +86,14 @@ namespace MvcMovie.Controllers
 Every public method in a controller is callable as an HTTP endpoint.
 
 An HTTP endpoint:
-* Is a targetable URL in the web application, such as `https://localhost:<port#>/Movies`.
+* Is a targetable URL in the web application, such as `https://localhost:<port#>/movies`.
 
 Combines:
 * The protocol used: HTTPS.
 * The network location of the web server, including the port: localhost:5001.
 * The path: Movies.
 
-In your browser, navigate to `https://localhost:<port#>/Movies`.
+In your browser, navigate to `https://localhost:<port#>/movies`.
 
 You should get an Error that looks like the following:
 ![Error message before creating view](/assets/images/module3/Week2/MVC_View_Error_Message.png)
@@ -108,9 +110,17 @@ Razor-based view templates:
 * Have a .cshtml file extension.
 * Provide an elegant way to create HTML output with C#.
 
-We will use Visual Studio to create a new view. Let's all follow these steps, but instead of calling our folder `HelloWorld` we will call it `Movies`.
+We will use Visual Studio to create a new view. Let's all follow these steps:
+1. Right-click on the *Views* folder, and then **Add > New Folder** and name the folder *Movies*.
+2. Right-click on the *Views/Movies* folder, and then **Add > New Item**
+3. In the **Add New Item - MvcMovie** dialog:
+    * Select **Razor View - Empty**
+    * Keep the **Name** box value, `Index.cshtml`
+    * Select **Add**
 
 ![Adding a View](/assets/images/module3/Week2/MVC_5_Create_View.png)
+
+![Adding a View Part 2](/assets/images/module3/Week2/MVC_5_Create_View2.png)
 
 Replace the contents of the `Views/Movies/Index.cshtml` Razor view file with the following:
 
@@ -119,18 +129,26 @@ Replace the contents of the `Views/Movies/Index.cshtml` Razor view file with the
 
 <p>All of the movies data will be shown here!</p>
 ```
-<!-- TODO, add some content here about hot reloading. I think you we want to use the fire icon to enable reload on save? -->
 
-Navigate again to `https://localhost:<port#>/Movies`. The error should be gone, and you should now see "Movies All of the movies data will be shown here!"
+Navigate again to `https://localhost:<port#>/movies`.  
+
+But even after adding our view we still see the error messages. Try refreshing the page, still broken, right?
+
+We want to enable *Hot Reloading* so that we don't have to stop and start the application to see our changes. I recommend enabling **Hot Reload on File Save**.
+![Hot to enable hot reload on file save](/assets/images/module3/Week2/MVC_6_Hot_Reload.png)
+
+The error should be gone, and you should now see "Movies All of the movies data will be shown here!"
 
 The `Index` method in the `MoviesController` ran the statement `return View();`, which specified that the method should use a view template file to render a response to the browser.
 
 A view template file name wasn't specified, so MVC defaulted to using the default view file. The default view has the same name as the action method, `Index` in this example. The view template `/Views/Movies/Index.cshtml` is used.
 
 ## 4. Controller and View Practice
-<!-- TODO: Add practice here where students make another named route in their controller and another view with that same name. -->
 
-> With your partner: Create create a new route in your controller so that when the user visits `https://localhost:<port#>/cart` they see the string "Here are all of the items in your shopping cart"
+> With your partner complete the following challenges: 
+> 1. Create create a new route in your Movies controller so that when a user visits `https://localhost:<port#>/cart` they see the string "Here are all of the movies you want to buy". You will want to create an additional view called `Cart.cshtml` to make this work!
+> 2. Create a new controller called `BooksController.cs`. When you navigate to `https://localhost:<port#>/books` the page should have the title "Books" and message "All of the books data will be shown here!". What other file(s) and folder(s) will you need to add to make this work?
+>3. Hungry For More? Add additional routes to your BooksController.
 
 ## 5. Add a Model
 
@@ -167,7 +185,7 @@ namespace MvcMovie.DataAccess
 {
     public class MvcMovieContext : DbContext
     {
-        public DbSet<Movie> Movies { get; set; }
+        public DbSet<Movie> Movies { get; set; } // This line is new!
 
         public MvcMovieContext(DbContextOptions<MvcMovieContext> options) : base(options)
         {
@@ -176,14 +194,6 @@ namespace MvcMovie.DataAccess
     }
 }
 ```
-
-<!-- TODO: is this part even neede? I think not.  
-
-public MvcMovieContext(DbContextOptions<MvcMovieContext> options) : base(options)
-        {
-
-        } 
-        -->
 
 Then we need to create our migration and apply that migration.
 Open up `Tools > NuGet Package Manager > Package Manager Console`
@@ -236,9 +246,9 @@ namespace MvcMovie.Controllers
     }
 }
 ```
-This is using something called `dependency injection` to get access to our database context. We will cover dependency injection later in this mod.
+This is using something called `dependency injection` to get access to our database context. Don't worry about how that works right now, let's stay focused on the M, V, and C.
 
-Navigate to `https://localhost:<port#>/Movies` in your browser and take a look in your console. You should see the following which lets us know that we have successfully accessed our Movies!
+Navigate to `https://localhost:<port#>/movies` in your browser and take a look in your console. You should see the following which lets us know that we have successfully accessed our Movies!
 
 ```
 Movie 1, Title: Elf, Genre Holiday
@@ -268,7 +278,7 @@ namespace MvcMovie.Controllers
     
         public IActionResult Index()
         {
-            var movies = _context.Movies //This line changed!
+            var movies = _context.Movies; //This line changed!
             return View(movies); //This line changed too!
         }
     }
@@ -295,8 +305,7 @@ Update your `Views/Movies/Index.cshtml` file to match the following:
 
 ❓What about this code looks different than typical HTML?
 
-This is an example of the Razor syntax, it allows us to insert C# code into our HTML file. 
-<!-- Todo, figure out more about what's happening in this code and write a little info -->
+This is an example of the Razor syntax, it allows us to insert C# code into our HTML file.
 
 ## 7. Zoom Back Out and Draw a Diagram
 
