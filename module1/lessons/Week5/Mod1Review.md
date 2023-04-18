@@ -3,14 +3,6 @@ layout: page
 title:  Mod 1 Review
 ---
 
-Week1
-<!-- * Understand what makes something a computer -->
-1. We write programs so that humans can better interact with computers.  Computers, at their most basic level, understand [binary inputs](https://www.youtube.com/watch?v=USCBCmwMCDA); so, why do we not write programs in binary?
-
-<!-- * Practice researching built-in c# methods. -->
-1. When you come across a Method that you are unfamiliar with, how do you figure out what that method does? (Let's assume your instructors are not available :) )
-
-<!-- * Recognize each of the main c# datatypes. -->
 1. For the `Unicorn` and `Power` classes below:
     * What C# datatypes are represented?
     * Are there any datatypes that are not represented?
@@ -58,42 +50,29 @@ Week1
     }
     ```
 
+1. Using the Unicorn and Power classes above, write the code required to create a unicorn, create two powers, and add those two powers to your unicorn? (feel free to recreate this code in Visual Studio and try running it 🙂)
+1. Again, using the Unicorn and Power classes above, what tests would need to be written to verify that these classes are working properly?  You don't need to write the tests, just come up with the names those tests might have.
+1. In your own words, what is the difference between a **class** and an **instance of an object**.  How are the two terms related?
+1. Visual Studio is an IDE.  In your own words, what is an IDE?
+1. Spend 2 minutes googling to see if you can find any other IDEs. How many others did you find?
+1. The code below has a bug; where would you put a breakpoint to start debugging what might be happening (feel free to recreate this code in Visual Studio and try running it 🙂)
 
-<!-- * explain the flow of execution through code   -->
-<!-- * use `if/else` statements to control execution -->
-<!-- Week2
-* Understand what a bug is
-* Practice Debugging with Breakpoints
-* Define and start using an IDE
-* Identify the benefites of using an IDE
-* Identify and implement code blocks.
-* Use `while`, and `for` to repeat code blocks.
-* Recognize potential infinite loops. -->
+    ```c#
+    // This program should print an abbreviated version of a kids song to help them learn the numbers 1 to 20.  The song should display every number, and never go above 20.
 
-<!-- Week3
-* Describe the difference between a class and an instance of that class
-* Practice building classes with state and behavior
-* Identify some best-practices for defining state and behavior
-* Identify key differences between **arrays** and **lists**
-* Define and use a **dictionary**
-* Iterate through collections with `foreach` and `for`
-* Define the terms Method, Argument, Return Value, and Object.
-* Explain why we use methods
-* Define methods in c#
-* Understand how abstraction helps us program -->
-
-<!-- Week4
-* Implement appropriate class file structure
-* Gain familiarity with passing around 'smart' objects
-* Define OOP
-* Discuss the benefits of OOP
-* Identify different sytaxes for object instantiation
-* Define Automated Testing.
-* Understand why we use tests.
-* Implement unit tests for a single class. -->
-
-<!-- Week5
-* Define 'Refactoring' in programming terms.
-* Define and implement the Single Responsibility Principle
-* Define the stages of a test
-* Recognize difference in testing command and query methods -->
+    1  Console.Write("First comes: ");
+    2  
+    3  for (var i = 0; i < 20; i++)
+    4  {
+    5      Console.WriteLine(i);
+    6      Console.Write("then comes: ");
+    7  }
+    8  Console.WriteLine("And that's how you count to 20!");
+    9
+    ```
+1. How are Arrays and Lists similar?  How are they different?
+1. How would you convert the string `"32"` into the integer `32`?
+1. Define the following terms:
+    * Loop
+    * Iteration
+    * Infinite Loop
