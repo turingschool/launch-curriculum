@@ -8,7 +8,7 @@ title: Using Technical Terminology
 * Practice presenting technical topics in a group setting.
 
 ## Describing a class
-In small groups, you will be reviewing the code below.  Your instructor will assign your group a section of lines that you will be discussing as a group and presenting to the larger cohort.  Use as many technical terms as you can - for example, use 'string' instead of 'words'.  You will have 10 minutes in small groups to discuss - elect one member of your group to lead your share-out.
+In small groups, you will be reviewing the code below.  Your instructor will assign your group a section of lines that you will be discussing as a group and presenting to the larger cohort.  Use as many technical terms as you can - for example, use 'string' instead of 'words'.  You will have 8 minutes in small groups to discuss - elect one member of your group to lead your share-out.
 
 ```c#
 
@@ -38,7 +38,7 @@ class GarbageTruck
 
     public string Info()
     {
-        string info = ""
+        string info = "";
         info += $"Manufacturer: {Manufacturer}\n";
         info += $"Model: {Model}\n";
         info += $"Year: {Year}\n";
@@ -54,6 +54,8 @@ class GarbageTruck
         {
             info += "Moving: No\n";
         }
+        
+        return info;
     }
 
 //Section 2
@@ -130,7 +132,7 @@ class GarbageTruck
 ```
 
 ## Describing Program Flow
-In small groups, you will be reviewing the code below.  You should prepare to share out for any line of code - your instructor will call on groups to share specific lines.  Use as many technical terms as you can - for example, use 'string' instead of 'words'.  You will have 12 minutes in small groups to discuss - elect one member of your group to lead your share-out.
+In small groups, you will be reviewing the code below.  You should prepare to share out for any line of code - your instructor will call on groups to share specific lines.  Use as many technical terms as you can - for example, use 'string' instead of 'words'.  You will have 10 minutes in small groups to discuss - elect one member of your group to lead your share-out.
 
 In this example, there is some code that exists but is not shown - what assumptions can you make about other classes that must exist in this program?
 
