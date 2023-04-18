@@ -48,7 +48,8 @@ Students will learn the basics of Object Oriented Programming to build software 
 * Scope: [Lesson](./lessons/Week5/Scope)
 * Refactoring: [Lesson](./lessons/Week5/Refactoring) &#124; [Lab](./labs/Week5/Refactoring)
 * Using Technical Terminology: [Lesson](./lessons/Week5/TechnicalTerminology)
-* [Module 1 Review - Check Your Understanding](./lessons/Week5/Mod1Review)
+* [Week 5 - Check Your Understanding](./lessons/Week5/CFUReview)
+* [Mod 1 Review](./lessons/Week5/Mod1Review)
 
 ## Mod 1 Project
 Coming Soon!
