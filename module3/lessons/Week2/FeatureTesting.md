@@ -305,11 +305,19 @@ namespace MvcMovie.FeatureTests
 </section>
 
 <section class="answer">
-### Index Test
-```c#
-```
-
+    <h3>Index Test</h3>
+    <img src="/assets/images/module3/week2/MovieControllerIndexTest.png">
 </section>
 
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>As you walk through this test, make sure to explain why we need the context and client in this test - because xunit runs test at the same time, and we need fresh environments for each test.</p>
+</aside>
+
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>There is a branch with finished code at: https://github.com/turingschool-examples/MvcMovieStarter</p>
+</aside>
 
 ## Checks for Understanding
+* What are two components of our project that need to be recreated in our test project?
+* What do we need to do in the Arrange step of a feature test?
+* In your own words, describe the `response` object that we get when we call `client.GetAsync("somepath");`
