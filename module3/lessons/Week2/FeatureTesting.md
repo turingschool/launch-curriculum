@@ -67,7 +67,7 @@ These components exist in our MVC application, and we need to create test versio
     </ul>
 </section>
 
-### Setting Up a Test Server Environment
+## Setting Up a Test Server Environment
 
 1. Add a new Project to your Solution - call the project `MvcMovie.FeatureTests`.
 2. Create a Project Reference from your test project to the `MvcMovie` project.
@@ -75,7 +75,6 @@ These components exist in our MVC application, and we need to create test versio
     * Microsoft.Extentions.Hosting
     * Microsoft.AspNetCore.Hosting
     * Microsoft.AspNetCore.Mvc.Testing (version 6.0.16)
-    * Microsoft.EntityFrameworkCore
 4. Add a class called `Program.cs` - this is where we are going to create our test server! Add the code below to this file:
 
 ```c#
@@ -126,7 +125,14 @@ namespace MvcMovie.FeatureTests
     <p>With a Partner - What similarities and differences do you see between this <code>Program.cs</code> and the <code>Program.cs</code> in the MvcMovie project?</p>
 </section>
 
-### Testing Our Welcome Page
+## Testing Our Welcome Page
+
+<section class="note">
+    <p>In this section, we are going to write a test for the following user story:</p>
+    <span style="white-space: pre-line">As a user
+    When I visith the home page
+    Then I see the message "Welcome"</span>
+</section>
 
 1. Update the `UnitTest1.cs` class to be `HomeControllerTests`
 2. Update the file to match the code below:
@@ -166,8 +172,144 @@ namespace MvcMovie.FeatureTests
     <p><strong>Instructor Note</strong><br>Show students what a non-passing test looks like.  Update the asser to expect something that is *not* on the page. Hover over the failure to see a preview of the HTML doc.  Use breakpoints and debugging to see the full HTML view.</p>
 </aside>
 
+<section class="call-to-action">
+    <strong>Practice</strong>
+    <p>In the MvcMovie projects, create a test, and the Controller and Views to satisfy this user story:</p>
+    <span style="white-space: pre-line">As a user
+    When I visith "/Home/FunFacts"
+    Then I see "The Bumble Bee Bat is the smallest mammal."</span>
+</section>
+
 ## Setting up our Database Environment
 
+1. Install these packages:
+    * Microsoft.EntityFrameworkCore.InMemory
+2. Add a file to your test project called `appsettings.json`
+3. Update that file to contain the following code:
+
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=:memory:"
+  }
+}
+
+```
+
+4. In your test project's `Program.cs` file, update the code with this database connection:
+```c#
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+// You need to add one more using statement:
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using MvcMovie.Controllers;
+using MvcMovie.DataAccess;
+
+namespace MvcMovie.FeatureTests
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.ConfigureServices(services =>
+                    {
+                        //THIS IS THE CODE TO ADD:
+                        services.AddDbContext<MvcMovieContext>(options =>
+                            options.UseInMemoryDatabase("TestDatabase"));
+
+                        services.AddControllersWithViews()
+                            .AddApplicationPart(typeof(HomeController).Assembly);
+                    });
+
+                    webBuilder.Configure(app =>
+                    {
+                        app.UseRouting();
+                        app.UseEndpoints(endpoints =>
+                        {
+                            endpoints.MapControllerRoute(
+                                name: "default",
+                                pattern: "{controller=Home}/{action=Index}/{id?}");
+                        });
+                    });
+                });
+    }
+}
+```
+
+<section class="call-to-action">
+    <p>With a Partner - What similarities and differences do you see between this <code>Program.cs</code> and the <code>Program.cs</code> in the MvcMovie project?</p>
+</section>
+
 ## Writing an Index test
+
+<section class="note">
+    <p>In this section, we are going to write a test for the following user story:</p>
+    <span style="white-space: pre-line">As a user
+    When I visith the home page
+    Then I see the message "Welcome"</span>
+</section>
+
+1. Create a new test file called `MovieControllerTests.cs`
+2. In that test file, add the following code:
+
+```c#
+using Microsoft.AspNetCore.Mvc.Testing;
+using Microsoft.EntityFrameworkCore;
+using MvcMovie.DataAccess;
+using MvcMovie.Models;
+
+
+namespace MvcMovie.FeatureTests
+{
+    public class MovieControllerTests : IClassFixture<WebApplicationFactory<Program>>
+    {
+        private readonly WebApplicationFactory<Program> _factory;
+
+        public MovieControllerTests(WebApplicationFactory<Program> factory)
+        {
+            _factory = factory;
+        }
+
+        private MvcMovieContext GetDbContext()
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<MvcMovieContext>();
+            optionsBuilder.UseInMemoryDatabase("TestDatabase");
+
+            var context = new MvcMovieContext(optionsBuilder.Options);
+            context.Database.EnsureDeleted();
+            context.Database.EnsureCreated();
+
+            return context;
+        }
+
+        [Fact]
+        public async Task Index_ReturnsViewWithMovies()
+        {
+
+        }
+    }
+}
+```
+
+<section class="call-to-action">
+    <p>With a Partner - Brainstorm what you think our test is going to look like?  What kinds of things need to happen in the <code>Arrange</code>, <code>Act</code>, and <code>Assert</code>?</p>
+</section>
+
+<section class="answer">
+### Index Test
+```c#
+```
+
+</section>
+
 
 ## Checks for Understanding
