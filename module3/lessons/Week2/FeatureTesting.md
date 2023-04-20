@@ -47,6 +47,10 @@ Then [expected result]
 
 Depending on how encompassing a user story is, you may want to break a single user story into multiple, smaller user stories.
 
+<section class="call-to-action">
+    <strong>Connecting to the Prework</strong><p>: What type of testing that you read about yesterday is most similar to this description of Feature Tests?</p>
+</section>
+
 ## Creating a Test Project
 
 ### The Components of a Web Application
