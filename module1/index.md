@@ -52,4 +52,5 @@ Students will learn the basics of Object Oriented Programming to build software 
 * [Mod 1 Review](./lessons/Week5/Mod1Review)
 
 ## Mod 1 Project
-Coming Soon!
+
+* [Mod 1 Project](./project/Mod1Project)
