@@ -19,10 +19,3 @@ In Module 2, students will begin to dive into the skills and mindsets necessary 
 * [Lessons](./lessons)
 * [Projects](./projects)
 
-<details><summary>Spoiler</summary><br/>
-
-```SQL
-select count(*) from books LEFT JOIN patrons ON books.checked_out_by = patrons.id WHERE patrons.phone_number = '1111111111' AND author = 'David Heska Wanbli Weiden';
-```
-
-</details>
