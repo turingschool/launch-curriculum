@@ -29,3 +29,10 @@ In Module 2, students will begin to dive into the skills and mindsets necessary 
 * Data Relationships: [Prep](/module2/preparation/Week2/DataRelationships) &#124; [Lesson](/module2/lessons/Week2/DataRelationships) &#124; [Lab](/module2/labs/Week2/DataRelationships)
 * [Productive Struggle](/module2/lessons/Week2/ProductiveStruggle)
 * [Week in Review](/module2/lessons/Week2/CFUReview)
+
+### Week 3
+* SQL Aggregates: [Prep](/module2/preparation/Week3/SQLAggregates) &#124; [Lesson](/module2/lessons/Week3/SQLAggregates) &#124; [Lab](/module2/labs/Week3/SQLAggregates)
+* SQL Joins: [Prep](/module2/preparation/Week3/SQLJoins) &#124; [Lesson](/module2/lessons/Week3/SQLJoins) &#124; [Lab](/module2/labs/Week3/SQLJoins)
+* LINQ: [Prep](/module2/preparation/Week3/LINQ) &#124; [Lesson](/module2/lessons/Week3/LINQ) &#124; [Lab](/module2/labs/Week3/LINQ)
+* [Week in Review](/module2/lessons/Week3/CFUReview)
+* [PD - TBD]()
