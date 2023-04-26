@@ -28,7 +28,7 @@ Imagine you are writing to a penpal.  The process would look something like this
 3. Drop the letter in your mailbox
 4. The letter goes through the postal system and arrives at your penpal's mailbox
 
-YOur penpal then goes through a very similar set of steps:
+Your penpal then goes through a very similar set of steps:
 
 1. Read your letter and write a response
 2. Specify your address
