@@ -7,7 +7,7 @@ title: Week 3 Exercise
 
 Follow these steps to setup the assessment:
 1. Create a new database named `flight_db` using pgAdmin.
-2. Copy [this script](flight_db.sql) and paste it into the query tool to insert records into your database.
+2. Copy [this script](./flight_db.txt) and paste it into the query tool to insert records into your database.
 3. Run the following `SELECT` queries individually to get an understanding of the data:
 > `SELECT * FROM airlines;`
 > `SELECT * FROM flights;`
