@@ -157,15 +157,81 @@ To Be Moved
 </details><br>
 
 <details><Summary><strong>Module 4</strong></Summary>
-To Be Moved
+
+### Week 1
+* Intro to APIs
+    - Understand how an API works at a conceptual level
+    - Expand our understanding of what a 'client' could be
+    - Create an in-app client to manipulate HTTP responses
+* JavaScript (Likely 2 lessons)
+    - Understand why it is important to be familiar with JavaScript
+    - Available DataTypes
+    - How to Build a Function
+    - Accessing DOM elements and events
+### Week 2
+* Building an API
+    - Review HTTP Request/Response Structure 
+    - Use TDD to Implement CRUD endpoints through an API
+    - Define and identify valid JSON data structures
+* Testing Strategies when Consuming an API
+    - Understand the necessity of faking API requests in tests
+    - Implment mock/vcr to maintain test coverage
+### Week 3
+* Maintaining State
+    - Identify the limitations of Stateless HTTP
+    - Introduce the concept of Sessions & Cookies
+    - Implement a simple Cookie
+* Authentication
+    - Explain the use of Authentication and its importance
+    - Implement Authentication
+* Authorization
+    - Identify the difference between Authentication and Authorization
+    - Implement User Roles with Authorization
+### Week 4
+* ?Advanced Data Manipulations? On the scope and sqnce doc, the learning goal includes Advanced SQL
+    - https://backend.turing.edu/module3/lessons/advanced_activerecord
+
 </details><br>
 
 <details><Summary><strong>Module 5</strong></Summary>
-To Be Moved
+
+### Week1
+* Customizing JSON Responses
+    - Define and implement a Serializer
+    - Expand our understanding of MVC responsibilities
+    - Describe how a Serializer can support OOP Principles
+* Data Validations
+    - Identify the differences between Error Handling, and program crashing
+    - Throw situation-specific errors
+    - Implement try/catch blocks 
+* SOLID (Refactoring Patterns)
+    - Reinforce our understanding of SRP
+    - Introduce OLID Principles
+### Week2
+* Working with 3rd party APIs
+    - Implement Secure Environment Variables
+* Writing Good Documentation
+    - Understand the reasons for good documentation
+    - Identify what to include in your documentation
+* Interview Lifecycle
+    - Identify the varying steps of an interview
+    - Common Pitfalls in Interviewing
+    - The graceful exit
+### Week3
+* Caching
+    - Define Caching and why it is useful
+    - Implement caching
+* Background Workers
+    - Identify opportunities to use background workers
+    - Implement a background worker
+* BigO and Process Optimization
+    - Understand the impact of poor optimization
+    - Introduce the problem of over-iteration and optimization
+    - Gain a familiarity with Big0 terminology (I've heard of this thing, but may not be an expert)
 </details><br>
 
 <details><Summary><strong>Module 6</strong></Summary>
-To Be Moved
+To Be Determined
 </details><br>
 
 <details><Summary><strong>Archive</strong></Summary>
