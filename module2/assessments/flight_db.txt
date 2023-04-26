@@ -1,0 +1,77 @@
+DROP TABLE IF EXISTS airlines;
+DROP TABLE IF EXISTS flights;
+
+CREATE TABLE airlines (
+	id INT PRIMARY KEY, 
+	airline_name VARCHAR(20), 
+	base_city VARCHAR(40));
+
+CREATE TABLE flights (
+	id INT PRIMARY KEY, 
+	flight_number INT, 
+	depart_city VARCHAR(5), 
+	arrive_city VARCHAR(5), 
+	price INT,
+	on_time boolean,
+	airline_id INT);
+	
+
+INSERT INTO airlines (id, airline_name, base_city)
+VALUES	
+	(1, 'United', 'Chicago'), 
+	(2, 'American', 'Fort Worth'), 
+	(3, 'Delta', 'Atlanta');
+
+
+INSERT INTO flights (id, flight_number, depart_city, arrive_city, price, on_time, airline_id)
+VALUES	
+	(1, 3871, 'BOS', 'TPA', 341, TRUE, 1), 
+	(2, 2602, 'DFW', 'LAS', 292, TRUE, 3), 
+	(3, 3161, 'ATL', 'LAS', 561, TRUE, 2), 
+	(4, 8460, 'LAS', 'SAN', 372, TRUE, 1), 
+	(5, 7509, 'FLL', 'RDU', 222, FALSE, 3), 
+	(6, 2439, 'BOS', 'TPA', 580, TRUE, 3), 
+	(7, 8811, 'ORD', 'FLL', 101, TRUE, 3), 
+	(8, 6580, 'MCO', 'LAS', 573, TRUE, 2), 
+	(9, 3211, 'JFK', 'ORD', 454, TRUE, 2), 
+	(10, 8057, 'DEN', 'RDU', 381, TRUE, 3), 
+	(11, 9077, 'DEN', 'TPA', 592, TRUE, 2), 
+	(12, 4274, 'TPA', 'DFW', 130, TRUE, 1), 
+	(13, 1075, 'LAS', 'ORD', 570, TRUE, 1), 
+	(14, 2891, 'DEN', 'BOS', 500, TRUE, 2), 
+	(15, 2039, 'MCO', 'RDU', 382, TRUE, 2), 
+	(16, 1024, 'DEN', 'SFO', 286, TRUE, 3), 
+	(17, 9496, 'SAN', 'FLL', 128, TRUE, 3), 
+	(18, 6859, 'ATL', 'DFW', 435, FALSE, 1), 
+	(19, 8161, 'JFK', 'LAS', 538, TRUE, 1), 
+	(20, 1296, 'BOS', 'SFO', 257, TRUE, 2), 
+	(21, 2050, 'BOS', 'TPA', 473, TRUE, 3), 
+	(22, 3307, 'RDU', 'TPA', 246, TRUE, 2), 
+	(23, 9324, 'ATL', 'MCO', 165, TRUE, 3), 
+	(24, 3096, 'JFK', 'DEN', 291, TRUE, 2), 
+	(25, 2070, 'LAS', 'FLL', 147, TRUE, 1), 
+	(26, 6449, 'DEN', 'BOS', 101, TRUE, 3), 
+	(27, 9583, 'LAS', 'FLL', 319, TRUE, 1), 
+	(28, 4992, 'BOS', 'ORD', 313, TRUE, 3), 
+	(29, 7763, 'DFW', 'TPA', 286, TRUE, 2), 
+	(30, 2320, 'RDU', 'LAS', 113, TRUE, 2), 
+	(31, 1058, 'SAN', 'LAS', 451, TRUE, 3), 
+	(32, 5820, 'DFW', 'DEN', 181, TRUE, 2), 
+	(33, 7168, 'TPA', 'JFK', 360, TRUE, 1), 
+	(34, 6527, 'RDU', 'BOS', 250, TRUE, 3), 
+	(35, 7160, 'RDU', 'SFO', 307, TRUE, 3), 
+	(36, 2932, 'DFW', 'FLL', 295, TRUE, 1), 
+	(37, 9660, 'DFW', 'LAS', 220, TRUE, 3), 
+	(38, 1435, 'ATL', 'SAN', 517, TRUE, 3), 
+	(39, 9552, 'FLL', 'SAN', 578, TRUE, 2), 
+	(40, 3219, 'JFK', 'ATL', 511, TRUE, 2), 
+	(41, 9972, 'SAN', 'BOS', 156, TRUE, 2), 
+	(42, 6002, 'TPA', 'SAN', 206, TRUE, 3), 
+	(43, 1881, 'RDU', 'FLL', 249, TRUE, 1), 
+	(44, 1115, 'FLL', 'RDU', 419, TRUE, 3), 
+	(45, 2898, 'DEN', 'BOS', 368, TRUE, 1), 
+	(46, 4158, 'ATL', 'BOS', 315, TRUE, 2), 
+	(47, 5311, 'SFO', 'TPA', 107, TRUE, 1), 
+	(48, 1474, 'BOS', 'ORD', 197, TRUE, 3), 
+	(49, 5963, 'ORD', 'DFW', 181, TRUE, 1), 
+	(50, 9474, 'SAN', 'SFO', 272, FALSE, 2);
