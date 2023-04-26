@@ -48,3 +48,6 @@ In Module 2, students will begin to dive into the skills and mindsets necessary 
 * Many to Many with ORM: [Prep](/module2/preparation/Week5/ManyToManyWithAnORM) &#124; [Lesson](/module2/lessons/Week5/ManyToManyWithAnORM) &#124; [Lab](/module2/labs/Week5/ManyToManyWithAnORM)
 * [SQL Workplace Simulation](/module2/lessons/Week5/SQLWorkplaceSimulation)
 * [Week in Review](/module2/lessons/Week5/CFUReview)
+
+### Week 6
+* [Project](/module2/Project/index)
