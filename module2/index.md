@@ -42,3 +42,9 @@ In Module 2, students will begin to dive into the skills and mindsets necessary 
 * CRUD with ORM: [Prep](/module2/preparation/Week4/CRUDwithORM) &#124; [Lesson](/module2/lessons/Week4/CRUDwithORM) &#124; [Lab](/module2/labs/Week4/CRUDwithORM)
 * [Week in Review](/module2/lessons/Week4/CFUReview)
 * [PD - TBD]()
+
+### Week 5
+* Database Migrations: [Prep](/module2/preparation/Week5/DatabaseMigrations) &#124; [Lesson](/module2/lessons/Week5/DatabaseMigrations) &#124; [Lab](/module2/labs/Week5/DatabaseMigrations)
+* Many to Many with ORM: [Prep](/module2/preparation/Week5/ManyToManyWithAnORM) &#124; [Lesson](/module2/lessons/Week5/ManyToManyWithAnORM) &#124; [Lab](/module2/labs/Week5/ManyToManyWithAnORM)
+* [SQL Workplace Simulation](/module2/lessons/Week5/SQLWorkplaceSimulation)
+* [Week in Review](/module2/lessons/Week5/CFUReview)
