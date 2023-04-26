@@ -14,9 +14,9 @@ To Be Moved
 
 <details><Summary><strong>Module 3</strong></Summary>
 
-**Mod Overview** All things MVC.
-**Lesson Project** [MvcMovie](https://github.com/turingschool-examples/MvcMovieStarter)
-**Lab Project** [RecordCollection](https://github.com/turingschool-examples/LaunchFeatureLabStarter_RecordCollection)
+**Mod Overview** All things MVC.  
+**Lesson Project** [MvcMovie](https://github.com/turingschool-examples/MvcMovieStarter)  
+**Lab Project** [RecordCollection](https://github.com/turingschool-examples/LaunchFeatureLabStarter_RecordCollection)  
 
 ### Week 1
 * HTTP Request/Response Cycle
