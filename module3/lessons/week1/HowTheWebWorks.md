@@ -102,6 +102,9 @@ With these 5 verbs, we send requests that allow us to perform all CRUD functions
 
 > With your small groups,
 > Upate your diagrams to include as much of the request/response header information as you can!
+> Go to a website you use often - identify at least 2 requests that you can generate without using the address bar!
+> 
+> Be ready to share out your diagrams, and requests!
 
 
 ## Checks for Understanding
