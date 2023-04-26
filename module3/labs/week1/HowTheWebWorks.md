@@ -92,7 +92,7 @@ Sending a `curl` request to https://google.com will provide the actual site that
 > Send a `curl` request to a web site of your choice. Note many of the same pieces from the request/response above, with **slightly** more HTML. 
 
 ## How do Users Create Requests?
-https://backend.turing.edu/module2/lessons/request_response_anatomy A User doesn't need to know the inner workings of HTTP in order to use a website. They don't need to know they are sending a `POST` request to `/orders`. The requests they send are generated for them by the browser.
+A User doesn't need to know the inner workings of HTTP in order to use a website. They don't need to know they are sending a `POST` request to `/orders`. The requests they send are generated for them by the browser.
 
 Requests are created by:
 
