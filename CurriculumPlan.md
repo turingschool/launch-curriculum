@@ -101,7 +101,86 @@ To Be Moved
 </details><br>
 
 <details><Summary><strong>Module 2</strong></Summary>
-To Be Moved
+
+### Week 1
+* Version Control and Solo Git
+    - Define Version Control and its benefit
+    - Build a mental model of branching workflow
+    - Practice committing and branching on a solo repository
+* Intro to Databases
+    - Describe a database and its uses in various applications
+    - Define relational data
+    - Create a Database with Postgresql and PgAdmin
+* SQL CRUD
+    - Define CRUD
+    - Use SQL to SELECT, INSERT, REMOVE and UPDATE records
+    - Use basic WHERE clause to filter records
+* PD: The Graceful Exit
+    - Strategies for responding to questions you can't answer.
+    - Identify personal qualities you want to highlight.
+
+### Week 2
+* Test Driven Development
+    - Describe the benefits of TDD
+    - Practice a TDD workflow
+    - Define the difference between Unit and Integration tests
+* Git for Pairs
+    - Outline a workflow for collaborating on a single repository
+    - Identify and resolve merge conflicts
+* Data Relationships
+    - Solidify understanding of Primary Keys and Foreign Keys
+    - Visualize One-to-One, One-to-Many, and Many-to-Many relationships
+    - Implement a Many-to-Many relationship using a join table
+    - Practice describing different relationships
+* PD: Revisiting Productive Struggle
+
+### Week 3
+* SQL Aggregates
+    - Develop a visualization for grouping and aggregating data
+    - Use GROUP BY, COUNT, SUM, and AVERAGE
+* SQL Joins
+    - Visualize and practice SQL join queries
+    - Use WHERE and JOIN together
+    - Understand the difference between an inner join and a left join
+* LINQ
+    - Understand why we use LINQ
+    - Practice basic LINQ methods
+    - Recognize LINQ Query Syntax
+* PD: TBD
+
+### Week 4
+* Intro to ORM
+    - Define ORM, Entity Framework, and Framework
+    - Describe the benefits of working with objects
+    - Use Entity Framework in a Console Application to create a database
+    - Create a one-to-many relationship using Entity Framework
+* CRUD with ORM
+* PD: TBD
+
+### Week 5
+* Database Migrations
+    - Explore business decisions that drive database changes
+    - Practice making database changes to add and remove columns
+    - Learn how to create seed data
+* Many to Many Using an ORM
+    -  Understand why frameworks have versions
+    -  Reinforce how to structure many-to-many database relationships
+    -  Implement a many-to-many relationship using Entity Framework
+* PD: SQL Workplace Simulation
+    - Practice professional Slack communication
+    - Apply SQL skills to a more real-world scenario
+    - Practice giving and receiving feedback
+
+### Project
+* Message Logger
+    - Demonstrate:
+        * Version Control, including branches and pull requests.
+        * Understanding of database table relationships.
+        * Database CRUD with an ORM.
+    - Explore:
+        * Dive into a new (not written by you) code base!
+        * Using TDD to add additional features! (For any new feature that you create, try writing the tests first, and then creating the code that makes those tests pass!)
+
 </details><br>
 
 <details><Summary><strong>Module 3</strong></Summary>
