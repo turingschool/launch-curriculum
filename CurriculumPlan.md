@@ -5,7 +5,99 @@ To Be Moved
 </details><br>
 
 <details><Summary><strong>Module 1</strong></Summary>
-To Be Moved
+
+### Week 1
+* Intro to Programming
+    - Understand what makes something a computer
+    - Appreciate the importance of giving instructions
+    - Write a simple program
+* Data Types and Variables
+    - Recognize each of the main c# datatypes.
+    - Speak to a few common methods for each data type.
+    - Practice researching built-in c# methods.
+* Conditional Logic
+    - explain the flow of execution through code  
+    - use `if/else` statements to control execution
+* PD: Note-Taking for Technical Content
+    - Identify strategies for note-taking for technical content
+    - Implement note-taking strategies for upcoming lessons
+
+### Week 2
+* Collections 
+    - Define and use **arrays** and **lists**
+    - Identify key differences between **arrays** and **lists**
+    - Define and use a **dictionary**
+    - Iterate through collections with `foreach` and `for`
+* Looping and Iteration
+    - Identify and implement code blocks.
+    - Use `while`, and `for` to repeat code blocks.
+    - Recognize potential infinite loops.
+* Methods
+    - Define the terms Method, Argument, Return Value, and Object.
+    - Explain why we use methods
+    - Define methods in c#
+    - Understand how abstraction helps us program
+* PD: Asking Technical Questions That Lead to Answers
+    - Use effective keywords in a Google search to find answers faster
+    - Ask technical questions that are both clear and concise
+
+### Week 3
+* Classes
+    - Describe the difference between a class and an instance of that class
+    - Practice building classes with state and behavior
+    - Identify some best-practices for defining state and behavior
+* Object Oriented Programming (OOP)
+    - Define OOP
+    - Discuss the benefits of OOP
+    - Identify different syntaxes for object instantiation
+* Class Interaction
+    - Implement appropriate class file structure
+    - Gain familiarity with passing around 'smart' objects
+* PD: Productivity + Time MGMT
+    - Identify strategies for improving productivity in a fast-paced, learning environment
+    - Implement productivity strategies and approaches for the upcoming week
+    - Review your current approach to time management and calendaring
+    - Implement time management strategies for the upcoming week
+
+### Week 4
+* Intro to IDE
+    - Define and start using an IDE
+    - Identify the benefits of using an IDE
+* Debugging
+    - Understand what a bug is
+    - Practice Debugging with Breakpoints
+* Unit Testing, Part 1
+    - Define Automated Testing.
+    - Understand why we use tests.
+    - Implement unit tests for a single class.
+
+### Week 5
+* Unit Testing, Part 2
+    - Define the stages of a test
+    - Recognize difference in testing command and query methods
+* Scope
+    - Identify how **scope** affects where variables can be accessed
+    - Have a reference to look at when **scope** errors show up
+    - Understand the difference between the **public** and **private** access modifiers
+    - Start thinking about when to use **public** vs **private**
+* Refactoring
+    - Define 'Refactoring' in programming terms.
+    - Define and implement the Single Responsibility Principle
+* PD: Using Technical Terminology
+    - Practice using technical terminology to describe code.
+    - Practice presenting technical topics in a group setting.
+
+### Project
+* Message Logger
+    - Demonstrate:
+        * Version Control, including branches and pull requests.
+        * Understanding of database table relationships.
+        * Database CRUD with an ORM.
+
+    - Explore:
+        * Dive into a new (not written by you) code base!
+        * Using TDD to add additional features! (For any new feature that you create, try writing the tests first, and then creating the code that makes those tests pass!)
+
 </details><br>
 
 <details><Summary><strong>Module 2</strong></Summary>
