@@ -221,6 +221,7 @@ To Be Moved
     - Create Tests for #New and #Create actions.
 * Creating and Reading Related Resources
     - Use a form to create a one-to-many relationship
+    - Use a form to create a many-to-many relationship
     - Create Show Page for a Resource with related data
 ### Week 4
 * Dynamic Routing
@@ -228,7 +229,7 @@ To Be Moved
     - Use dynamic routing to filter data on a Show and Index page
 * Updating Resources
     - Use a form to update single resources
-    - Use a form to create a one-to-many relationship
+    - Use a form to update a one-to-many relationship
 * Destroying Resources
     - Describe some common pitfalls when destroying resources
     - Practice destruction of single and related resources
