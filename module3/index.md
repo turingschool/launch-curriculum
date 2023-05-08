@@ -17,5 +17,5 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 ## Curriculum
 
 ### Week 1
-* How the Web Works (HTTP Request/Response Cycle): [Lesson](./lessons/week1/HowTheWebWorks) &#124; [Lab](./labs/week1/HowTheWebWorks)
+* How the Web Works (HTTP Request/Response Cycle): [Lesson](./lessons/Week1/HowTheWebWorks) &#124; [Lab](./labs/Week1/HowTheWebWorks)
 
