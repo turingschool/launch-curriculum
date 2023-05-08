@@ -120,7 +120,7 @@ When you share your code, you can get feedback and help a lot more easily.  And,
 
 ![](/assets/images/module2/Week1/RemotevLocal.png)
 
-> Individually, watch the video below to create a GitHub Repository for your Git Practice project.
+> Individually, watch the video below to create a GitHub Repository for your Git Practice project.  
 > [Creating and Pushing to a Github Repository](https://www.loom.com/share/dba188a5f13e43059d9a84b630280c53)
 
 After you have completed the individual work above:
