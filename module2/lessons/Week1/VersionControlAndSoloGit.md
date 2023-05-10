@@ -44,6 +44,11 @@ In this workflow, we are starting a project, and creating save-points along the 
 
 The best way to learn how to use Git Version Control is to dive right in - so that's what we are going to do!
 
+### Installing Git
+Before we start creating our own git repositories, we will need to download git.  Follow [these steps](/module1/lessons/Week3/InstallGit) to download and configure git before moving on!
+
+### Creating a git repository
+
 > Individually, take 20 minutes to follow along with the 3 vidoes below; pause as needed and complete each step outlined.  After completing the steps, you will have completed a git workflow similar to the diagram above.
 >1. [Create A Project and Initialize a Git Repository](https://www.loom.com/share/d3af392e059147a699ce6ac1af65d251)
 >2. [Add Commits to the Git Repository](https://www.loom.com/share/b7373e5aaad646c790965422719bb993)  
