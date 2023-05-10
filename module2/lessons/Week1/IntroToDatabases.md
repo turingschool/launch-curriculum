@@ -3,6 +3,10 @@ layout: page
 title: Intro to Databases
 ---
 
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br><a href='https://docs.google.com/presentation/d/18stIB8iTseTvuymUdK8elptYWS2r4OuBPwwQrh-lg2g/edit?usp=sharing'>slides</a></p>
+</aside>
+
 ## Learning Goals
 - Describe a database and its uses in various applications
 - Define relational data
@@ -163,9 +167,9 @@ If you run into any error messages or issues - reach out to an instructor!
 </aside>
 
 <section class="checks-for-understanding">
-
-## Check for Understanding
-* In your own words, what is a database?
-* Imagine that you are creating a database of books.  How might you create a relationship between a book and its author?  
-
+    <h2>Check for Understanding</h2>
+    <ul>
+        <li>In your own words, what is a database?</li>
+        <li>Imagine that you are creating a database of books.  How might you create a relationship between a book and its author?</li>
+    </ul>
 </section>
