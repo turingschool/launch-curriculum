@@ -23,7 +23,7 @@ Here are two screenshots of situations where I got an error because I didn't hav
 Example 1:
 ![Scope Example 1](/assets/images/module1/Week5/ScopeExample1.png)
 
-Example 2:
+Example 2: <br/>
 ![Scope Example 2](/assets/images/module1/Week5/ScopeExample2.png)
 
 Take 3 minutes to brainstorm: Have you encountered this error before? What did you do to fix the issue?
@@ -48,13 +48,14 @@ We are trying to access the `username` variable outside of the scope where it is
 Example 2:
 ![Scope Example 2 With Highlighting](/assets/images/module1/Week5/ScopeExample2Highlighting.png)
 
-Note that a variable is accessible **everywhere** inside the code block in which it's defined, even from within a nested code block.
+Note that a variable is accessible even from a code block nested inside the code block where it is defined.
 
 ## Practice
 
 Here is a modified version of some code from our Class Interaction Lesson. 
 
->Take 3 minutes: For each variable defined, determine the box for the scope where that variable is available.
+>Take 5 minutes with your partner: For each variable defined, determine the box for the scope where that variable is available. [Here](https://excalidraw.com/#json=fWQIRk28pOZkviwLFouX6,3ySGG_hk0kSmsroc9PcrNw
+) is an Excalidraw link with the code to start from.
 
 ```c#
 Person stevie = new Person("Stevie");
@@ -95,17 +96,29 @@ class Person
 }
 ```
 <details><summary>Solution</summary><br/>
-
-![Scope Example 3 With Highlighting](/assets/images/module1/Week5/ScopeExample3.png)
+<img src=
+"/assets/images/module1/Week5/ScopeExample3.png"
+                    width="500" >
 </details>
 
 ## Fixing Scope Errors
 
-With your partner, take 15 minutes to walk through this training that introduces a common pattern for fixing scope errors, then discuss the questions below.
+With your partner, take 15 minutes to walk through this training that introduces a common pattern for fixing scope errors, then discuss the questions below. Ignore their instructions for where and how to run the code. Use either an existing console application in Visual Studio or create a new Repl for this practice.
 
-https://learn.microsoft.com/en-us/training/modules/csharp-code-blocks/2-exercise-variable-scope
+[https://learn.microsoft.com/en-us/training/modules/csharp-code-blocks/2-exercise-variable-scope](https://learn.microsoft.com/en-us/training/modules/csharp-code-blocks/2-exercise-variable-scope)
 
-> In your own words, why did the code in step 2 have an error? </br> In your own words, how did you fix the scope error created in step 2? </br> What would happen if scope didn't exist? What problems might this cause?
+1. In your own words, why did this code have an error? 
+```c# 
+bool flag = true;
+if (flag)
+{
+    int value = 10;
+    Console.WriteLine("Inside of code block: " + value);
+}
+Console.WriteLine($"Outside of code block: {value}");
+```
+2. In your own words, how did you fix the scope error in this code?
+3. What would happen if scope didn't exist? What problems might this cause?
 
 ## Access Modifiers
 
@@ -136,14 +149,14 @@ class BankAccount
     {
         Balance += deposit;
         // Update records to keep track of this deposit (not implemented in this example)
-        updateRecords(someDataPassedInHere)
+        updateRecords()
     }
 
     public void MakeWithdrawal(double withdrawal)
     {
         Balance -= withdrawal;
         // Update records to keep track of this withdrawal (not implemented in this example)
-        updateRecords(someDataPassedInHere);
+        updateRecords();
     }
 
     public double GetBalance() { 

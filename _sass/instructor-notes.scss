@@ -2,3 +2,7 @@
     display: none;
     background-color: lighten($back-end-primary, 20);
 }
+
+details summary {
+    background-color: lighten($yellow, 60);
+}
