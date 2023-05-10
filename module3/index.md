@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Module 3
-subheading: Object Oriented Programming with C#
+subheading: MVC Web Development with C#
 ---
 
 ## Overview
 
-In Module 3, students will begin to dive into the skills and mindsets necessary to succeed as a Turing student and a developer.
+In Module 3, students will begin to dive into the skills and mindsets necessary to build an MVC web application.
 
 ## Instructors
 
@@ -15,9 +15,16 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 * Zoe Farrell
 
 ## Curriculum
+
+### Under Construction
+
+<!-- 
+
 ### Week 1
 * How the Web Works (HTTP Request/Response Cycle): [Lesson](./lessons/week1/HowTheWebWorks) &#124; [Lab](./labs/week1/HowTheWebWorks)
 
 ### Week 2
-* Feature Testing [Prep](./preparation/Week2/FeatureTesting) &#124; [Lesson](./lessons/Week2/FeatureTesting) &#124; [Lab](./labs/Week2/FeatureTesting)
+* Feature Testing [Prep](./preparation/Week2/FeatureTesting) &#124; [Lesson](./lessons/Week2/FeatureTesting) &#124; [Lab](./labs/Week2/FeatureTesting) 
+
+-->
 
