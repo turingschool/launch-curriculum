@@ -73,11 +73,11 @@ These components exist in our MVC application, and we need to create test versio
 
 ## Setting Up a Test Server Environment
 
-1. Add a new Project to your Solution - call the project `MvcMovie.FeatureTests`.
+1. Add a new xUnit Test Project to your Solution - call the project `MvcMovie.FeatureTests`.
 2. Create a Project Reference from your test project to the `MvcMovie` project.
-3. Install the following packages:
-    * Microsoft.Extentions.Hosting
-    * Microsoft.AspNetCore.Hosting
+3. Install the following packages into the Test project:
+    * Microsoft.Extentions.Hosting (version 7.0.1)
+    * Microsoft.AspNetCore.Hosting (version 2.2.7)
     * Microsoft.AspNetCore.Mvc.Testing (version 6.0.16)
 4. Add a class called `Program.cs` - this is where we are going to create our test server! Add the code below to this file:
 
@@ -134,11 +134,11 @@ namespace MvcMovie.FeatureTests
 <section class="note">
     <p>In this section, we are going to write a test for the following user story:</p>
     <span style="white-space: pre-line">As a user
-    When I visith the home page
+    When I visit the home page
     Then I see the message "Welcome"</span>
 </section>
 
-1. Update the `UnitTest1.cs` class to be `HomeControllerTests`
+1. Update the `UnitTest1` class to be `HomeControllerTests` (make sure you also re-name the file!)
 2. Update the file to match the code below:
 
 ```c#
@@ -180,14 +180,14 @@ namespace MvcMovie.FeatureTests
     <strong>Practice</strong>
     <p>In the MvcMovie projects, create a test, and the Controller and Views to satisfy this user story:</p>
     <span style="white-space: pre-line">As a user
-    When I visith "/Home/FunFacts"
+    When I visit "/Home/FunFacts"
     Then I see "The Bumble Bee Bat is the smallest mammal."</span>
 </section>
 
 ## Setting up our Database Environment
 
 1. Install these packages:
-    * Microsoft.EntityFrameworkCore.InMemory
+    * Microsoft.EntityFrameworkCore.InMemory (version 7.0.5)
 2. Add a file to your test project called `appsettings.json`
 3. Update that file to contain the following code:
 
@@ -318,10 +318,11 @@ namespace MvcMovie.FeatureTests
 </aside>
 
 <aside class="instructor-notes">
-    <p><strong>Instructor Note</strong><br>There is a branch with finished code at: https://github.com/turingschool-examples/MvcMovieStarter</p>
+    <p><strong>Instructor Note</strong><br>There is a branch called finishedFeatureTest with finished code at: https://github.com/turingschool-examples/MvcMovieStarter/tree/finishedFeatureTest</p>
 </aside>
 
 ## Checks for Understanding
 * What are two components of our project that need to be recreated in our test project?
 * What do we need to do in the Arrange step of a feature test?
 * In your own words, describe the `response` object that we get when we call `client.GetAsync("somepath");`
+* Why did we need to create a GetDbContext() method in our MovieControllerTests and not our HomeControllerTests?
