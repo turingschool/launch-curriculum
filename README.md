@@ -60,7 +60,7 @@ gem install eventmachine -- --with-openssl-dir=/usr/local/opt/openssl@1.1
 You can include 'hidden' instructor notes in your lessons by using the following syntax:
 
 ```html
-<aside class="instructor-notes">
+<aside class="instructor-notes" markdown="1">
     <p><strong>Instructor Note</strong><br>Your Note.</p>
 </aside>
 ```
@@ -74,7 +74,7 @@ You can add styled boxes to your lesson plans for different areas of content.
 #### Standard Box:
 
 ```html
-<section class="call-to-action">
+<section class="call-to-action" markdown="1">
 ### In Your Notebook
 
 What would you expect to be logged when we get to line 10? Why?
@@ -90,7 +90,7 @@ Will result in the following styled box:
 The heading in the answer box *must be an h3*. You can include any text within the section after that
 
 ```html
-<section class="answer">
+<section class="answer" markdown="1">
 ### The Answer  
 
 Here is an answer to the On Your Own section...
@@ -106,7 +106,7 @@ Will result in the following styled box:
 #### Note Box:
 
 ```html
-<section class="note">
+<section class="note" markdown="1">
 ### Note
 
 This hoisting behavior adds some complexity to the JavaScript language, and is important to understand thoroughly in order to anticipate the values of your variables at any given time.
@@ -118,7 +118,7 @@ This hoisting behavior adds some complexity to the JavaScript language, and is i
 #### CFU/Exit Ticket Box:
 
 ```html
-<section class="checks-for-understanding">
+<section class="checks-for-understanding" markdown="1">
 ### Exit Ticket
 
 What are 3 easy and actionable accessibility steps you can take in all of your projects from here on out?
