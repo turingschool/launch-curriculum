@@ -19,3 +19,5 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 ### Week 1
 * How the Web Works (HTTP Request/Response Cycle): [Lesson](./lessons/week1/HowTheWebWorks) &#124; [Lab](./labs/week1/HowTheWebWorks)
 
+### Week 3
+* Creating and Reading Related Resources: [Prep](./preparation/Week3/CreatingRelatedResources) &#124; [Lesson](./lessons/Week3/CreatingRelatedResources) &#124; [Lab](./labs/Week3/CreatingRelatedResources)
