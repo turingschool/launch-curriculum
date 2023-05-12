@@ -10,6 +10,15 @@ title: Test Driven Development
 
 ## Warm Up
 
+[9 Major Computer Bugs That Wreaked Havoc](https://www.mentalfloss.com/article/85782/9-major-computer-bugs-wreaked-havoc)
+
+Spend 15 minutes reading the above article and reflecting on the following questions in your notebook:
+1. Which of these scenarios could have been prevented by better testing?
+2. Are there scenarios for which a test could not have been created?
+3. Can we anticipate every possible bug?
+
+You'll then have a chance to discuss these questions in breakout rooms.
+
 ## Why Write Tests
 
 Getting started on a new project, or a new feature in an existing project, can be difficult.  Sometimes it is hard to know where to start, or what functionality you should build.  This is where _design_ comes in; it is easier to start coding when you have an idea of the classes that will make up a project.  One tool we have to help us design our projects is testing.
@@ -28,7 +37,7 @@ Having a robust test suite is a way for us to be good to our future selves and o
 
 In module 1, we wrote tests for code that we had already written.  Test Driven Development flips that process and asks us to write tests first (for code that does not yet exist!).  In this process, we use our tests to drive how we design our code.  Before we start implementing classes or methods, we determine what we want those classes to look like by writing tests.
 
-Sometimes it can feel a little bit difficult to come up with a test for something before we’ve decided exactly how it’s going to work. That’s fine. However, writing our tests first provides some additional advantages:
+Sometimes it can feel a little bit difficult to come up with a test for something before we’ve decided exactly how it’s going to work. However, writing our tests first provides some advantages:
 
 1. _Integrates writing tests into our process for creating new code_: This means we don’t have to go back and fill in our test suite later. Testing becomes an integral part of writing code and not a chore to be completed at some later date.
 2. _Forces us to think about what we want_: Part of the reason testing is so hard is that we have to make decisions early. Programming is hard. It can be helpful to separate the process of determining what we want the program to do from how we’re going to accomplish it. In some ways, this also allows us to ask the question: 'in my dream world, how would this work?' It permits us to think about what we want rather than what we think will be easiest to implement.
@@ -36,7 +45,6 @@ Sometimes it can feel a little bit difficult to come up with a test for somethin
 4. _Only write the code you need_: It’s surprisingly easy to get distracted when you’re programming. We can start writing code that we think will help us at some point in the future without really knowing how. We can’t completely ignore this possibility when we have a test, but it can help to tell us when we’ve solved a problem. This also lets us know that we don’t need to write any more code.
 
 ## Practice
-- review tables that we have in Customers and Orders
 - Outline classes and methods we might want
 - create project
 - write tests for customers
@@ -51,11 +59,13 @@ Let's practice some TDD by creating some classes and methods that might be usefu
 ```
 Little Shop
 
-Our store needs to be able to create Customers.  Each customer should have a name and an address.
+As a small business owner, I need to be able to keep track of items that are currently for sale and I need to track both the item name and price. 
 
-Customers will have one or more Orders.  Each order is comprised of a list of Items, that item's price and the quantity ordered.
+I also need to keep track of orders placed. Each order is placed by one customer and can have one or multiple items. I need a way to see the total price for a given order.
 
-We want to be able to see the total cost of an order, as well as the total a customer has spent across all their orders.
+For the customers, I need to keep track of their name and address.
+
+Finally, I need a way to keep track of all of my orders and calculate the total revenue across all orders. 
 ```
 
 > With a partner, review the requirements above.  Take 10 minutes to brainstorm the classes you would need.  For each class, brainstorm what attributes and methods should be included. 
@@ -68,12 +78,14 @@ We want to be able to see the total cost of an order, as well as the total a cus
     <p><strong>Instructor Note</strong><br>Prompt students to start looking at the class outline after 10 minutes - they do not need to brainstorm a full solution.</p>
 </aside>
 
-<details><summary>Class Outline</summary><br/>
-    <p align='center'>
+//TODO UPDATE THIS IMAGE!!!
+
+<section class="answer" markdown="1">
+<h3>Class Outline</h3>  
+<p align='center'>
         <img src='/assets/images/module2/Week2/littleshopclassoutline.png'>
     </p>
-</details>
-
+</section>
 ### Writing our First Test
 
 We are going to start by creating tests for the Item class (because it is one of the simplest 🙂).
@@ -81,7 +93,7 @@ We are going to start by creating tests for the Item class (because it is one of
 >Individually:
 >1. Create a new Console Application in Visual Studio, called `LittleShop`.
 >2. Add a test project called `LittleShop.Tests`.
->3. Create the tests for a future Item class.
+>3. Create a test for a future Item class. Start by renaming the file `UnitTest1` and the class inside that file to whatever you want to call your test.
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>After giving them some time individually to create tests, put them into groups to review what they came up with.</p>
@@ -89,11 +101,12 @@ We are going to start by creating tests for the Item class (because it is one of
 
 >In small groups, review the tests you each created.  Take turns sharing your screens and asking questions.  Be ready to share out!
 
-<details><summary>Item Tests</summary><br/>
-    <p align='center'>
-        <img src='/assets/images/module2/Week2/ItemTest.png'>
-    </p>
-</details>
+<section class="answer" markdown="1">
+<h3>Item Test</h3>  
+<p align='center'>
+    <img src='/assets/images/module2/Week2/ItemTest.png'>
+</p>
+</section>
 
 With this test created, we can see that Visual Studio is already giving us some insight into what we should do first in our implementation.  We see that `Item` is underlined in red - meaning that we don't have an Item class in scope. We are going to use feedback from our tests to determine how to implement the class.
 
@@ -101,15 +114,16 @@ With this test created, we can see that Visual Studio is already giving us some 
 
 Using TDD, we want to implement **only** the code required to clear a specific error or issue, then address the next issue as it arises.  So, at this point we are not going to implement the entire Item class, we are only going to implement the code needed to pull an Item class into scope.
 
-> With a partner, take 5 minutes to determine the smallest amount of coding we need to do in order to resolve this first issue.
+> With a partner, take 5 minutes to write the smallest amount of coding in order to resolve this first issue of having an Item class in scope.
 
-<details><summary>Solution</summary><br/>
+<section class="answer" markdown="1">
+<h3>Code To Fix The First Error</h3>  
 <p>The only thing we need to do is create an Item class (and add the project reference).  Doing that will clear the first issue, and presents us with new errors!</p>
 
 <p align='center'>
     <img src='/assets/images/module2/Week2/ItemClassCreated.png'>
 </p>
-</details>
+</section>
 
 One of the biggest benefits of TDD is that we _only create the code that we need_.  Following TDD should ensure that we are not creating unnecessary code.  But, to get this benefit, we need to make **small, incremental** changes.  You should repeat the following steps:
 
@@ -123,11 +137,12 @@ One of the biggest benefits of TDD is that we _only create the code that we need
     <p><strong>Instructor Note</strong><br>Be sure to ask them at what point they started running the test to see what to do next.  It is possible (likely) that students have not run the tests at all - they may rely only on the text editor's feedback to determine what to do next. Following the steps above, they _should_ get to a point where the properties are created but are not assigned to the constructor argument values.</p>
 </aside>
 
-<details><summary>Completed Item Class</summary><br/>
+<section class="answer" markdown="1">
+<h3>Completed Item Class</h3>  
 <p align='center'>
     <img src='/assets/images/module2/Week2/ItemClassComplete.png'>
 </p>
-</details>
+</section>
 
 ### TDD the Customer Class
 
@@ -136,11 +151,12 @@ One of the biggest benefits of TDD is that we _only create the code that we need
 > 2. When finished, compare your tests to the Solution below.  
 > 3. **AFTER** the tests are written, implement the Customer class.
 
-<details><summary>Customer Tests</summary><br/>
-    <p align='center'>
-        <img src='/assets/images/module2/Week2/CustomerTest.png'>
-    </p>
-</details>
+<section class="answer" markdown="1">
+<h3>Customer Tests</h3>  
+<p align='center'>
+    <img src='/assets/images/module2/Week2/CustomerTest.png'>
+</p>
+</section>
 
 ### TDD the Order Class
 
@@ -153,11 +169,12 @@ Using TDD often shows us how interdependent our classes can be. This forces us t
     <p><strong>Instructor Note</strong><br>As you review groups' code, keep an eye on issues and bring the group back together to discuss common misunderstandings. When students are ready to move on to the Order, help them brainstorm what the Item List might look like.</p>
 </aside>
 
-<details><summary>Order Tests</summary><br/> 
-    <p align='center'>
-        <img src='/assets/images/module2/Week2/OrderTest.png'>
-    </p>
-</details>
+<section class="answer" markdown="1">
+<h3>Order Tests</h3>  
+<p align='center'>
+    <img src='/assets/images/module2/Week2/OrderTest.png'>
+</p>
+</section>
 
 > With a partner, use your tests to drive the implementation of the Order class.
 
@@ -167,11 +184,12 @@ Using TDD often shows us how interdependent our classes can be. This forces us t
 > As you work, reach out with **any** questions!
 > The Total Revenue for the shop should be a sum of all order totals.
 
-<details><summary>Shop Tests</summary><br/> 
-    <p align='center'>
-        <img src='/assets/images/module2/Week2/ShopTest.png'>
-    </p>
-</details>
+<section class="answer" markdown="1">
+<h3>Shop Tests</h3>  
+<p align='center'>
+    <img src='/assets/images/module2/Week2/ShopTest.png'>
+</p>
+</section>
 
 > With a partner, use your tests to drive the implementation of the Shop class.
 
