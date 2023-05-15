@@ -12,7 +12,7 @@ title: Test Driven Development
 
 [9 Major Computer Bugs That Wreaked Havoc](https://www.mentalfloss.com/article/85782/9-major-computer-bugs-wreaked-havoc)
 
-Spend 15 minutes reading the above article and reflecting on the following questions in your notebook:
+Spend 10 minutes reading the above article and reflecting on the following questions in your notebook:
 1. Which of these scenarios could have been prevented by better testing?
 2. Are there scenarios for which a test could not have been created?
 3. Can we anticipate every possible bug?
