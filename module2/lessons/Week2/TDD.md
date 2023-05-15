@@ -78,8 +78,6 @@ Finally, I need a way to keep track of all of my orders and calculate the total 
     <p><strong>Instructor Note</strong><br>Prompt students to start looking at the class outline after 10 minutes - they do not need to brainstorm a full solution.</p>
 </aside>
 
-//TODO UPDATE THIS IMAGE!!!
-
 <section class="answer" markdown="1">
 <h3>Class Outline</h3>  
 <p align='center'>
