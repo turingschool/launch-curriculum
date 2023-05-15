@@ -12,8 +12,6 @@ Imagine we have an application that tracks vehicles and their owners.  A Vehicle
     * psuedo-code the form in your notebook
     * make sure to include labels, inputs, and submission route!
 
-You might find it helpful to revisit our [Creating Resources](/module3/lessons/Week3/CreatingSingleResource) Lesson!
-
 ## Adding Complexity to Forms
 
 Now, lets imagine the Vehicle.
