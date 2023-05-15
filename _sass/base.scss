@@ -158,3 +158,15 @@ header {
     }
   }
 }
+
+/* Tables */
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 75%;
+} 
+
+th,td {
+  border: 1px solid black;
+}
