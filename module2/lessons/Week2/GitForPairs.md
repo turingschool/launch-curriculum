@@ -3,8 +3,6 @@ layout:     page
 title:      Git for Pairs
 ---
 
-# Git for Pairs
-
 ## Learning Goals
   * Outline a workflow for collaborating on a single repository
   * Identify and resolve merge conflicts
@@ -15,14 +13,16 @@ title:      Git for Pairs
   * Fork repo
 
 ## Review
-> Review the following video lessons from Version Control with Git/Github:
-  >1. [Create A Project and Initialize a Git Repository](https://www.loom.com/share/d3af392e059147a699ce6ac1af65d251)
-  >1. [Add Commits to the Git Repository](https://www.loom.com/share/b7373e5aaad646c790965422719bb993)  
-  >1. [Creating and Pushing to a Github Repository](https://www.loom.com/share/dba188a5f13e43059d9a84b630280c53)
+Let's go over the following Git terms you reviewed in preparation for today's lesson:
 
-## Pair Programming
-
-Pair Programming is a technique in which two software developers work together on a problem. We commonly refer to it as Pairing. The concept of pairing comes from the Agile Methodology, which you’ll learn more about during your time at Turing.
+* Git
+* Github
+* Local Repository
+* Remote Repository
+* Add
+* Commit
+* Push
+* Branch
 
 ## Paired Process
 In this scenario, a developer (we'll call them **Player 1**) is creating a repository about the 50 U.S. states. Player 1 recruits another developer (let's call them **Player 2**) to assist.
@@ -30,6 +30,7 @@ In this scenario, a developer (we'll call them **Player 1**) is creating a repos
 > 1. P1: [Create new local repo](https://www.loom.com/share/71a517ddc5f94a1b8c8f32960e44e6cc)
 > 1. P1: [Add collaborator in Github](https://www.loom.com/share/81b90d19934e4be1ba630124cf0fdaa7)
 > 1. P1: [Create new branch and Pull Request](https://www.loom.com/share/a216eda4c9fa4a0d881528ef8e5458ff)
+
 
 | Player 1 | Player 2 |
 | -------- | -------- |
