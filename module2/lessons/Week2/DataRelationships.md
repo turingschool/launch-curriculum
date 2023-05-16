@@ -55,7 +55,7 @@ Be prepared to share your tables and answer the following questions.
 * What primary key do you have?
 * What foreign key do you have?
 
-<details><summary>Normalized Songs and Artists Database</summary><br/>
+<h1><summary>Normalized Songs and Artists Database</summary><br/>
 
 When we normalize our database, we need to include some sort of marker for ourselves to know how to relate the tables to one another.  We do this with **primary keys** and **foreign keys**.  As our database exists now, every record has an `id`.  We can use these ids to relate information in one table, to information in the other (or give each of our songs an artist).  For each song in our database, we will add an attribute `artist_id` that will hold the `id` of the artist that song belongs to.
 
@@ -65,7 +65,7 @@ When we normalize our database, we need to include some sort of marker for ourse
 
 This `artist_id` is the **foreign key** on our songs table that relates a song back to the `id` of an artist on the artists table - also referred to as the **primary key** of the artists table.
 
-</details>
+</h1>
 </br>
 As we build out our databases, we will want them to be as normalized as possible - only storing information from a single resource per table.
 
@@ -120,7 +120,7 @@ Since we can’t achieve the many-to-many relationship with our given tables, we
 
 Note: Join tables are just ordinary tables with a unique purpose. Each row of our join table relates a row of one table to a row of another table.
 
-Turn and Talk: Which songs are associated with which playlists?
+Merge Conflict!!
 
 The join table’s name doesn’t really matter. We could call it Song_Playlist or Playlist_Song, it’s really up to you as the developer. Other naming structures for join tables I've seen are playlist_song_mapping, playlist_songs, or playlist_to_song_map. You could even choose to name it happy_fun_times but that would be confusing.
 
@@ -141,13 +141,14 @@ Annotate this diagram as much as you can! What type of relationships do you see?
 
 Then, write sentences to describe these relationships.
 
-<details><summary>Annotated Car Accident ERD</summary><br/>
+<details><p>Annotated Car Accident ERD</p><br/>
 
 <p align='center'>
   <img src='/assets/images/module2/Week2/car_accident_ERD_annotated.png'>
 </p>
 </details>
 </br>
+Conflict??
 
 This ERD is from the [Visual Paradigm](https://circle.visual-paradigm.com/category/system-design-development/entity-relationship-diagram/) website. They have many more examples if you want additional practice!
 
