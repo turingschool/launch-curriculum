@@ -19,7 +19,7 @@ An HTTP route is the code responsible for receiving and responding to an HTTP re
 
 What is a RESTful route?
 A RESTful route is a common pattern for defining our routes. It is used to map between HTTP routes/methods and CRUD functionality.
-By the way, REST stands for REpresentation State Transfer. This may be an interview question; remember it just in case. I
+By the way, REST stands for REpresentation State Transfer. This may be an interview question; remember it, just in case. I
 
 What is a URI?
 URI stands for Uniform Resource Identifier. It is the part of the URL after the domain. Refer to [this Wiki page](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) for more information. For our purpose, the URI is the same as our route.
@@ -125,98 +125,18 @@ public IActionResult Show(int id)
 
 In later lessons, we will continue to build out the remaining routes from the RESTful table.
 
+* New: This method offers a form for the user to create a new movie object.
+* Create: This method creates a new movie object to add to our database, often in conjunction with the `New()` method.
+* Edit: This method offers a form for the user to edit an existing movie object.
+* Update: This method updates an existing movie object, often in conjunction with the `Edit()` method.
+* Destroy: This method deletes an existing movie object from our database.
+
 ## Check for Understanding
 
-1. If you had an application for `vehicles`, what are the URI's for the 7 RESTful routes that need to be created?
 1. Which HTTP method(s) map to the CRUD function Create?
 1. Which HTTP method(s) map to the CRUD function Read?
 1. Which HTTP method(s) map to the CRUD function Update?
 1. Which HTTP method(s) map to the CRUD function Delete?
-
-
-
-
-
-
-
-
-
-
-
-
-This method returns the movie object that matches the given ID number. If the ID does not exist in the database, the app should fail gracefully (i.e. display an error message instead of an error page). Occasionally, this method is named `Details()`.
-
-
-*Note:* the annotation makes the route `/Movies/<id>` instead of `/Movies/Show/<id>`
-
-
-### New()
-
-
-```c#
-// GET: /Movies/New
-public IActionResult New()
-{
-    return View();
-}
-```
-
-
-This method offers a form for the user to create a new movie object.
-
-
-### Create()
-```c#
-// POST: /Movies/Create
-```
-
-
-This method creates a new movie object to add to our database, often in conjunction with the `New()` method.
-
-
-### Show(int id)
-
-
-```c#
-// GET: /Movies/<id>
-[Route("Movies/{id:int}")]
-public IActionResult Show(int id)
-{
-    var movie = _context.Movies.Find(id);
-    return View(movie);
-}
-```
-
-
-This method returns the movie object that matches the given ID number. If the ID does not exist in the database, the app should fail gracefully (i.e. display an error message instead of an error page). Occasionally, this method is named `Details()`.
-
-
-*Note:* the annotation makes the route `/Movies/<id>` instead of `/Movies/Show/<id>`
-
-
-### Edit(int id)
-```c#
-// GET: /Movies/<id>/edit
-```
-
-
-This method offers a form for the user to edit an existing movie object.
-
-
-### Update(int id)
-```c#
-// PATCH: /Movies/<id>
-```
-
-
-This method updates an existing movie object, often in conjunction with the `Edit()` method.
-
-
-### Destroy(int id)
-```c#
-// DELETE: /Movies/<id>
-```
-
-
-This method deletes an existing movie object from our database. Occasionally, this method is named `Delete()`.
+1. If you had an application for `vehicles`, what are the URI's for the 7 RESTful routes that need to be created?
+1. What is the annotation you will need to add for the Show() method in the `vehicles` application?
 
