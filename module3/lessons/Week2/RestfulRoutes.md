@@ -4,30 +4,51 @@ title:  RESTful Routes
 ---
 
 ## Learning Objectives
-*
-*
+* Review CRUD functionality
+* Understand REST as it relates to CRUD
+* Learn the 7 RESTful routes
+* Understand the different between RESTful and non-RESTful routes
+
+## But first...
+
+What is CRUD again?
+Thus far, we've used CRUD functionality to Create, Read, Update, and Delete from a database.
+
+What is an HTTP route?
+An HTTP route is the code responsible for receiving and responding to an HTTP request.
+
+What is a RESTful route?
+A RESTful route is a common pattern for defining our routes. It is used to map between HTTP routes/methods and CRUD functionality.
+By the way, REST stands for REpresentation State Transfer. This may be an interview question; remember it just in case. I
+
+What is a URI?
+URI stands for Uniform Resource Identifier. It is the part of the URL after the domain. Refer to [this Wiki page](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) for more information. For our purpose, the URI is the same as our route.
+e.g. for the URL `https://en.wikipedia.org/wiki/Uniform_Resource_Identifier`:
+* the domain is `en.wikipedia.org` 
+* the URI is `/wiki/Uniform_Resource_Identifier`
 
 
 ## The List
 
+Here is a table of the list of RESTful routes. The given URI is based on the context from our `MvcMovie` application.
 
-Here is a table of the list of RESTful routes. The given URL based on the context from our `MvcMovie` application.
 
+| Route Name | URI | HTTP Method | CRUD | Return Type | Purpose |
+|--|--|--|--|--|--|
+| **Index** | `/movies` | GET | Read | View | Display list of all movies |
+| **New** | `/movies/new` | GET | Create | View | Use form to create new movie |
+| **Create** | `/movies` | POST | Create | Redirect | Create new movie in database |
+| **Show** | `/movies/:id` | GET | Read | View | Display details for one specific movie |
+| **Edit** | `/movies/:id/edit` | GET | Update | View | Use form to edit existing movie |
+| **Update** | `/movies/:id` | PUT* | Update | Redirect | Update existing movie in database |
+| **Destroy** | `/movies/:id` | DELETE | Delete | Redirect | Delete existing movie |
 
-| Route Name | URL | HTTP Method | Purpose |
-|--|--|--|--|
-| **Index** | `/movies` | GET | Display list of all movies |
-| **New** | `/movies/new` | GET | Use form to create new movie |
-| **Create** | `/movies` | POST | Create new movie in database |
-| **Show** | `/movies/:id` | GET | Display details for one specific movie |
-| **Edit** | `/movies/:id/edit` | GET | Use form to edit existing movie |
-| **Update** | `/movies/:id` | PATCH | Update existing movie in database |
-| **Destroy** | `/movies/:id` | DELETE | Delete existing movie |
+* The Update route can also use the PATCH method. PUT updates an entire resource; PATCH updates a portion of the resource.
 
 ## RESTful Routes
-Let's breakdown each method in our controller as it pertains to REST.
+Let's take a look at two methods in our controller as it pertains to REST.
 
-## Index() method
+### Index() method
 
 
 ```c#
@@ -40,7 +61,93 @@ public IActionResult Index()
 ```
 
 
-This was the existing method in our controller from the MVC lesson. As we witnessed previously, this method returns all the movies in our database.
+This is the existing method in our controller from the MVC lesson. As we witnessed previously, this method returns a View that displays all the movies in our database.
+
+### Show(int id)
+
+The Show() method takes an integer and returns the Movie record with that ID number from the database. To accomplish this, we need to do the following:
+* Create a local variable that stores the movie from the `context` object.
+* Return a View to display the details of that movie.
+
+Add this code to `MoviesController.cs` file, preferably after the `Index()` method:
+
+```c#
+// GET: /Movies/<id>
+public IActionResult Show(int id)
+{
+    var movie = _context.Movies.Find(id);
+    return View(movie);
+}
+```
+
+### Show View
+
+We have a View for our Index route that displays all the movies in our database: `Index.cshtml`. Let's create a View for our Show route that displays a single movie.
+
+From Solution Explorer:
+* Expand the Views folder
+* Right-click the Movies folder
+* Add > New File
+* Name the new file `Show.cshtml`
+
+Add the following code to the `Show.cshtml` file:
+
+```html
+@model Movie
+
+<h1>Movie Details</h1>
+
+<p>Title: @Model.Title</p>
+
+<p>Genre: @Model.Genre</p>
+
+```
+
+We have just created a View for our Show route. However...
+
+## RESTful Annotation
+
+We are ALMOST done. Here's our problem: if we visit `/movies/1` to see the movie with the ID `1`, we get an error. To see the `1` movie, we would have to go to `/movies/show/1`. But this does not match the RESTful pattern from our table above. Instead, we need to add an annotation to make our route RESTful.
+
+Add `[Route("Movies/{id:int}")]` above the Show() method declaration. The final method should look like this:
+
+```c#
+// GET: /Movies/<id>
+[Route("Movies/{id:int}")]
+public IActionResult Show(int id)
+{
+    var movie = _context.Movies.Find(id);
+    return View(movie);
+}
+```
+
+## Later Lessons
+
+In later lessons, we will continue to build out the remaining routes from the RESTful table.
+
+## Check for Understanding
+
+1. If you had an application for `vehicles`, what are the URI's for the 7 RESTful routes that need to be created?
+1. Which HTTP method(s) map to the CRUD function Create?
+1. Which HTTP method(s) map to the CRUD function Read?
+1. Which HTTP method(s) map to the CRUD function Update?
+1. Which HTTP method(s) map to the CRUD function Delete?
+
+
+
+
+
+
+
+
+
+
+
+
+This method returns the movie object that matches the given ID number. If the ID does not exist in the database, the app should fail gracefully (i.e. display an error message instead of an error page). Occasionally, this method is named `Details()`.
+
+
+*Note:* the annotation makes the route `/Movies/<id>` instead of `/Movies/Show/<id>`
 
 
 ### New()
