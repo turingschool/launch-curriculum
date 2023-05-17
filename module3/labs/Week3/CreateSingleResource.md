@@ -10,7 +10,7 @@ For today's lab, you're going to continue building on your Record Collection app
 **Objective**: Add a form to create a new album and thoroughly test this new feature.
 
 1. Open your Record Collection project. 
-    * If you have been absent or can't find it, follow these steps:
+    * If you have been absent, follow these steps:
         * Fork and Clone it from this [Starter Repository](https://github.com/turingschool-examples/LaunchFeatureLabStarter_RecordCollection).
         * Create the database by running `update-database` from the Package Manager Console.
         * Open the database in pgAdmin, and create some records by running the following script (feel free to update the albums and artists to your favorites!).
@@ -20,8 +20,7 @@ For today's lab, you're going to continue building on your Record Collection app
         ('Stop Making Sense', 'Talking Heads', '1984-06-24'),
         ('Banana Winds', 'Jimmy Buffet', '1996-12-06')
         ```
-1. Check out the branch _____________________ TODO need a branch for after REST lesson___________
-1. Build the project, and let an instructor know if you receive any errors.
+        * Build the project, and let an instructor know if you receive any errors.
 
 ## Diagramming
 

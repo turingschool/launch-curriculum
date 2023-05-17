@@ -8,7 +8,7 @@ title:  Creating a Single Resource
 * Use a form to create single resources
 * Create tests for our new page and form
 
-We will be continuing to build our MVC Movies application. Take a minute to make sure you have that project open and check out the _____TODO pull from REST lesson_____ branch.
+We will be continuing to build our MVC Movies application. Take a minute to make sure you have that project open and check out the branch your instructor will share in slack.
 
 ## Intro
 
@@ -16,7 +16,7 @@ Forms are everywhere!
 
 ![Examples of Forms](/assets/images/module3/Week3/Forms_Are_Everywhere.png)
 
-> Think about your top 3 most-used apps on your phone…  How many types/implementations of forms are there in those apps?
+> Think about your most-used websites or apps…  What examples of types/implementations of forms can you find?
 
 ## Diagramming the Request/Response Cycle
 
@@ -82,6 +82,10 @@ New.cshtml should include
 
 ### Building the Form
 
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>You will need to build two slack threads for this share out on forms. </p>
+</aside>
+
 In the Slack thread, share the form you created as part of the preparation for this lesson. 
 
 What's similar between all of the forms?
@@ -97,7 +101,6 @@ In the second Slack thread, share what you learned about accessibility best prac
 Let's work together to build the form for creating a new movie.
 
 ![Create Movie Form](/assets/images/module3/Week3/Create_Movie_Form.png)
-
 
 
 <section class="answer">
@@ -131,9 +134,15 @@ The `action="/movies"` attribute specifies the route where the form data will be
 
 ### Our First POST Route
 
-Our form is now sending a POST request to the `/movies` endpoint and it is sending the movie data from the form as the request body. Let's build the route to handle this request!
+Our form is now sending a POST request to the `/movies` endpoint and it is sending the movie data from the form as the request body. 
 
-In our `MoviesController.cs` file, let's add the following:
+We can see this by opening up the dev tools in our browser and looking at the request.
+
+![Create Movie Request](/assets/images/module3/Week3/Create_Movie_Request.png)
+
+❓Does this route already exist - why or why not?
+
+Let's build the route to handle this request! In our `MoviesController.cs` file, let's add the following:
 
 ```c#
 // POST: /Movies
@@ -156,7 +165,7 @@ We're using the [RedirectToAction](https://learn.microsoft.com/en-us/dotnet/api/
 
 ## Testing a From
 
-> With your partner: Brainstorm What we need to test for the code we wrote today.
+> With your partner: Brainstorm what tests we should write for the code we wrote today.
 
 
 ### Testing /movies/new
@@ -223,6 +232,24 @@ public async Task AddMovie_ReturnsRedirectToShow()
 }
 ```
 
+### The Order of Our Tests
+
+We need to address one aspect of testing - the order and timing of each of our tests.  By default, xUnit will run our tests randomly, and as quickly as possible (some tests even run at the same time!).  Generally, this is a good thing - we want our tests to be individually robust, and not rely on any _other_ test to run successfully. In this case, though, we need to control our test runs a bit more.
+
+If left to their default settings, we could have two tests running at the same time (concurrently) that would put conflicting data into our test database.  xUnit provides a simple way to group tests that need to be run strictly one at a time.  We will use an attribute to group all of our Controller tests into one collection:
+
+```c#
+// MoviesControllerTests.cs
+namespace MvcMovie.FeatureTests
+{
+    [Collection("Movies Controller Tests")]
+    public class MovieControllerTests : IClassFixture<WebApplicationFactory<Program>>
+    {
+        ...
+```
+
+Any test class in this collection will be run one at a time, reducing the chance for a database conflict.
+
 ## Checks for Understanding
 
 1. In your own words, what happens when a user clicks submit on a form?
@@ -233,3 +260,7 @@ public async Task AddMovie_ReturnsRedirectToShow()
     _context.Movies.Add(movie);
     _context.SaveChanges();
     ```
+
+## Additional Resources
+
+* This is an excellent site for learning more about accessibility: [https://www.a11yproject.com](https://www.a11yproject.com)

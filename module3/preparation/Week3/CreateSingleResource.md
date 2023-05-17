@@ -3,13 +3,18 @@ layout: page
 title:  Pre-Work for Creating a Single Resource
 ---
 
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>This is a longer prep because it requires independent learning. Try to provide at least 30 minutes.</p>
+</aside>
+
+
 ## Independent Learning: HTML Forms
 
 The way that we create resources is with forms! So to prepare for the next lesson, you will do some independent learning about HTML forms.
 
 ![Examples of Forms](/assets/images/module3/Week3/Example_Form.png)
 
-**The challenge**: Recreate the above HTML form. We haven't covered forms yet in this course, so you will need to use your Googling skills! The user should be able to input their information, but the submit button shouldn't do anything. 
+**The challenge**: Recreate the above HTML form. We haven't covered forms yet in this course, so you will need to use your Googling skills! The user should be able to input their information, but the submit button shouldn't do anything. If you enter unproductive struggle while implementing one of the input types, skip it and move on to the next!
 
 As you're creating your form, look for answers to the following questions:
 
@@ -18,8 +23,7 @@ As you're creating your form, look for answers to the following questions:
 1. What are some best practices for form accessibility?
 
 
-
-
+🌶️If you finish early and are looking for an additional challenge, try to update the form to make Name and Email required.
 
 
 <aside class="instructor-notes">
