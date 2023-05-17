@@ -3,6 +3,12 @@ layout: page
 title: Productive Struggle
 ---
 
+<section class='instructor-notes' markdown='1'>
+
+Slides for this lesson: [Productive v Unproductive Struggle](https://docs.google.com/presentation/d/1iv1xlIxVX-TxlfZ-_K5kHvyaJ3pj_9WLww2wAffeAlU/edit#slide=id.p1)
+
+</section>
+
 ### Warm Up
 Reflect in your notebook on the following:
 * During your time at Turing so far, when have you felt like you were struggling the most?
@@ -46,7 +52,7 @@ Sometimes referred to as *Rubber Ducking*. It can often help to talk through wha
 Write done what you know and what you have tried.  Writing down what you know (what variables you have access to, what datatypes you are working with, what the return value of a method should be) helps focus you on the problem at hand, without getting caught up in other things.  Keeping track of what you have tried and the result of those attempts can help you keep moving forward without re-trying things that you have already seen didn't work.  It will also help others follow your logic if you need to ask for help!
 
 **Try a Different Method**  
-This might seem like common sense, but it is also a common trap that we can get into - we want so much to use a specific method, that we can tie ourselves to something that isn't going to work.  For example - if you are using `.map` and it isn't working, try `.each`.  Focus on getting it working, rather than on using the *right* method.
+This might seem like common sense, but it is also a common trap that we can get into - we want so much to use a specific method, that we can tie ourselves to something that isn't going to work.  For example - if you are using `foreach` and it isn't working, try `for`.  Focus on getting it working, rather than on using the *right* method.
 
 **Nuke It**  
 CODE IS CHEAP. It's a tough lesson to learn, but a good one-- it costs nothing to delete and start over. All developers sometimes get stuck trying to force our code into a strategy, tool, or path that we're mentally stuck on and determined to make work. And sometimes, that just isn't the right direction.  It's okay (and sometimes, the best course of action) to delete what you've written, take a 5 minute pom, and start fresh when you get back as though it's the first time you've seen the problem. (Disclaimer: we're not talking about a whole project here-- don't delete your whole project the night before it's due).
