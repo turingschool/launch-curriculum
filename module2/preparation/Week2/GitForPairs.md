@@ -19,7 +19,6 @@ Specifically, remind yourself what the following terms mean with regard to git. 
 * Github
 * Local Repository
 * Remote Repository
-* Add
 * Commit
 * Push
 * Branch
