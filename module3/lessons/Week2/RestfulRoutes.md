@@ -15,8 +15,7 @@ title:  RESTful Routes
 <summary>
 What is CRUD again?
 </summary>
-<br>
-Thus far, we've used CRUD functionality to Create, Read, Update, and Delete from a database.
+Thus far, we've used CRUD functionality to **C**reate, **R**ead, **U**pdate, and **D**elete from a database.
 </details>
 
 <details>
@@ -30,20 +29,20 @@ An HTTP route is the code responsible for receiving and responding to an HTTP re
 <summary>
 What is a RESTful route?
 </summary>
-<br>
-A RESTful route is a common pattern for defining our routes. It is used to map between HTTP routes/methods and CRUD functionality.
-By the way, REST stands for REpresentation State Transfer. This may be an interview question; remember it, just in case. I
+A RESTful route is a common pattern for defining our routes. It is used to map between HTTP routes/methods and CRUD functionality.<br><br>
+By the way, REST stands for **RE**presentation **S**tate **T**ransfer. This may be an interview question; remember it, just in case.
 </details>
 
 <details>
 <summary>
 What is a URI?
 </summary>
-<br>
-URI stands for Uniform Resource Identifier. It is the part of the URL after the domain. Refer to [this Wiki page](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) for more information. For our purpose, the URI is the same as our route.
-e.g. for the URL `https://en.wikipedia.org/wiki/Uniform_Resource_Identifier`:
-* the domain is `en.wikipedia.org` 
-* the URI is `/wiki/Uniform_Resource_Identifier`
+URI stands for **U**niform **R**esource **I**dentifier. It is the part of the URL after the domain. Refer to [this Wiki page](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) for more information. For our purpose, the URI is the same as our route.<br><br>
+For example, for the URL `https://en.wikipedia.org/wiki/Uniform_Resource_Identifier`:
+<ul>
+<li> the domain is `en.wikipedia.org` </li>
+<li> the URI is `/wiki/Uniform_Resource_Identifier`</li>
+</ul>
 </details>
 
 What is CRUD again?
