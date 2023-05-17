@@ -11,6 +11,41 @@ title:  RESTful Routes
 
 ## But first...
 
+<details>
+<summary>
+What is CRUD again?
+</summary>
+<br>
+Thus far, we've used CRUD functionality to Create, Read, Update, and Delete from a database.
+</details>
+
+<details>
+<summary>
+What is an HTTP route?
+</summary>
+An HTTP route is the code responsible for receiving and responding to an HTTP request.
+</details>
+
+<details>
+<summary>
+What is a RESTful route?
+</summary>
+<br>
+A RESTful route is a common pattern for defining our routes. It is used to map between HTTP routes/methods and CRUD functionality.
+By the way, REST stands for REpresentation State Transfer. This may be an interview question; remember it, just in case. I
+</details>
+
+<details>
+<summary>
+What is a URI?
+</summary>
+<br>
+URI stands for Uniform Resource Identifier. It is the part of the URL after the domain. Refer to [this Wiki page](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) for more information. For our purpose, the URI is the same as our route.
+e.g. for the URL `https://en.wikipedia.org/wiki/Uniform_Resource_Identifier`:
+* the domain is `en.wikipedia.org` 
+* the URI is `/wiki/Uniform_Resource_Identifier`
+</details>
+
 What is CRUD again?
 Thus far, we've used CRUD functionality to Create, Read, Update, and Delete from a database.
 
