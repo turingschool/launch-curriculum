@@ -33,7 +33,7 @@ title:  RESTful Routes
     </summary>
 
     <ul>
-        <li>A RESTful route is a common pattern for defining our routes. It is used to map between HTTP routes/methods and CRUD functionality.</li>
+        <li>A RESTful route follows a common pattern to map between HTTP routes/methods and CRUD functionality.</li>
         <li>By the way, REST stands for **RE**presentation **S**tate **T**ransfer. This may be an interview question; remember it, just in case.</li>
     </ul>
 </details>
@@ -43,7 +43,7 @@ title:  RESTful Routes
     What is a URI?
     </summary>
 
-    URI stands for **U**niform **R**esource **I**dentifier. It is the part of the URL after the domain. Refer to [this Wiki page](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) for more information. For our purpose, the URI is the same as our route.
+    URI stands for **U**niform **R**esource **I**dentifier. It is the part of the URL after the domain. For our purpose, the URI is the same as our route.
     <br><br>
     For example, for the URL <code>https://en.wikipedia.org/wiki/Uniform_Resource_Identifier</code>:
     <ul>
@@ -150,11 +150,11 @@ Our Show view should now display the `1` movie correctly.
 
 In later lessons, we will continue to build out the remaining routes from the RESTful table.
 
-* New: This method offers a form for the user to create a new movie object.
-* Create: This method creates a new movie object to add to our database, often in conjunction with the `New()` method.
-* Edit: This method offers a form for the user to edit an existing movie object.
-* Update: This method updates an existing movie object, often in conjunction with the `Edit()` method.
-* Destroy: This method deletes an existing movie object from our database.
+* **New**: This method offers a form for the user to create a new movie object.
+* **Create**: This method creates a new movie object to add to our database, often in conjunction with the `New()` method.
+* **Edit**: This method offers a form for the user to edit an existing movie object.
+* **Update**: This method updates an existing movie object, often in conjunction with the `Edit()` method.
+* **Destroy**: This method deletes an existing movie object from our database.
 
 ## Check for Understanding
 
@@ -165,3 +165,10 @@ In later lessons, we will continue to build out the remaining routes from the RE
 	* Delete
 1. If you had an application for `vehicles`, what are the URI's for the 7 RESTful routes that need to be created?
 1. What is the annotation you will need to add for the `Show()` method in the `vehicles` application?
+
+## Additional Resources
+
+* [Medium: The 7 RESTful routes!](https://medium.com/@shubhangirajagrawal/the-7-restful-routes-a8e84201f206)
+* [Medium: RESTful Routing: Mapping REST to CRUD](https://medium.com/@atharvakulkarniamk/restful-routing-mapping-rest-to-crud-dbb2f32f748c)
+* [Uniform Resource Identifier](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) aka **URI** 
+* [If you're feeling really adventurous today](https://en.wikipedia.org/wiki/Representational_state_transfer)
