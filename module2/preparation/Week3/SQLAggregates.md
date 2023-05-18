@@ -13,15 +13,15 @@ In your notebook, define the following terms:
 
 If you are unsure of what these terms refer to, check out the guide below, then redefine them in your own words.
 
-<details><summary>Some Math Terms</summary>
-    <ul>
-        <li><strong>Min:</strong> The first item in an ordered list.  EX: the smallest of a set of numbers.</li>
-        <li><strong>Max:</strong> The last item in an ordered list.  EX: the largest of a set of numbers.</li>
-        <li><strong>Sum:</strong> The total of a collection of numbers. EX: the sum of {1, 3, 5, 4, 2} is 15. <code>1 + 3 + 5 + 4 + 2 = 15</code></li>
-        <li><strong>Average:</strong> A single number that represents the commonality of a set of numbers. Add up a series of numbers and divide the sum by the total number of values to find the average. EX: the average of {1, 3, 5, 4, 2} is 3. <code>(1 + 3 + 5 + 4 + 2) / 5 = 3</code></li>
-    </ul>
-</details>
-<br>
+<section class='answer' markdown='1'>
+
+### Some Math Terms
+* Min: The first item in an ordered list. EX: the smallest of a set of numbers.
+* Max: The last item in an ordered list.  EX: the largest of a set of numbers.
+* Sum: The total of a collection of numbers. EX: the sum of {1, 3, 5, 4, 2} is 15. `1 + 3 + 5 + 4 + 2 = 1`
+* Average: A single number that represents the commonality of a set of numbers. Add up a series of numbers and divide the sum by the total number of values to find the average. EX: the average of {1, 3, 5, 4, 2} is 3. `(1 + 3 + 5 + 4 + 2) / 5 = 3`
+
+</section>
 
 Watch [This Video](https://www.youtube.com/watch?v=9JrQ4HApwLY) That introduces Aggregate Functions.  After watching the video, reflect on the questions below in your notebook:
 
