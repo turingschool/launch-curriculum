@@ -16,10 +16,10 @@ If you are unsure of what these terms refer to, check out the guide below, then 
 <section class='answer' markdown='1'>
 
 ### Some Math Terms
-* Min: The first item in an ordered list. EX: the smallest of a set of numbers.
-* Max: The last item in an ordered list.  EX: the largest of a set of numbers.
-* Sum: The total of a collection of numbers. EX: the sum of {1, 3, 5, 4, 2} is 15. `1 + 3 + 5 + 4 + 2 = 1`
-* Average: A single number that represents the commonality of a set of numbers. Add up a series of numbers and divide the sum by the total number of values to find the average. EX: the average of {1, 3, 5, 4, 2} is 3. `(1 + 3 + 5 + 4 + 2) / 5 = 3`
+* **Min**: The first item in an ordered list. EX: the smallest of a set of numbers.
+* **Max**: The last item in an ordered list.  EX: the largest of a set of numbers.
+* **Sum**: The total of a collection of numbers. EX: the sum of {1, 3, 5, 4, 2} is 15. `1 + 3 + 5 + 4 + 2 = 1`
+* **Average**: A single number that represents the commonality of a set of numbers. Add up a series of numbers and divide the sum by the total number of values to find the average. EX: the average of {1, 3, 5, 4, 2} is 3. `(1 + 3 + 5 + 4 + 2) / 5 = 3`
 
 </section>
 
