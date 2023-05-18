@@ -47,7 +47,7 @@ Your instructor will now demonstrate what this will look like once it's fully wo
 </aside>
 
 ## Filtering for Kids and Horror Genres
-### Frontend Changes - Filtering for Kids and Horror Genres
+### View Changes - Filtering for Kids and Horror Genres
 
 Before we figure out how to include links for all genres, let's figure out how to filter for one genre.
 
@@ -85,7 +85,7 @@ No filtering happens yet, but take a look at your URL when you click the the `Ki
 </section>
 
 
-### Backend Changes - Filtering for Kids and Horror Genres
+### Controller Changes - Filtering for Kids and Horror Genres
 
 In order to use the query string parameter `genre`, we're going to need to make some backend changes in our controller. 
 
@@ -128,7 +128,7 @@ Wouldn't it be nice to show the user what genre they are currently filtering by?
 
 To implement this feature, we're going to use a .NET tool called `ViewData`.  `ViewData` allows you to pass data from a controller to a view. It only works in that one direction, you can't use it to pass data from the view to the controller. `ViewData` is a dictionary where the keys are strings and the values can be of any type.
 
-### Backend Changes - Showing the Selected Genre
+### Controller Changes - Showing the Selected Genre
 
 If we want to use ViewData to pass the genre selected from the controller to the view we can add the following line of code.
 
@@ -148,7 +148,7 @@ public IActionResult Index(string? genre)
 ```
 
 
-### Frontend Changes - Showing the Selected Genre
+### View Changes - Showing the Selected Genre
 In our View we can pull data our of the `ViewData` dictionary the same way we could for any other dictionary. The only difference is we add the Razor syntax @ to transition to writing C# code in our Razor page.
 
 Let's add the following right after our h2 that says "Genre Filter".
@@ -170,7 +170,7 @@ However, this looks a bit odd if we don't have a genre filter selected, and we k
 
 In the demo from the beginning of class, we saw that there were links for all genres currently in the database.
 
-### Backend Changes - Dynamic Genre Filters
+### Controller Changes - Dynamic Genre Filters
 
 Let's start with the backend changes.
 
@@ -204,7 +204,7 @@ public IActionResult Index(string? genre)
 ```
 </section>
 
-### Frontend Changes - Dynamic Genre Filters
+### View Changes - Dynamic Genre Filters
 
 Now we want to pull out AllGenres from our `ViewData` and use the genres to create links!
 
