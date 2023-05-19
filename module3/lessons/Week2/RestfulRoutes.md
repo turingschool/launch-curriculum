@@ -43,7 +43,7 @@ title:  RESTful Routes
     What is a URI?
     </summary>
 
-    URI stands for **U**niform **R**esource **I**dentifier. It is the part of the URL after the domain. For our purpose, the URI is the same as our route.
+    URI stands for **U**niform **R**esource **I**dentifier. It is the part of the URL after the domain. For our purpose, the URI is the same as our route path.
     <br><br>
     For example, for the URL <code>https://en.wikipedia.org/wiki/Uniform_Resource_Identifier</code>:
     <ul>
@@ -54,15 +54,15 @@ title:  RESTful Routes
 
 ## The List
 
-Here is a table of the list of RESTful routes. The given URI is based on the context from our `MvcMovie` application.
+Here is a table of the list of RESTful routes. The given path is based on the context from our `MvcMovie` application.
 
-| Route Name | URI | HTTP Method | CRUD | Return Type | Purpose |
+| Route Name | Path | HTTP Method | CRUD | Return Type | Purpose |
 |--|--|--|--|--|--|
 | **Index** | `/movies` | GET | Read | View | Display list of all movies |
-| **New** | `/movies/new` | GET | Create | View | Use form to create new movie |
+| **New** | `/movies/new` | GET | Create | View | Display form to create new movie |
 | **Create** | `/movies` | POST | Create | Redirect | Create new movie in database |
 | **Show** | `/movies/:id` | GET | Read | View | Display details for one specific movie |
-| **Edit** | `/movies/:id/edit` | GET | Update | View | Use form to edit existing movie |
+| **Edit** | `/movies/:id/edit` | GET | Update | View | Display form to edit existing movie |
 | **Update** | `/movies/:id` | PUT* | Update | Redirect | Update existing movie in database |
 | **Destroy** | `/movies/:id` | DELETE | Delete | Redirect | Delete existing movie |
 
@@ -123,8 +123,13 @@ Add the following code to the `Show.cshtml` file:
 <p>Title: @Model.Title</p>
 
 <p>Genre: @Model.Genre</p>
-
 ```
+
+<section class="answer" markdown="1">
+### What does <code>@model</code> mean?
+
+The <code>@</code> symbol is Razor syntax that allows us to write C# code within this file. In this case, it stores the Movie object to the <code>@model</code> variable and renders the values of <code>@model.Title</code> and <code>@model.Genre</code> to the browser.
+</section>
 
 We have just created a View for our Show route. However...
 
@@ -163,7 +168,7 @@ In later lessons, we will continue to build out the remaining routes from the RE
 	* Read
 	* Update
 	* Delete
-1. If you had an application for `vehicles`, what are the URI's for the 7 RESTful routes that need to be created?
+1. If you had an application for `vehicles`, what are the paths for the 7 RESTful routes that need to be created?
 1. What is the annotation you will need to add for the `Show()` method in the `vehicles` application?
 
 ## Additional Resources
