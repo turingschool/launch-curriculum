@@ -52,6 +52,36 @@ title:  RESTful Routes
     </ul>
 </details>
 
+## But first... (sections)
+
+<section class="answer" markdown="1">
+### What is CRUD again?
+
+Thus far, we've used CRUD functionality to **C**reate, **R**ead, **U**pdate, and **D**elete from a database.
+</section>
+
+<section class="answer" markdown="1">
+### What is an HTTP route?
+
+An HTTP route is the code responsible for receiving and responding to an HTTP request.
+</section>
+
+<section class="answer" markdown="1">
+### What is a RESTful route?
+
+* A RESTful route follows a common pattern to map between HTTP routes/methods and CRUD functionality.
+* By the way, REST stands for **RE**presentation **S**tate **T**ransfer. This may be an interview question; remember it, just in case.
+</section>
+
+<section class="answer" markdown="1">
+### What is a URI?
+
+URI stands for **U**niform **R**esource **I**dentifier. It is the part of the URL after the domain. For our purpose, the URI is the same as our route path.
+
+For example, for the URL `https://en.wikipedia.org/wiki/Uniform_Resource_Identifier`:
+* the domain is `en.wikipedia.org`
+* the URI is `/wiki/Uniform_Resource_Identifier`
+
 ## The List
 
 Here is a table of the list of RESTful routes. The given path is based on the context from our `MvcMovie` application.
