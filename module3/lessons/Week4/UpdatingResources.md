@@ -15,7 +15,6 @@ During today's lesson, we are going to be adding the ability to edit our Movie a
 
 Before we jump into coding, let's brainstorm what the HTTP Request/Response Cycle will look like for editing a Movie.  In small groups, create a diagram that outlines the requests and responses that will allow us to edit an existing resource.  Below are some resources that will help you create this diagram!
 * [How the Web Works](/module3/lessons/week1/HowTheWebWorks)
-* [ReSTful Routes]() TODO: Get ReSTful routes Lesson link
 * [Creating a Resource]() TODO: Get Creating a Resource Lesson link
 
 Be ready to share out!
@@ -130,23 +129,24 @@ public async Task Update_SavesChangesToMovie()
 ```c#
 // controller
 // GET: /Movies/:id/edit
-[Route("/Movies/{id:int}/edit")]
-public IActionResult Edit(int id)
+[Route("/Movies/{movieId:int}/edit")]
+public IActionResult Edit(int movieId)
 {
-    var movie = _context.Movies.Find(id);
+    var movie = _context.Movies.Find(movieId);
 
     return View(movie);
 }
 
 // PUT (via Post): /Movies/:id
 [HttpPost]
-[Route("/Movies/{id:int}")]
-public IActionResult Update(Movie movie)
+[Route("/Movies/{movieId:int}")]
+public IActionResult Update(int movieId, Movie movie)
 {
+    movie.Id = movieId;
     _context.Movies.Update(movie);
     _context.SaveChanges();
 
-    return RedirectToAction("show", new { id = movie.Id });
+    return RedirectToAction("show", new { id = movieId });
 }
 ```
 
@@ -248,9 +248,10 @@ Implement the controller action that we need to update records in our database.
 ### One Solution
 ```c#
 [HttpPost]
-[Route("/Movies/{id:int}")]
-public IActionResult Update(Movie movie)
+[Route("/Movies/{movieId:int}")]
+public IActionResult Update(int movieId, Movie movie)
 {
+    movie.Id = movieId;
     _context.Movies.Update(movie);
     _context.SaveChanges();
 
@@ -323,19 +324,20 @@ public async Task Update_SavesChangestoRevie()
 // controller actions
 
 [HttpGet]
-[Route("/Movies/{movieId:int}/reviews/{id:int}/edit")]
-public IActionResult Edit(int movieId, int id)
+[Route("/Movies/{movieId:int}/reviews/{reviewId:int}/edit")]
+public IActionResult Edit(int movieId, int reviewId)
 {
-    var review = _context.Reviews.Find(id);
+    var review = _context.Reviews.Find(reviewId);
 
     ViewData["movieId"] = movieId;
     return View(review);
 }
 
 [HttpPost]
-[Route("/Movies/{movieId:int}/reviews/{id:int}")]
-public IActionResult Update(int movieId, int id, Review review)
+[Route("/Movies/{movieId:int}/reviews/{reviewId:int}")]
+public IActionResult Update(int movieId, int reviewId, Review review)
 {
+    review.Id = reviewId;
     _context.Reviews.Update(review);
     _context.SaveChanges();
 
