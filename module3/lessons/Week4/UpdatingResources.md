@@ -5,7 +5,7 @@ title: Updating Resources in MVC
 
 ## Learning Goals
 - Use a form to update single resources
-- Use a form to create a one-to-many relationship
+- Use a form to update related resources
 
 During today's lesson, we are going to be adding the ability to edit our Movie and Song records using forms.
 
@@ -70,6 +70,105 @@ public async Task Edit_ReturnsFormViewPrePopulated()
 
 **Code-Along**  
 Now let's build the action that will make this test pass!
+
+<section class='instructor-note' markdown='1'>
+
+Your completed code _could_ look like:
+
+```c#
+// tests
+[Fact]
+public async Task Edit_ReturnsFormViewPrePopulated()
+{
+    // Arrange
+    var context = GetDbContext();
+    var client = _factory.CreateClient();
+
+    Movie movie = new Movie { Title = "Spaceballs", Genre = "Comedy" };
+    context.Movies.Add(movie);
+    context.SaveChanges();
+
+    // Act
+    var response = await client.GetAsync($"/movies/{movie.Id}/edit");
+    var html = await response.Content.ReadAsStringAsync();
+
+    // Assert
+    Assert.Contains("Edit Movie", html);
+    Assert.Contains(movie.Title, html);
+    Assert.Contains(movie.Genre, html);
+}
+
+[Fact]
+public async Task Update_SavesChangesToMovie()
+{
+    // Arrange
+    var context = GetDbContext();
+    var client = _factory.CreateClient();
+
+    Movie movie = new Movie { Title = "Goofy", Genre = "Comedy" };
+    context.Movies.Add(movie);
+    context.SaveChanges();
+
+    var formData = new Dictionary<string, string>
+    {
+        { "Title", "Goofy" },
+        { "Genre", "Documentary" }
+    };
+
+    // Act
+    var response = await client.PostAsync($"/movies/{movie.Id}", new FormUrlEncodedContent(formData));
+    var html = await response.Content.ReadAsStringAsync();
+
+    // Assert
+    response.EnsureSuccessStatusCode();
+    Assert.Contains("Goofy", html);
+    Assert.Contains("Documentary", html);
+    Assert.DoesNotContain("Comedy", html);
+}
+```
+
+```c#
+// controller
+// GET: /Movies/:id/edit
+[Route("/Movies/{id:int}/edit")]
+public IActionResult Edit(int id)
+{
+    var movie = _context.Movies.Find(id);
+
+    return View(movie);
+}
+
+// PUT (via Post): /Movies/:id
+[HttpPost]
+[Route("/Movies/{id:int}")]
+public IActionResult Update(Movie movie)
+{
+    _context.Movies.Update(movie);
+    _context.SaveChanges();
+
+    return RedirectToAction("show", new { id = movie.Id });
+}
+```
+
+```html
+@model Movie
+
+<h1>Edit Movie</h1>
+
+<form method="post" action="/Movies/@Model.Id">
+    <div class="form-group">
+        <label for="Title">Title:</label>
+        <input type="text" id="Title" name="Title" value="@Model.Title" />
+    </div>
+    <div class="form-group">
+        <label for="Genre">Genre:</label>
+        <input type="text" id="Genre" name="Genre" value="@Model.Genre" />
+    </div>
+    <button type="submit">Update Movie</button>
+</form>
+```
+
+</section>
 
 ### HTTP and REsTful Routes
 
@@ -137,25 +236,6 @@ public async Task Update_SavesChangesToMovie()
 
 </section>
 
-### the Order of Our Tests
-
-Before we implement our controller action, we need to address one aspect of testing - the order and timing of each of our tests.  By default, xUnit will run our tests randomly, and as quickly as possible (some tests even run at the same time!).  Generally, this is a good thing - we want our tests to be individually robust, and not rely on any _other_ test to run successfully. In this case, though, we need to control our test runs a bit more.
-
-If left to their default settings, we could have two tests running at the same time (concurrently) that would put conflicting data into our test database.  xUnit provides a simple way to group tests that need to be run strictly one at a time.  We will use an attribute to group all of our Controller tests into one collection:
-
-```c#
-// MoviesControllerTests.cs
-
-namespace MvcMovie.FeatureTests
-{
-    [Collection("Controller Tests")]
-    public class MovieControllerTests : IClassFixture<WebApplicationFactory<Program>>
-    {
-        ...
-```
-
-Any test class in this collection will be run one at a time, reducing the chance for a database conflict.
-
 <section class='call-to-action' markdown='1'>
 
 **With a Partner**  
@@ -182,6 +262,109 @@ public IActionResult Update(Movie movie)
 
 ## TDD Updating related resource
 **Code-Along**  
+
+<section class='instructor-notes' markdown='1'>
+
+Your completed code _could_ look like this:
+
+```c#
+// tests
+
+[Fact]
+public async Task Edit_ReturnsViewWithForm()
+{
+    var context = GetDbContext();
+    var client = _factory.CreateClient();
+
+    Movie spaceballs = new Movie { Genre = "Comedy", Title = "Spaceballs" };
+    Review review = new Review { Content = "Great", Rating = 4, Movie = spaceballs };
+    context.Movies.Add(spaceballs);
+    context.Reviews.Add(review);
+    context.SaveChanges();
+
+    var response = await client.GetAsync($"/Movies/{spaceballs.Id}/Reviews/{review.Id}/edit");
+    var html = await response.Content.ReadAsStringAsync();
+
+    Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+    Assert.Contains("Edit Review", html);
+    Assert.Contains("Great", html);
+    Assert.Contains("4", html);
+}
+
+[Fact]
+public async Task Update_SavesChangestoRevie()
+{
+    var context = GetDbContext();
+    var client = _factory.CreateClient();
+
+    Movie spaceballs = new Movie { Genre = "Comedy", Title = "Spaceballs" };
+    Review review = new Review { Content = "Great", Rating = 4, Movie = spaceballs };
+    context.Movies.Add(spaceballs);
+    context.Reviews.Add(review);
+    context.SaveChanges();
+
+    var formData = new Dictionary<string, string>
+    {
+        { "Rating", "5" },
+        { "Content", "Better than Star Wars" }
+    };
+
+    var response = await client.PostAsync($"/movies/{spaceballs.Id}/reviews/{review.Id}", new FormUrlEncodedContent(formData));
+    var html = await response.Content.ReadAsStringAsync();
+
+    response.EnsureSuccessStatusCode();
+    Assert.Contains("Better than Star Wars", html);
+    Assert.Contains("5", html);
+    Assert.DoesNotContain("Great", html);
+}
+```
+
+```c#
+// controller actions
+
+[HttpGet]
+[Route("/Movies/{movieId:int}/reviews/{id:int}/edit")]
+public IActionResult Edit(int movieId, int id)
+{
+    var review = _context.Reviews.Find(id);
+
+    ViewData["movieId"] = movieId;
+    return View(review);
+}
+
+[HttpPost]
+[Route("/Movies/{movieId:int}/reviews/{id:int}")]
+public IActionResult Update(int movieId, int id, Review review)
+{
+    _context.Reviews.Update(review);
+    _context.SaveChanges();
+
+    return RedirectToAction("index", new { movieId = movieId });
+}
+```
+
+```html
+// Edit Form
+
+@model Review
+
+<h1>Edit Review</h1>
+
+<form method='post' action='/movies/@ViewData["MovieId"]/reviews/@Model.Id'>
+    <div class='form-group'>
+        <label for='Rating'>Rating: </label>
+        <input type='number' id='Rating' name='Rating' value="@Model.Rating" />
+    </div>
+    <div class='form-group'>
+        <label for='Content'>Review: </label>
+        <input type='textarea' id='Content' name='Content' value="@Model.Content" />
+    </div>
+    <button type='submit'>Update Review</button>
+</form>
+```
+
+</section>
+
 As a class, we are going to write tests, and implement code to satisfy these user-stories:
 
 ```
@@ -216,4 +399,5 @@ Completed code can be found on the update-resources branch of the [MvcMovieStart
 ## Checks for Understanding
 * Our path to get the 'edit' form includes the resource id.  Why do we _not_ need an id in our path to get the 'new' form?
 * What are the similarities between creating a new record, and editing an existing one?
+    * What are the differences?
 * What is the difference between 'POST' and 'PUT'?
