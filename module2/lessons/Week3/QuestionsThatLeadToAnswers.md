@@ -22,13 +22,13 @@ Approaching your time as a Turing student like a "job" will make you better prep
 
 ### Trying to Get Yourself "Unstuck"
 The next time you are stuck, try the [Rubber Duck Debugging](https://careerfoundry.com/en/blog/web-development/rubber-duck-debugging/) method to break down a problem into smaller parts.
-    - Find an inanimate object in your household (I use a golf ball that I drew eyes on)
-    - Speaking OUT LOUD to your "duck", explain the following, step by step:
-        - What were you trying to do? 
-        - What were you expecting to happen? Go through your code line by line to explain how each piece works.
-        - What happened instead? What errors did you encounter?
-        - What resources or documentation have you consulted to try to solve your problem?
-    - The magic of this approach is that you may be able to identify and solve this problem on your own by going through these steps!
+- Find an inanimate object in your household (I use a golf ball that I drew eyes on)
+- Speaking OUT LOUD to your "duck", explain the following, step by step:
+    - What were you trying to do? 
+    - What were you expecting to happen? Go through your code line by line to explain how each piece works.
+    - What happened instead? What errors did you encounter?
+    - What resources or documentation have you consulted to try to solve your problem?
+- The magic of this approach is that you may be able to identify and solve this problem on your own by going through these steps!
 
 
 <section class="call-to-action" markdown="1">
@@ -69,10 +69,20 @@ To get to that level of context/specificity, it helps to have gone through the "
 1. Format your question in easily digestible chunks. You can use the keyboard shortcut `shift + return` to create a new line without sending your message in Slack. If you have more context to provide, give a TL;DR (Too Long, Didn't Read) in the main channel, then thread your details in manageable chunks. Another strategy is to use **bold** text and/or emojis strategically to highlight key information or questions.
 
 
-## Next Steps
+## The Code Help Slack Channel
 We just rolled out the `#code-help` channel for you to use when you encounter problems and want to use your peers and instructors for help. This is where you should be practicing this approach for documenting your process and capturing the context/specificity of your questions.
 
 Your instructors may ask you to reframe or revise your question to include all of the relevant parts before providing guidance or support. Again, if you start practicing now for how you will perform on the job in the future, it will serve you huge in the job hunt process! 
+
+## Practice!
+
+Now's your chance to practice posting a technical question in the new `#code-help` channel.
+
+1. Start by forking [this](https://replit.com/@Zoe-Farrell/PracticeAskingTechnicalQuestions
+) repl that currently is throwing an error.
+2. Try something to get you closer to resolving the error. Even if you already see what the problem is, pretend that you don't and think of a step that would get you closer to figuring out the problem. Not sure what to try? Adding a `Console.Log`, adding a breakpoint, or looking up some documentation is a great first step!
+3. Post a question in `#code-help`. Try to use the tips we just covered to craft an exceptionally clear message!
+
 
 <section class="call-to-action" markdown="1">
 ### Wrap Up
