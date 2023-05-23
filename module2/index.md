@@ -35,7 +35,7 @@ In Module 2, students will begin to dive into the skills and mindsets necessary 
 * SQL Joins: [Prep](/module2/preparation/Week3/SQLJoins) &#124; [Lesson](/module2/lessons/Week3/SQLJoins) &#124; [Lab](/module2/labs/Week3/SQLJoins)
 * LINQ: [Prep](/module2/preparation/Week3/LINQ) &#124; [Lesson](/module2/lessons/Week3/LINQ) &#124; [Lab](/module2/labs/Week3/LINQ)
 * [Week in Review](/module2/lessons/Week3/CFUReview)
-* [PD - TBD]()
+* [Questions That Lead to Answers](/module2/lessons/Week3/QuestionsThatLeadToAnswers)
 
 ### Week 4
 * Intro to ORM: [Prep](/module2/preparation/Week4/IntroToORM) &#124; [Lesson](/module2/lessons/Week4/IntroToORM) &#124; [Lab](/module2/labs/Week4/IntroToORM)
