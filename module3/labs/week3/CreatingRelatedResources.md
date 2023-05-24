@@ -7,8 +7,10 @@ title: Creating and Reading Related Resources Lab
 
 For today's lab, we are going to continue building the Record Collection.
 
+
 **Objective**  
 * Use a form to create songs for each album
+
 * Open your Record Collection project.
     * Run the project, and make sure you have the Record#Index, #Show, #New, and #Create actions working.
 * If you have been absent or can't find your project, follow these steps:
@@ -22,6 +24,8 @@ For today's lab, we are going to continue building the Record Collection.
     ('Banana Winds', 'Jimmy Buffet', '1996-12-06')
     ```
     * Check out the branch _____________________ TODO need a branch for after REST & Create Single Resource lessons___________
+
+
 
 ## Write Tests for Songs#New and Songs#Create Action
 

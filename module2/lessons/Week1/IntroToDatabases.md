@@ -3,6 +3,10 @@ layout: page
 title: Intro to Databases
 ---
 
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br><a href='https://docs.google.com/presentation/d/18stIB8iTseTvuymUdK8elptYWS2r4OuBPwwQrh-lg2g/edit?usp=sharing'>slides</a></p>
+</aside>
+
 ## Learning Goals
 - Describe a database and its uses in various applications
 - Define relational data
@@ -31,22 +35,29 @@ As developers, what we focus on with data and information is how to store inform
 
 There are two main types of databases - table (SQL), and non-table (noSQL).  At turing, we are going to focus mainly on SQL databases - our data will be organized into tables, and will be easy to scale.
 
-![Simple Diagram of data flow through a database](/assets/images/module2/Week1/DatabaseDiagram.png)
+<img src="/assets/images/module2/Week1/DatabaseDiagram.png" alt="Simple Diagram of data flow through a database" style="width: 90%">
 
 ## Data Tables and Relationships
 
-> With a partner, review the table of data below.  This table has all of the inforamation needed for a shop to fulfill orders.
-> 1. Identify any duplicated data - discuss why it must be duplicated in this table.
-> 2. Brainstorm how you might reduce duplication without losing any data.  For this brainstorming, it might help to think about the _relationships_ that exist in the data.  
->       * An example of a data relationship could be a person and their pets - the person has many pets, and each pet belongs to that person. 
+<section class="call-to-action">
+    <h3> With a partner, review the table of data below. </h3>
+    <p>This table has all of the inforamation needed for a shop to fulfill orders.</p>
+    <ul>
+        <li>Identify any duplicated data - discuss why it must be duplicated in this table.</li>  
+        <li>Brainstorm how you might reduce duplication without losing any data.  For this brainstorming, it might help to think about the _relationships_ that exist in the data.</li>
+        <ul>
+            <li>An example of a data relationship could be a person and their pets - the person has many pets, and each pet belongs to that person.</li>
+        </ul>
+    </ul>
+</section> 
 
 [![](/assets/images/module2/Week1/OrderDataSingleTable.png)](https://docs.google.com/spreadsheets/d/1KX3EhldBiQAVxXoQpQfzveHbhiNerxmmmkMufFe4ZrM/edit?usp=sharing)
 
 ----------------------------
 
 As noted before, we have all of the data that we need to fulfill orders for this shop, but we have a lot of extra or duplicated information.  This makes it difficult to answer questions like:
-    * How many customers do we have?
-    * What is the total for each order?
+* How many customers do we have?
+* What is the total for each order?
 
 A better way to organize this data would be to break it into separate tables.  Each table should contain data related to a single idea.  When we have split the tables, we can then add a relationship between the two tables.
 
@@ -54,9 +65,14 @@ First, let's split the data into two tables: Customers and Orders
 
 [![](/assets/images/module2/Week1/OrdersandCustomers.png)](https://docs.google.com/spreadsheets/d/1KX3EhldBiQAVxXoQpQfzveHbhiNerxmmmkMufFe4ZrM/edit#gid=1681092286)
 
-> With a partner, discuss the following questions about the tables above:
-> * Do we have all of the **data** that was in the original table?
-> * Do we have all of the **information** that was in the original table?
+
+<section class="call-to-action">
+    <p>With a partner, discuss the following questions about the tables above:</p>
+    <ul>
+        <li>Do we have all of the <strong>data</strong> that was in the original table?</li>
+        <li>Do we have all of the <strong>information</strong> that was in the original table?</li>
+    </ul>
+</section>
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>We want students to recognize that we are missing the information that relates an order to a customer - even though we have all the same data.</p>
@@ -73,12 +89,11 @@ To create these relationships, we need every table to have a **primary key**.  A
 
 We link the two tables by using a **foreign key** on one or more tables.  In this case, we use `Customer Id` as a foreign key on the Orders, that refers back to the primary keys from Customers.  
 
-> With a partner, practice describing these two tables.  Use as many vocab words as you can: data, table, primary key and foreign key.
+<section class="call-to-action">
+<p>With a partner, practice describing these two tables.  Use as many vocab words as you can: data, table, primary key and foreign key.</p>
+</section>
 
 ## Create Database
-<!-- - Download Postgresql
-- Open PgAdmin
-- Create Database with one table -->
 
 So far, we have been working with representations of what data might look like inside of a database.  We have seen data organized into tables, using primary and foreign keys to relate to records in other tables.  Now, we are going to create a database.  This database will live on your computer (it will be accessible only by you, or someone with your laptop).
 
@@ -107,7 +122,10 @@ There are [many different databases](https://appinventiv.com/blog/top-web-app-da
 
 Once in PgAdmin, we are going to create a database for our customer and order information.
 
-> In small groups, work through the following steps.  You should each complete the steps individually, but use your group-mates as resources if you get stuck.  And, if you need an instructor's help - reach out!  
+<section class="call-to-action">
+<p>In small groups, work through the following steps.  You should each complete the steps individually, but use your group-mates as resources if you get stuck.  And, if you need an instructor's help - reach out!</p>
+</section>  
+
 > 1. Right Click on `Databases` and `Create` a `Database`
 > ![](/assets/images/module2/Week1/CreateDb1.png)
 > 2. Give your database a name and `Save`
@@ -134,16 +152,24 @@ The Query Tool is where we will interact with our database.  Today, you are goin
 
 If you run into any error messages or issues - reach out to an instructor!
 
-> In small groups, discuss the following questions:
-> * What do you think `CREATE TABLE` is doing?
-> * How are column headers created?
-> * What datatypes do you think are being used for each column?
-> * What words/commands don't make much sense yet?
+<section class="call-to-action">
+<p>In small groups, discuss the following questions:</p>
+<ul>
+    <li>What do you think `CREATE TABLE` is doing?</li>
+    <li>How are column headers created?</li>
+    <li>What datatypes do you think are being used for each column?</li>
+    <li>What words/commands don't make much sense yet?</li>
+</ul>
+</section>
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>We want students to be able to recreate these steps, but they do not need to know too much about the commands yet - we will cover SELECT and JOIN in later lessons.  CREATE TABLE will not be covered in detail because we are not preparing students for database administration - in their first jobs, they will most likely be working with pre-existing databases.</p>
 </aside>
 
-## Check for Understanding
-* In your own words, what is a database?
-* Imagine that you are creating a database of books.  How might you create a relationship between a book and its author?  
+<section class="checks-for-understanding">
+    <h2>Check for Understanding</h2>
+    <ul>
+        <li>In your own words, what is a database?</li>
+        <li>Imagine that you are creating a database of books.  How might you create a relationship between a book and its author?</li>
+    </ul>
+</section>
