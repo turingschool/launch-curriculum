@@ -33,4 +33,5 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 -->
 
 ### Week 3
-* Creating and Reading Related Resources: [Prep](./preparation/Week3/CreatingRelatedResources) &#124; [Lesson](./lessons/Week3/CreatingRelatedResources) &#124; [Lab](./labs/Week3/CreatingRelatedResources)
+* Reading Related Resources: [Prep](./preparation/Week3/ReadingRelatedResources) &#124; [Lesson](./lessons/Week3/ReadingRelatedResources) &#124; [Lab](./labs/Week3/ReadingRelatedResources)
+* Creating Related Resources: [Lesson](./lessons/Week3/CreatingRelatedResources) &#124; [Lab](./labs/Week3/CreatingRelatedResources)
