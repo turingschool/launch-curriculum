@@ -7,8 +7,8 @@ title: Creating and Reading Related Resources Lab
 
 For today's lab, we are going to continue building the Record Collection.
 
-**Objective**
-* Add Songs to our application
+
+**Objective**  
 * Use a form to create songs for each album
 
 * Open your Record Collection project.
@@ -25,25 +25,22 @@ For today's lab, we are going to continue building the Record Collection.
     ```
     * Check out the branch _____________________ TODO need a branch for after REST & Create Single Resource lessons___________
 
-## Create the Song Model and Table
 
-1. With a partner,
-    * determine how a song relates to an album
-    * List the changes that need to be made to your application in order to add a song table to our database (using migrations!)
-1. Individually, implement the song model and table into your application
-    * Use your partner as a resource if you get stuck
-    * If you are both stuck, reach out to an instructor!
-1. When finishied, check in with an instructor **before** moving on
 
 ## Write Tests for Songs#New and Songs#Create Action
 
-1. With a partner,
-    * Create some user stories to describe how a song will be created in your application
-    * Outline (pseudo-code) the tests that will drive the implementation of the user stories
+**With a Partner**  
+1. Create some user stories to describe how a song will be created in your application
+1. Outline (pseudo-code) the tests that will drive the implementation of the user stories
 1. Individually, create the tests that you outlined with your partner.
-    * Use your partner as a resource if you get stuck
-    * If you are both stuck, reach out to an instructor!
-1. When finished, check in with an instructor **before** moving on
+1. When finished, check in with an instructor **before** moving on.
+
+## Implement the Songs#New and Songs#Create Actions and View
+
+**With a Partner**  
+1. Create the New action and view.
+1. Create the Create action that will add a new song to an album.
+1. When finished check in with an instructor!
 
 ## 🌶️Update the application to include Artist as a Resource🌶️
 
