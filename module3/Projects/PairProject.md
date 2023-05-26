@@ -5,6 +5,10 @@ title: Mod3 Pair Project
 
 # Coffee Shop
 
+## Kick Off
+
+[Learning to Pair](https://docs.google.com/presentation/d/1iSdA31sgik4ejeB95R4t2kvmh1p0rANC7VAfjc2Wgmo/edit#slide=id.gc6f90357f_0_0)
+
 ### Objectives
 * Practice what we have learned about MVC applications
 * Work with a partner
