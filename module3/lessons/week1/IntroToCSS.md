@@ -6,11 +6,11 @@ title: Introduction to CSS
 ## Learning Goals
 
   - Understand structure of an HTML page
-  - Understand how to use `application.html.erb`
   - Understand difference between semantic/non-semantic tags
   - Understand difference between block and inline elements
   - Understand difference between class and id selectors
   - Understand how to add CSS to our apps
+
 
 ## Vocabulary
   - HTML
@@ -201,6 +201,86 @@ In SetList:
 
 **Extension**: Incorporate one of the CSS frameworks into your app
 
+Example:   
+
+```html
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Our Zoo</title>
+    </head>
+    <body>
+      <nav>
+        <h1>Welcome to Our Zoo</h1>
+      </nav>
+      <section class="animals">
+        <header>
+          <p>I would like to tell you about our animals</p>
+        </header>
+        <article class="otters">
+          <h2>Otters</h2>
+          <p>Come visit our friendly otters and watch them slip and slide.</p>
+        </article>
+        <article class="penguins">
+          <h2>Cute Penguins</h2>
+          <ul>
+            <li>Emperor Penguins</li>
+            <li>King Penguins</li>
+            <li>African Penguins</li>
+          </ul>
+        </article>
+      </section>
+      <section class="exhibits">
+        <header>
+          <p>Check out our exhibits!</p>
+        </header>
+        <article class="explore-the-shore">
+          <a href="https://www.denverzoo.org/explore-shore">Explore the Shore</a>
+        </article>
+        <article class="lorikeet-adventure">
+          <p>Come play with our lorikeets.</p>
+        </article>
+      </section>
+      <footer class="contact-me">
+        <p>email me at <a href="mailto:doesnotexist@fakemail.com">this email address!</a></p>
+      </footer>
+    </body>
+  </html>
+```
+- A lot of the tags we use are already semantic such as form, link, etc.
+
+## Class vs. ID
+
+We can give our HTML elements **attributes**. These attributes appear inside the tag itself (in between the angle brackets `< >`). For example, the following `img` tag:
+
+```html
+<img src='https://cutedogs.com/1'>
+```
+
+Has an attribute of `src` with a value of `'https://cutedogs.com/1'`.
+
+Two very important attributes we can give our HTML elements are `class` and `id`.
+
+```html
+<div class="song" id="song-4">
+<div class="song" id="song-3">
+<div class="song" id="song-2">
+```
+
+* We use the `class` attribute to identify several related elements.
+* We use the `id` attribute to identify a single element.
+* `id` takes higher priority in CSS (more on this later).
+* Only one element should have a certain `id`. If two elements have the same `id`, your page will still display, but it may not work the way you expect.
+* We can use erb tags to interpolate an id in our views. The above example HTML could be rendered by the view with the following code:
+
+```html
+<% @songs.each do |song| %>
+  <div class="song" id="song-<%= song.id %>">
+<% end %>
+```
+
+
 ## Checks for Understanding
 
 * What is HTML?
@@ -208,6 +288,10 @@ In SetList:
 * What are `ActionView::Helpers`?
 * Why would we use semantic vs. non-semantic tags?
 * What is the difference between a block and inline element?
+* When should we use an `id` over a `class`?
+* What is CSS?
+* How can you add CSS to a Rails app?
+* How do you select elements, classes, and ids in CSS?
 * When should we use an `id` over a `class`?
 * What is CSS?
 * How can you add CSS to a Rails app?
