@@ -11,7 +11,9 @@ You've just joined the team working on this project, and today's your first day!
 The team has already started building the application. Start by cloning [this](https://github.com/turingschool-examples/MountainHotels) repo.
 
 ### Task 1: Getting The App Up and Running
-Your first task is to get the application up and running and see at least two test properties. This task is a bit more tricky than it might originally seem. It's not as easy as just pressing run! Once you have the app up and running, move on to Task 2, your instructor will call everyone back together shortly to go over Task 1.
+Your first task is to get the application up and running and see at least two test hotels. Once you have this task complete, you should see something similar to the image below. 
+
+This task is a bit more tricky than it might originally seem. It's not as easy as just pressing run! Once you have the app up and running, move on to Task 2, your instructor will call everyone back together shortly to go over Task 1.
 
 ![Hotels Index Page](/assets/images/module3/Week4/HotelsIndexPage.png)
 

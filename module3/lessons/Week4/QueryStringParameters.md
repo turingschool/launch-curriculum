@@ -11,10 +11,13 @@ title:  Introduction to Filtering with Query String Parameters
 
 ## Setting up MVCMovies
 
-Instructions for getting the correct branch up and running.
+We will be continuing to build our MVC Movies application. Take a minute to make sure you have that project open and check out the branch your instructor will share in Slack.
 
 We also want to create some movies to use for testing. Create at least two movies with the genre "Kids" and at least 2 movies with the genre "Horror". Make sure to capitalize the genre.
 
+<aside class="instructor-notes">
+    <p><strong>Instructor Note</strong><br>Ask students how they created their movies. Want to make the point that they can use the create form or use pgAdmin. Might also be useful to ask when/why you might use one approach vs the other. Using the form doesn't require opening up another tool, but if you're adding many many movies that would be a pain and PGadmin would be easier. </p>
+</aside>
 
 ## Query Parameters in the Real-World
 
@@ -31,7 +34,7 @@ Write out the path and the query params and values.
 
 1. What query parameters did you find?
 1. What values are getting passed in?
-1. What is the route (TODO: is this the language we are using?)
+1. What is the path?
 1. Are there also path parameters?
 
 Be prepared to share with the class when we come back together!
@@ -126,7 +129,7 @@ if (genre != null)
 
 Wouldn't it be nice to show the user what genre they are currently filtering by? 
 
-To implement this feature, we're going to use a .NET tool called `ViewData`.  `ViewData` allows you to pass data from a controller to a view. It only works in that one direction, you can't use it to pass data from the view to the controller. `ViewData` is a dictionary where the keys are strings and the values can be of any type.
+To implement this feature, we're going to use a .NET tool called `ViewData`.  `ViewData` allows you to pass data from a controller to a view. It only works in that one direction, you can't use it to pass data from the view to the controller. 
 
 ### Controller Changes - Showing the Selected Genre
 
@@ -147,9 +150,16 @@ public IActionResult Index(string? genre)
 }
 ```
 
+❓Thinking back to C# collections, What type of object do you think ViewData is?
+
+<section class="answer" markdown="1">
+### Solution
+
+`ViewData` is a dictionary where the keys are strings and the values can be of any type.
+</section>
 
 ### View Changes - Showing the Selected Genre
-In our View we can pull data our of the `ViewData` dictionary the same way we could for any other dictionary. The only difference is we add the Razor syntax @ to transition to writing C# code in our Razor page.
+In our View we can pull data out of the `ViewData` dictionary the same way we could for any other dictionary. The only difference is we add the Razor syntax @ to transition to writing C# code in our Razor page.
 
 Let's add the following right after our h2 that says "Genre Filter".
 
@@ -229,12 +239,12 @@ To work with the list as a List<string>, you need to explicitly cast the value t
 
 > With your partner, try to figure out how to use allGenres to filter links for each genre! You will be replacing these hardcoded links from earlier.
 
-🌶️If you finish, go back to the backend and try to figure out how to ignore capitalization in your genre filter. You want `kids`, `Kids` and `KIDS` to all match.
-
 ```c#
 <a href="/movies?genre=Kids">Kids</a>
 <a href="/movies?genre=Horror">Horror</a>
 ```
+
+🌶️If you finish, go back to the backend and try to figure out how to ignore capitalization in your genre filter. You want `kids`, `Kids` and `KIDS` to all match.
 
 <section class="answer" markdown="1">
 ### One Solution
