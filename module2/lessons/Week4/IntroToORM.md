@@ -350,11 +350,12 @@ We'll also learn how to run more advanced queries on the data in our database us
 
 We covered a lot of new concepts today! We'll keep practicing with Entity Framework over the next couple of weeks, so it's expected that these terms are still confusing, just give these definitions your best shot!
 
-In your own words, define the following terms.
+1. In your own words, define the following terms.
+    * Framework
+    * ORM
+    * Entity Framework
+    * Context
+    * A Migration
+    * Applying a Migration
+2. What are the three packages we needed to install to set up our ORM?
 
-1. Framework
-1. ORM
-1. Entity Framework
-1. Context
-1. A Migration
-1. Applying a Migration
