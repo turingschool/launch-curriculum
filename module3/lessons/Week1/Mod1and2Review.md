@@ -3,6 +3,12 @@ layout: page
 title: Mod 1 and 2 Review Session
 ---
 
+<section class='instructor-note' markdown='1'>
+
+This activity could be done individually, or in pairs.  You could offer an option, or direct students to what they should pick.
+
+</section>
+
 Before we get too far into our Mod3 content, let's take a moment to look back on all we have learned in Mods 1 and 2.
 
 In Mod1, we learned the basics of programming, using C#; we jumped into OOP, and learned how to use classes to model objects.  Then, in Mod2, we dove into the world of databases; we learned about database relationships, SQL, and ORMs. In Mod2 we also learned more about version control with git!
@@ -14,6 +20,7 @@ Today, we are going to build a small application to practice these concepts!
 1. Create a Console Application in Visual Studio.
     * You can call the project and solution `CoffeeShop`
 2. Initialize a git repository in your solution.
+3. Add a remote repository on GitHub
 
 ### Building our Classes
 
@@ -22,6 +29,7 @@ Today, we are going to build a small application to practice these concepts!
     * Make sure to test your classes!
 3. Commit after each class is complete - you should have 3 commits!
 4. When all three classes have been built, merge your `classes` branch into your `main` branch.
+5. Push your main branch to GitHub, and set a note to your instructor with a link to your github repo!
 
 ```c#
 // Item Class
@@ -117,6 +125,7 @@ customer.ItemsOrdered();
 6. Add a migration to create your database.
 7. Run your migration!
 8. Commit your work, and merge your `migrations` branch into your `main` branch.
+9. Push your main branch to GitHub, and set a note to your instructor with a link to your github repo!
 
 <section class='instructor-notes' markdown='1'>
 
