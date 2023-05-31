@@ -5,7 +5,7 @@ title: Updating Resources in MVC Preparation
 
 # Pre-work for [Updating Resources](/module3/lessons/Week4/UpdatingResources)
 
-In our next lesson, we are going to be using our MvcMovies application to update Movie and Review records.  To prepare for this lesson, let's revisit:
+In our next lesson, we are going to be using our MvcMovies application to update Movie and Review records.  To prepare for this lesson, let's review:
 * [Updating Records in a Database](/module2/lessons/Week1/SQLCRUD/)
 * [HTTP Requests and Response Cycle](/module3/lessons/week1/HowTheWebWorks)
 
@@ -19,6 +19,8 @@ Work through the [W3Schools SQL Update Tutorial](https://www.w3schools.com/sql/s
 
 In your notebook:
 * Diagram the HTTP request/response for creating a new movie
-* Diagram the HTTP request/response for creating a new review
+* Diagram the HTTP request/response for creating a new review  
 
-Make sure that your diagrams include the HTTP Path, Verb, and any additional information you can think of for the requests! Include as much detail as you can about the response!
+Make sure that your diagrams include the HTTP Path, Verb, and any additional information you can think of for the requests. Include as much detail as you can about the response.
+
+While this exercise is a review of functionality we have already learned, it will help us as we learn to update records - there are many similarities between creating and updating! 
