@@ -4,7 +4,7 @@ title:  Delete Resources
 ---
 
 ## Learning Goals
-* Practice deleting of single and related resources
+* Practice deletion of single and related resources
 * Test deletion of single and related resources
 * Update an app for a more polished user experience
 
@@ -49,7 +49,7 @@ Open the `Index.cshtml` in your `Movies` folder, and let's figure out together h
 }
 ```
 
-Yes, our current UI makes it hard to read what record the delete button belongs to... but let's first get the functionality working, then we will come back and clean up the styling.
+Yes, our current user interface (UI), which is the way the user interacts with our application, makes it hard to read what record the delete button belongs to... but let's first get the functionality working, then we will come back and clean up the styling.
 
 ### Controller Changes - Delete a Single Resource
 
@@ -82,7 +82,11 @@ public IActionResult Delete(int id)
 
 ### Testing - Delete a Single Resource
 
-> With your partner, write at least two tests to test our new delete functionality.
+<section class='call-to-action' markdown='1'>
+
+With your partner, write at least two tests to test our new delete functionality.
+
+</section>
 
 <section class="answer" markdown="1">
 ### One Solution
@@ -167,7 +171,11 @@ public async Task Delete_RemovesAllDeletedMoviesReviews()
 
 One question that may have come up while writing tests for deleting a movie is the following: What happens to the associated reviews if a movie is deleted?
 
-> With your partner, try to figure out what happens in this case. Be prepared to answer how you figured out what happens when we come back together. Once you figure out what happens, try to write a test for this functionality.
+<section class='call-to-action' markdown='1'>
+
+With your partner, try to figure out what happens in this case. Be prepared to answer how you figured out what happens when we come back together. Once you figure out what happens, try to write a test for this functionality.
+</section>
+
 
 This concept is called cascading delete, you can learn more [here](https://learn.microsoft.com/en-us/ef/core/saving/cascade-delete).
 
@@ -178,9 +186,12 @@ Currently, our UI for deleting a movie is hard to read and could use a makeover.
 
 Start by adding a `Index.cshtml.css` file in the same folder as the Index page for Movies. `Views` -> `Movies`.
 
-> With your partner, take 15 minutes and improve the ui. When we come back together I'll call on groups to share their CSS changes. If you're stuck on where to start here are some ideas.
+<section class='call-to-action' markdown='1'>
 
-<!-- Dropdown -->
+With your partner, take 15 minutes and improve the ui. When we come back together I'll call on groups to share their CSS changes. If you're stuck on where to start here are some ideas.
+</section>
+
+
 <section class="answer" markdown="1">
 ### Some Ideas
 
@@ -197,7 +208,10 @@ You have all the tools required to add a delete button for reviews.
 
 When I go to a page similar to `https://localhost:7052/movies/3/reviews` I should see all reviews and a button next to each review to delete. 
 
-> With your partner, implement delete for reviews. Once you have the functionality working, you can add some CSS to improve your UI.
+<section class='call-to-action' markdown='1'>
+
+With your partner, implement delete for reviews. Once you have the functionality working, you can add some CSS to improve your UI.
+</section>
 
 When we come back together your instructor will call on groups to share what they worked on and the answer to the following questions:
 
