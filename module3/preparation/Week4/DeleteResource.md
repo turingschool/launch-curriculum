@@ -17,6 +17,4 @@ Make sure that your diagrams include the HTTP Path, Verb, and any additional inf
 
 ## Review CSS
 
-As part of our Deleting Resource Lesson, we're going to add some styling to our MVC Movies app. To prepare, review the CSS lesson.
-
-<!-- TODO insert link to CSS lesson here -->
+As part of our Deleting Resource Lesson, we're going to add some styling to our MVC Movies app. To prepare, review the [CSS lesson](/module3/lessons/Week1/CSS).
