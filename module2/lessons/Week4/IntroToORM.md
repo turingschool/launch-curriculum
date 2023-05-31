@@ -16,13 +16,19 @@ So far, we've learned how to build console applications using C# and we've learn
 
 Today we're going to be using a framework called Entity Framework. Let's start by figuring out what a framework is.
 
-> With your groups: Use google to research the answers to the following questions. Designate a spokes person to report back what you found!
-> * "What is a framework in programming?"
-> * "Why would we want to use a framework?"
+<section class='call-to-action' markdown='1'>
 
-<details><summary>One answer to these questions...</summary>
+**In small groups** Use google to research the answers to the following questions. Designate a spokes person to report back what you found!
+* "What is a framework in programming?"
+* "Why would we want to use a framework?"
 
-Codecademy has a great post about frameworks! https://www.codecademy.com/resources/blog/what-is-a-framework/
+</section>
+
+<section class='answer' markdown='1'>
+
+### One answer to these questions...
+
+[Codecademy has a great post about frameworks!](https://www.codecademy.com/resources/blog/what-is-a-framework/)
 
 **What is a framework?**
 >"A framework is a structure that you can build software on. It serves as a foundation, so you’re not starting entirely from scratch. Frameworks are typically associated with a specific programming language and are suited to different types of tasks.
@@ -41,7 +47,7 @@ Codecademy has a great post about frameworks! https://www.codecademy.com/resourc
 >* Able to focus on writing code specific to the project
 Can be extended"
 
-</details>
+</section>
 
 ## What is an ORM (Object Relational Mapping)
 
@@ -115,7 +121,7 @@ Then you're asked to confirm the licenses used by the creators of this package.
 ### 3. Build our Entity Class
 Create a new `Plant` class in your PlantApp project. Make sure your class is `public` and add the following fields.
 
-```C#
+```c#
 namespace PlantApp
 {
     public class Plant
@@ -127,7 +133,11 @@ namespace PlantApp
 }
 
 ```
-> Discuss with your partner: We haven't had an `Id` field in our classes before, we might we need to add that here? You might find looking back at our goal helpful.
+<section class='call-to-action' markdown='1'>
+
+Discuss with your partner: We haven't had an `Id` field in our classes before, we might we need to add that here? You might find looking back at our goal helpful.
+
+</section>
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>I'm thinking here would be a good place to zoom back out to our overall goal and steps of where we're going.</p>
@@ -137,7 +147,7 @@ namespace PlantApp
 
 Add a new class to your PlantApp called `PlantTrackerContext.cs`.
 
-```C#
+```c#
 using PlantApp;
 using System;
 using System.Collections.Generic;
@@ -147,10 +157,14 @@ using System.Threading.Tasks;
 
 namespace PlantApp
 {
-    public class PlantTrackerContext : DbContext {
+    public class PlantTrackerContext : DbContext 
+    {
         public DbSet<Plant> Plants { get; set; }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    => optionsBuilder.UseNpgsql("Host=localhost;Username=<postgress_user>;Password=<your_password_for_postgres_user>;Database=<database_name>")
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
+        {
+            optionsBuilder.UseNpgsql("Host=localhost;Username=<postgress_user>;Password=<your_password_for_postgres_user>;Database=<database_name>");
+        }
     }
 }
 ```
@@ -163,7 +177,7 @@ Replace `<database_name>` with the name of your database.
 
 After replacing the values your code will look something like this.
 
-```C#
+```c#
 using PlantApp;
 using System;
 using System.Collections.Generic;
@@ -173,9 +187,14 @@ using System.Threading.Tasks;
 
 namespace PlantApp
 {
-    public class PlantTrackerContext : DbContext {
+    public class PlantTrackerContext : DbContext 
+    {
         public DbSet<Plant> Plants { get; set; }
-       protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=password123;Database=PlantTracker");
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
+        {
+            optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=password123;Database=PlantTracker");
+        }
     }
 }
 ```
@@ -190,8 +209,12 @@ We're almost done creating our context, just one small thing to add. In our post
 
 Install the `EFCore.NamingConventions` package and update your onConfiguring function. 
 
-```C#
-protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=password123;Database=PlantTracker").UseSnakeCaseNamingConvention();
+```c#
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+{
+    optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=password123;Database=PlantTracker")
+    .UseSnakeCaseNamingConvention();
+}
 ```
 
 ### 5. Create a Migration
@@ -223,12 +246,16 @@ To actually execute the instructions in our migration file, or in technical term
 update-database
 ```
 
-❓ How can we check if this worked?
+<section class='call-to-action' markdown='1'>
 
-> With your group: Take a look in PG Admin and try to answer the following questions.
-> - What database was created? What code specified that name?
-> - What table with created? What code specified that name?
-> - What columns were created and what data type are they? What code specified the column names and data types?
+❓ How can we check if this worked ❓
+
+With your group: Take a look in PG Admin and try to answer the following questions.
+- What database was created? What code specified that name?
+- What table with created? What code specified that name?
+- What columns were created and what data type are they? What code specified the column names and data types?
+
+</section>
 
 ### One-to-Many Relationship
 
@@ -244,7 +271,7 @@ Here's the plan
 ### 1. Build our `Room` Class. Modify Plant Class to create a one-to-many relationship.
 
 Create a Room class.
-```C#
+```c#
 namespace PlantApp
 {
     public class Room
@@ -258,7 +285,7 @@ namespace PlantApp
 ```
 
 Update the Plant class.
-```C#
+```c#
 namespace PlantApp
 {
     public class Plant
@@ -273,14 +300,15 @@ namespace PlantApp
 
 ### 2. Add `Room` to our **Context**
 
-```C#
+```c#
 namespace PlantApp
 {
     public class PlantTrackerContext : DbContext
     {
         public DbSet<Plant> Plants { get; set; }
         public DbSet<Room> Rooms { get; set; }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=<your_password_for_postgres_user>;Database=PlantTracker").UseSnakeCaseNamingConvention();
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=password123;Database=PlantTracker").UseSnakeCaseNamingConvention();
     }
 }
 ```
@@ -322,11 +350,12 @@ We'll also learn how to run more advanced queries on the data in our database us
 
 We covered a lot of new concepts today! We'll keep practicing with Entity Framework over the next couple of weeks, so it's expected that these terms are still confusing, just give these definitions your best shot!
 
-In your own words, define the following terms.
+1. In your own words, define the following terms.
+    * Framework
+    * ORM
+    * Entity Framework
+    * Context
+    * A Migration
+    * Applying a Migration
+2. What are the three packages we needed to install to set up our ORM?
 
-1. Framework
-1. ORM
-1. Entity Framework
-1. Context
-1. A Migration
-1. Applying a Migration

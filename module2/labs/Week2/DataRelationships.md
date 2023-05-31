@@ -29,7 +29,7 @@ Then draw what the tables will look like for the many-to-many relationship betwe
 
 Once you're done, send a screenshot or picture of what you came up with to the thread in slack. Then move on to the next section of the lab!
 
-I recommend using a digital tool such as https://app.diagrams.net/ for easy screen sharing.
+I recommend using a digital tool such as [https://app.diagrams.net/](https://app.diagrams.net/) for easy screen sharing.
 
 ### Add to your library database
 
