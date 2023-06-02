@@ -8,7 +8,7 @@ title: Database Migrations Lab
 * Practice using database migrations to add a column
 * Practice creating seed data
 
-In today's lab, we're going to add to our library application and database. Before beginning make sure you have the library application open.
+In today's lab, we're going to add to our library application and database. So that we are all starting from the same place, clone down [this repo](https://github.com/turingschool-examples/ORMLibraryStarter) and check out the `IntroToORMFinished` branch
 
 ## Practice
 
@@ -21,7 +21,7 @@ Your next goal is to update your `books` table to also keep track of number of p
 ### Creating Seed Data
 Your final goal is to create some seed data for your new events table. Once you have run your function to seed some data, use pgAdmin to ensure that you now have some events in your database!
 
-If you have extra time, try creating seed data for books and patrons.
+Once you've finished creating seed data for events, add seed data for books and patrons.
 
 ### Exit Ticket
 On the thread in Slack, share a screenshot of the entity diagram for your library_orm database after adding your new table and column.
@@ -29,3 +29,10 @@ On the thread in Slack, share a screenshot of the entity diagram for your librar
 <p align='center'>
   <img src='/assets/images/module2/Week2/pgadmin_makeERD.png'>
 </p>
+
+🌶️ Spicy Extra Challenge: 
+
+If you finish today's lab and feel comfortable with today's topics, here are two topics that are not crucial, but are useful to know and will help you deepen your understanding of Entity Framework.
+
+* [Default Values](https://learn.microsoft.com/en-us/ef/core/modeling/generated-properties?tabs=data-annotations#default-values)
+* [Logging](https://learn.microsoft.com/en-us/ef/core/logging-events-diagnostics/simple-logging)

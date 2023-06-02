@@ -9,4 +9,4 @@ Tomorrow we are going to learn how to implement a many-to-many relationship usin
 
 Start by reviewing the Join Tables section of the [Data Relationships](/module2/lessons/Week2/DataRelationships) lesson.
 
-Then draw an entity relationship diagram (ERD) for the relationship between `pets` and `owners`. Make sure to include the join table and label the table names, primary keys, and foreign keys.
+Then draw an entity relationship diagram (ERD) for the many-to-many relationship between `pets` and `owners`. Make sure to include the join table and label the table names, primary keys, and foreign keys.
