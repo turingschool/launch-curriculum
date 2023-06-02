@@ -18,28 +18,28 @@ Let's take this opportunity to learn more about software versioning.
 
 ❓Where have you seen the term `version` with regards to software development? What is your current understanding of what a software version is?
 
-<details><summary>One way you might answer these questions..</summary>
+<section class="answer" markdown="1">
+### One way you might answer these questions
+
 When we start up a new project we pick what version we want to use. Also, when we install a package we see the versions for everything installed.
 
 A software version is a grouping of updates. Having version numbers allows everyone to see what was updated and when.
-</details>
-<br>
+</section>
 
 ❓Why might the teams building frameworks use versions instead of just releasing new features as they build them?
 
-<details><summary>Some of the many reasons..</summary>
+<section class="answer" markdown="1">
+### Some of the many reasons
 
 - Sometimes an update creates what's called a `breaking change` where with the new version some old code won't work anymore. You don't want your software to break without warning!
 - It's easier for users to see what's new by viewing `release notes`.
 - Developers can release `beta versions` for early adopters to try out the latest features and find bugs. Then they can later make that version a `stable version` that is a well-tested version most users will prefer.
-</details>
+</section>
 
-<br>
-
-When the development team releases a new version of their software, they also create release notes. Let's take a look at the release notes for EF Core 5.0: https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-5.0/whatsnew
+When the development team releases a new version of their software, they also create release notes. Let's take a look at the release notes for EF Core 5.0: [https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-5.0/whatsnew](https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-5.0/whatsnew)
 
 
-When looking up tutorials or blog posts, sometimes you will find tutorials that have not been updated and are still referencing an old version. For example, this tutorial is still teaching the old way of building a many-to-many relationship in EF. https://www.entityframeworktutorial.net/efcore/configure-many-to-many-relationship-in-ef-core.aspx. If a resource doesn't specify the version number, proceed with caution.
+When looking up tutorials or blog posts, sometimes you will find tutorials that have not been updated and are still referencing an old version. For example, this tutorial is still teaching the old way of building a many-to-many relationship in EF. [https://www.entityframeworktutorial.net/efcore/configure-many-to-many-relationship-in-ef-core.aspx](https://www.entityframeworktutorial.net/efcore/configure-many-to-many-relationship-in-ef-core.aspx). If a resource doesn't specify the version number, proceed with caution.
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>I recommend giving a quick note about the gradual release of responsibility here and why we are having students learn on their own.</p>
@@ -47,16 +47,16 @@ When looking up tutorials or blog posts, sometimes you will find tutorials that 
 
 ### Learning From the Documentation
 
-Your goal is to create a new table to keep track of `employees` and implement a many-to-many relationship between `employees` and `events`. This should be a many-to-many relationship because each event can be hosted by many employees and each employee can host many events.
+Your goal is to create a new table to keep track of `tags` and implement a many-to-many relationship between `plants` and `tags`. These `tags` could allow users to mark their plants with categories such as "Indoor", "Succulent", "Flowering", or "Low Maintenance". This should be a many-to-many relationship because each plant can have multiple tags and each tag can belong to multiple plants.
 
 As part of the gradual release of responsibility, you all are ready to learn how to build this from the documentation. You will be working with a partner to figure this out together.
 
-Use this documentation to learn how to implement this data relationship using Entity Framework: https://learn.microsoft.com/en-us/ef/core/modeling/relationships?tabs=fluent-api%2Cfluent-api-simple-key%2Csimple-key#many-to-many
+Use this documentation to learn how to implement this data relationship using Entity Framework: [https://learn.microsoft.com/en-us/ef/core/modeling/relationships?tabs=fluent-api%2Cfluent-api-simple-key%2Csimple-key#many-to-many](https://learn.microsoft.com/en-us/ef/core/modeling/relationships?tabs=fluent-api%2Cfluent-api-simple-key%2Csimple-key#many-to-many)
 
 After you have created a many-to-many relationship use PGAdmin to make an ERD for your database and verify your tables look as expected. You should see your join table! There is something subtly different with the naming convention from what we have done in the past, do you see the difference?
 
 <aside class="instructor-notes">
-    <p><strong>Instructor Note</strong><br>in the autogenerated table the column names are pluralized like the table names. So the column is called rooms_id instead of room_id. Another thing that's different about the tutorial and what we have been doing is the tutorial has ICollections instead of Lists.</p>
+    <p><strong>Instructor Note</strong><br>In the autogenerated table the column names are pluralized like the table names. So the column is called rooms_id instead of room_id. Another thing that's different about the tutorial and what we have been doing is the tutorial has ICollections instead of Lists.</p>
 </aside>
 
 <aside class="instructor-notes">
@@ -69,33 +69,33 @@ Creating records when you have a many-to-many relationship looks exactly the sam
 
 If your database had a many-to-many relationship between plants and rooms (maybe a plant is so large it can be in two rooms at once?!) the code to add data would look as follows.
 
-```C#
+```c#
 {
-                var fern_plant = new Plant {Type = "Fern", PurchaseDate = DateTime.Parse("1975-06-15T13:45:30-07:00").ToUniversalTime()};
-                var rubber_plant = new Plant {Type = "Rubber", PurchaseDate = DateTime.Parse("2021-01-15T11:45:02-07:00").ToUniversalTime()};
-                var jade_plant = new Plant {Type = "Jade", PurchaseDate = DateTime.Parse("2021-01-15T11:45:02-07:00").ToUniversalTime()};
+    var fern_plant = new Plant {Type = "Fern", PurchaseDate = DateTime.Parse("1975-06-15T13:45:30-07:00").ToUniversalTime()};
+    var rubber_plant = new Plant {Type = "Rubber", PurchaseDate = DateTime.Parse("2021-01-15T11:45:02-07:00").ToUniversalTime()};
+    var jade_plant = new Plant {Type = "Jade", PurchaseDate = DateTime.Parse("2021-01-15T11:45:02-07:00").ToUniversalTime()};
 
-                var rooms = new List<Room>
-                {
-                 new Room
-                {
-                    Name = "Office",
-                    HasSunlight = true,
-                    Plants = new List<Plant> {fern_plant, rubber_plant}
-                },
-                new Room
-                {
-                    Name = "Kitchen",
-                    HasSunlight = true,
-                    Plants = new List<Plant> {jade_plant}
-                }
-            };
-                context.Rooms.AddRange(rooms);
-                context.SaveChanges();
-            }
+    var rooms = new List<Room>
+    {
+        new Room
+    {
+        Name = "Office",
+        HasSunlight = true,
+        Plants = new List<Plant> {fern_plant, rubber_plant}
+    },
+    new Room
+    {
+        Name = "Kitchen",
+        HasSunlight = true,
+        Plants = new List<Plant> {jade_plant}
+    }
+};
+    context.Rooms.AddRange(rooms);
+    context.SaveChanges();
+}
 ```
 
-With your partner, write code to insert some associated employees and events into your database. Run a `SELECT` on your join table, employee table, and event table, to ensure that the records inserted look as you expect.
+With your partner, write code to insert some associated plants and tags into your database. Run a `SELECT` on your join table, plant table, and tag table, to ensure that the records inserted look as you expect.
 
 Checks For Understanding
 * In your own words, how would you describe the process of using EF to create a many-to-many relationship?
