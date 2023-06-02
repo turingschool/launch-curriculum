@@ -35,10 +35,10 @@ Some HTML tags are "containers" for content, and some tags **are** the content.
 </head>
 <body>
   <div>
-    <h1>Welcome to my <span style="color:blue;font-weight:bold">first</span> webpage!</h1>
+    <h1>Welcome to my first webpage!</h1>
   </div>
   <div>
-    <p>Here is a picture of me:</p>
+    <p>Here is a <span style="color:blue;font-weight:bold">picture</span> of me:</p>
     <br />
     <img src="selfie.jpg" alt="Photo of myself, taken July 2023">
   </div>
@@ -146,7 +146,6 @@ With the introduction of HTML5, there was a move towards semantic tags. Several 
     <title>Our Zoo</title>
     <link rel="stylesheet" type="text/css" href="my_style.css">
     <script src="my_script.js"></script>
-
   </head>
 
   <body>
