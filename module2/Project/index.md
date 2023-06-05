@@ -19,7 +19,7 @@ title: Mod2 Project
 ## Project Description
 the aim of this project is to build on the Message Logger we created in Mod1.  Now, a user should be able exit the application, and return later to review past messages.  This will require us to add a database to our Message Logger projects.
 
-Another aim for this project is for you to practice building off of code written by someone else, since that will almost certainly the type of work you'll do in your first developer job. Because of this goal, you should build off of the starter code for at least the first two iterations, and only make minor refactors. If after Iteration 2, you want to make some larger refactors and bring in code from your Mod 1 project, go for it!
+Another aim for this project is for you to practice building off of code written by someone else, since that will almost certainly be the type of work you'll do in your first developer job. Because of this goal, you should build off of the starter code for at least the first two iterations, and only make minor refactors. If after Iteration 2, you want to make some larger refactors and bring in code from your Mod 1 project, go for it!
 
 This project will give you the opportunity to showcase all of the concepts we have learned this Mod.  There might be skills that we covered all the way back in week 1, so don't forget to go back and review those earlier lessons and labs!
 
