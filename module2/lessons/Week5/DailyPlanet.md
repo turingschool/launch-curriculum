@@ -35,9 +35,10 @@ An Issue has a Date, and Articles.
 
 ### Connecting a Database
 
-1. Create an ERD for our three classes
+1. Diagram an ERD for our three classes (use your notebook, or a diagramming tool)
     * How does each class relate to each other?
     * Where should Primary and Foreign keys be assigned?
+    * ✅ send a snapshot of your ERD to your instructors!
 2. Checkout a new branch called `migrations`
 3. Install the following packages:
     * Npgsql.EntityFrameworkCore.PostgreSQL
