@@ -11,49 +11,6 @@ title:  RESTful Routes
 
 ## But first...
 
-<details>
-    <summary>
-    What is CRUD again?
-    </summary>
-
-    Thus far, we've used CRUD functionality to **C**reate, **R**ead, **U**pdate, and **D**elete from a database.
-</details>
-
-<details>
-    <summary>
-    What is an HTTP route?
-    </summary>
-
-    An HTTP route is the code responsible for receiving and responding to an HTTP request.
-</details>
-
-<details>
-    <summary>
-    What is a RESTful route?
-    </summary>
-
-    <ul>
-        <li>A RESTful route follows a common pattern to map between HTTP routes/methods and CRUD functionality.</li>
-        <li>By the way, REST stands for **RE**presentation **S**tate **T**ransfer. This may be an interview question; remember it, just in case.</li>
-    </ul>
-</details>
-
-<details>
-    <summary>
-    What is a URI?
-    </summary>
-
-    URI stands for **U**niform **R**esource **I**dentifier. It is the part of the URL after the domain. For our purpose, the URI is the same as our route path.
-    <br><br>
-    For example, for the URL <code>https://en.wikipedia.org/wiki/Uniform_Resource_Identifier</code>:
-    <ul>
-        <li> the domain is <code>en.wikipedia.org</code> </li>
-        <li> the URI is <code>/wiki/Uniform_Resource_Identifier</code></li>
-    </ul>
-</details>
-
-## But first... (sections)
-
 <section class="answer" markdown="1">
 ### What is CRUD again?
 
@@ -74,17 +31,20 @@ An HTTP route is the code responsible for receiving and responding to an HTTP re
 </section>
 
 <section class="answer" markdown="1">
-### What is a URI?
+### What are the parts of a URL?
 
-URI stands for **U**niform **R**esource **I**dentifier. It is the part of the URL after the domain. For our purpose, the URI is the same as our route path.
+A URL can be split into distinct parts:
 
-For example, for the URL `https://en.wikipedia.org/wiki/Uniform_Resource_Identifier`:
-* the domain is `en.wikipedia.org`
-* the URI is `/wiki/Uniform_Resource_Identifier`
+* Protocol: http:// - Tells us the application protocol we will be using to interact on the web.
+* Domain: task-manager.herokuapp.com - Tells us where the resources we are trying to access are located (tied to an IP address using DNS).
+* Path: /task/new - The specific path for the resources that we are trying to access at that location.
+* Query String: ?title=New&task=Task - Params that give our server additional information about what we would like to access.
 
-## The List
+</section>
 
-Here is a table of the list of RESTful routes. The given path is based on the context from our `MvcMovie` application.
+## The List of RESTful Routes
+
+Here is a table of the list of RESTful routes. The given path is based on the context from our `MvcMovies` application.
 
 | Route Name | Path | HTTP Method | CRUD | Return Type | Purpose |
 |--|--|--|--|--|--|
