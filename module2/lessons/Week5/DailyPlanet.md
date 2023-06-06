@@ -3,7 +3,7 @@ layout: page
 title: Mod 2 Review
 ---
 
-Today, we are going to build a small application to practice what we've learned in Mod2!
+Today, we are going to build a small application to practice what we've learned in Mod2! Read throught the entire spec below before starting!
 
 ## The Daily Planet
 
@@ -11,6 +11,7 @@ Today, we are going to build a small application to practice what we've learned 
     * You can call the project and solution `Newspaper`
 2. Initialize a git repository in your solution.
     * Add a remote repository on GitHub
+3. ✅ Send a link to your repository to your instructors!
 
 ### Building our Classes
 
@@ -19,14 +20,14 @@ Today, we are going to build a small application to practice what we've learned 
     * Make sure to test your classes!
 3. Commit after each class is complete - you should have 3 commits!
 4. When all three classes have been built, merge your `classes` branch into your `main` branch.
-5. Push your main branch to GitHub, and set a note to your instructor with a link to your github repo!
+5. ✅Push your main branch to GitHub, and send a note to your instructors that you have finished the classes!
 
 <section class='call-to-action' markdown='1'>
 **Reporter**  
 A reporter has a Name, a Speciality (like Politics, Sports, or Arts) and Articles.
 
 **Article**  
-An Article has a Title, a Reporter and an Issue.
+An Article has a Title, Content, a Reporter and an Issue.
 
 **Issue**  
 An Issue has a Date, and Articles.
@@ -47,9 +48,14 @@ An Issue has a Date, and Articles.
 6. Add a migration to create your database.
 7. Run your migration!
 8. Commit your work, and merge your `migrations` branch into your `main` branch.
-9. Push your main branch to GitHub, and set a note to your instructor with a link to your github repo!
+9. Push your main branch to GitHub, and send a note to your instructors that you have finished the database setup!
 
 ### Update Classes
+
+1. Create a branch called `statistics`
+2. In your Newspaper project, update your classes to include the methods below.
+4. When all three methods have been built, merge your `statistics` branch into your `main` branch.
+5. ✅Push your main branch to GitHub, and send a note to your instructors that you have finished the statistics!
 
 <section class='call-to-action' markdown='1'>
 Add the following methods to your Issue class:
@@ -68,5 +74,6 @@ Open pgAdmin and write queries for the following:
 </section>
 
 
+✅Send a slack message to your instructors with each of the three queries above.
 
 
