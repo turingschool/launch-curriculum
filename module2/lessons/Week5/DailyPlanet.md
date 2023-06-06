@@ -70,8 +70,8 @@ Add the following methods to your Issue class:
 <section class='call-to-action' markdown='1'>
 Open pgAdmin and write queries for the following:
 * Return all issues and their articles
-* Return the average number of issues per article
-* Return the average number of issues per article for a specific reporter
+* Return the average number of articles per issue
+* Return the average number of articles per issue for a specific reporter (assume you do not know the id of the reporter)
 </section>
 
 
