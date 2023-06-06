@@ -72,6 +72,10 @@ With your partner, use the CodePen above to explore.
 * Write down any questions that come up!
 </section>
 
+<section class='instructor-note' markdown='1'>
+After students have a chance to explore on their own, make sure they make note of the precedence in their notebooks: id -> class -> element
+</section>
+
 [Read More on the CSS Cascade](https://wattenberger.com/blog/css-cascade)
 
 ## Dev Tools and CSS

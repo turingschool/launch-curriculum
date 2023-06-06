@@ -37,8 +37,10 @@ Please watch the video below, the complete the exercises to work towards that mu
 - Click the inspect arrow and click on something in the browser. What HTML element is it?
 - Click on something else in the browser, something you suspect will be a different HTML element.
 - Move the dock to the right
+- Make some changes to the webpage by updating the HTML and/or CSS in the dev tools.
 - Close the dev tools
 - Re-open the dev tools - where is the dock?
 - Open the same site in another tab - are the dev tools open in that tab?
 - Close your dev tools
 - Open and close them **one last time** to make sure you're getting that keyboard shortcut down!
+✅ Send a screenshot of the changes you made in the site to your instructors!
