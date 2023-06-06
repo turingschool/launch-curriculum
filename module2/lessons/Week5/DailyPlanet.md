@@ -48,7 +48,7 @@ An Issue has a Date, and Articles.
 6. Add a migration to create your database.
 7. Run your migration!
 8. Commit your work, and merge your `migrations` branch into your `main` branch.
-9. Push your main branch to GitHub, and send a note to your instructors that you have finished the database setup!
+9. ✅Push your main branch to GitHub, and send a note to your instructors that you have finished the database setup!
 
 ### Update Classes
 
