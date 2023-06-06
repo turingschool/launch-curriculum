@@ -141,7 +141,7 @@ There are many strategies for loading related data for queries in Entity Framewo
 
 <section class='call-to-action' markdown='1'>
 
-Explore the Microsoft documentation on Loading Related Data.  
+Explore the [Microsoft documentation on Loading Related Data](https://learn.microsoft.com/en-us/ef/core/querying/related-data/).  
 * Determine which type of loading we are using with `.Include()`.
 * Take note of any pros and cons of using `.Include()`
 
