@@ -14,7 +14,7 @@ For today's lab, we are going to continue building the Record Collection.
 * Open your Record Collection project.
     * Run the project, and make sure you have the Record#Index, #Show, #New, and #Create actions working.
 * If you have been absent or can't find your project, follow these steps:
-    * Fork and Clone it from this [Starter Repository](https://github.com/turingschool-examples/LaunchFeatureLabStarter_RecordCollection).
+    * Fork and Clone it from this [Starter Repository](https://github.com/turingschool-examples/RecordCollectionStarter).
     * Build the project (let your instructor know if you receive any errors!).
         * Open the database in pgAdmin, and create some records by running the following script (feel free to update the albums and artists to your favorites!).
     ```sql

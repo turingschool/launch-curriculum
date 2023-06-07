@@ -82,7 +82,7 @@ When a "client" (like a web browser) retrieves information, it sends a payload o
 
 ### Verb and Path
 
-Every request needs to be able to tell a server *what* information is requested and *how* that information is being requested.  The *what* is the **path** (also know as a URI), indicating what resource this request is referencing.
+Every request needs to be able to tell a server *what* information is requested and *how* that information is being requested.  The *what* is the **path**, indicating what resource this request is referencing.
 
 Examples of a path:
 

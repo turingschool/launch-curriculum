@@ -9,6 +9,8 @@ title:  RESTful Routes
 * Learn the 7 RESTful routes
 * Understand the different between RESTful and non-RESTful routes
 
+We will be continuing to build our MVC Movies application. Take a minute to make sure you have that project open and check out the branch your instructor will share in Slack.
+
 ## But first...
 
 <section class="answer" markdown="1">
@@ -165,5 +167,4 @@ In later lessons, we will continue to build out the remaining routes from the RE
 
 * [Medium: The 7 RESTful routes!](https://medium.com/@shubhangirajagrawal/the-7-restful-routes-a8e84201f206)
 * [Medium: RESTful Routing: Mapping REST to CRUD](https://medium.com/@atharvakulkarniamk/restful-routing-mapping-rest-to-crud-dbb2f32f748c)
-* [Uniform Resource Identifier](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) aka **URI** 
 * [If you're feeling really adventurous today](https://en.wikipedia.org/wiki/Representational_state_transfer)
