@@ -11,6 +11,7 @@ For today's lab, we are going to continue building the Record Collection.
 * Add Songs to our application
 * Use a form to create songs for each album
 
+**Set Up**
 * Open your Record Collection project.
     * Run the project, and make sure you have the Record#Index, #Show, #New, and #Create actions working.
 * If you have been absent or can't find your project, follow these steps:

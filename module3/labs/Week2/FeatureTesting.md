@@ -10,6 +10,7 @@ title: Feature Testing
 
 ## Setup the Starter Project
 
+
 1. Fork and Clone this [Starter Repository](https://github.com/turingschool-examples/RecordCollectionStarter).
 2. Build the project, and let an instructor know if you receive any errors.
 3. Create the database by running `update-database` from the Package Manager Console.
