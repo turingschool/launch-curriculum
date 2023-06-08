@@ -13,8 +13,7 @@ title: Mod2 Project
 
 - Explore:
     * Dive into a new (not written by you) code base!
-    * Using TDD to add additional features! (For any new feature that you create, try writing the tests first, and then creating the code that makes those tests pass!)
-
+    * Using TDD to add additional features! (For new features that you create, try writing the tests first, and then creating the code that makes those tests pass!) Always be on the lookout for ways you can thoroughally test your code.
 
 ## Project Description
 the aim of this project is to build on the Message Logger we created in Mod1.  Now, a user should be able exit the application, and return later to review past messages.  This will require us to add a database to our Message Logger projects.
@@ -31,7 +30,6 @@ To get started on this project:
 2. Run all tests to make sure the project is working (all tests should be passing).
 
 When you have completed the Project Setup, send a link to your cloned repository to all your instructors.
-
 
 ### Iteration 1 - Creating and Connecting a Database
 In order to save messages and users so that they persist when a user exits and restarts the program, we will need to create a database for our Message Logger application.
@@ -53,7 +51,7 @@ You should create a branch for your work on this iteration.
 * Annotate your `program.cs` file with notes on how you will update the code to save records into the database.  Commit these annotations and push up your branch.  DM your instructors a link to your GitHub repo - we will reach out with feedback on your plans!
 * Update the program so that users and messages are saved to the database.
 
-When you are finished with iteration 2, create a pull request and schedule time with a cohort-mate or your instructor for some code review.
+When you are finished with iteration 2, create a pull request and schedule time with a cohort-mate for some code review. During the code review, make comments on the pull request indicating changes that you will make based on your review!
 
 ### Bonus Iteration!
 
@@ -74,12 +72,12 @@ In addition to the existing statistics about how many messages each user has wri
 * the hour with the most messages
 * Brainstorm your own interesting statistic(s)!
 
-When you are finished with iteration 3, create a pull request and schedule time with a cohort-mate or your instructor for some code review.
+When you are finished with iteration 3, create a pull request and schedule time with a cohort-mate for some code review. During the code review, make comments on the pull request indicating changes that you will make based on your review!
 
 ## Version Control Expectations
 In order to demonstrate what you have learned about version control, you will be using commits, branches and pull requests during this project.
 
-You must gather feedback from cohort-mates and/or instructors prior to merging any code into your `main` branch.
+You must gather feedback from cohort-mates prior to merging any code into your `main` branch.
 
 You must provide feedback on at least one other student's pull request!
 
@@ -89,3 +87,18 @@ You will present your project to other members of the cohort.  Keep presentation
 1. What was your process for building migrations?
 1. What changes did you make based on peer or instructor feedback?
 1. How did you ensure that messages and users were getting saved into the database appropriately?
+
+
+### Getting Help
+During project week, there are multiple ways to reach out for help. The first way is by sending a Slack message to all of your instructors. The second way is to use a Token during Token Time.
+
+Each student has 4 tokens for the week and each token gives you up to 15 minutes with an instructor. You want to have a specific goal in mind when getting in line during Token Time and you want to have spent time working on that goal individually before meeting with us.
+
+Some examples of great uses for a token:
+
+* Assistance with a bug you’ve been stuck on
+* Advice on refactoring a particular section of code
+* Help writing pseudo code for a section you’re not sure how to get started on
+* Showing off a part of the project that you’re proud of completing.
+
+You will also have a daily stand-up with your group and one quick instructor check-ins.
