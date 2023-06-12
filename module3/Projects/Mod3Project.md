@@ -19,8 +19,12 @@ title: Mod3 Project
 ## Project Description
 For this project, you will build the final iteration of the Message Logger we created in Mod1 and built on in Mod2. In Mod2 you added a database, and now you're going to add a frontend! You are encouraged to bring in code you wrote in the Mod2 project, especially for calculating message statistics.
 
-
 This project will give you the opportunity to showcase all of the concepts we have learned this Mod.  There might be skills that we covered all the way back in week 1, so don't forget to use those earlier lessons and labs as a resource!
+
+You will also be asked to create wireframes for the first two iterations. Here are some examples of what a wireframe might look like. Feel free to use an online tool or pen and paper to create your wireframes.
+
+![Example Wireframe 1](/assets/images/module3/Week6/SampleWireframe1.png)
+![Example Wireframe 2](/assets/images/module3/Week6/SampleWireframe2.png)
 
 **Project Setup**
 To get started on this project:
@@ -47,6 +51,8 @@ Before writing code, there are two planning steps you need to complete and inclu
 Add screenshots of your planning images in your project README, where it says:
 #### REPLACE THIS HEADER WITH YOUR ITERATION 1 REQUEST/RESPONSE IMAGE
 #### REPLACE THIS HEADER WITH YOUR ITERATION 1 WIREFRAME
+
+You will want to still edit your README in Visual Studio NOT Github to avoid merge conflicts.
 
 Once you've finished planning, check out a branch, and get started on the implementation.
 
@@ -90,7 +96,7 @@ This iteration includes the following features:
 
 For this iteration, it's up to you what type of planning you want to do before diving into code. You will want to consider the following, how do you want users to navigate to the statistics page?
 
-When you are finished with iteration 3, create a pull request and schedule time with a cohort-mate or your instructor for some code review.
+When you are finished with iteration 3, create a pull request and schedule time with a cohort-mate for some code review.
 
 ### 🌶️Iteration 4 - Edit and Delete
 
@@ -109,9 +115,12 @@ When you are finished with iteration 3, create a pull request and schedule time 
 ## Version Control Expectations
 In order to demonstrate your proficiency with version control, you will be using commits, branches and pull requests during this project.
 
-You must gather feedback from cohort-mates and/or instructors prior to merging any code into your `main` branch.
+You must gather feedback from cohort-mates prior to merging any code into your `main` branch.
 
 You must provide feedback on at least one other student's pull request!
+
+## Usability Expectations
+For your UI, the expectation is that every page in your application can be navigated to through your UI. This means that the user should never have to type in a URL or use the back button.
 
 ## Project Presentation
 
