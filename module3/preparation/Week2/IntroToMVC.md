@@ -1,4 +1,7 @@
-## Pre-Work for Intro To MVC
+---
+layout: page
+title: Pre-Work for Intro To MVC
+---
 
 ### Independent Research: What is MVC?
 

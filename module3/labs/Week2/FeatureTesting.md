@@ -10,7 +10,8 @@ title: Feature Testing
 
 ## Setup the Starter Project
 
-1. Fork and Clone this [Starter Repository](https://github.com/turingschool-examples/LaunchFeatureLabStarter_RecordCollection).
+
+1. Fork and Clone this [Starter Repository](https://github.com/turingschool-examples/RecordCollectionStarter).
 2. Build the project, and let an instructor know if you receive any errors.
 3. Create the database by running `update-database` from the Package Manager Console.
 4. Open the database in pgAdmin, and create some records by running the following script (feel free to update the albums and artists to your favorites!).

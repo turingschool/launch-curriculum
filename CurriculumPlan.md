@@ -187,7 +187,7 @@ To Be Moved
 
 **Mod Overview** All things MVC.  
 **Lesson Project** [MvcMovie](https://github.com/turingschool-examples/MvcMovieStarter)  
-**Lab Project** [RecordCollection](https://github.com/turingschool-examples/LaunchFeatureLabStarter_RecordCollection)  
+**Lab Project** [RecordCollection](https://github.com/turingschool-examples/RecordCollectionStarter)  
 
 ### Week 1
 * HTTP Request/Response Cycle
