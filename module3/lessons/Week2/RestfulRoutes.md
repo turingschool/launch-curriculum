@@ -60,6 +60,14 @@ Here is a table of the list of RESTful routes. The given path is based on the co
 
 * The **Update** route can also use the *PATCH* method. PUT updates an entire resource; PATCH updates a portion of the resource.
 
+<section class="call-to-action" markdown="1">
+**Restful Routes Practice**: You will now create routes for the `muffin` resource to keep track of muffin inventory at a bakery. Your instructor will call on folks to share the path for a particular route name.
+</section>
+
+<aside class="instructor-notes" markdown="1">
+    <p><strong>Instructor Note</strong><br>I could see cold calling or a chat waterfall working well here!</p>
+</aside>
+
 ## RESTful Routes
 We will focus on two methods in our controller as it pertains to REST.
 
