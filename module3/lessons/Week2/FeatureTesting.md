@@ -253,6 +253,10 @@ namespace MvcMovie.FeatureTests
     <p>With a Partner - What similarities and differences do you see between this <code>Program.cs</code> and the <code>Program.cs</code> in the MvcMovie project?</p>
 </section>
 
+5. Set the startup object for the test project
+    * Right click the project, and select Properties
+    * Set the Startup Object to be: `MvcMovie.FeatureTest.Program`
+
 ## Writing an Index test
 
 <section class="note">

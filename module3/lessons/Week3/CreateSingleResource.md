@@ -208,6 +208,7 @@ public async Task AddMovie_ReturnsRedirectToShow()
         { "Title", "Back to the Future" },
         { "Genre", "Science Fiction" }
     };
+    var client = _factory.CreateClient();
 
     // Act
     var response = await client.PostAsync("/movies", new FormUrlEncodedContent(formData));
@@ -222,7 +223,6 @@ public async Task AddMovie_ReturnsRedirectToShow()
     Assert.Contains("Genre: Science Fiction", html);
 
     // Assert that the movie was added to the database. This test isn't mandatory, but testing against what's in the database is a useful testing tool to add to your toolbox.
-    var client = _factory.CreateClient();
     var context = GetDbContext();
     var savedMovie = await context.Movies.FirstOrDefaultAsync(
         m => m.Title == "Back to the Future"
