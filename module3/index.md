@@ -14,6 +14,9 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 * Richard Tillies
 * Zoe Farrell
 
+## Intermission
+* [Required and Recommended Intermission Work](./intermission/)
+
 ## Curriculum
 
 ### Under Construction
