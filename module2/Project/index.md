@@ -87,6 +87,8 @@ You will present your project to other members of the cohort.  Keep presentation
 1. What was your process for building migrations?
 1. What changes did you make based on peer or instructor feedback?
 1. How did you ensure that messages and users were getting saved into the database appropriately?
+1. What was it like working on pre-existing code?
+1. Is there anything that you would do differently given a fresh start?
 
 
 ### Getting Help
