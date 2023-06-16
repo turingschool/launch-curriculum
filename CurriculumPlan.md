@@ -539,24 +539,39 @@ Test DB connections and records
     - Practice destruction of single and related resources
 
 ## Mod 4
+* Big theme: we are building BE APIs
+    - ideally, we would have a nice JS frontend
+    - MVP, we will use postman to interact with our APIs
+
+## Intermission
+* Javascript
+    - khan academy
 ### Week 1
-* Intro to APIs
-    - Understand how an API works at a conceptual level
-    - Expand our understanding of what a 'client' could be
-    - Create an in-app client to manipulate HTTP responses
-* JavaScript (Likely 2 lessons)
+* JavaScript (Likely 2 lessons, with intermission work, maybe 1?)
     - Understand why it is important to be familiar with JavaScript
     - Available DataTypes
     - How to Build a Function
     - Accessing DOM elements and events
+* Reviewing Concepts
+    - MVC Practice
+    - Review SQL
+    - Review OOP/C# fundamentals
 ### Week 2
+* Intro to APIs
+    - Understand how an API works at a conceptual level
+    - Expand our understanding of what a 'client' could be
+    - Create an in-app client to manipulate HTTP responses
+    - Practice requests to an existing - using Postman
 * Building an API
     - Review HTTP Request/Response Structure 
     - Use TDD to Implement CRUD endpoints through an API
     - Define and identify valid JSON data structures
-* Testing Strategies when Consuming an API
+<!-- * Testing Strategies when Consuming an API
     - Understand the necessity of faking API requests in tests
-    - Implment mock/vcr to maintain test coverage
+    - Implment mock/vcr to maintain test coverage -->
+
+CHECKPOINT - a mini individual project.  Can you build an API?
+
 ### Week 3
 * Maintaining State
     - Identify the limitations of Stateless HTTP
@@ -565,10 +580,14 @@ Test DB connections and records
 * Authentication
     - Explain the use of Authentication and its importance
     - Implement Authentication
+### Week 4
 * Authorization
     - Identify the difference between Authentication and Authorization
     - Implement User Roles with Authorization
-### Week 4
+* Security Concerns
+    - Common pitfalls (what would happen if...)
+    - General strategies for security
+    - Understanding the inherent risks of the internet (we can't save every situation)
 * ?Advanced Data Manipulations? On the scope and sqnce doc, the learning goal includes Advanced SQL
     - https://backend.turing.edu/module3/lessons/advanced_activerecord
 
