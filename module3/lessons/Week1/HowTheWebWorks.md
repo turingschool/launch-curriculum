@@ -5,10 +5,10 @@ sub-title: the HTTP Request/Response Cycle
 ---
 
 ## Learning Goals
-* Define the 'vocabulary' of the web.
+* Define the vocabulary of the web.
 * Develop a diagram for the web.
 
-## What is the internet
+## What is the Internet
 
 The internet, which for most people is the web…how does that work?
 
@@ -56,8 +56,11 @@ Metaphor aside, let’s run through the protocol as executed by computers:
 
 That’s the HTTP Request/Response cycle. At its core, it is a bunch of formatting rules that Clients and Servers use to talk to each other.
 
-> In a notebook, sketch a diagram of this process.
-> Compare your diagrams in small groups.  What is similar? What is different?  Can you come up with one diagram that best represents your ideas?
+<section class="call-to-action" markdown="1">
+In a notebook, sketch a diagram of this process.
+
+Compare your diagrams in small groups.  What is similar? What is different?  Can you come up with one diagram that best represents your ideas?
+</section>
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>Be sure to show an example of a diagram that shows each part of the cycle.</p>
@@ -100,14 +103,19 @@ The *how* is the **verb**, indicating what actions the server should take regard
 
 With these 5 verbs, we send requests that allow us to perform all CRUD functions (create, read, update, destroy) for resources in a database!
 
-> With your small groups,
-> Upate your diagrams to include as much of the request/response header information as you can!
-> Go to a website you use often - identify at least 2 requests that you can generate without using the address bar!
-> 
-> Be ready to share out your diagrams, and requests!
+<section class="call-to-action" markdown="1">
+With your small groups complete the following:
+* Update your diagrams to include as much of the request/response information as you can!
+* Go to a website you use often - identify at least 2 requests that you can generate without using the address bar!
+
+Be ready to share out your diagrams, and requests!
+</section>
 
 
 ## Checks for Understanding
 * Imagine you are in an interview.  The interviewer asks you to describe how the internet works.  Write out your answer - use as many vocab words that you learned today as you can!
 * List the 5 common http verbs and what they indicate about a request.
 * Diagram the http request/response cycle for visiting `weather.gov` indicate as many of the parts of the request/response headers as you can.
+
+## Additional Resources
+* [How the Web Works](https://www.youtube.com/watch?v=hJHvdBlSxug&t=2s)

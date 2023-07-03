@@ -4,15 +4,14 @@ title: How the Web Works Lab
 ---
 
 <aside class="instructor-notes">
-    <p><strong>Instructor Note</strong><br>This lab should be an individual or small group exploration.  Before breaking for worktime, show students how to open their Comman Prompt so that they can try out `curl`</p>
+    <p><strong>Instructor Note</strong><br>This lab should be an individual or small group exploration.  Before breaking for worktime, show students how to open their Command Prompt so that they can try out `curl`</p>
 </aside>
 
 ## Lab Objectives
 * Reinforce understanding of the HTTP request/response cycle
 * Use a basic client to see the cycle in action
 
-## Requests and Responses in Detail
-## HTTP Requests and Responses
+## HTTP Requests and Responses With More Detail
 
 The HyperText Transfer Protocol gives us rules about how messages should be sent around the Internet. The system that initiates a connection sends a "request", and the system the answers sends a "response".
 
@@ -99,14 +98,12 @@ Requests are created by:
 1. Typing a URL into a browser address bar
     * Always a `GET` request
     * Path is hand-typed
-    * Can include Query Params that must be hand-typed
     * Does not include a body
 1. Clicking Links or Buttons
     * The developer decides what Verb, Path and Query Params are included
     * Does not include a body
 1. Form submission
     * Developer decides on Verb and Path
-    * Can include query params but usually does not.
     * User inputs data into form fields. This data is included in the body of the request
 
 ## Diagram Process
