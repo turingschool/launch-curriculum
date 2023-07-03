@@ -5,7 +5,7 @@ title: Reading Related Resources Preparation
 
 ## Pre-Work for [Reading Related Resources](/module3/lessons/Week3/ReadingRelatedResources)
 
-In our [RESTful Routes](/module3/lessons/Week2/RestfulRoutes.md) lesson, we learned that in order to indicate which resource we are trying to include on a specic show page.  As in `/movies/12` which will return the show page for the movie with an id of 12.
+In our [RESTful Routes](/module3/lessons/Week2/RestfulRoutes.md) lesson, we learned that in order to indicate which resource we are trying to include on a specic show page we need to include that resource's id.  As in `/movies/12` which will return the show page for the movie with an id of 12.
 
 Now, we need to expand our understanding of routing to access _related_ resources. 
 
