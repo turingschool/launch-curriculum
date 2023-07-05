@@ -8,6 +8,8 @@ title: Build an API
 * Build a CRUD API in .NET
 * Use Postman to interact with our API
 
+## Prep Review
+
 ## Review Starter Code
 - start with a starter repo
     - Routing and database connections will be set up
@@ -15,6 +17,7 @@ title: Build an API
     - test project included (with in memory database)
 - Make note of what has been previously configured
 - Compare/contrast this application with our MVC apps
+- scavenger hunt style
 
 ## CRUD API
 ### GET /books
@@ -24,13 +27,13 @@ title: Build an API
 ```c#
 // GET: api/Books
 [HttpGet]
-public ActionResult GetBooks()
+public ActionResult<IEnumerable<Book>> GetBooks()
 {
     if (_context.Books == null)
     {
         return NotFound();
     }
-    return new JsonResult(_context.Books.ToList());
+    return _context.Books.ToList();
 }
 ```
 
@@ -79,6 +82,7 @@ public ActionResult PostBook(Book Book)
     return CreatedAtAction(nameof(GetBook), new { id = Book.Id }, Book);
 }
 ```
+- do a simpler return so students are setting the statuscode manually
 
 
 ### PUT /books/1
@@ -140,5 +144,7 @@ ActionResult<IEnumerable<Book>>
 
 return _context.Books.ToList();
 ```
+
+- check out other ActionResult Objects/Methods/ReturnValues
 
 ## Checks for Understanding
