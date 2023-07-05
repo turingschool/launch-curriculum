@@ -588,6 +588,7 @@ CHECKPOINT - a mini individual project.  Can you build an API?
     - Common pitfalls (what would happen if...)
     - General strategies for security
     - Understanding the inherent risks of the internet (we can't save every situation)
+    - https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio#prevent-over-posting-1
 * ?Advanced Data Manipulations? On the scope and sqnce doc, the learning goal includes Advanced SQL
     - https://backend.turing.edu/module3/lessons/advanced_activerecord
 
