@@ -97,8 +97,8 @@ namespace GoodBooksEndpointTests
             HttpResponseMessage response = await client.GetAsync("/api/books");
             string content = await response.Content.ReadAsStringAsync();
 
-            // The method ParseJson is defined below
-            string expected = ParseJson(books);
+            // The method ObjectToJson is defined below
+            string expected = ObjectToJson(books);
 
             response.EnsureSuccessStatusCode();
             Assert.Equal(expected, content);
@@ -106,7 +106,7 @@ namespace GoodBooksEndpointTests
         }
 
         // This method helps us create an expected value. We can use the Newtonsoft JSON serializer to build the string that we expect.  Without this helper method, we would need to manually create the expected JSON string.
-        private string ParseJson(object obj)
+        private string ObjectToJson(object obj)
         {
             DefaultContractResolver contractResolver = new DefaultContractResolver
             {
@@ -275,7 +275,7 @@ A couple of things to note about this test!
 
 ```c#
 [HttpPost]
-public void CreateBook(Book book)
+public ActionResult CreateBook(Book book)
 {
     if (!ModelState.IsValid)
     {
@@ -285,7 +285,10 @@ public void CreateBook(Book book)
     _context.Books.Add(book);
     _context.SaveChanges();
 
+    var savedBook = _context.Books.Last();
+
     Response.StatusCode = 201;
+    return new JsonResult(savedBook);
 }
 ```
 
