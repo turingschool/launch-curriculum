@@ -16,6 +16,12 @@ Before we dive into a discussion of strengths, we are going to start to identify
 Spend 20 - 30 minutes taking the free [High 5 Strengths Assessment](https://test.high5test.com/registration).  Take a few moments to read through the descriptions of your top 5 strengths; we will revisit these later!
 </section>
 
+<section class='instructor-notes' markdown='1'>
+
+Before getting in to the discussion, start with breakout rooms of 3/4 and ask students to discuss why they think it's important to identify your strengths.
+
+</section>
+
 ## Discussing Strengths
 The core of developing yourself professionally is understanding yourself and being able to speak to to that understanding. You have to understand yourself in order to know what you’re striving towards professionally as well as how to advocate for what you want.
 
@@ -128,26 +134,31 @@ Breaking down strengths in this way can be easier when we already know what the 
 ## Discussing Our Strengths
 
 <section class='call-to-action' markdown='1'>
-In small groups    
+Individually   
 
-Discuss the results of your High 5 assessment.  Use the following questions as a guide:
-* What strengths to do you most identify with?
-* Were your results suprising?
-* Are there any strengths that you do not really connect with? (this test is not perfect!)
-
-Together, help each other identify one additional strength.  You can use these resources for inspiration:
+Spend a few minutes reviewing these resources that have lists of strengths.  Identify 3 strengths from one or more of these lists that resonate with you.  Be ready to share in small groups why or how you chose a particular strength!
 * [High 5 Strenghts](https://high5test.com/wp-content/uploads/2018/04/HIGH5-Strengths-Sequence-Sample.pdf)
 * [Strengths to List on Your Resume](https://www.indeed.com/career-advice/resumes-cover-letters/strength-in-resume)
 * [Personal Strengths Defined](https://positivepsychology.com/what-are-your-strengths/)
 
 </section>
 
+<section class='instructor-notes' markdown='1'>
+drop a surprise mini-activity on them. Send out lists of groups of 3/4 and have them do a quick brainstorm of strengths for their group mates, 5 minutes total type of things. Then they jump into breakout rooms and each student has a turn where their peers write in the chat the strengths that come to mind for them. Then the student whose turn it is has a reflection question to answer "Are the strengths your peers shared similar to what you listed yourself? Were there any strengths your peers shared that surprised you?"
+
+Discuss the results of your High 5 assessment.  Use the following questions as a guide:
+* What strengths to do you most identify with?
+* Were your results suprising?
+* Are there any strengths that you do not really connect with? (this test is not perfect!)
+</section>
+
+
 <section class='call-to-action' markdown='1'>
 
 Individually  
 
-For one of your 6+ strengths identified previously, reflect on what **skill, knowledge, and talent** combine to make that **strength**.
+Identify the 3 strengths that you most identify with.  Choose one of those and reflect on what **skill, knowledge, and talent** combine to make that **strength**.
 
-✅Send an overview of your reflection to your instructors!
+✅Send your top 3 strengths and an overview of your reflection to your instructors!
 
 </section>
