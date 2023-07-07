@@ -29,7 +29,7 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 * Intro To MVC: [Prep](./preparation/Week2/IntroToMVC) &#124; [Lesson](./lessons/Week2/IntroToMVC)
 * RESTful Routes: [Prep](./preparation/Week2/RestfulRoutes) &#124; [Lesson](./lessons/Week2/RestfulRoutes) &#124; [Lab](./labs/Week2/RestfulRoutes) 
 * Feature Testing: [Prep](./preparation/Week2/FeatureTesting) &#124; [Lesson](./lessons/Week2/FeatureTesting) &#124; [Lab](./labs/Week2/FeatureTesting) 
-* Your Strengths
+* [Your Strengths](./lessons/Week2/FindingYourStrengths)
 
 ### Week 3
 * Creating Single Resource: [Prep](./preparation/Week3/CreateSingleResource) &#124; [Lesson](./lessons/Week3/CreateSingleResource) &#124; [Lab](./labs/Week3/CreateSingleResource)
