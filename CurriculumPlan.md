@@ -560,7 +560,6 @@ Test DB connections and records
 * Intro to APIs
     - Understand how an API works at a conceptual level
     - Expand our understanding of what a 'client' could be
-    - Create an in-app client to manipulate HTTP responses
     - Practice requests to an existing - using Postman
 * Building an API
     - Review HTTP Request/Response Structure 
@@ -570,7 +569,7 @@ Test DB connections and records
     - Understand the necessity of faking API requests in tests
     - Implment mock/vcr to maintain test coverage -->
 
-CHECKPOINT - a mini individual project.  Can you build an API?
+CHECKPOINT - a mini individual project.  Can you build an API? Could this be the week's assessment? And have it fill two days?
 
 ### Week 3
 * Maintaining State
