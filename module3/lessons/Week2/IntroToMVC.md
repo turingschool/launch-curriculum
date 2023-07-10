@@ -267,7 +267,7 @@ But we don't just want the data to show up in our console, we want it to show up
 
 Update your MoviesController with the following to pass the Movies into your view:
 
-```C#
+```c#
 using Microsoft.AspNetCore.Mvc;
 using MvcMovie.DataAccess;
 
