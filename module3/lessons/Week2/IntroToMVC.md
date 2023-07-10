@@ -32,8 +32,9 @@ Here is our plan:
 
 For today's lesson, we are going to build off of some starter code. MVC is the focus of today, not the starter code, so don't worry about what's already there.
 
-Let's all fork and clone this repo: https://github.com/turingschool-examples/MvcMovieStarter
+Let's all fork and clone this repo: [https://github.com/turingschool-examples/MvcMovieStarter](https://github.com/turingschool-examples/MvcMovieStarter)
 
+<section class="note" markdown="1">
 If you're curious, this is what has been done so far:
 
 1. Use the ASP.NET Core Web App (Model-View-Controller) template to create a new project
@@ -44,6 +45,7 @@ If you're curious, this is what has been done so far:
 1. Configure database connection string in appsettings.json
 1. Add dbContext in DataAccess/MVCMoviesContext.cs
 1. Register the context in Program.cs using the database connection string and snake_case naming convention
+</section>
 
 To run this application, click the outlined "play" button to "Start Without Debugging". You will probably see the following confirmations
 
@@ -51,7 +53,7 @@ To run this application, click the outlined "play" button to "Start Without Debu
 
 When you click start, Visual Studio runs the app and opens it in the default browser. You should see a page that says "Welcome Learn about building Web apps with ASP.NET Core."
 
-The address bar shows `localhost:<port#>`. Localhost means the application is running on your local computer. When Visual Studio creates a web project, a random port is used for the web server.
+The address bar shows `localhost:<port#>`. Localhost means the application is running on your local computer.
 
 ## 2. Add a Controller
 
@@ -67,7 +69,7 @@ We're going to use the scaffolding tool in Visual Studio to create our controlle
 In the **Add New Item - MvcMovie** dialog, enter `MoviesController.cs` and select **Add**.
 
 Your generated controller should look like this, except for the comment I added for clarity:
-```C#
+```c#
 using Microsoft.AspNetCore.Mvc;
 
 namespace MvcMovie.Controllers
@@ -124,7 +126,7 @@ We will use Visual Studio to create a new view. Let's all follow these steps:
 
 Replace the contents of the `Views/Movies/Index.cshtml` Razor view file with the following:
 
-```C#
+```html
 <h1>Movies</h1>
 
 <p>All of the movies data will be shown here!</p>
@@ -145,10 +147,14 @@ A view template file name wasn't specified, so MVC defaulted to using the defaul
 
 ## 4. Controller and View Practice
 
-> With your partner complete the following challenges: 
-> 1. Create create a new route in your Movies controller so that when a user visits `https://localhost:<port#>/cart` they see the string "Here are all of the movies you want to buy". You will want to create an additional view called `Cart.cshtml` to make this work!
-> 2. Create a new controller called `BooksController.cs`. When you navigate to `https://localhost:<port#>/books` the page should have the title "Books" and message "All of the books data will be shown here!". What other file(s) and folder(s) will you need to add to make this work?
->3. Hungry For More? Add additional routes to your BooksController.
+<section class='call-to-action' markdown='1'>
+
+With your partner complete the following challenges: 
+1. Create create a new route in your Movies controller so that when a user visits `https://localhost:<port#>/cart` they see the string "Here are all of the movies you want to buy". You will want to create an additional view called `Cart.cshtml` to make this work!
+2. Create a new controller called `BooksController.cs`. When you navigate to `https://localhost:<port#>/books` the page should have the title "Books" and message "All of the books data will be shown here!". What other file(s) and folder(s) will you need to add to make this work?
+3. Hungry For More? Add additional routes to your BooksController.
+
+</section>
 
 ## 5. Add a Model
 
@@ -159,7 +165,7 @@ Let's start by adding a new model class.
 
 Update the Models/Movie.cs file with the following code:
 
-```C#
+```c#
 namespace MvcMovie.Models
 {
     public class Movie
@@ -177,7 +183,7 @@ The Movie class contains an Id field, which is required by the database for the 
 Our next step is to add our `Movie` model to our database context.
 
 Update `DataAccess/MvcMovieContext` to the following:
-```C#
+```c#
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Models;
 
@@ -220,7 +226,7 @@ We now have created our Model, View, and Controller and it's time to put the pie
 We want our controller to access data from our database using our Model.
 
 Update your MoviesController with the following:
-```C#
+```c#
 using Microsoft.AspNetCore.Mvc;
 using MvcMovie.DataAccess;
 
@@ -289,7 +295,7 @@ Finally, we need to update the View to display the movies.
 
 Update your `Views/Movies/Index.cshtml` file to match the following:
 
-```C#
+```html
 // This line tells us what data is getting passed to our View
 @model IEnumerable<MvcMovie.Models.Movie>
 
