@@ -133,7 +133,7 @@ Breaking down strengths in this way can be easier when we already know what the 
 </section>
 
 <section class='answer' markdown='1'>
-### 3. Use a Strenghs Assessment
+### 3. Use a Strengths Assessment
 <section class='note' markdown='1'>
 * Use a tool like High 5, StrengthsFinder or Pairin as a starting point
 * Use your own experience to add a narrative to your identified strengths
