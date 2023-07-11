@@ -48,7 +48,9 @@ Out the box, Bootstrap is based on a grid design.
 * There are a maximum of 12 columns.
 
 This image represents one container with seven rows. Each row has different sized elements that span a different number of columns.
+
 ![Bootstrap Container](/assets/images/module3/Week5/BootstrapGrid.png)
+
 * The first row has 12 elements, each element spans 1 column.
 * The second row has 6 elements, each element spans 2 columns.
 * The third row has 4 elements, each element spans 3 columns.
@@ -84,7 +86,7 @@ The beauty of Bootstrap is that you attach classes to HTML tags, and the magic j
 
 For example:
 ```html
-<h2 class="bg-danger text-white rounded">London</h2>
+<h2 class="bg-danger text-white rounded p-2">London</h2>
 ```
 There are four classes attached to this `<h2>` tag:
 * `bg-danger` turns the background (bg) of this heading red (red means danger, right?)
@@ -93,6 +95,7 @@ There are four classes attached to this `<h2>` tag:
 * `p-2` adds some padding inside the heading (the bigger the number, the bigger the cushion)
 
 Let's talk about the container a bit:
+
 ```html
 <div class="container">
   <div class="row">
@@ -111,12 +114,13 @@ Let's talk about the container a bit:
   </div> <!-- End row -->
 </div> <!-- End container -->
 ```
+
 Let's break this down:
 * There is a outer `<div>` for the container.
-* There is a nested `<div>` for the row of cities. 
-* Nested inside the row `<div>` are three column `<div>`s, one for each city.
+* There is a nested `<div>` inside the container for the row of cities. 
+* Nested inside the row `<div>` are three city `<div>`s.
 
-Each column `<div>` &ndash; and the information within it &ndash; can differ using tags and classes. We use the same class for each column.
+Each city `<div>` &ndash; and the information within it &ndash; can differ using tags and classes. We use the same class for each column.
 
 ## Breakpoints
 
@@ -140,9 +144,9 @@ This explains why the webpage displays columns on the desktop and tablet, but be
 
 ## Want more Bootstrap?
 
-Bootstrap has tons of [examples](https://getbootstrap.com/docs/5.3/examples/) to work through; scroll to **Snippets** to check out different headers, sidebars, buttons, etc. There's an entire section for **Navbars** (navigation bars to your humanoid friends).
+Bootstrap has tons of [examples](https://getbootstrap.com/docs/5.3/examples/) to work through; scroll to **Snippets** to check out different headers, sidebars, buttons, etc. There's an entire section for **Navbars** (navigation bars to your humanoid friends). If you view the dev tools, you can see the code for each example.
 
-The [documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) is pretty fantastic. By the way, version 5.x is **_WAY_** more extensive than previous iterations, almost overwhelmingly so.
+The [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) is pretty fantastic. By the way, version 5.x is **_WAY_** more extensive than previous iterations, almost overwhelmingly so. Digest in small bites.
 
 If you prefer to learn tutorial style, W3Schools (naturally) has a great [tutorial on Bootstrap 5](https://www.w3schools.com/bootstrap5/index.php). Prepare to be amazed on how complex (yet simple) Bootstrap can be to learn.
 
