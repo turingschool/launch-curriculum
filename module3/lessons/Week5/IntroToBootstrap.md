@@ -73,11 +73,13 @@ This is where the "responsive" part happens. Here is a screenshot of our example
 ![Website Desktop](/assets/images/module3/Week5/OlympicDesktop.png)
 
 Here is the same webpage, viewed on my tablet in portrait mode:
+
 ![Website Tablet](/assets/images/module3/Week5/OlympicTablet.png)
 
 Some adjustments have been made for the smaller screen, but it remains unchanged for the most part.
 
 Same webpage, this time on my phone:
+
 ![Website Phone](/assets/images/module3/Week5/OlympicPhoneSmall.png)
 
 Whoa, big difference. But it would have been really difficult to read the text and view the images if they were all still side by side. I have to scroll to view the information for Paris (not to mention Beijing), but the experience is much better.
@@ -99,7 +101,9 @@ There are four classes attached to this `<h2>` tag:
 * `rounded` curls up the corners of the heading (look closely)
 * `p-2` adds some padding inside the heading (the bigger the number, the bigger the cushion)
 
-![London Heading](assets/images/module3/Week5/LondonHeader.png)
+And here is the result:
+
+![London Heading](/assets/images/module3/Week5/LondonHeader.png)
 
 Let's talk about the container a bit:
 
