@@ -4,7 +4,8 @@ title: Intro to Bootstrap
 ---
 
 ## Learning Goals
-- 
+- Understand the basics of Bootstrap
+- Understand how applying Bootstrap makes websites responsive
 
 We will build on our foundational understanding of [HTML](/module3/lessons/week1/HTMLFundamentals) and [CSS](/module3/lessons/week1/CSSFundamentals).
 
@@ -15,6 +16,7 @@ We will build on our foundational understanding of [HTML](/module3/lessons/week1
 If necessary, re-familiarize yourself with earlier lessons:
 * [HTML Fundamentals](/module3/lessons/week1/HTMLFundamentals)
 * [CSS Fundamentals](/module3/lessons/week1/CSSFundamentals)
+</section>
 
 ## What is Bootstrap?
 
@@ -25,8 +27,8 @@ Most importantly, it is **FREE** to use.
 ## How to use Bootstrap
 
 You can use Bootstrap in one of two ways:
-1. [Download and install Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/) on your machine.
-1. Use a CDN (content delivery network) to include a cached version of Bootstrap in your HTML code. This is the option we will use.
+1. You could [download and install Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/) on your machine. But don't.
+1. You could also use a CDN (content delivery network) to include a cached version of Bootstrap in your HTML code. This is the option we will use.
 
 Include this `<link>` tag in the `<head>` of your webpage:
 ```html
@@ -76,7 +78,7 @@ Here is the same webpage, viewed on my tablet in portrait mode:
 Some adjustments have been made for the smaller screen, but it remains unchanged for the most part.
 
 Same webpage, this time on my phone:
-![Website Tablet](/assets/images/module3/Week5/OlympicPhone.png)
+![Website Phone](/assets/images/module3/Week5/OlympicPhoneSmall.png)
 
 Whoa, big difference. But it would have been really difficult to read the text and view the images if they were all still side by side. I have to scroll to view the information for Paris (not to mention Beijing), but the experience is much better.
 
@@ -84,15 +86,20 @@ Whoa, big difference. But it would have been really difficult to read the text a
 
 The beauty of Bootstrap is that you attach classes to HTML tags, and the magic just... happens.
 
+Ok, it's not "magic" (says Megan). The classes that we attach to the HTML tags correspond with pre-existing CSS styling rules in Bootstrap. In fact, if you opened the Bootstrap link added to the `<head>` tag of the example website, you will find a ginormous CSS file.
+
 For example:
 ```html
 <h2 class="bg-danger text-white rounded p-2">London</h2>
 ```
+
 There are four classes attached to this `<h2>` tag:
 * `bg-danger` turns the background (bg) of this heading red (red means danger, right?)
 * `text-white` makes the text white (this is the obvious one)
 * `rounded` curls up the corners of the heading (look closely)
 * `p-2` adds some padding inside the heading (the bigger the number, the bigger the cushion)
+
+![London Heading](assets/images/module3/Week5/LondonHeader.png)
 
 Let's talk about the container a bit:
 
@@ -149,6 +156,3 @@ Bootstrap has tons of [examples](https://getbootstrap.com/docs/5.3/examples/) to
 The [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) is pretty fantastic. By the way, version 5.x is **_WAY_** more extensive than previous iterations, almost overwhelmingly so. Digest in small bites.
 
 If you prefer to learn tutorial style, W3Schools (naturally) has a great [tutorial on Bootstrap 5](https://www.w3schools.com/bootstrap5/index.php). Prepare to be amazed on how complex (yet simple) Bootstrap can be to learn.
-
-## Checks for Understanding
-1. To be continued.
