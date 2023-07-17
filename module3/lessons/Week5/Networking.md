@@ -57,9 +57,30 @@ If you feel energized by meeting new people with shared interests at an event th
 
 Even though you’ll lean into your comfort zone, you can also prepare for what to do when you leave them. If you were to engage in a networking activity that drains you, how could you recover? Take time to plan an activity beforehand and afterwards that works with your energy. If you’re an introvert, this might mean preparing for a large group networking event by having some alone time before and after the event, such as reading a book or taking a walk. Taking the time to prepare for this energy drain will help you be more fully yourself in the activity.
 
+<section class='call-to-action' markdown='1'>
+
+### Learning More About You
+
+You may be able to easily identify your comfort levels compared to the scenarios above, or it may be difficult for you to place yourself into those narratives.  Either way, it can be a good exercise to identify some additional personality traits as you build your professional persona.
+
+Let's spend 15 minutes taking **one** of the two personality assessments listed below:
+* [Myers Briggs (free version)](https://www.16personalities.com/free-personality-test)
+* [DISC (free version)](https://discpersonalitytesting.com/free-disc-test/)
+
+In Breakout rooms for your chosen assessment, discuss the following:
+* Share out as much of your results as you are comfortable with.
+* How closely do you feel these traits describe you? Why?
+* How can this information help as you start networking?
+
+</section>
+
+<section class='note' markdown='1'>
+
 Here is some additional reading on how to use your place on the introversion-extroversion spectrum to your advantage:
 * [Are you an Introvert or an Extrovert? What it Means for Your Career](https://www.fastcompany.com/3016031/are-you-an-introvert-or-an-extrovert-and-what-it-means-for-your-career)
 * [How Being an Introvert Helped Me in My First Job](https://quietrev.com/how-being-an-introvert-helped-me-in-my-first-job/)
+
+</section>
 
 ## Create Networking Goals
 
