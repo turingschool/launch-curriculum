@@ -11,11 +11,11 @@ Today, we will be working individually to reinforce our own understanding of the
 
 By the end of this Lab, you will have a RESTful API that will allow us to CRUD resources for a database with the following ERD:
 
-![Adopt Don't Shop ERD](/assets/images/module4/week2/adoptdontshop_ERD.png)
+![Adoptiverse ERD](/assets/images/module4/week2/adoptdontshop_ERD.png)
 
 ## Setup
 
-* Fork and clone this [Starter Repo]().
+* Fork and clone this [Starter Repo](https://github.com/turingschool-examples/AdoptiverseStarter).
 * Open your forked repository in Visual Studio.
 * Build the Solution
     * let an instructor know if you run into any issues!
