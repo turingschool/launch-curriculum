@@ -1,29 +1,26 @@
 ---
 layout: page
-title: Creating and Reading Related Resources Lab
+title: Creating Related Resources Lab
 ---
 
 ## Setup
 
 For today's lab, we are going to continue building the Record Collection.
 
+**Objective**: Use a form to create songs for each album
 
-**Objective**  
-* Use a form to create songs for each album
-
-* Open your Record Collection project.
-    * Run the project, and make sure you have the Record#Index, #Show, #New, and #Create actions working.
-* If you have been absent or can't find your project, follow these steps:
-    * Fork and Clone it from this [Starter Repository](https://github.com/turingschool-examples/RecordCollectionStarter).
-    * Build the project (let your instructor know if you receive any errors!).
+1. Open your Record Collection project. 
+    * If you have been absent, follow these steps:
+        * Fork and Clone it from this [Starter Repository](https://github.com/turingschool-examples/LaunchFeatureLabStarter_RecordCollection).
+        * Create the database by running `update-database` from the Package Manager Console.
         * Open the database in pgAdmin, and create some records by running the following script (feel free to update the albums and artists to your favorites!).
-    ```sql
-    INSERT INTO albums (title, artist, release_date)
-    VALUES
-    ('Stop Making Sense', 'Talking Heads', '1984-06-24'),
-    ('Banana Winds', 'Jimmy Buffet', '1996-12-06')
-    ```
-    * Check out the branch _____________________ TODO need a branch for after REST & Create Single Resource lessons___________
+        ```sql
+        INSERT INTO albums (title, artist, release_date)
+        VALUES
+        ('Stop Making Sense', 'Talking Heads', '1984-06-24'),
+        ('Banana Winds', 'Jimmy Buffet', '1996-12-06')
+        ```
+        * Build the project, and let an instructor know if you receive any errors.
 
 
 
