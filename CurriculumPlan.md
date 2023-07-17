@@ -570,26 +570,32 @@ Test DB connections and records
     - Understand the necessity of faking API requests in tests
     - Implment mock/vcr to maintain test coverage -->
 
-CHECKPOINT - a mini individual project.  Can you build an API?
 
 ### Week 3
+* CHECKPOINT - a mini individual project.  Can you build an API?
 * Maintaining State
     - Identify the limitations of Stateless HTTP
     - Introduce the concept of Sessions & Cookies
     - Implement a simple Cookie
+<!-- 
+Move to Mod5, independent learning/tutorial
 * Authentication
     - Explain the use of Authentication and its importance
     - Implement Authentication
-### Week 4
 * Authorization
     - Identify the difference between Authentication and Authorization
-    - Implement User Roles with Authorization
+    - Implement User Roles with Authorization -->
+### Week 4
 * Security Concerns
     - Common pitfalls (what would happen if...)
     - General strategies for security
     - Understanding the inherent risks of the internet (we can't save every situation)
 * ?Advanced Data Manipulations? On the scope and sqnce doc, the learning goal includes Advanced SQL
     - https://backend.turing.edu/module3/lessons/advanced_activerecord
+### Independent Learning
+* Inheritance
+* Interfaces
+* Dependency Injection
 
 
 ## Mod 5
