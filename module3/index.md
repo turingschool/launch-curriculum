@@ -46,7 +46,7 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 ### Week 5
 * [Mini Project](./Projects/PairProject)
 * [Bootstrap](./lessons/Week5/IntroToBootstrap.md)
-* Networking
+* [Networking](./lessons/Week5/Networking)
 
 ### Week 6
 
