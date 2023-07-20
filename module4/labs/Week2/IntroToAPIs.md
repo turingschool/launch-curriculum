@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Intro to Apis Lab
+title:  Intro to APIs Lab
 ---
 
 ## Lab Objectives
@@ -11,15 +11,17 @@ title:  Intro to Apis Lab
 
 We will start by using the [Pokemon API](https://pokeapi.co/) and make all requests using Postman.
 
-1. What API request returns the information about the pokemon Bulbasaur? 🌶️ What's a second API request that would return this same information?
-1. What API request returns all of the fire type pokemon?
-1. What API request returns all of the green colored pokemon?
+1. What API request returns the information about the Pokemon Bulbasaur? 🌶️ What's a second API request that would return this same information?
+1. What API request returns all of the fire type Pokemon?
+1. What API request returns all of the green colored Pokemon?
+
+### Pagination
 
 Read [this](https://developer.digitalchalk.com/document/rest-api-v5/limit-and-offset/) overview of API Pagination. Then work on the following questions.
 
-1. What API request returns the first 10 pokemon?
-1. What API request returns the pokemon with ids 11-20?
-1. How many Pokémon are there in total? What request returnes this information?
+1. What API request returns the first 10 Pokemon?
+1. What API request returns the Pokemon with ids 11-20?
+1. How many Pokémon are there in total? What request returns this information?
 
 ## Cat Api
 
@@ -43,10 +45,10 @@ Today you have seen 4 examples of API documentation:
 * [Github API](https://docs.github.com/en/rest?apiVersion=2022-11-28)
 * [Xandr Creative API](https://docs.xandr.com/bundle/xandr-api/page/creative-service.html)
 * [Pokemon API](https://pokeapi.co/)
-* [Cat Api](https://developers.thecatapi.com/)
+* [Cat API](https://developers.thecatapi.com/)
 
 Take another look at these four examples of documentation and reflect on the following questions:
 
-* What makes documentation easy to understand?
-* What makes documentation hard to understand?
+* What makes API documentation easy to understand?
+* What makes API documentation hard to understand?
 * What have you learned from these examples that you want to want to remember when you write your own API documentation?
