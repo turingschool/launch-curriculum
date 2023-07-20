@@ -22,7 +22,7 @@ title: Feature Testing
 * They describe what a user needs to do in order to fulfill a function.
 * They are part of our "top-down" design.
 
-```txt
+```
 As a user
 When I visit the home page
 And I click on the link New Task
@@ -48,7 +48,7 @@ Then [expected result]
 Depending on how encompassing a user story is, you may want to break a single user story into multiple, smaller user stories.
 
 <section class="call-to-action">
-    <strong>Connecting to the Prework</strong><p>: What type of testing that you read about yesterday is most similar to this description of Feature Tests?</p>
+    <strong>Connecting to the Prework</strong><p> What type of testing that you read about yesterday is most similar to this description of Feature Tests?</p>
 </section>
 
 ## Creating a Test Project
@@ -76,51 +76,50 @@ These components exist in our MVC application, and we need to create test versio
 1. Add a new xUnit Test Project to your Solution - call the project `MvcMovie.FeatureTests`.
 2. Create a Project Reference from your test project to the `MvcMovie` project.
 3. Install the following packages into the Test project:
-    * Microsoft.Extentions.Hosting (version 7.0.1)
-    * Microsoft.AspNetCore.Hosting (version 2.2.7)
+    * Microsoft.Extentions.Hosting (version 0.5.0)
     * Microsoft.AspNetCore.Mvc.Testing (version 6.0.16)
 4. Add a class called `Program.cs` - this is where we are going to create our test server! Add the code below to this file:
 
-```c#
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using MvcMovie.Controllers;
+    ```c#
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Hosting;
+    using MvcMovie.Controllers;
 
-namespace MvcMovie.FeatureTests
-{
-    public class Program
+    namespace MvcMovie.FeatureTests
     {
-        public static void Main(string[] args)
+        public class Program
         {
-            CreateHostBuilder(args).Build().Run();
-        }
+            public static void Main(string[] args)
+            {
+                CreateHostBuilder(args).Build().Run();
+            }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.ConfigureServices(services =>
+            public static IHostBuilder CreateHostBuilder(string[] args) =>
+                Host.CreateDefaultBuilder(args)
+                    .ConfigureWebHostDefaults(webBuilder =>
                     {
-                        services.AddControllersWithViews()
-                            .AddApplicationPart(typeof(HomeController).Assembly);
-                    });
-
-                    webBuilder.Configure(app =>
-                    {
-                        app.UseRouting();
-                        app.UseEndpoints(endpoints =>
+                        webBuilder.ConfigureServices(services =>
                         {
-                            endpoints.MapControllerRoute(
-                                name: "default",
-                                pattern: "{controller=Home}/{action=Index}/{id?}");
+                            services.AddControllersWithViews()
+                                .AddApplicationPart(typeof(HomeController).Assembly);
+                        });
+
+                        webBuilder.Configure(app =>
+                        {
+                            app.UseRouting();
+                            app.UseEndpoints(endpoints =>
+                            {
+                                endpoints.MapControllerRoute(
+                                    name: "default",
+                                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                            });
                         });
                     });
-                });
+        }
     }
-}
-```
+    ```
 
 5. Right-click on the test project and select `Properties`
 6. Scroll Down to `Startup object` and select `McvMovie.FeatureTests.Program`
@@ -141,35 +140,34 @@ namespace MvcMovie.FeatureTests
 1. Update the `UnitTest1` class to be `HomeControllerTests` (make sure you also re-name the file!)
 2. Update the file to match the code below:
 
-```c#
-using Microsoft.AspNetCore.Mvc.Testing;
+    ```c#
+    using Microsoft.AspNetCore.Mvc.Testing;
 
-namespace MvcMovie.FeatureTests
-{
-    public class HomeControllerTests : IClassFixture<WebApplicationFactory<Program>>
+    namespace MvcMovie.FeatureTests
     {
-        private readonly WebApplicationFactory<Program> _factory;
-
-        public HomeControllerTests(WebApplicationFactory<Program> factory)
+        public class HomeControllerTests : IClassFixture<WebApplicationFactory<Program>>
         {
-            _factory = factory;
-        }
+            private readonly WebApplicationFactory<Program> _factory;
 
-        [Fact]
-        public async Task Index_ShowsTheWelcomePage()
-        {
-            var client = _factory.CreateClient();
+            public HomeControllerTests(WebApplicationFactory<Program> factory)
+            {
+                _factory = factory;
+            }
 
-            var response = await client.GetAsync("/");
-            var html = await response.Content.ReadAsStringAsync();
+            [Fact]
+            public async Task Index_ShowsTheWelcomePage()
+            {
+                var client = _factory.CreateClient();
 
-            response.EnsureSuccessStatusCode();
-            Assert.Contains("Welcome", html);
+                var response = await client.GetAsync("/");
+                var html = await response.Content.ReadAsStringAsync();
+
+                response.EnsureSuccessStatusCode();
+                Assert.Contains("Welcome", html);
+            }
         }
     }
-}
-```
-
+    ```
 3. Run the tests!
 
 <aside class="instructor-notes">
@@ -186,80 +184,85 @@ namespace MvcMovie.FeatureTests
 
 ## Setting up our Database Environment
 
-1. Install these packages:
+1. Install this packages into your test project:
     * Microsoft.EntityFrameworkCore.InMemory (version 7.0.5)
 2. Add a file to your test project called `appsettings.json`
 3. Update that file to contain the following code:
 
-```json
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Data Source=:memory:"
-  }
-}
-
-```
+    ```json
+    {
+        "ConnectionStrings": {
+            "DefaultConnection": "Data Source=:memory:"
+        }
+    }
+    ```
 
 4. In your test project's `Program.cs` file, update the code with this database connection:
-```c#
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-// You need to add one more using statement:
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using MvcMovie.Controllers;
-using MvcMovie.DataAccess;
 
-namespace MvcMovie.FeatureTests
-{
-    public class Program
+    ```c#
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Hosting;
+    // You need to add one more using statement:
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Hosting;
+    using MvcMovie.Controllers;
+    using MvcMovie.DataAccess;
+
+    namespace MvcMovie.FeatureTests
     {
-        public static void Main(string[] args)
+        public class Program
         {
-            CreateHostBuilder(args).Build().Run();
-        }
+            public static void Main(string[] args)
+            {
+                CreateHostBuilder(args).Build().Run();
+            }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.ConfigureServices(services =>
+            public static IHostBuilder CreateHostBuilder(string[] args) =>
+                Host.CreateDefaultBuilder(args)
+                    .ConfigureWebHostDefaults(webBuilder =>
                     {
-                        //THIS IS THE CODE TO ADD:
-                        services.AddDbContext<MvcMovieContext>(options =>
-                            options.UseInMemoryDatabase("TestDatabase"));
-
-                        services.AddControllersWithViews()
-                            .AddApplicationPart(typeof(HomeController).Assembly);
-                    });
-
-                    webBuilder.Configure(app =>
-                    {
-                        app.UseRouting();
-                        app.UseEndpoints(endpoints =>
+                        webBuilder.ConfigureServices(services =>
                         {
-                            endpoints.MapControllerRoute(
-                                name: "default",
-                                pattern: "{controller=Home}/{action=Index}/{id?}");
+                            //THIS IS THE CODE TO ADD:
+                            services.AddDbContext<MvcMovieContext>(options =>
+                                options.UseInMemoryDatabase("TestDatabase"));
+
+                            services.AddControllersWithViews()
+                                .AddApplicationPart(typeof(HomeController).Assembly);
+                        });
+
+                        webBuilder.Configure(app =>
+                        {
+                            app.UseRouting();
+                            app.UseEndpoints(endpoints =>
+                            {
+                                endpoints.MapControllerRoute(
+                                    name: "default",
+                                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                            });
                         });
                     });
-                });
+        }
     }
-}
-```
+    ```
 
 <section class="call-to-action">
-    <p>With a Partner - What similarities and differences do you see between this <code>Program.cs</code> and the <code>Program.cs</code> in the MvcMovie project?</p>
+    <p>With a Partner - What similarities and differences do you see between how we configured our database context in this <code>Program.cs</code> and the <code>Program.cs</code> in the MvcMovie project?</p>
 </section>
+
+5. Set the startup object for the test project
+    * Right click the project, and select Properties
+    * Set the Startup Object to be: `MvcMovie.FeatureTest.Program`
 
 ## Writing an Index test
 
 <section class="note">
     <p>In this section, we are going to write a test for the following user story:</p>
     <span style="white-space: pre-line">As a user
-    When I visith the home page
-    Then I see the message "Welcome"</span>
+    When I visit the /movies page
+    And Spaceballs and Young Frankenstein are in the database
+    Then I see "Spaceballs" and "Young Frankenstein" on the page</span>
 </section>
 
 1. Create a new test file called `MovieControllerTests.cs`
@@ -305,7 +308,7 @@ namespace MvcMovie.FeatureTests
 ```
 
 <section class="call-to-action">
-    <p>With a Partner - Brainstorm what you think our test is going to look like?  What kinds of things need to happen in the <code>Arrange</code>, <code>Act</code>, and <code>Assert</code>?</p>
+    <p>With a Partner - Pseudocode what you think our test is going to look like?  What kinds of things need to happen in the <code>Arrange</code>, <code>Act</code>, and <code>Assert</code>?</p>
 </section>
 
 <section class="answer">

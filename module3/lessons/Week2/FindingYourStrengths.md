@@ -16,6 +16,15 @@ Before we dive into a discussion of strengths, we are going to start to identify
 Spend 20 - 30 minutes taking the free [High 5 Strengths Assessment](https://test.high5test.com/registration).  Take a few moments to read through the descriptions of your top 5 strengths; we will revisit these later!
 </section>
 
+<section class='call-to-action' markdown='1'>
+
+Spend some time reviewing these additional lists of strengths!
+* [High 5 Strenghts](https://high5test.com/wp-content/uploads/2018/04/HIGH5-Strengths-Sequence-Sample.pdf)
+* [Strengths to List on Your Resume](https://www.indeed.com/career-advice/resumes-cover-letters/strength-in-resume)
+* [Personal Strengths Defined](https://positivepsychology.com/what-are-your-strengths/)
+
+</section>
+
 <section class='instructor-notes' markdown='1'>
 
 Before getting in to the discussion, start with breakout rooms of 3/4 and ask students to discuss why they think it's important to identify your strengths.
@@ -124,7 +133,7 @@ Breaking down strengths in this way can be easier when we already know what the 
 </section>
 
 <section class='answer' markdown='1'>
-### 3. Use a Strenghs Assessment
+### 3. Use a Strengths Assessment
 <section class='note' markdown='1'>
 * Use a tool like High 5, StrengthsFinder or Pairin as a starting point
 * Use your own experience to add a narrative to your identified strengths

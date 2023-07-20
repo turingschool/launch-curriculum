@@ -24,20 +24,27 @@ title: Feature Testing
 5. Review the existing project and identify all of the endpoints (there are three!)
 6. Run the application, and visit each of the endpoints to see what is on each page.
 
-## Create Tests for the Home page and Albums Index
+## Create Tests for the Routes built in the RESTful Routes Lesson
 
 1. Create a test project, following the steps we used during the lesson.
 2. Write a test for the following user story:
-    ```txt
+    ```
     As a user
     When I visit "/"
     Then I see "Welcome to My Record Collection"
     And I see "All Albums"
     ```
 3. Write a test for the following user story:
-    ```txt
+    ```
     As a user
     When I visit "/albums"
     Then I see all albums that exist in the database
         For each album, I see the album title, artist and release date
+    ```
+4. Write a test for the following user story:
+    ```
+    As a user
+    When I visit "/albums/1"
+    And the first album in the database is Bad Self Portraits by Lake Street Dive Released in 2014
+    Then I "Lake Street Dive", "Bad Self Portraits", and "2014" displayed on the page
     ```

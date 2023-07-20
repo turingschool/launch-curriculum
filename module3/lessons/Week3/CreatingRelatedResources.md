@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Creating and Reading Related Resources
+title: Creating Related Resources
 ---
 
 <section class='instructor-notes' markdown='1'>
@@ -19,7 +19,7 @@ Your instructor will demonstrate what our MvcMovie application will look like af
 
 ## Using a Form to Create Reviews
 
-Similar to the form we use to create movies, we are going to use a form to create reviews.  
+Similar to the form we use to create movies, we are going to use a form to create reviews. 
 
 <section class='call-to-action' markdown='1'>
 
