@@ -14,7 +14,7 @@ By the end of this lesson, you should have accomplished these learning goals:
 
 ### Section 1: Introduction
 
-❓What do you already know about LinkedinIn? Have you used it before?
+❓What do you already know about [LinkedIn](https://www.linkedin.com/)? Have you used it before?
 
 LinkedIn is a social media tool you can use to:
 * Tell your career story on digital platforms
@@ -24,7 +24,7 @@ LinkedIn is a social media tool you can use to:
 * Research companies, employees, and available opportunities
 
 <section class="call-to-action" markdown="1">
-Create a [Linkedin](https://www.linkedin.com/feed/) Profile if you don't yet have one. Then find a LinkedIn profile that you like. What's one thing you like about it? 
+Create a LinkedIn Profile if you don't yet have one. Then find a LinkedIn profile that you like. What's one thing you like about it? 
 </section>
 
 ### Section 2: Profile and Photos Overview
@@ -54,7 +54,7 @@ When searching on Linkedin, your profile picture and headline are some of the fi
 
 * `Software Development Student | Seeking Full-Time Software Engineering Job | Java | C++ | 2020 Graduation`
 
-* `Aspiring Java Software Developer | Seeking Entry-Level Programming Position | Experience with Javascript and Python`
+* `Aspiring Backend Software Developer | Seeking Entry-Level Programming Position | Experience with C# and .NET`
 
 ### Section 4: Summary
 A summary provides opportunities to tell the story you want the reader to know about you and your career journey. So definitely start by re-reading your developer story that you've been working on.
@@ -149,7 +149,11 @@ At a minimum, your profile should include:
 * Summary statement using your professional story
 * Turing added to Education section
     * You should also add Turing to the Experience section *if* you do not have previous professional experience
-* At least 10 connections
+* At least 20 connections
+
+<aside class="instructor-notes" markdown="1">
+  <p><strong>Instructor Note</strong><br>Start a thread of linkedIn profiles in slack. Can add instructor LinkedIn profiles to that thread too.</p>
+</aside>
 
 You can also add:
 * Additional Educational degrees and achievements
