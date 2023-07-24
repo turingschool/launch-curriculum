@@ -15,7 +15,7 @@ During today's lesson, we are going to be adding the ability to edit our Movie a
 
 Before we jump into coding, let's brainstorm what the HTTP Request/Response Cycle will look like for editing a Movie.  In small groups, create a diagram that outlines the requests and responses that will allow us to edit an existing resource.  Below are some resources that will help you create this diagram!
 * [How the Web Works](/module3/lessons/week1/HowTheWebWorks)
-* [Creating a Resource]() TODO: Get Creating a Resource Lesson link
+* [Creating a Resource](module3/lessons/Week3/CreateSingleResource.md)
 
 Be ready to share out!
 
