@@ -31,11 +31,8 @@ Work through this [W3Schools JavaScript Quickstart Tutorial](https://www.w3schoo
 1. What are 5 possible data types for JavaScript variables?
 1. How many numeric data types does JavaScript have?
 1. What is the name of the JavaScript method that finds an HTML element by its `id` attribute?
-
-### True or False:
-1. JavaScript can change HTML content and attribute values
-1. JavaScript can change HTML styles/CSS
-1. JavaScript can show or hide HTML elements
+1. True or False: JavaScript can change HTML content, attribute values, and styles (via CSS).
+1. True or False: JavaScript cannot show or hide HTML elements.
 
 ### Coding Practice
 Write code to complete each of the following tasks:
