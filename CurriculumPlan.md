@@ -625,6 +625,12 @@ Move to Mod5, independent learning/tutorial
 
 
 ## Mod 5
+
+For zoe's spirit: go back to MVC and do it well
+* try/catch
+* auth
+* agile/project board
+
 ### Week1
 * Customizing JSON Responses
     - Define and implement a Serializer
