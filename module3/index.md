@@ -53,5 +53,9 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 * [Project](./Projects/Mod3Project)
 
 
+### Additional Resources
+* [CrudBucket](https://github.com/turingschool-examples/CrudBucket)
+
+
 
 
