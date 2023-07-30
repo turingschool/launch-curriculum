@@ -67,7 +67,7 @@ https://api.github.com/repos/dotnet/aspnetcore/pulls?state=open
 </section>
 
 <section class="call-to-action" markdown="1">
-Work through the following questions individually and record your answers, then you will join a breakout room to talk through your answers and help each other.
+Work through the following questions individually and write down your answers, then you will join a breakout room to talk through your answers and help each other.
 </section>
 
 1. What are two of the emojis you can use on github? What is the name of the emoji and the link to the image.
@@ -161,6 +161,6 @@ Questions:
     * What are the two requests to view a particular creative?
     * What's one way that this API doesn't match best practice for RESTful routes?
 
-2. What are at least three different ways to send an API request?
+2. What are at least three different API clients?
 
 3. What would be your response to the interview question, "How would you describe what an API is to a 10-year-old who knows nothing about coding?" (Zoe was actually asked this question in an interview!)

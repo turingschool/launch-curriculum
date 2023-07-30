@@ -52,3 +52,7 @@ Take another look at these four examples of documentation and reflect on the fol
 * What makes API documentation easy to understand?
 * What makes API documentation hard to understand?
 * What have you learned from these examples that you want to want to remember when you write your own API documentation?
+
+<aside class="instructor-notes" markdown="1">
+    <p><strong>Instructor Note</strong><br>If students finish early, they could try making requests to these APIs from a console app.</p>
+</aside>
