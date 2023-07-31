@@ -27,6 +27,11 @@ Before starting the project, read through the requirements (ask an instructor if
 
 As you work, it will be helpful to review the [Git for Pairs Lesson](/module2/lessons/Week2/GitForPairs).
 
+## DTR
+Before diving in to code, take 30 minutes to complete a [Define the Relationship](https://docs.google.com/document/d/1XZ48E9wjBKLHuSO_9mnJ5hYkfLfirfiycThwWgntHjY/edit) document with your partner.
+
+✅Send a copy of your DTR to your instructors!
+
 ## Set Up your MVC Application
 
 In order to get started with the project
@@ -35,6 +40,7 @@ In order to get started with the project
 2. Add your partner as a collaborator
 3. The other partner will accept the collaboration invitation
 4. Both partners will clone the forked repository
+5. ✅Send a link to your github repository to your instructors
 
 From here on, you should not work on the `main` branch directly. Keep an eye on the notes to ensure you are creating and working on the appropriate branches!
 
@@ -76,6 +82,8 @@ Then I see a button to delete the item
     And I am redirected to "/items"
 ```
 
+✅Send a note to your project manager to give them a status update!
+
 Split the following 2 user stories.  Each partner will work on one of the stories and each story should have it's own branch.  Make sure that you are using Pull Requests to merge your branches into the `main` branch.
 
 ```
@@ -93,6 +101,8 @@ Then I see a form pre-populated with the item's current state
     And the Item details are updated when I submit the form
     And I am redirected to "items/5"
 ```
+
+✅Send a note to your project manager to give them a status update!
 
 ## Customers and Orders
 
@@ -131,6 +141,8 @@ Then I see a form to create a new customer
     And I am redirected to "/customers" 
 ```
 
+✅Send a note to your project manager to give them a status update!
+
 ```
 🌶️ As a User
 When I visit "/customers/details/5"
@@ -159,11 +171,15 @@ If the customer has orders
     Then I do not see a button to delete the customer
 ```
 
+✅Send a note to your project manager to give them a status update!
+
 ## 🌶️🌶️ CRUD for an Order
 
 1. Create User Stories for the CRUD actions for Orders.
     * An order can only be created for an existing user.
     * When an item is added to an order, the item should be removed from the item index page (it is no longer available for sale)
     * If an order is deleted, the items it contained should now be back on the index page (they are again available)
-2. Send your user stories to your instructors for approval.
-3. Implement your user stories (with tests!).
+2. ✅Send your user stories to your project manager for approval.
+3. Implement your user stories.
+
+✅Send a note to your project manager to give them a status update!
