@@ -27,17 +27,14 @@ Before starting the project, read through the requirements (ask an instructor if
 
 As you work, it will be helpful to review the [Git for Pairs Lesson](/module2/lessons/Week2/GitForPairs).
 
-## Create your MVC Application
+## Set Up your MVC Application
 
-In order to get started with the project, one partner will need to create the initial project structure so that it can be pushed to GitHub for collaboration. For this section, one partner will drive and the other partner will navigate.
+In order to get started with the project
 
-1. Create a new MVC Application
-2. Install the packages you need to:
-    * use PostgreSQL as your database
-    * use snake_case naming conventions for your database tables
-3. Create your database context object
-4. Commit your work and push to GitHub
-5. Add your partner as a collaborator
+1. One partner will fork this [starter repo](https://github.com/turingschool-examples/Launch_CoffeeShop)
+2. Add your partner as a collaborator
+3. The other partner will accept the collaboration invitation
+4. Both partners will clone the forked repository
 
 From here on, you should not work on the `main` branch directly. Keep an eye on the notes to ensure you are creating and working on the appropriate branches!
 
@@ -53,15 +50,16 @@ We want to use migrations to create and update our database (instead of creating
 2. The Coffeeshop application should satisfy the following user stories. Each user story should be tested.
     * Make note of the route structure - this is different than what we have seen before, but we know you can handle it!
 
-For this user story, create a new branch.  The Driver from the initial project creation will now be the Navigator, and the Navigator will be the driver.
+For the first three user stories, use driver/navigator programming;  Switch roles for each user story (driver becomes navigator, navigator becomes driver).
+
+Each user story should have it's own branch.  Use PRs to merge branches into `main`.
+
 ```
 As a User
 When I visit "/items"
 Then I see a list of all items in the database
 ```
 
-
-Split the following 4 user stories.  Each partner will work on two of the stories and each story should have it's own branch.  Make sure that you are using Pull Requests to merge your branches into the `main` branch.
 ```
 As a User
 When I visit "/items/details/5"
@@ -69,6 +67,16 @@ Then I see the details of the item with ID 5
     Name of the Item
     Price in Dollars
 ```
+
+```
+As a User
+When I visit "/items/details/5"
+Then I see a button to delete the item
+    And the item is removed from the database when the button is clicked
+    And I am redirected to "/items"
+```
+
+Split the following 2 user stories.  Each partner will work on one of the stories and each story should have it's own branch.  Make sure that you are using Pull Requests to merge your branches into the `main` branch.
 
 ```
 As a User
@@ -84,14 +92,6 @@ When I visit "/items/edit/5"
 Then I see a form pre-populated with the item's current state
     And the Item details are updated when I submit the form
     And I am redirected to "items/5"
-```
-
-```
-As a User
-When I visit "/items/details/5"
-Then I see a button to delete the item
-    And the item is removed from the database when the button is clicked
-    And I am redirected to "/items"
 ```
 
 ## Customers and Orders
