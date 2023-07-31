@@ -99,7 +99,7 @@ As a User
 When I visit "/items/edit/5"
 Then I see a form pre-populated with the item's current state
     And the Item details are updated when I submit the form
-    And I am redirected to "items/5"
+    And I am redirected to "items/details/5"
 ```
 
 ✅Send a note to your project manager to give them a status update!
