@@ -18,9 +18,12 @@ In Module 4, students will begin to dive into the skills and mindsets necessary 
 
 < Under Construction >
 <!-- 
+
 ### Week 1
 
 ### Week 2
 * Build an API: [Prep](./preparation/Week2/BuildAnAPI) &#124; [Lesson](./lessons/Week2/BuildAnAPI) &#124; [Lab](./labs/Week2/BuildAnAPI) 
+* [API Checkpoint](./projects/ApiCheckpoint)
+
 -->
 
