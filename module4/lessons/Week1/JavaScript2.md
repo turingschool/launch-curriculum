@@ -38,7 +38,7 @@ With a partner, expand the following section and identify the relationships of t
 ```html
 <html>
   <head>
-    <title>Example WebSite</title>
+    <title>Example Website</title>
   </head>
   <body>
     <section>
@@ -120,7 +120,7 @@ var targetElement = document.getElementById('target-id')
 targetElement.addEventListener(event, (e) => console.log(e))
 ```
 
-## Practice
+<!-- ## Practice
 
 Visit the [Mod 4 page](https://launch.turing.edu/module4/) and open the Chrome dev tools. View the HTML elements that are available and in your console try the following:
 
@@ -131,4 +131,4 @@ Visit the [Mod 4 page](https://launch.turing.edu/module4/) and open the Chrome d
 
 ### Bonus
 
-Try navigating to elements by using, parentNode, childNodes, nextSibling, etc. See the _Related Topics_ section of this [page](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes).
+Try navigating to elements by using, parentNode, childNodes, nextSibling, etc. See the _Related Topics_ section of this [page](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes). -->
