@@ -157,17 +157,17 @@ alert('POW');
 
 ### Debugging in Javascript
 
-Debugging client-side and server-side JavaScript is a different beast than debugging Ruby.
+Debugging client-side and server-side JavaScript is a different beast than debugging C#.
 
-Because client-side JS is run entirely in the browser, the technique for troubleshooting broken code is more complicated than `binding.pry`. Luckily, modern browsers are aware of this and give us a collection of options for digging into your code.
+Because client-side JS is run entirely in the browser, the technique for troubleshooting broken code is more complicated than debugging in Visual Studio. Luckily, modern browsers provide a collection of options for digging into your code.
 
 #### 1. Developer Tools
-One of the first things you should familiarize yourself with when working with JavaScript (or HTML...or CSS...) are the dev tools. You can find a cool tutorial to dive deeper with  [Code School's Discover-DevTools Tutorial.](http://discover-devtools.codeschool.com/) (Chapters 3 & 4 are particularly helpful)
+One of the first things you should familiarize yourself with when working with JavaScript (or HTML... or CSS...) are the dev tools. You can find a cool tutorial to dive deeper with [Code School's Discover-DevTools Tutorial.](http://discover-devtools.codeschool.com/) (Chapters 3 & 4 are particularly helpful)
 
 To open developer tools in Chrome:
--   Mac: `Cmd` + `Opt` + `i` (or `Cmd` + `Opt` + `j`)
--   (or) Right click on the browser window and select `inspect`
--   (or) Select `View` in the navbar, then `Developer`, then `Developer Tools`
+- Windows: `F12` or `Ctrl` + `Shift` + `C`
+- (or) Right click on the browser window and select `inspect`
+- (or) Select `View` in the navbar, then `Developer`, then `Developer Tools`.
 
 When working with JavaScript, it is useful to keep your console open at all times to watch for errors and anything you've told your code to print out. Bringing us to...
 
@@ -190,7 +190,7 @@ If you're confused about what a variable or function is returning, throw `consol
 
 #### 3. Debugging In the Console
 
-`debugger` is the `pry` of JS. Stick `debugger;` within a function to pause the browser from running the script when it hits a particular part of your code.
+You can stick `debugger;` within a function to pause the browser from running the script when it hits a particular part of your code.
 
 ```javascript
 // index.js
@@ -215,7 +215,7 @@ Functions are a way to group statements together to perform a specific task. Fun
 
 ## Anatomy of a Function:
 ```javascript
-function myRadFunction() {
+function myCoolFunction() {
   let myFirstStatement = "Assigning a string to a variable called 'myFirstStatement'";
   alert('This is my second statement!');
   console.log(myFirstStatement);
@@ -236,16 +236,16 @@ const myFirstStatement = () => {
 ## Call a Function:
 ```javascript
 // Calling a function w/out arguments
-myRadFunction();
+myCoolFunction();
 
 // Calling a function with arguments
-myRadFunction(arg1, arg2);
+myCoolFunction(arg1, arg2);
 ```
 
-When this code is read, `myRadFunction()` is "called", all three statements within the function's body (those curly braces) get run.
+When this code is read, `myCoolFunction()` is "called", all three statements within the function's body (those curly braces) get run.
 
 ### Your Turn
-Let's go ahead and declare myRadFunction in the console together and then call it. What do you notice about the code as it is being run? What do you notice about the code being run if you swap the 2nd and 3rd statements?
+Let's go ahead and declare myCoolFunction in the console together and then call it. What do you notice about the code as it is being run? What do you notice about the code being run if you swap the 2nd and 3rd statements?
 
 Create your own functions in the console:
 
