@@ -22,8 +22,9 @@ The ability to independently learn a topic is a key skill for developers and one
 "Inheritance is one of the fundamental attributes of object-oriented programming. It allows you to define a child class that reuses (inherits), extends, or modifies the behavior of a parent class. The class whose members are inherited is called the base class. The class that inherits the members of the base class is called the derived class." - [Microsoft Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/inheritance#background-what-is-inheritance)
 
 Here's how inheritance works in C# and ASP.NET:
+[Repl Link](https://replit.com/@launch-team/Inheritance-Practice)
 
-Defining a Base Class (Parent Class):
+### Defining a Base Class (Parent Class):
 You start by defining a class that will serve as the base class, containing common properties and methods that you want to reuse in derived classes.
 
 ```c#
@@ -40,7 +41,7 @@ public class Animal
 }
 ```
 
-Creating a Derived Class (Child Class):
+### Creating a Derived Class (Child Class):
 To create a derived class, you use the `:` symbol and specify the base class from which you want to inherit. The derived class will have access to all the public and protected members of the base class.
 
 ```c#
@@ -56,7 +57,7 @@ public class Dog : Animal
 }
 ```
 
-Using Inherited Properties and Methods:
+### Using Inherited Properties and Methods:
 With the inheritance relationship established, you can now create objects of the derived class and use both the properties and methods defined in the base class.
 
 ```c#
@@ -89,6 +90,12 @@ Woof! Woof!
 
 In this example, the Dog class is a derived class inheriting from the Animal base class. The Dog class has its own property Breed and method Bark, while it also inherits the Species, Age, and MakeSound method from the Animal class.
 
+<section class="call-to-action" markdown="1">
+Check for Understanding <br>
+
+Take 5 minutes to research the following question: What happens if you define the same method in the parent class and the child class?
+</section>
+
 ## Part 2: Pair Research on Inheritance
 
 The basics of inheritance in C# are almost certainly still confusing. Start by using Google to find 2-3 more resources introducing C# inheritance to read and deepen your understanding. Work together as a partnership, one of the best ways to learn a topic is by explaining. Try to explain what you are learning to each other!
@@ -112,11 +119,14 @@ Finally, move on to digging into a couple more advanced topics. Here are some id
 1. How does C# handle constructors in inherited classes?
 1. Can I prevent a class from being inherited by other classes?
 1. What are access modifiers in inheritance (public, protected, private, etc.), and how do they affect inherited members?
-1. What happens if you define the same method in the parent class and the child class?
 1. What is method overriding?
 1. What are abstract classes and when should I use them?
 
 ## Part 3: Presentation Requirements
+
+<aside class="instructor-notes" markdown="1">
+<p><strong>Instructor Note</strong><br>For a small class, I'm imagining we will do presentations as a whole group. I imagine this will take rough an hour for 10 students/5 pairs. I think students will learn a lot from seeing how their peers present a topic. And there should be enough variation that they learn something about inheritance too.</p>
+</aside>
 
 Each pair will have 7 minutes to present, and each partner should present for roughly equal time. Classmates will then have a couple of minutes to ask questions.
 
