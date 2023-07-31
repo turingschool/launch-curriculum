@@ -28,8 +28,8 @@ In Module 4, students will begin to dive into the skills and mindsets necessary 
 * API Project
 
 ### Week 3
-* Maintaining State
-* Security Concerns
+* Maintaining State: [Prep](./preparation/Week2/MaintainingState) &#124; [Lesson](./lessons/Week2/MaintainingState) &#124; [Lab](./labs/Week2/MaintainingState) 
+* [API Checkpoint](./projects/ApiCheckpoint)
 
 ### Week 4
 * [Inheritance](./lessons/Week4/Inheritance)
@@ -38,8 +38,4 @@ In Module 4, students will begin to dive into the skills and mindsets necessary 
 
 ### Weeks 5 & 6
 * Project
-
-
-### Week 3
-* Maintaining State: [Prep](./preparation/Week2/MaintainingState) &#124; [Lesson](./lessons/Week2/MaintainingState) &#124; [Lab](./labs/Week2/MaintainingState) 
 
