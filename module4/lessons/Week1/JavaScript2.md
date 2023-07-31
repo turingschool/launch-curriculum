@@ -18,19 +18,22 @@ title: JavaScript DOM and Event Listeners
 
 ## What is the DOM?
 
-DOM stands for Document Object Model
-Let's break that down a little bit more:
+**DOM** stands for **Document Object Model**. Let's break that down a little bit more:
 
-- Document: the HTML document that makes up the view
-- Object: every HTML element is parsed into an object by the browser
-- Model: refers to how objects are laid out in a tree structure
+- **Document**: the HTML document that makes up the view
+- **Object**: every HTML element is parsed into an object by the browser
+- **Model**: refers to how objects are laid out in a tree structure
 
 The DOM consists of:
   * Parent nodes
   * Child nodes
   * Sibling nodes
 
-With a partner, review the following html and identify the relationships of the elements as parent, child, or sibling:
+With a partner, expand the following section and identify the relationships of the elements as parent, child, or sibling in the HTML code:
+
+<section class='answer' markdown='1'>
+
+### Expand HTML
 
 ```html
 <html>
@@ -59,29 +62,31 @@ With a partner, review the following html and identify the relationships of the 
   </body>
 </html>
 ```
+</section>
 
 ## Targeting Nodes
 
 There are a few ways to target particular elements on a page.
 
-- document.getElementById('target-id')
+- `document.getElementById('target-id')`
   Returns the element with matching id.
 
-- document.getElementsByClassName('target-class-name')
-  _Notice that it is `Elements` and not `Element` like the last function._
+- `document.getElementsByClassName('target-class-name')`
   Returns an HTML Collection of all elements with that class.
 
-- document.getElementsByTagName('p')
-  Returns and HTML Collection of all elements matching that html tag.
+- `document.getElementsByTagName('p')`
+  Returns an HTML Collection of all elements matching that html tag.
+
+_Note: The last two functions return a collection of `Elements`, not a single `Element`. In other words, it returns zero (0) or more items. Even it if returns one (1) item, you must treat this as a collection that may hold multiple elements._
 
 - We can do the same thing as the above using one function like so:
-    - document.querySelector('#target-id')
-    - document.querySelector('.target-class-name')
-    - document.querySelector('target-tag')
+    - `document.querySelector('#target-id')`
+    - `document.querySelector('.target-class-name')`
+    - `document.querySelector('target-tag')`
   You must specify the type of selector you are targeting by including the `#` for ids or the `.` for classes.
   This function will return the first element that matches the selector.
 
-- document.querySelectorAll()
+- `document.querySelectorAll()`
   Returns a node list with all elements matching the selector
 
 _Fun Fact you can search for elements by other attributes using `querySelector` with bracket notation ex) `document.querySelector('[role="navigation"]')`_
@@ -93,7 +98,6 @@ var allDivs = document.querySelectorAll('div')
 var divArray = Array.from(allDivs)
 ```
 
-
 #### Why you need `document.ready()`
 
 Before we can successfully target elements in the DOM we must first ensure that the browser has created it. We do this by using the function `document.ready(() => { #your JavaScript code here })`.
@@ -102,8 +106,8 @@ If we forget to wrap our code with `document.ready()` the return for targeting o
 ## JavaScript Events
 
 We usually target elements in the DOM because we want some action to occur when an _event_ takes place. For instance, maybe we want the text to change colors when we _mouseover_ it, or perhaps we want to send off information to an API when we _click_ a submit button for a form.
-Both _click_ and _mouseover_ are events. Other events include: _mouseout_, _keypress_, _keydown_, _change_, etc. Google JavaScript events to find more.
 
+Both _click_ and _mouseover_ are events. Other events include: _mouseout_, _keypress_, _keydown_, _change_, etc. Google JavaScript events to find more.
 
 ## Adding an Event Listener
 
@@ -118,16 +122,13 @@ targetElement.addEventListener(event, (e) => console.log(e))
 
 ## Practice
 
-Visit the [Mod 4 page](https://backend.turing.edu/module4/)
-Open the inspect tools _if in chrome the hot key is cmd+option+i_
-View the HTML elements that are available and in your console try the following:
+Visit the [Mod 4 page](https://launch.turing.edu/module4/) and open the Chrome dev tools. View the HTML elements that are available and in your console try the following:
 
-  1. Return an element by targeting it's id
-  2. Return all elements by targeting it's class
-  3. Return all elements by targeting it's HTML tag
+  1. Return an element by targeting its id
+  2. Return all elements by targeting its class
+  3. Return all elements by targeting its HTML tag
   4. Add an event listener to 3 elements on the page
 
 ### Bonus
 
-Try navigating to elements by using, parentNode, childNodes, nextSibling, etc.
-See the _Related Topics_ section of this [page](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes)
+Try navigating to elements by using, parentNode, childNodes, nextSibling, etc. See the _Related Topics_ section of this [page](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes).
