@@ -11,7 +11,7 @@ Both interfaces and inheritance are key parts of well-organized object-oriented 
 
 * Part 0: Reflection on how yesterday went
 * Part 1: An instructor-led lesson introducing the topic of interfaces
-* Part 2: Pair research to deepen your understanding of interfaces and how we have used it so far
+* Part 2: Pair research to deepen your understanding of interfaces and how we have used them so far
 * Part 3: A pair presentation to your classmates about what you learned
 
 ## Learning Goals
@@ -33,6 +33,8 @@ We're going to start with a mini retrospective on how yesterday went. Individual
 -- [Microsoft Documentation on Interfaces](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface)
 
 Let's take a look at an example. We'll create an interface `IEmployee` that defines the common behavior for all types of employees, and then implement this interface in two classes: `FullTimeEmployee` and `ContractEmployee`.
+
+A repl with this example can be found [here](https://replit.com/@launch-team/Interfaces).
 
 ### Define the Interface
 First, we define the IEmployee interface, which requires the property `Name` and methods `DisplayEmployeeInfo()` and `CalculateSalary()`. 
@@ -190,6 +192,8 @@ Each pair will have 7 minutes to present, and each partner should present for ro
 1. Explain one advanced part of interfaces you learned about today that was not covered in this morning's lesson (Could be one of the questions above or something else!). Use an example in your explanation.
 1. Share one resource you found useful while researching.
 
-
+<aside class="instructor-notes" markdown="1">
+<p><strong>Instructor Note</strong><br>This final checkpoint is a pretty nuanced question so I recommend giving students time to think on this individually, then talk to a partner, then call on folks to contribute to a class discussion.</p>
+</aside>
 ## Final Checkpoint
 1. How would you describe the difference between `Inheritance` and `Interfaces`?
