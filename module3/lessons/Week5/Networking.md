@@ -91,7 +91,6 @@ Here are some examples:
 ### Example 1
 
 If you appreciate 1:1 time but wouldn’t normally reach out to someone you don’t know, try:
-* #lets_grab_donuts on Slack
 * [LunchClub](https://lunchclub.com/), which is a social networking platform that uses artificial intelligence and machine learning to connect users with common interests and objectives.
 
 ### Example 2
@@ -144,7 +143,5 @@ Reflect on the following questions:
 * In your own words, what is networking?
 * What have you learned about your own networking style?
 * What steps will you take towards networking during the next two months?
-
-✅Send your reflections to the instructors.
 
 </section>
