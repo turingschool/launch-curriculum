@@ -12,7 +12,9 @@ You will be paired with one person from _a different_ group for today's peer rev
     * What differences are there in the migration files between their project and yours?
     * How is the total spent by customer calculated?
     * In reviewing the other group's code - what questions do you have for them, or for an instructor?
-3. Spend 20 minutes to share your answers to the questions above, and discuss the following:
+    * Was there anything the other group did that made their code easier to understand?
+    * Were there any sections of the code you found particularly difficult to understand?
+3. Spend 20 minutes (10 minutes per person) to share your answers to the questions above, and discuss the following:
     * What part of this project were you most excited about?
     * What part of this project was the most difficult?
     * How did your git workflow go?
