@@ -3,7 +3,7 @@ layout: page
 title: Oregon Trail Mini Project
 ---
 
-Let's build a small application to practice what we've learned in Mods 1 and 2. Read throught the entire spec below before starting!
+Let's build a small application to practice what we've learned in Mods 1, 2, and 3. Read throught the entire spec below before starting!
 
 ## The Oregon Trail
 
@@ -16,11 +16,12 @@ Let's build a small application to practice what we've learned in Mods 1 and 2. 
 
 1. Create a branch called `models`
 2. In your Caravan project, add classes outlined below.
-3. Commit after each class is complete - you should have 3 commits!
-4. When all three classes have been built, merge your `models` branch into your `main` branch.
-5. Push your main branch to GitHub.
+3. Commit after each class is complete.
+4. When all three classes have been built, create a Pull Request to merge your `models` branch into your `main` branch.
+5. Merge your branch into `main` (using your PR!).
 
 <section class='call-to-action' markdown='1'>
+
 **Passenger**  
 A passenger has a Name, an Age, a Destination, and a Wagon
 
@@ -35,11 +36,11 @@ A Wagon has a Name (like 'Old Faithful'), NumWheels, Covered (true/false), and P
 3. Update the CaravanContext class to make sure our tables for wagons and passengers get created.
 4. Add a migration to create your database.
 5. Run your migration!
-6. Commit your work, and merge your `migrations` branch into your `main` branch.
+6. Commit your work, and merge your `migrations` branch into your `main` branch using a Pull Request.
 
 ### User Stories
 
-Update your MVC application to fulfill the following user stories:
+Update your MVC application to fulfill the following user stories.  Create brances for individual features.
 
 ```
 As a User
