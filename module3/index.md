@@ -41,16 +41,21 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 * Updating Resources: [Prep](./preparation/Week4/UpdatingResources) &#124; [Lesson](./lessons/Week4/UpdatingResources) &#124; [Lab](./labs/Week4/UpdatingResources)
 * Query String Parameters: [Prep](./preparation/Week4/QueryStringParameters) &#124; [Lesson](./lessons/Week4/QueryStringParameters) &#124; [Lab](./labs/Week4/QueryStringParameters)
 * Deleting Resources: [Prep](./preparation/Week4/DeleteResource) &#124; [Lesson](./lessons/Week4/DeleteResource) &#124; [Lab](./labs/Week4/DeleteResource)
-* Building an Effective LinkedIn Profile
+* [Building an Effective LinkedIn Profile](./lessons/Week4/LinkedIn)
 
 ### Week 5
 * [Mini Project](./Projects/PairProject)
 * [Bootstrap](./lessons/Week5/IntroToBootstrap.md)
 * [Networking](./lessons/Week5/Networking)
+* [Peer Code Review](./Projects/PairProjectCodeReview)
 
 ### Week 6
 
 * [Project](./Projects/Mod3Project)
+
+
+### Additional Resources
+* [CrudBucket](https://github.com/turingschool-examples/CrudBucket)
 
 
 
