@@ -77,17 +77,34 @@ Properly handle and return appropriate HTTP status codes and error messages for 
 
 </section>
 
-
-
 ### Deadline and Submission
 
-< to-do >
+<section class='instructor-note' markdown='1'>
 
+Depending on the calendar, the deadline may vary, but it should be before student's scheduled interviews!
 
+</section>
+
+You instructors will post a deadline for submissions in slack.
+
+Submit your challenge by:
+* Creating a PR from your main branch to the turingschool-examples main branch.
+* Include your Name in your PR title.
+* Include an overview of what you were able accomplish in the PR description.
+
+### Interview Time!
+
+The final step of a take-home challenge is an interview!  You will have an interview scheduled with an instructor and during that interview you will be asked questions related to APIs, Coding, and your work on the Takehome Challenge.  You *will* be asked the following questions, and you *may* be asked additional questions.
+
+1. What is a REST API, and how does it differ from other types of APIs?
+2. How did you handle different HTTP methods (GET, POST, PUT, DELETE) in your C#/.NET API, and why is this important for RESTful design?
+5. Explain the role of HTTP request bodies in REST APIs, and mention any specific C#/.NET libraries or methods you used to work with request bodies in your project.
+
+<section class='instructor-note' markdown='1'>
 
 <!-- Day 2 - Interview -->
 
-We would not share these questions with students, but my thought is that as part of this exercise, we can do a mock interview. Maybe we can make the rubric a bit more flexible - like would they have made it to the next round of the interview.  I think we can internally set a metric of completeness and their ability to answer or gracefully exit the question portion.
+We would not all these questions with students, but my thought is that as part of this exercise, we can do a mock interview. Maybe we can make the rubric a bit more flexible - like would they have made it to the next round of the interview.  I think we can internally set a metric of completeness and their ability to answer or gracefully exit the question portion.
 
 
 1. What is a REST API, and how does it differ from other types of APIs?
@@ -96,3 +113,5 @@ We would not share these questions with students, but my thought is that as part
 4. How did you handle input validation and error handling in your C#/.NET API? Can you provide an example of how an invalid request is handled using built-in mechanisms or custom logic?
 5. Explain the role of HTTP request bodies in REST APIs, and mention any specific C#/.NET libraries or methods you used to work with request bodies in your project.
 6. More code review!
+
+</section>
