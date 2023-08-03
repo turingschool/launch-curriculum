@@ -44,19 +44,21 @@ This iteration includes the following features:
 
 A feature is not considered complete until it is tested, so make sure to test both of these features!
 
-Before writing code, there are two planning steps you need to complete and include here in the README.
+Before writing code, there are two planning steps you need to complete and include in your the README.
 1. Draw a request/response diagram that includes all requests required to complete this iteration
 1. Draw a rough wireframe of the UI page(s) required to complete this iteration
 
 Add screenshots of your planning images in your project README, where it says:
+```
 #### REPLACE THIS HEADER WITH YOUR ITERATION 1 REQUEST/RESPONSE IMAGE
 #### REPLACE THIS HEADER WITH YOUR ITERATION 1 WIREFRAME
+```
 
-You will want to still edit your README in Visual Studio NOT Github to avoid merge conflicts.
+You will want to edit your README in Visual Studio NOT Github to avoid merge conflicts.
 
 Once you've finished planning, check out a branch, and get started on the implementation.
 
-When you are finished with iteration 1, create a pull request and schedule time with a cohort-mate for some code review.  During the code review, make comments on the pull request indicating changes that you will make based on your review!
+✅ When you are finished with iteration 1, create a pull request and schedule time with a cohort-mate for some code review.  During the code review, make comments on the pull request indicating changes that you will make based on your review!
 
 ### Iteration 2 - "Login" and Create Messages
 
@@ -74,12 +76,14 @@ Before writing code, there are two planning steps you need to complete and inclu
 1. Draw a rough wireframe of the UI page(s) required to complete this iteration
 
 Add screenshots of your planning images in your project README, where it says:
+```
 #### REPLACE THIS HEADER WITH YOUR ITERATION 2 REQUEST/RESPONSE IMAGE
 #### REPLACE THIS HEADER WITH YOUR ITERATION 2 WIREFRAME
+```
 
 Once you've finished planning, check out a branch, and get started on the implementation.
 
-When you are finished with iteration 2, create a pull request and schedule time with a cohort-mate for some code review.  During the code review, make comments on the pull request indicating changes that you will make based on your review!
+✅When you are finished with iteration 2, create a pull request and schedule time with a cohort-mate for some code review.  During the code review, make comments on the pull request indicating changes that you will make based on your review!
 
 ### Iteration 3 - Displaying Statistics
 
@@ -96,11 +100,11 @@ This iteration includes the following features:
 
 For this iteration, it's up to you what type of planning you want to do before diving into code. You will want to consider the following, how do you want users to navigate to the statistics page?
 
-When you are finished with iteration 3, create a pull request and schedule time with a cohort-mate for some code review.
+✅When you are finished with iteration 3, create a pull request and schedule time with a cohort-mate for some code review.
 
 ### 🌶️Iteration 4 - Edit and Delete
 
-If you have finished the first three iterations, meaning that all features are complete, tested, and you're happy the user experience, you can move on to this spicy stretch goal. 
+If you have finished the first three iterations, meaning that all features are complete, tested, and you're happy with the user experience, you can move on to this spicy stretch goal. 
 
 This iteration includes the following features:
 * The ability to Edit a user's info
