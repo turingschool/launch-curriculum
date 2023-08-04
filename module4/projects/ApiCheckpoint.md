@@ -17,11 +17,13 @@ Once the employer reviews the submission, they typically schedule a follow-up in
 The purpose of this take-home challenge is to assess your ability to design, implement, and test a RESTful API in C#/.NET that manages a collection of products associated with a "Merchant" resource.
 
 ### Task Description:
-You are provided with an existing REST API for a **Merchant** resource, and your task is to build a C#/.NET API to manage a **Products** resource, where each product belongs to a specific merchant. The API should support basic CRUD operations (Create, Read, Update, Delete) for Products. Additionally, you need to implement XXXX statistics endpoints that provide valuable insights into the product collection as a whole, and for each merchant.
+You are provided with an existing API for a **Merchant** resource, and your task is to build a C#/.NET API to manage a **Products** resource, where each product belongs to a specific merchant. The API should support basic CRUD operations (Create, Read, Update, Delete) for Products. Additionally, you need to implement XXXX statistics endpoints that provide valuable insights into the product collection as a whole, and for each merchant.
 
 ### Setup
 
-< to-do: starter repo >
+* Fork and clone this [starter repo](https://github.com/turingschool-examples/Launch_Mod4TakeHomeChallenge)
+* Open your cloned repository in Visual Studio
+* Run update-database in Package Manager Console
 
 ### Requirements
 
