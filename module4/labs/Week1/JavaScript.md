@@ -9,36 +9,88 @@ title: Intro to JavaScript Lab
 
 ## Gradebook
 
-Your task is to create a gradebook in JavaScript 
+Your task is to create a gradebook in JavaScript. 
 
-* Fork [this repl]() in Replit.
-* Ask the user to enter the number of students in the class
-  * Set a reasonable range of students (e.g. 1-10)
-* After the number of students and assignments has been set:
-  * Ask the user to enter a student's first and last name
-  * Ask the user to enter a grade one at a time, within a reasonable range. The program should stop accepting grades after the user enters a sentinel value (e.g. `-1`).
-  * The program should gracefully reject invalid values (i.e. outside the range 0-100).
-* Repeat for the entered number of students.
-* After all students and grades are entered, the program should display each student's initials, the average grade, and the letter grade
-  * The grading scale is based on a 10-point scale (`A` = `90`, `B` = `80`, etc.)
-  * e.g. 
-    * input: `Zoe Farrell`, `85`, `92`, `84`, `88`, `-1`
-    * output: `Z.F. - 87.25 - B`
+### Setup
 
-Make sure to make sure of JavaScript functions that follow the Single Responsibility Principle (SRP).
+Fork [this repl]() in Replit. 
+All of your code should be written in the `script.js` file. 
+To run your code, open the Shell (similar to the console) and type `node script.js`.
+  * If you receive an error / prompt to select a version of node to install, press Enter to select the first option. Then type `node script.js` again.
 
-### Challenge 1
+### Iteration 1
 
-Alter your program to read from an input text file. Each data point is on its own line. An example input file is included in the repl.
+Create two local variables: `firstName` and `lastName`.
+Write a function that returns the student's initials with the `.` character after each initial. For example:
 
-### Challenge 2
+  * firstName: `Zoe`, lastName: `Ferrell`
+  * output: `Z.F.`
 
-Alter your program to write to an output text file. Each student should display on its own line.
+The program should display the initials from the `main` function using `console.log()`.
 
-### Challenge 3
+### Iteration 2
 
-Alter your program to write to an output HTML file. Each student should display on its own line.
+Create a local array variable: `scores`.
+Write a function that returns the average of the scores in the array.
 
-### Challenge 4
+* grades: `85`, `92`, `84`, `88`
+* output: `87.25`
 
-Alter your program to write to a table in an HTML file. The table should have appropriate column headings. Each student should display on its own row.
+The program should display the average score from the `main` function using `console.log()`. The average should display with exactly two decimal places.
+
+### Iteration 3
+
+Write a function that returns the letter grade based on the average score from Iteration 2.
+* The grading scale is based on a 10-point scale:
+  * `A` => `90` and above
+  * `B` => `80` and above but less than `90`
+  * `C` => `70` and above but less than `80`
+  * `D` => `60` and above but less than `70`
+  * `F` => less than `60`
+
+* average: `87.25`
+* output: `B`
+
+The program should display the letter grade from the `main` function using `console.log()`.
+
+### Iteration 4
+
+Refactor the function from Iteration 2 to meet the following criteria:
+* The minimum score is `0`.
+* The maximum score is `100`.
+* Invalid scores should not be included in the calculation for the average score.
+
+* grades: `85`, `-20`, `92`, `135`, `84`, `88`, `40`
+* scores excluded: `-20`, `135`
+* average: `77.80`
+* letter: `C`
+
+The program should display the average score from the `main` function using `console.log()`. The average should display with exactly two decimal places.
+
+### Spicy Challenges
+
+#### Challenge 1
+
+Refactor the function from Iteration 4 to meet the following criteria:
+* If the student has 5 or more valid scores, the minimum score should be dropped and the remaining scores are used to calculate the average score and determine the letter grade.
+
+* grades: `85`, `92`, `65`, `84`, `88`
+* dropped score: `65`
+* average: `87.25`
+
+* grades: `85`, `92`, `65`, `84`
+* dropped score: n/a (less than 5 scores)
+* average: `82.5`
+
+The program should display the average score from the `main` function using `console.log()`. The average should display with exactly two decimal places.
+
+#### Challenge 2
+
+Write a function that meets the following criteria:
+* If the student has earned a grade other than an `A`, return the minimum score (as an integer) the student would have to earn on the next assignment that would bring their average to the next higher letter grade.
+* The new score may be above `100`, the highest valid score. Return it anyway.
+* If the student already has an `A`, return any number that keeps the student at an `A`.
+
+* grades: `85`, `92`, `84`, `88`
+* average: `87.25`
+* new score: `101`
