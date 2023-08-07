@@ -7,7 +7,7 @@ title: Dependency Injection
 
 After two days of self-guided learning in pairs, today you will have the opportunity to practice this skill individually. Of course, you can still reach out to teammates to talk through things, but you will be driving the research.
 
-With that in mind, today's lesson on dependency injection is divided into 3 parts.
+With that in mind, today's lesson on dependency injection is divided into 4 parts.
 
 1. Part 1: An instructor-led lesson introducing the topic of dependency injection
 2. Part 2: Individual research to deepen your understanding of dependency injection and how we have used it so far
@@ -187,16 +187,14 @@ Finally, move on to digging into a couple more advanced topics. Here are some id
 
 Your deliverable for today is to create a "Today I Learned" style write-up of what you learned today about Dependency Injection.
 
-Start by forking this repo.
+The Today I Learned structure is very common amongst developers, take a look at these two examples. Ignore the content of these posts and focus on the structure. These are from experienced developers working in all different areas of technology.
 
-// TODO: Make a starter repo for students to fork
-
-The Today I Learned structure is very common amongst developers, take a look at these two examples.
-
-//TODO find examples!
+* [Manu S Ajith's Today I Learned Blog](https://til.codes/dont-forget-to-update-the-sequence-in-postgresql-after-a-copy-command/)
+* [Jbranchaud's TIL Github Repo](https://github.com/jbranchaud/til/blob/master/mysql/change-existing-column-to-not-null.md)
+* [Many developers have been inspired by Jbranchaud's repo to make their own TIL, including wajahatkarim3](https://github.com/wajahatkarim3/Today-I-Learned/blob/master/kotlin/inline-funs.md)
 
 <section class="call-to-action" markdown="1">
-Why might you want to write Today-I-Learned style write-up?
+Why might you want to write Today I Learned style write-up?
 </section>
 
 <section class="answer" markdown="1">
@@ -207,6 +205,8 @@ Why might you want to write Today-I-Learned style write-up?
 * Archiving Your Progress: A TIL blog serves as a personal archive of your learning journey. You can look back and see how far you've come and review past topics whenever needed.
 * Building a Portfolio: As a new developer, TIL blogs can showcase your technical skills and knowledge to potential employers. It demonstrates your willingness to learn and your ability to articulate technical concepts and is a great topic to bring up in interviews!
 </section>
+
+Start by forking [this](https://github.com/turingschool-examples/Today-I-Learned) repo.
 
 Writing can be stressful and is not something everyone enjoys. Something that sometimes helps is to write as if you are explaining the topic to a friend. Another Turing instructor likes to start by recording an audio clip and then transcribing that into text!
 
