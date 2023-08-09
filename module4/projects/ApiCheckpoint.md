@@ -19,6 +19,10 @@ The purpose of this take-home challenge is to assess your ability to design, imp
 ### Task Description:
 You are provided with an existing API for a **Merchant** resource, and your task is to build a C#/.NET API to manage a **Products** resource, where each product belongs to a specific merchant. The API should support basic CRUD operations (Create, Read, Update, Delete) for Products. Additionally, you need to implement XXXX statistics endpoints that provide valuable insights into the product collection as a whole, and for each merchant.
 
+<section class='instructor-notes' markdown='1'>
+  Make sure to set expectations for what help students are allowed to seek - this should be an individual effort.
+</section>
+
 ### Setup
 
 * Fork and clone this [starter repo](https://github.com/turingschool-examples/Launch_Mod4TakeHomeChallenge)
