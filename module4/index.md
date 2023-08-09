@@ -39,4 +39,3 @@ In Module 4, students will begin to dive into the skills and mindsets necessary 
 ### Weeks 5 & 6
 * Project
 
-
