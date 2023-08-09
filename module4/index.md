@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Module 4
-subheading: Object Oriented Programming with C#
+subheading: APIs and Expanding MVC Concepts
 ---
 
 ## Overview
 
-In Module 4, students will begin to dive into the skills and mindsets necessary to succeed as a Turing student and a developer.
+In Module 4, students will continue to expand their knowledge of MVC and learn to build RESTful APIs.
 
 ## Instructors
 
@@ -15,6 +15,8 @@ In Module 4, students will begin to dive into the skills and mindsets necessary 
 * Zoe Farrell
 
 ## Curriculum
+
+[Intermission Work](./intermission)
 
 ### Week 1
 * [Review](./lessons/Week1/ReviewingConcepts)
