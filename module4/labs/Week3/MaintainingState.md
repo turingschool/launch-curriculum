@@ -3,7 +3,7 @@ layout: page
 title: Maintaining State Lab
 ---
 
-In today's lab, we are going to build on the [Start Repo](https://github.com/turingschool-examples/GoodBooksMvcStarte) from the lesson.
+In today's lab, we are going to build on the [Start Repo](https://github.com/turingschool-examples/GoodBooksMvcStarter) from the lesson.
 
 <section class='instructor-notes' markdown='1'>
 
