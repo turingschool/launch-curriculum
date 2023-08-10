@@ -32,6 +32,7 @@ In Module 4, students will continue to expand their knowledge of MVC and learn t
 ### Week 3
 * Maintaining State
 * Security Concerns
+* [PD: Coffee Chats](./lessons/Week3/CoffeeChatPD)
 
 ### Week 4
 * [Inheritance](./lessons/Week4/Inheritance)
