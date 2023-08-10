@@ -585,7 +585,6 @@ Test DB connections and records
 * Intro to APIs
     - Understand how an API works at a conceptual level
     - Expand our understanding of what a 'client' could be
-    - Create an in-app client to manipulate HTTP responses
     - Practice requests to an existing - using Postman
 * Building an API
     - Review HTTP Request/Response Structure 
@@ -594,7 +593,6 @@ Test DB connections and records
 <!-- * Testing Strategies when Consuming an API
     - Understand the necessity of faking API requests in tests
     - Implment mock/vcr to maintain test coverage -->
-
 
 ### Week 3
 * CHECKPOINT - a mini individual project.  Can you build an API?
@@ -625,6 +623,12 @@ Move to Mod5, independent learning/tutorial
 
 
 ## Mod 5
+
+For zoe's spirit: go back to MVC and do it well
+* try/catch
+* auth
+* agile/project board
+
 ### Week1
 * Customizing JSON Responses
     - Define and implement a Serializer

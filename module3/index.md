@@ -35,22 +35,27 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 * Creating Single Resource: [Prep](./preparation/Week3/CreateSingleResource) &#124; [Lesson](./lessons/Week3/CreateSingleResource) &#124; [Lab](./labs/Week3/CreateSingleResource)
 * Reading Related Resources: [Prep](./preparation/Week3/ReadingRelatedResources) &#124; [Lesson](./lessons/Week3/ReadingRelatedResources) &#124; [Lab](./labs/Week3/ReadingRelatedResources)
 * Creating Related Resources: [Prep](./preparation/Week3/CreatingRelatedResources) &#124; [Lesson](./lessons/Week3/CreatingRelatedResources) &#124; [Lab](./labs/Week3/CreatingRelatedResources)
-* Telling Your Story
+* [Telling Your Story](./lessons/Week3/TellingYourStory)
 
 ### Week 4
 * Updating Resources: [Prep](./preparation/Week4/UpdatingResources) &#124; [Lesson](./lessons/Week4/UpdatingResources) &#124; [Lab](./labs/Week4/UpdatingResources)
 * Query String Parameters: [Prep](./preparation/Week4/QueryStringParameters) &#124; [Lesson](./lessons/Week4/QueryStringParameters) &#124; [Lab](./labs/Week4/QueryStringParameters)
 * Deleting Resources: [Prep](./preparation/Week4/DeleteResource) &#124; [Lesson](./lessons/Week4/DeleteResource) &#124; [Lab](./labs/Week4/DeleteResource)
-* Building an Effective LinkedIn Profile
+* [Building an Effective LinkedIn Profile](./lessons/Week4/LinkedIn)
 
 ### Week 5
 * [Mini Project](./Projects/PairProject)
 * [Bootstrap](./lessons/Week5/IntroToBootstrap.md)
 * [Networking](./lessons/Week5/Networking)
+* [Peer Code Review](./Projects/PairProjectCodeReview)
 
 ### Week 6
 
 * [Project](./Projects/Mod3Project)
+
+
+### Additional Resources
+* [CrudBucket](https://github.com/turingschool-examples/CrudBucket)
 
 
 
