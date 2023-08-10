@@ -30,7 +30,7 @@ In Module 4, students will continue to expand their knowledge of MVC and learn t
 * API Project
 
 ### Week 3
-* Maintaining State
+* Maintaining State: [Prep](./preparation/Week2/MaintainingState) &#124; [Lesson](./lessons/Week2/MaintainingState) &#124; [Lab](./labs/Week2/MaintainingState) 
 * Security Concerns
 
 ### Week 4
