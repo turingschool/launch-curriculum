@@ -44,13 +44,13 @@ The first step to having a coffee chat is to find someone to chat with.
 
 There are many places to look!
 
-**1. Current Connection who works as a Developer:** Maybe there is a "loose tie" or someone you're not close with, such as a high school acquaintance or past coworker who you could reach out to. Or, if you already talk to a developer regularly, such as if they are a sibling, ask them to introduce you to someone they know.
+1. **Current Connection who works as a Developer:** Maybe there is a "loose tie" or someone you're not close with, such as a high school acquaintance or past coworker who you could reach out to. Or, if you already talk to a developer regularly, such as if they are a sibling, ask them to introduce you to someone they know.
 
-**2. Someone You Share Something in Common With:** LinkedIn is excellent for finding folks you have something in common with. Maybe you both went to Turing or a coding school in general, or you both worked at the same library, or live in the same city, or you can see from LinkedIn you share a connection, or if you attended college you can look for fellow alumni.
+2. **Someone You Share Something in Common With:** LinkedIn is excellent for finding folks you have something in common with. Maybe you both went to Turing or a coding school in general, or you both worked at the same library, or live in the same city, or you can see from LinkedIn you share a connection, or if you attended college you can look for fellow alumni.
 
-**3. Cold Outreach:** You'd be shocked how often strangers are happy to chat if you demonstrate your genuine interest in speaking with them in particular. You can think about your ideal company or industry and find someone who works there on LinkedIn.
+3. **Cold Outreach:** You'd be shocked how often strangers are happy to chat if you demonstrate your genuine interest in speaking with them in particular. You can think about your ideal company or industry and find someone who works there on LinkedIn.
 
-**4. Networking Events:** Most cities have in-person tech meetups and those can be great places to meet developers and ask them if they would chat with you. You can also look into online networking options.
+4. **Networking Events:** Most cities have in-person tech meetups and those can be great places to meet developers and ask them if they would chat with you. You can also look into online networking options.
 
 Does the person you reach out to need to work in C# or .NET? No, you can still gain a lot of value from talking with any developer. However, if you do find someone working in C# or .NET I would definitely reach out to them. That chat has a higher likelihood of leading to a job offer.
 
