@@ -24,3 +24,5 @@ In Module 4, students will begin to dive into the skills and mindsets necessary 
 * Build an API: [Prep](./preparation/Week2/BuildAnAPI) &#124; [Lesson](./lessons/Week2/BuildAnAPI) &#124; [Lab](./labs/Week2/BuildAnAPI) 
 -->
 
+### Week 4
+* Security Concerns: [Lesson](./lessons/Week4/SecurityConcerns) &#124; [Lab](./labs/Week4/SecurityConcerns)
