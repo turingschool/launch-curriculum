@@ -119,6 +119,12 @@ Be ready to share your solutions!
 
 </section>
 
+<section class='instructor-notes' markdown='1'>
+
+As students are sharing out, discuss how cookies are being sent in requests - all cookies associated with that domain will be passed back and forth - the view doesn't matter.
+
+</section>
+
 
 ## Regulations
 
