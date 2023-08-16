@@ -67,9 +67,10 @@ When you are not answering the question, listen closely to the person who is spe
 
 Once you have both had a chance to answer, give feedback and discuss how you felt that went.
 
-<aside class="instructor-notes" markdown="1">
-<p><strong>Instructor Note</strong><br>Because this is the student's first time trying STAR I would give them 2 minutes to think about what story they want to tell before putting them in breakout rooms.</p>
-</aside>
+<section class="call-to-action" markdown="1">
+Take 3 minutes to think about what story you want to tell for this interview question and then your instructor will open up pair breakout rooms.
+</section>
+
 
 <aside class="instructor-notes" markdown="1">
 <p><strong>Instructor Note</strong><br>When the groups come back together, ask for volunteers to share how that went.</p>
@@ -100,13 +101,15 @@ Individually
 
 Write a brief description of 6 stories you could tell in an interview. Try to have at least two that are "negative", or where the situation was not ideal and you had to overcome a challenge.
 
-Pull two different stories from your story collection and use them to answer the following interview questions. Write your answers in the first person as if you were saying them in an interview and follow the STAR technique.
+Pull two different stories from your story collection and use them to answer the following interview questions using the STAR technique.
 
 *Describe an example of how you have handled a stressful situation.*
 
 *What helps you do your best learning? What resources, environment, pace, team, etc?*
 
-✅Send brief descriptions of your 6 stories and answers to the two interview questions in a Slack message to all instructors.
+You will then find a time to meet with a partner who will act as your interviewer. Record the responses you give in your mock interview using Loom or a Zoom recording. Your instructor will send out a list of partners.
+
+✅Send brief descriptions of your 6 stories and your video answers to the two interview questions in a Slack message to all instructors.
 
 </section>
 
