@@ -97,7 +97,7 @@ Are there any situations where you worked with customers, delivered on tight dea
 
 <section class='call-to-action' markdown='1'>
 
-Individually  
+**Individually**
 
 Write a brief description of 6 stories you could tell in an interview. Try to have at least two that are "negative", or where the situation was not ideal and you had to overcome a challenge.
 
