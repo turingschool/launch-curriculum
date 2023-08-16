@@ -18,7 +18,7 @@ With your partner, brainstorm why a coffee chat might be useful for you and wher
 </section>
 
 <section class="answer" markdown="1">
-### Some Benefits of Coffee Chats
+Some Benefits of Coffee Chats
 
 **Real-world Context**: Coffee chats help bridge the gap between theoretical knowledge gained in class and real-world applications. Interviewees will share real world examples that illustrate how coding skills are used in actual projects and workflows.
 
@@ -44,15 +44,15 @@ The first step to having a coffee chat is to find someone to chat with.
 
 There are many places to look!
 
-1. **Current Connection who works as a Developer:** Maybe there is a "loose tie" or someone you're not close with, such as a high school acquaintance or past coworker who you could reach out to. Or, if you already talk to a developer regularly, such as if they are a sibling, ask them to introduce you to someone they know.
+1. **Current Connection who Works as a Developer:** Maybe there is a "loose tie" or someone you're not close with, such as a high school acquaintance or past coworker who you could reach out to. Or, if you already talk to a developer regularly, such as if they are a sibling, you could ask them to introduce you to someone they know.
 
 2. **Someone You Share Something in Common With:** LinkedIn is excellent for finding folks you have something in common with. Maybe you both went to Turing or a coding school in general, or you both worked at the same library, or live in the same city, or you can see from LinkedIn you share a connection, or if you attended college you can look for fellow alumni.
 
-3. **Cold Outreach:** You'd be shocked how often strangers are happy to chat if you demonstrate your genuine interest in speaking with them in particular. You can think about your ideal company or industry and find someone who works there on LinkedIn.
+3. **Cold Outreach:** You'd be shocked how often strangers are happy to chat if you demonstrate your genuine interest in speaking with them in particular. You can think about your dream company or industry and find someone who works there on LinkedIn.
 
 4. **Networking Events:** Most cities have in-person tech meetups and those can be great places to meet developers and ask them if they would chat with you. You can also look into online networking options.
 
-Does the person you reach out to need to work in C# or .NET? No, you can still gain a lot of value from talking with any developer. However, if you do find someone working in C# or .NET I would definitely reach out to them. That chat has a higher likelihood of leading to a job offer.
+Does the person you reach out to need to work in C# or .NET? No, you can still gain a lot of value from talking with any developer. However, if you do find someone working in C# or .NET I would definitely reach out to them. That chat has a higher likelihood of leading to a future job offer.
 
 ### Asking for a Coffee Chat
 
@@ -136,7 +136,7 @@ Here's what I like to start with:
 
 Here is one example, but definitely make it your own!
 
-"Thank you so much for taking the time to chat with me! I'm currently 5 months into the Turing Launch program and I'm loving it and I've grown so much as a developer, but from class time alone it's hard to get a picture of what it's really like to work on a development team and I know each team is unique. So I'm eager to learn more about what your day-to-day is like and any advice you have for a budding developer like me. I see on your LinkedIn that you worked at ____ then transitioned to ______, could you share more about how you choose to work at _____ and your journey as a developer so far?"
+"Thank you so much for taking the time to chat with me! I'm currently 5 months into the Turing Launch program and I'm loving it and I've grown so much as a developer, but from class time alone it's hard to get a picture of what it's really like to work on a development team and I know each team is unique. So I'm eager to learn more about what your day-to-day is like and any advice you have for a budding developer like me. I see on your LinkedIn that you worked at ____ then transitioned to ______, could you share more about how you came to work at _____ and your journey as a developer so far?"
 
 <section class="call-to-action" markdown="1">
 With your Partner: Take turns kicking off the conversation.
@@ -154,9 +154,10 @@ When you have about 5 minutes left before your meeting is scheduled to end, casu
 
 ### Sending a Thank You Message
 
-Always send a thank you note. Always. Your interviewee should never wonder how much you appreciated the time she took to share her hard-earned knowledge with you. Remember, you never know what doors she could open for you one day. The more personalized your message the better. It's best to include some detail from your coffee chat that you found particularly impactful.
+As the above Muse article shares, "Always send a thank you note. Always. Your interviewee should never wonder how much you appreciated the time she took to share her hard-earned knowledge with you. Remember, you never know what doors she could open for you one day." The more personalized your message the better. It's best to include some detail from your coffee chat that you found particularly impactful.
 
-✅Deliverable: You will be paired up with a developer (most likely a Turing Alumn) for your first coffee chat. Once your instructor makes the introduction, you will be responsible for scheduling a time to meet, meeting and asking great questions, and sending a thank you email.
+## ✅✅ Deliverable ✅✅
+You will be paired up with a developer (most likely a Turing Alumn) for your first coffee chat. Once your instructor makes the introduction, you will be responsible for scheduling a time to meet, meeting and asking great questions, and sending a thank you email.
 
 Send the following in a message to your instructors.
 
