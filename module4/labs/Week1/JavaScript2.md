@@ -10,7 +10,7 @@ title: JavaScript 2 Lab
 
 ## Match 3 Squares
 
-The webpage in [this repl]() displays three colored squares, three buttons, and a message. Each button is designed to change the color of a square. The message displays the status of the colored squares.
+The webpage in [this repl](https://replit.com/@launch-team/Mod4ThreeSquares) displays three colored squares, three buttons, and a message. Each button is designed to change the color of a square. The message displays the status of the colored squares.
 
 Update the code in `script.js` to accomplish the following tasks:
 
