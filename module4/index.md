@@ -20,8 +20,8 @@ In Module 4, students will continue to expand their knowledge of MVC and learn t
 
 ### Week 1
 * [Review](./lessons/Week1/ReviewingConcepts)
-* JavaScript I
-* JavaScript II
+* JavaScript I: [Prep](./preparation/Week1/JavaScript.md) &#124; [Lesson](./lessons/Week1/JavaScript.md) &#124; [Lab](./labs/Week1/JavaScript.md) 
+* JavaScript II: [Lesson](./lessons/Week1/JavaScript2.md) &#124; [Lab](./labs/Week1/JavaScript2.md) 
 * [PD: STAR Interview Method](./lessons/Week1/STARInterviewTechnique)
 
 
@@ -42,4 +42,3 @@ In Module 4, students will continue to expand their knowledge of MVC and learn t
 
 ### Weeks 5 & 6
 * Project
-
