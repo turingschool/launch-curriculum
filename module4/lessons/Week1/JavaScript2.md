@@ -103,6 +103,22 @@ var divArray = Array.from(allDivs)
 Before we can successfully target elements in the DOM we must first ensure that the browser has created it. We do this by using the function `document.ready(() => { #your JavaScript code here })`.
 If we forget to wrap our code with `document.ready()` the return for targeting our elements will be `null`.
 
+Another option is to link the JavaScript file at the bottom of the HTML file, just before the `</body>` tag. This allows the DOM elements to load before the script is run. Notice the placement of the `<script>` tag in the example HTML code below.
+
+```html
+<html>
+  <head>
+    <title>Example Website</title>
+  </head>
+  <body>
+    <section>
+      Headers, Navigation Bars, Articles, etc.
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+
 ## JavaScript Events
 
 We usually target elements in the DOM because we want some action to occur when an _event_ takes place. For instance, maybe we want the text to change colors when we _mouseover_ it, or perhaps we want to send off information to an API when we _click_ a submit button for a form.
@@ -119,16 +135,3 @@ JavaScript might look something like this:
 var targetElement = document.getElementById('target-id')
 targetElement.addEventListener(event, (e) => console.log(e))
 ```
-
-<!-- ## Practice
-
-Visit the [Mod 4 page](https://launch.turing.edu/module4/) and open the Chrome dev tools. View the HTML elements that are available and in your console try the following:
-
-  1. Return an element by targeting its id
-  2. Return all elements by targeting its class
-  3. Return all elements by targeting its HTML tag
-  4. Add an event listener to 3 elements on the page
-
-### Bonus
-
-Try navigating to elements by using, parentNode, childNodes, nextSibling, etc. See the _Related Topics_ section of this [page](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes). -->

@@ -27,11 +27,13 @@ It's a highly versatile and flexible language, and has become the most commonly 
 
 Now that we know a little bit about JavaScript, let's talk about how to actually use it!
 
+_Note_: ES6 is the most current version of the ECMA Script Spec. We will be using the ES6 syntax.
+
 # Data Types
 
 There are different data types in JavaScript. It's important to understand what type of data you're dealing with as you're writing code, and knowing the types of data are available to you is the first step.
 
-There are three basic data types: numeric, string, and boolean. Let's go over what each of these is.
+There are three basic data types: numeric, string, and boolean. Let's go over each type in detail.
 
 ## Numeric Data Type
 
@@ -49,7 +51,7 @@ The string data type handles letters and other characters. It is always enclosed
 
 `"I am a string!"`
 
-You can use either single or double quotes to wrap a string, but the opening and closing quotes need to match. A good rule of thumb is to pick a type of quote to use and then be consistent in it's use throughout a project.
+You can use either single or double quotes to wrap a string, but the opening and closing quotes need to match. A good rule of thumb is to pick a type of quote to use and then be consistent in its use throughout a project.
 
 Strings can be used for any kind of text. We use them regularly to add text to a page.
 
@@ -59,31 +61,25 @@ A boolean has one of two values: `true` or `false`. Think of it like a light swi
 
 Booleans can be very useful to help determine which part of a script should be run (as in conditionals, which we will talk about later).
 
-# ES5 vs. ES6
-
-ES6 is the most current version of the ECMA Script Spec. We will be using the ES6 syntax.
-
 # Variables in JavaScript
 
 As we're writing code, there are many times when we want to be able to store a value so we have ability to reuse it in multiple places. Writing the same thing over and over is a pain, and it's common that we need to have access to the same information more than once. A variable lets us do just that!
 
 ## What is a variable?
 
-A variable is a place to store values. When we write scripts (a set of instructions for a computer to follow), we need to temporarily store small pieces of data. We store that data in variables. "Variable" is a good name for this concept because it indicates the stored data can change (or _vary_) each time a script is run.
+What is a variable?! Who wrote this? Based on your knowledge of C#, you already know that a variable is a place to store values. It's called a "variable" because it indicates the stored data can change (or _vary_) each time a script is run.
 
-A variable is, at its most simple, a declaration. It's made up of two parts: the variable keyword, `let`, and the variable name, which can be whatever you choose. Let's see what that looks like in the console:
+Here's how it differs in JavaScript. In C#, you can use the actual data type (`int PersonAge`, `string CountryName`) or the generic `var` (`var bookTitle`). In JavaScript, you declare the variable using either `var` or `let` (or later, `const`). You do not specify the data type.
+
+Let's see what that looks like in the console:
 
 ```javascript
-let myVariableName = "This is my variable";
+let personAge = 21;
+var countryName = "Spain";
+const bookTitle = "Lord of the Flies";
 ```
 
-We see that we have the variable keyword, and we've set the variable name to `myVariableName`.
-
-When we write a very simple variable like this, it's called _declaring_ the variable.
-
-After our `let` keyword (a special word that the JavaScript interpreter knows is used to create a variable) and our variable name, we have an equals sign, `=`. That's called the _assignment operator_, because we use it to _assign_ a value to our variable declaration.
-
-Until you've added the assignment operator and the variable value, the variable is considered _undefined_.
+_Note_: Until you've added the assignment operator and the variable value, the variable is considered _undefined_.
 
 ## Rules for Naming Variables
 - Names must begin with a letter, dollar sign, or an underscore. They cannot begin with a number.
@@ -96,7 +92,6 @@ Until you've added the assignment operator and the variable value, the variable 
 ### Your Turn (in the console)
 
 * Declare 2 variables, one named "quantity" and one named "mythicalCreature"
-
 * Create three more variables, and give them each different data types (numbers, strings, booleans)
 
 ## Using Variables Together
@@ -172,9 +167,9 @@ To open developer tools in Chrome:
 When working with JavaScript, it is useful to keep your console open at all times to watch for errors and anything you've told your code to print out. Bringing us to...
 
 #### 2. console.log()
-`console.log()` is to JS what `puts` is to Ruby. This line of code will print whatever is provided as an argument to the console.
+`console.log()` prints whatever is provided as an argument to the console.
 
-Given the following function called `printStuff()`, adding console.log() will print the value of `myVariable` to the console.
+Given the following function called `printStuff()`, adding `console.log()` will print the value of `myVariable` to the console.
 
 ```
 const printStuff = function(){
@@ -221,21 +216,21 @@ function myCoolFunction() {
   console.log(myFirstStatement);
 }
 // because definition of method will not change
-const myFirstStatement = () => {
-  let myFirstStatement = "Assigning a string to a variable called 'myFirstStatement'";
-  alert('This is my second statement!');
-  console.log(myFirstStatement);
-}
+// const myFirstStatement = () => {
+//   let myFirstStatement = "Assigning a string to a variable called 'myFirstStatement'";
+//   alert('This is my second statement!');
+//   console.log(myFirstStatement);
+// }
 ```
 
 - You declare a function using the keyword `function`.
 - You can name the function anything you want, but it must include a set of parentheses after the name, which can be empty or accept parameters.
 - You must follow the name of the function with a set of curly braces, which act as bookends to hold the set of statements you want the function to run when it is called.
-- Calling the function is quite easy. Simply type the function name with it's parenthesis and any associated parameters.
+- Calling the function is quite easy. Simply type the function name with its parenthesis and any associated parameters.
 
 ## Call a Function:
 ```javascript
-// Calling a function w/out arguments
+// Calling a function without arguments
 myCoolFunction();
 
 // Calling a function with arguments
@@ -245,21 +240,19 @@ myCoolFunction(arg1, arg2);
 When this code is read, `myCoolFunction()` is "called", all three statements within the function's body (those curly braces) get run.
 
 ### Your Turn
-Let's go ahead and declare myCoolFunction in the console together and then call it. What do you notice about the code as it is being run? What do you notice about the code being run if you swap the 2nd and 3rd statements?
+Let's go ahead and declare `myCoolFunction()` in the console together and then call it. What do you notice about the code as it is being run? What do you notice about the code being run if you swap the 2nd and 3rd statements?
 
 Create your own functions in the console:
 
 - Write a function that declares a `firstName` variable and a `lastName` variable, then alerts the user with a message that incorporates the full name, and then logs a random number to the console.
-
 - Write a function that assigns three different math equations to three different variables, then log the sum of the values of all three variables
-
 - Write a function that alerts the user with a message of "YO!", and then logs to the console a sum of eight different integers.
 
 ## Pass Information to a Function:
 Sometimes you need to give a function some information in order for it to do its job. You can give that function the information it needs by providing _parameters_. These are bits of information that you identify with appropriately named labels (you get to decide the notation) inside the parentheses of your named function. The words you use for your parameters act like variables INSIDE the function, which means they serve as means to pass values.
 
 ### Parameters vs. Arguments
-Its a subtle difference. Basically, when you declare a function, and you stipulate the function will accept some bits of information, those are parameters. Then, when you pass the values of the parameters, those are called arguments. Like this:
+There's a subtle difference. Basically, when you declare a function, and you stipulate the function will accept some bits of information, those are parameters. Then, when you pass the values of the parameters, those are called arguments. Like this:
 
 ```javascript
 // parameters named on declaration of function
@@ -267,24 +260,15 @@ function myDreamCar(make, model) {
   return "Buy me " + make + " " + model;
 }
 
-const myDreamCar = (make, model) => {
-  return "Buy me " + make + " " + model;
-}
-
 // arguments "Audi" and "R8" passed into a called function
 myDreamCar("Audi", "R8");
 ```
 
-## Getting A Value from Functions:
+## Getting A Value from Functions
 Some functions return information to the code that called them. Wait - what? When a function performs a calculation, like 2 + 2, it will return the "answer" of 4, right? Yes, AND, you still have to tell it to do so. Let's work with some return statements in functions with parameters in the console:
 
 ```javascript
 function addTwoNumbers(num1, num2) {
-  return num1 + num2;
-  console.log('Boom');
-}
-
-const addTwoNumbers = (num1, num2) => {
   return num1 + num2;
   console.log('Boom');
 }
@@ -356,32 +340,3 @@ if (hoursOfSleep < 6) {
   console.log('I feel fantastic!');
 }
 ```
-
-### Check for Understanding
-1. What is the purpose of `console.log()`?
-
-<!-- ### Your Turn
-
-Write a conditional that gives a different alert message based on your favorite kind of animal.
-
-### Challenge 1
-Write a function to convert a name into initials. This function strictly takes two words with one space in between them.
-
-The output should be two capital letters with a dot separating them.
-It should look like this:
-
-`Sam Harris => S.H`
-`patrick Feeney => P.F`
-
-### Challenge 2
-You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.
-
-Implement a function `likes([String1, String2,...]) => String`, which must take in a single parameter of an array, containing the names of people who like an item. It must return the display text as shown in the examples:
-```
-likes [] -- must be "no one likes this"
-likes ["Peter"] -- must be "Peter likes this"
-likes ["Jacob", "Alex"] -- must be "Jacob and Alex like this"
-likes ["Max", "John", "Mark"] -- must be "Max, John and Mark like this"
-likes ["Alex", "Jacob", "Mark", "Max"] -- must be "Alex, Jacob and 2 others like this"
-```
-For 4 or more names, the number in `and 2 others` simply increases. -->

@@ -14,13 +14,6 @@ The third layer of standard web development is JavaScript.
 
 Source: [MDN: What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 
-<!-- Remember learning HTML and CSS? To refresh your memory:
-  * [HTML](/module3/lessons/Week1/HTMLFundamentals.md) holds the content we see on a page (text, images) and defines the structure and order in which the content appears. We can think of HTML as the skeleton of our webpage; without it, we'd just be a blob!
-  * [CSS](/module3/lessons/Week1/CSSFundamentals.md) defines the look and feel of a webpage - it can change the size or layout of items on a page, change colors, fonts, and more! We can think of CSS as anything that makes us unique and recognizable - our skin, hair, clothes, style, etc.
-
-The third layer of standard web development is JavaScript.
-  * JavaScript is what lets the user interact with a page. For example, clicking a button and getting some sort of response. We can think of JavaScript as the brain and muscle of our webpage, as it powers all the action. -->
-
 ### Pre-work
 
 Work through this [W3Schools JavaScript Quickstart Tutorial](https://www.w3schools.com/whatis/whatis_js.asp) to familiarize yourself with the basics of JavaScript. Be sure to click the **Try it Yourself >>** button for each example to experiment with the code. You cannot break it; if your code stops working, refresh the browser tab to reset the example.
