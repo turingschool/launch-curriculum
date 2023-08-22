@@ -161,7 +161,7 @@ targetElement.addEventListener(event, function() {
 You can also define the function separately:
 ```javascript
 function handleEvent() {
-    console.log("The event happened!);
+    console.log("The event happened!");
 }
 
 // Note that we are just providing the function name, not calling the function here!
