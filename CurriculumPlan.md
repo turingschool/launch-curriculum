@@ -301,39 +301,85 @@ Move to Mod5, independent learning/tutorial
 
 <details><Summary><strong>Module 5</strong></Summary>
 
-### Week1
-* Customizing JSON Responses
-    - Define and implement a Serializer
-    - Expand our understanding of MVC responsibilities
-    - Describe how a Serializer can support OOP Principles
-* Data Validations
+
+## Better MVC
+* Lab ideas
+    - refactor a portion of the Mod3 project
+
+* Data Validations (2 days) - Let's try to break our apps, and then fix them.
     - Identify the differences between Error Handling, and program crashing
     - Throw situation-specific errors
+        * Input level-validation
+        * 404 and other error codes (graceful breaking)
     - Implement try/catch blocks 
 * SOLID (Refactoring Patterns)
     - Reinforce our understanding of SRP
     - Introduce OLID Principles
-### Week2
-* Working with 3rd party APIs
-    - Implement Secure Environment Variables
+* Repository Pattern
 * Writing Good Documentation
     - Understand the reasons for good documentation
     - Identify what to include in your documentation
+* Project 
+    * Refactor Mod4 project
+    * Work on someone else's project
+    * Responding to tickets, working on a team
+
+## Calling APIs from .NET (more api, better api)
+* Working with 3rd party APIs
+    - Implement Secure Environment Variables
+* API Documentation
+    - swagger ?
+* Auth/Auth
+
+## Prepping for Tech Interview Questions
+* BigO and Process Optimization (Time/space trade-offs)
+We want this lesson in Mod5, we still need to decide exactly what goes into it.
+    - nested for-loops is bad
+    - Understand the impact of poor optimization
+    - Introduce the problem of over-iteration and optimization
+    - Gain a familiarity with Big0 terminology (I've heard of this thing, but may not be an expert)
+* Talk while you are white-boarding/coding
+    - start to prepare for talking through process while you are doing a thing.
+    - stop being silent while in conversation - entertain your interviewer.
+
+## Project
+* Existing project
+* Call third-party API to build new feature
+
+
+
 * Interview Lifecycle
     - Identify the varying steps of an interview
     - Common Pitfalls in Interviewing
     - The graceful exit
-### Week3
+* Interview Coaching; make students understand:
+    - that what they have been doing working in existing code bases sets them apart from the 'rails-new' crowd
+    - Focused work on PD (teamwork, communication, feedback)
+
+### Extension Topics (maybe mod6)
+* Customizing JSON Responses
+    - Define and implement a Serializer
+    - Expand our understanding of MVC responsibilities
+    - Describe how a Serializer can support OOP Principles
 * Caching
     - Define Caching and why it is useful
     - Implement caching
 * Background Workers
     - Identify opportunities to use background workers
     - Implement a background worker
-* BigO and Process Optimization
-    - Understand the impact of poor optimization
-    - Introduce the problem of over-iteration and optimization
-    - Gain a familiarity with Big0 terminology (I've heard of this thing, but may not be an expert)
+* Logging
+    - help yourself debug
+* Deployment
+    - know that this is a thing
+    - super simple deploy (maybe gh-pages)
+* Async as a concept
+* NoSQL databases
+    - pro/cons of relational v non-relational data
+* .NET scaffolding & syntactic sugar
+    - discussion
+    - pro/con of using scaffolds
+    - tag helpers (asp-action, display-for, etc...)
+    - this can be prep for take-home challenges where they will see more .NET 'magic'
 </details><br>
 
 <details><Summary><strong>Module 6</strong></Summary>
