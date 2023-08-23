@@ -91,11 +91,29 @@ _Note: The last two functions return a collection of `Elements`, not a single `E
 
 _Fun Fact you can search for elements by other attributes using `querySelector` with bracket notation ex) `document.querySelector('[role="navigation"]')`_
 
-HTML collections and node lists look similar to arrays, but you cannot use array functions on them like `forEach` or `map`. In order to use array functions you must convert them into arrays. Here is an example of how you might do this:
+
+### Which method do I use?
+
+The querySelector syntax is the newer and preferred syntax. One of the reasons for this is that a node list is easier to interact with than an HTML Collection.
+
+HTML collections and node lists look similar to arrays, but you cannot use array functions like `forEach` or `map` on an HTML Collection. In order to use array functions you must convert them into arrays. Here is an example of how you might do this:
 
 ```javascript
-var allDivs = document.querySelectorAll('div')
+var allDivs = document.getElementsByTagName('div')
 var divArray = Array.from(allDivs)
+```
+
+Using forEach to iterate over all items in a NodeList is much nicer!
+
+```javascript
+// Retrieve all elements with the specified class name
+var divs = document.querySelectorAll('div');
+
+// Iterate over each element using a loop
+divs.forEach(function(element) {
+    // Perform actions on each element
+    console.log(element.textContent); // Example action: Log the element's text content
+});
 ```
 
 #### Why you need `document.ready()`
@@ -133,5 +151,57 @@ JavaScript might look something like this:
 
 ```javascript
 var targetElement = document.getElementById('target-id')
-targetElement.addEventListener(event, (e) => console.log(e))
+
+// Equivalent code using a regular function
+targetElement.addEventListener(event, function() {
+    console.log("The event happened!");
+});
 ```
+
+You can also define the function separately:
+```javascript
+function handleEvent() {
+    console.log("The event happened!");
+}
+
+// Note that we are just providing the function name, not calling the function here!
+targetElement.addEventListener(event, handleEvent);
+```
+
+## Let's try it out!
+
+Fork [this](https://replit.com/@launch-team/User-Events-Playground#index.html) Repl. 
+
+I want to output "You clicked the box" to the console when the blue box is clicked. 
+
+* What would your pseudocode look like for this process?
+
+I want to change the color of the box on click, so that it turns green when I click it once, and back to blue when I click it again.
+
+* What would your pseudocode look like for this process?
+
+When the user clicks the 🔥 button, the image inside of the div should reveal itself.
+
+* What would your pseudocode look like for this process?
+
+
+<section class="call-to-action" markdown="1">
+With your partner try to accomplish the following tasks, using a forked version of that same CodePen:
+
+* Add a new button with the following functionality:
+   * Change the background color of the body element when your new button is clicked.
+* When the input detects a keyup event, the colored div should grow larger.
+* When the input detects a keydown event the colored div should shrink.
+* When the box detects a mouseover event, it should spin (you can use the spin class in the CSS file).
+* When the box is dragged by the user, it should console.log() a message of your choice.
+* When the 🔥 button is clicked, the text inside of it should change to 💦, and it should change back to 🔥 when clicked again.
+* Your choice: What other events can you use? What other results can you create?
+</section>
+
+
+<section class="call-to-action" markdown="1">
+Checks For Understanding:
+
+* What is the general process for manipulating DOM nodes / HTML elements with JavaScript?
+* Which events seem the most useful? Which seem the most niche?
+</section>
