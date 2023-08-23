@@ -43,9 +43,9 @@ While computer literacy skills have never been an entry requirement for students
 There are several steps you must complete before attending your first session of Mod 0.
 1. Thoroughly and carefully read through this Syllabus.
 1. Review the information for your first Mod 0 session:
-    - Date: Monday, September 11th
-    - Start time: 6PM MST (feel free to sign on a few minutes early!)
-    - Zoom link: The zoom link will be shared in your Slack channel (#mod0_launch_2310) prior to the event starting!
+    - Date: Monday September 11th
+    - Timing: 6pm - 8pm MT (feel free to sign on a few minutes early!)
+    - Zoom link: Click [here](https://turingschool.zoom.us/my/ericweissman) to join the Zoom! 
 1. Prep Your "Why" - During the first session of Mod 0, you will break out into small groups and share your "why" for taking this step to launch your career in tech, and your goals moving forward for your life. Spend some time reflecting on your motivations for being here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
 
 ## Expectations
@@ -55,8 +55,10 @@ Students are expected to attend all scheduled live sessions, on time. Staff will
 
 ### Schedule
 All sessions will be held via zoom.  Your cohort's zoom link will be bookmarked in your Mod0 Slack channel.
-- Monday September 11th from 6pm-8pm MT
-- Tuesday September 12th from 6pm-8pm MT
+- Monday 9/11
+    - 6pm - 8pm MT
+- Tuesday 9/12
+    - 6pm - 8pm MT
 
 ### Communication 
 All Turing staff members will use Slack as the primary means of communication with students. As an incoming student, any information you need can usually be found in our Turing Slack workspace. As a norm, we expect members of our community to respond to Slack messages within 24 hours.
@@ -78,6 +80,7 @@ This may be your first time learning and/or working in a remote setting. There a
 ## Optional Supplies
 - **External Monitor/Display:** An extra monitor will allow you to have more screen space to write code, review technical documentation, and be more efficient in a remote workspace.  
 - **Headphones with Microphone:** While your Turing-issued laptop has built-in speakers and a microphone, if your workspace has a lot of ambient noise, it might be a good idea to invest in headphones + microphone. 
+- **External Monitor/Display:** We strongly suggest obtaining a second monitor to use with your laptop. This extra monitor will allow you to have more screen space to write code, review technical documentation, and be more efficient in a remote workspace.  If you have any issues obtaining a second monitor, please reach out to Eric Weissman on Slack! 
 - **Laptop Stand:** These can be useful when using a separate keyboard and for preventing strain on your neck. This also creates more real estate for your workspace.
 - **External Keyboard:** You may benefit from using a different keyboard than the integrated one in your laptop, especially if you are using a laptop stand. If you plan to use a wired keyboard, you'll likely need the USB-C hub mentioned above to connect to your keyboard in addition to your charger and monitor.
 
@@ -90,7 +93,7 @@ In order to secure a seat as a student at Turing, one must complete all the regi
 
 ## Tuition Questions
 
-If you are enrolled in Mod 0, that means you've paid your deposit. The remainder of your tuition is due 30 days prior to your Mod 1 start date. Turing does provides financial counseling, however, it is _the student's_ responsibility to take advantage of that resource if needed, and that should be done well in advance of the tuition deadline as exceptions will not be made. To set up a financial counseling session or ask clarifying questions about your tuition, please email `financialaid@turing.edu`.
+If you are enrolled in Mod 0, that means you've paid your deposit. The remainder of your tuition is due 30 days prior to your Mod 1 start date. Turing does provide financial counseling, however, it is _the student's_ responsibility to take advantage of that resource if needed, and that should be done well in advance of the tuition deadline as exceptions will not be made. To set up a financial counseling session or ask clarifying questions about your tuition, please email `financialaid@turing.edu`.
 
 <br>
 <br>
