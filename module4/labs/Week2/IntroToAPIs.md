@@ -15,6 +15,8 @@ We will start by using the [Pokemon API](https://pokeapi.co/) and make all reque
 1. What API request returns all of the fire type Pokemon?
 1. What API request returns all of the green colored Pokemon?
 
+✅ Send your pokemon requests to your instructors in a DM.
+
 ### Pagination
 
 Read [this](https://developer.digitalchalk.com/document/rest-api-v5/limit-and-offset/) overview of API Pagination. Then work on the following questions.
@@ -22,6 +24,8 @@ Read [this](https://developer.digitalchalk.com/document/rest-api-v5/limit-and-of
 1. What API request returns the first 10 Pokemon?
 1. What API request returns the Pokemon with ids 11-20?
 1. How many Pokémon are there in total? What request returns this information?
+
+✅ Send your pokemon requests to your instructors in a DM.
 
 ## Cat Api
 
@@ -32,6 +36,8 @@ We will work with the [Cat Api](https://developers.thecatapi.com/) and make all 
 1. What API request returns all of the available cat breeds?
 1. What API request the cat image with id `7ok`?
 1. What API request will return 5 images of Tonkenese cats? The breed_id for Tomkenese is `tonk`.
+
+✅ Send your cat requests to your instructors in a DM.
 
 🌶️ Try [signing up for an API key](https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=FJkYOq9tW). An API key is a string of characters that uniquely identifies you, and it should be treated like a password and kept secret. When you include your API key as a header, you should be able to retrieve 100 images instead of 10 and make requests to the premium `jokes` endpoint.
 
@@ -52,6 +58,8 @@ Take another look at these four examples of documentation and reflect on the fol
 * What makes API documentation easy to understand?
 * What makes API documentation hard to understand?
 * What have you learned from these examples that you want to want to remember when you write your own API documentation?
+
+✅ Send your reflections to your instructors in a DM.
 
 <aside class="instructor-notes" markdown="1">
     <p><strong>Instructor Note</strong><br>If students finish early, they could try making requests to these APIs from a console app.</p>
