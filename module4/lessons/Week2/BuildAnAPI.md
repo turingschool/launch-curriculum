@@ -10,7 +10,7 @@ title: Build an API
 
 ## Prep Review
 
-< TO-DO >
+In small groups, review the JSON conventions and restraints you discovered during the pre-work.
 
 ## Review Starter Code
 
@@ -400,4 +400,4 @@ Take a few minutes to update your GET actions to use this structure.  Tell your 
 
 ## Checks for Understanding
 
-< TO-DO >
+* Imagine you are interviewing.  Describe the similarities and differences between an MVC application and an API application - be as detailed as possible!
