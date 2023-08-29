@@ -20,14 +20,15 @@ In Module 4, students will continue to expand their knowledge of MVC and learn t
 
 ### Week 1
 * [Review](./lessons/Week1/ReviewingConcepts)
-* JavaScript I: [Prep](./preparation/Week1/JavaScript.md) &#124; [Lesson](./lessons/Week1/JavaScript.md) &#124; [Lab](./labs/Week1/JavaScript.md) 
-* JavaScript II: [Lesson](./lessons/Week1/JavaScript2.md) &#124; [Lab](./labs/Week1/JavaScript2.md) 
+* JavaScript I: [Prep](./preparation/Week1/JavaScript) &#124; [Lesson](./lessons/Week1/JavaScript) &#124; [Lab](./labs/Week1/JavaScript) 
+* JavaScript II: [Lesson](./lessons/Week1/JavaScript2) &#124; [Lab](./labs/Week1/JavaScript2) 
 * [PD: STAR Interview Method](./lessons/Week1/STARInterviewTechnique)
 
 
 ### Week 2
 * Intro to APIs: [Prep](./preparation/Week2/IntroToAPIs) &#124; [Lesson](./lessons/Week2/IntroToAPIs) &#124; [Lab](./labs/Week2/IntroToAPIs) 
 * Build an API: [Prep](./preparation/Week2/BuildAnAPI) &#124; [Lesson](./lessons/Week2/BuildAnAPI) &#124; [Lab](./labs/Week2/BuildAnAPI) 
+* [Developer Roles](./lessons/Week2/WhatsADev) 
 * [API Project](./projects/ApiCheckpoint)
 
 ### Week 3
