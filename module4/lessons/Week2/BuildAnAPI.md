@@ -231,9 +231,9 @@ You **must** write a test for this new endpoint!
 <section class='note' markdown='1'>
 
 **Implement an API Endpoint that satisfies these specifications**  
-* Path/Method: GET /api/books/1
-* Status Code: 200
-* Response Content: JSON containing the book with the id '1' (or whatever id is sent in through the path)
+* Path/Method: POST /api/books
+* Status Code: 201
+* Response Content: none!  This action can have a return value of 'void'
 
 </section>
 
