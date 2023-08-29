@@ -110,7 +110,7 @@ namespace GoodBooksEndpointTests
         {
             DefaultContractResolver contractResolver = new DefaultContractResolver
             {
-                NamingStrategy = new SnakeCaseNamingStrategy()
+                NamingStrategy = new CamelCaseNamingStrategy()
             };
 
             string json = JsonConvert.SerializeObject(obj, new JsonSerializerSettings
