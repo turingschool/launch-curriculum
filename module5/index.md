@@ -16,5 +16,5 @@ In Module 2, students will begin to dive into the skills and mindsets necessary 
 
 ## Curriculum
 
-* [Lessons](./lessons)
-* [Projects](./projects)
+### Week 1
+* Refactoring Patterns: [Prep](./preparation/Week1/RefactoringPatterns) &#124; [Lesson](./lessons/Week1/RefactoringPatterns) &#124; [Lab](./labs/Week1/RefactoringPatterns)
