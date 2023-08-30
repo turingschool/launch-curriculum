@@ -5,7 +5,7 @@ title: Inception
 
 An Inception is a process used by many companies in the Software Industry to design a solution to a problem. It is tempting to take a problem and immediately start coding, however this will often result in an incoherent solution, or even worse, a solution to the _wrong_ problem.
 
-Usually this process takes several days involving many stakeholders such as the client(s), team leads, CEOs, operations, etc. We will be doing a simplified version of this process in a few hours between your team and your project manager.
+Usually this process takes several days, weeks, or even months, involving many stakeholders such as the client(s), team leads, CEOs, operations, etc. We will be doing a simplified version of this process in a few hours between your team and your project manager.
 
 ### Process
 
@@ -74,6 +74,8 @@ Conflict and tension tends to arise in groups when there are differing expectati
     * If you are unsure about a feature, table the feature and come back to it at the end.
     * Repeat this process until you have gone through all of the stories.
     * Once you are finished, you have your MVP definition.
+    * Whatever you think your MVP is... you can probably cut it in half
+    ✅ Check in with your project manager to confirm your MVP!
 
 
 ### Wireframing (Solve)
@@ -94,7 +96,7 @@ Conflict and tension tends to arise in groups when there are differing expectati
 * **Objectives**
     * Document technical requirements for the development team
 * **Instructions (required)**
-    * Create a project board using Github Projects or Trello.
+    * Create a project board using Github Projects
     * Translate each of the features that were written on sticky notes during the feature dump exercise into a [user story](https://www.atlassian.com/agile/project-management/user-stories) in your project management tool.
     * Every user story should be written from the perspective of the end user and should follow this format:  
         * `As a User, when I visit ___, I want to ____ so that I can ____.`

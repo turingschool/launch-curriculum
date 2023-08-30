@@ -59,6 +59,7 @@ We are going to include the Inception phase as part of this sprint.  In addition
 * Create your initial project in Visual Studio
 * Create a github repo and add all group members as collaborators
     * ✅ Add your project manager as a collaborator
+* Create your project board and add cards to it
 * Create the initial database migrations based on your inception discussions
 * Individually pull down your project, and debug any setup issues.
 

@@ -7,8 +7,6 @@ title: Ideation
 
 In order to cut down on the time groups could spend deciding on a project, we will use a most-popular vote system to determine the projects, then students will 'opt-in' to projects based on their preference.
 
-It may not be necessary for _every_ student to bring an idea, but we should have at least 1 project pitch for each 3/4 students.
-
 Students will fill out the project template below, pitch their project, and then we will have an upvoting session where students indicate the most popular projects (each student could have 3 votes maybe?).  Then, the instructors can choose the most popular and most engaging projects.
 
 Students will then have an opportunity to rank the projects by preference, and they will be assigned to a project group.
