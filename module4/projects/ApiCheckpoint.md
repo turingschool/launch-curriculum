@@ -70,7 +70,7 @@ Implement API endpoints for the following statistics:
 
 </section>
 
-<section class='instructor-note' markdown='1'>
+<section class='instructor-notes' markdown='1'>
 
 The next task will be difficult for most students to complete.  We want them to have the experience of going in to an interview with not a _whole_ challenge done.  This way we can see how they handle that situation.  Do they reach out? Do they clam up? We can then coach them on this scenario.
 
@@ -86,7 +86,7 @@ Properly handle and return appropriate HTTP status codes and error messages for 
 
 ### Deadline and Submission
 
-<section class='instructor-note' markdown='1'>
+<section class='instructor-notes' markdown='1'>
 
 Depending on the calendar, the deadline may vary, but it should be before student's scheduled interviews!
 
@@ -107,7 +107,7 @@ The final step of a take-home challenge is an interview!  You will have an inter
 2. How did you handle different HTTP methods (GET, POST, PUT, DELETE) in your C#/.NET API, and why is this important for RESTful design?
 5. Explain the role of HTTP request bodies in REST APIs, and mention any specific C#/.NET libraries or methods you used to work with request bodies in your project.
 
-<section class='instructor-note' markdown='1'>
+<section class='instructor-notes' markdown='1'>
 
 <!-- Day 2 - Interview -->
 
