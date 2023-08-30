@@ -42,4 +42,4 @@ In Module 4, students will continue to expand their knowledge of MVC and learn t
 * [Dependency Injection](./lessons/Week4/DependencyInjection)
 
 ### Weeks 5 & 6
-* Project
+* [Project](./projects/mod4Project)
