@@ -37,7 +37,8 @@ You are provided with an existing API for a **Merchant** resource, and your task
 
 The Product model should have the following properties: 
 * ProductId
-* Name, Description
+* Name
+* Description
 * Category
 * Price 
 * StockQuantity

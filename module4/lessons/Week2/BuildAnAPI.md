@@ -10,7 +10,7 @@ title: Build an API
 
 ## Prep Review
 
-< TO-DO >
+In small groups, review the JSON conventions and restraints you discovered during the pre-work.
 
 ## Review Starter Code
 
@@ -110,7 +110,7 @@ namespace GoodBooksEndpointTests
         {
             DefaultContractResolver contractResolver = new DefaultContractResolver
             {
-                NamingStrategy = new SnakeCaseNamingStrategy()
+                NamingStrategy = new CamelCaseNamingStrategy()
             };
 
             string json = JsonConvert.SerializeObject(obj, new JsonSerializerSettings
@@ -231,9 +231,9 @@ You **must** write a test for this new endpoint!
 <section class='note' markdown='1'>
 
 **Implement an API Endpoint that satisfies these specifications**  
-* Path/Method: GET /api/books/1
-* Status Code: 200
-* Response Content: JSON containing the book with the id '1' (or whatever id is sent in through the path)
+* Path/Method: POST /api/books
+* Status Code: 201
+* Response Content: none!  This action can have a return value of 'void'
 
 </section>
 
@@ -400,4 +400,4 @@ Take a few minutes to update your GET actions to use this structure.  Tell your 
 
 ## Checks for Understanding
 
-< TO-DO >
+* Imagine you are interviewing.  Describe the similarities and differences between an MVC application and an API application - be as detailed as possible!
