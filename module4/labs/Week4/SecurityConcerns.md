@@ -17,6 +17,8 @@ In the lesson today, we discussed concepts.  Now, we are going to put these conc
 
 Using either secrets management or environment variables, remove the database connection string from your application.
 
+_Make sure that you run your application to make sure that it still works!!_
+
 ✅Write up an explanation of the steps you took to achieve this, and send it to your instructors!
 
 ### Hashing Data
