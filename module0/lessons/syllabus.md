@@ -7,6 +7,7 @@ The Launch Program instructors will guide you through the Mod 0 sessions:
 * Megan McMahon (Slack: @megan)
 * Richard Tillies (Slack: @ProfessorT)
 * Zoe Farrell (Slack: @zoe)
+* Scott Ertmer (Slack: @ertmer)
 
 If you have any questions about the course or computer setup, contact any of us via Slack.
 
@@ -36,14 +37,13 @@ While computer literacy skills have never been an entry requirement for students
 	- If you're interested in additional features, here are some additional [Windows 11 Tips & Tricks](https://www.youtube.com/watch?v=MqMIjSDkqz4)
 
 
-
 ## Before Your First Mod 0 Session
 There are several steps you must complete before attending your first session of Mod 0.
 1. Thoroughly and carefully read through this Syllabus.
 1. Review the information for your first Mod 0 session:
-    - Date: Monday February 27th
-    - Start time: 9am MST (feel free to sign on a few minutes early!)
-    - Zoom link: https://turingschool.zoom.us/j/92581733018
+    - Date: Monday, September 11th
+    - Start time: 6PM MST (feel free to sign on a few minutes early!)
+    - Zoom link: The zoom link will be shared in your Slack channel (#mod0_launch_2310) prior to the event starting!
 1. Prep Your "Why" - During the first session of Mod 0, you will break out into small groups and share your "why" for taking this step to launch your career in tech, and your goals moving forward for your life. Spend some time reflecting on your motivations for being here, and how to communicate that best to your peers so they start to understand you and what drives you. Be prepared to share that with the group in 1-2 minutes.
 
 ## Expectations
@@ -53,17 +53,8 @@ Students are expected to attend all scheduled live sessions, on time. Staff will
 
 ### Schedule
 All sessions will be held via zoom.  Your cohort's zoom link will be bookmarked in your Mod0 Slack channel.
-- Monday 2/27
-    - Morning Session @ 9am-12pm MST 
-    - Afternoon Session @ 1pm-4pm MST 
-- Tuesday 2/28
-    - Morning Session @ 9am-12pm MST 
-    - Afternoon Session @ 1pm-4pm MST 
-- Wednesday 3/1
-    - Morning Session @ 9am-12pm MST 
-    - Afternoon Session @ 1pm-4pm MST 
-- Thursday 3/2
-    - Morning Session @ 9am-12pm MST 
+- Monday September 11th from 6pm-8pm MT
+- Tuesday September 12th from 6pm-8pm MT
 
 ### Communication 
 All Turing staff members will use Slack as the primary means of communication with students. As an incoming student, any information you need can usually be found in our Turing Slack workspace. As a norm, we expect members of our community to respond to Slack messages within 24 hours.
@@ -73,27 +64,23 @@ Every student must pass Mod 0 before they are officially accepted and enrolled i
 - **Maintaining a safe and inclusive learning environment**: We will be creating norms for our cohort to ensure we are creating a safe and inclusive learning environment. If your actions, words, communication or behaviors violate these norms, you will not be continuing on to the Launch program.
 - **Accountability**: As a Turing student, you are in class during the scheduled times. If you have any issues that come up, you communicate those proactively with your instructors.
 - **Engagement**: As a Turing student, you are expected to actively engage and participate in every session. This looks like having your camera on, responding to questions, collaborating with your group in breakout rooms, etc.
-- **Successfully completing the Mod 0 Final Project**: You will be creating and presenting your reflections and understandings from Mod 0 to your instructors. We will provide more details on this project when we start Mod 0!
+- **Successfully completing the Mod 0 Course**: We will provide more details on what assignments you'll need to complete when we start Mod 0!
 
 ## Required Supplies
 This may be your first time learning and/or working in a remote setting. There are a few key tools we recommend to set yourself up for success as a remote student. 
 
 - **Notebook + Writing Utensils:** While you will be working on your laptop while you code, work on projects, etc., we recommend using a physical notebook to take notes during class and workshops. Yeah, that's right: good ol' paper and pencil/marker/pen/etc! 
 
-- **External Monitor/Display:** You will be receiving an external monitor in a separate shipment from your laptop. You should have also received a cable to connect your laptop to your monitor. This extra monitor will allow you to have more screen space to write code, review technical documentation, and be more efficient in a remote workspace.  If you have any issues or questions, please reach out to Eric Weissman on Slack
-
 - **Dedicated Workspace:** It is crucial to have a workspace that has access to a reliable internet connection and is both quiet and free from distractions. Take time before Mod 0 to build your workspace and experiment with different setups until you find a configuration that works for you.
 
-
 ## Optional Supplies
+- **External Monitor/Display:** An extra monitor will allow you to have more screen space to write code, review technical documentation, and be more efficient in a remote workspace.  
 - **Headphones with Microphone:** While your Turing-issued laptop has built-in speakers and a microphone, if your workspace has a lot of ambient noise, it might be a good idea to invest in headphones + microphone. 
 - **Laptop Stand:** These can be useful when using a separate keyboard and for preventing strain on your neck. This also creates more real estate for your workspace.
 - **External Keyboard:** You may benefit from using a different keyboard than the integrated one in your laptop, especially if you are using a laptop stand. If you plan to use a wired keyboard, you'll likely need the USB-C hub mentioned above to connect to your keyboard in addition to your charger and monitor.
 
-
-
 ## Accommodations
-We do our best to work with students who need additional accommodations while attending Turing. If this applies to you, please review [this form](https://frontend.turing.edu/documents/reasonable_accommodation_request_form.pdf) prior to starting Mod 0 at Turing and communicate with the Mod 0 Lead. 
+We do our best to work with students who need additional accommodations while attending Turing. If this applies to you, please review [this form](https://docs.google.com/document/d/1uTa_LFW_Wphc8O7SmJN3EVcfGM7DZrcT0qSa3TuSxV4/edit) prior to starting Mod 0 at Turing and communicate with the Mod 0 Lead. 
 
 ## Enrollment Questions
 

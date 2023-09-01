@@ -12,6 +12,7 @@ In Module 0, students will begin to dive into the skills and mindsets necessary 
 * Megan McMahon
 * Richard Tillies
 * Zoe Farrell
+* Scott Ertmer
 
 ## Mod 0 Syllabus
 * [Syllabus](./lessons/syllabus)
