@@ -67,7 +67,7 @@ To create a cookie in .NET we can add key/value pairs to the Response object.  A
 
 This cookie will be set everytime a request is made:
 
-<img src="/assets/images/module4/week3/InspectCookies.png" style="width: 80%;">
+<img src="/assets/images/module4/week3/InspectCookie.png" style="width: 80%;">
 
 We can read cookies by asking or the values at specific keys from our Request object.
 
@@ -128,7 +128,7 @@ As students are sharing out, discuss how cookies are being sent in requests - al
 
 ## Regulations
 
-Because cookies are used to track user data, we have seen a lot of security and privacy issues discussed.  There have also been legal regulations set out in certain states and contries to govern how this data can be used.  For more info on this, take a look at [cookielawinfo.com](https://www.cookielawinfo.com/)
+Because cookies are used to track user data, we have seen a lot of security and privacy issues discussed.  There have also been legal regulations set out in certain states and countries to govern how this data can be used.  For more info on this, take a look at [cookielawinfo.com](https://www.cookielawinfo.com/)
 
 ## Checks for Understanding
 * Why are cookies necessary for modern web-development?
