@@ -3,11 +3,13 @@ layout:     page
 title:      Launch - Mod 0 Syllabus
 ---
 ## Your Instructors
-The Launch Program instructors will guide you through the Mod 0 sessions:
+The Launch Program instructors and director will guide you through the Mod 0 sessions:
+* Eric Weissman (Slack: @Eric Weissman)
 * Megan McMahon (Slack: @megan)
 * Richard Tillies (Slack: @ProfessorT)
 * Zoe Farrell (Slack: @zoe)
 * Scott Ertmer (Slack: @ertmer)
+
 
 If you have any questions about the course or computer setup, contact any of us via Slack.
 
