@@ -1,21 +1,32 @@
+---
+layout: page
+title: Error Handling Lab
+---
 
-High level plan is to stick with MVCMovies and find many more places where they can add null checks and validation.
+In today's lab, we are going to continue adding Error Handling to our MVC Movies Application.
 
-Thinking of three iterations
+### Step 1: Adding Null Checking
 
-1. Find as many places as you can to add null checking, then code review
+First check out a new branch. Then add null checking throughout the rest of the application.
 
-2. Find as many places as you can to add validation, then code review
+Once you think your application is thoroughly null-checked, create a PR and have a code review session with a peer.
 
-3. Some quick research on sad path testing maybe I find a blog post for them to read, then add three more tests to your application that test when bad things happen your application handles the errors well.
+### Step 2: Adding Validation
+
+First check out a new branch. Then add validations throughout the rest of the application.
+
+Once you think your application is thoroughly validated, create a PR and have a code review session with a peer.
+
+### Step 3: Sad Path Testing
+
+First check out a new branch. Then spend five minutes researching "Sad path testing". Send a description of sad path testing in your own words to all instructors.
+
+Then add two "Sad path" tests to your application.
+
+Once you have added your tests, create a PR and have a code review session with a peer.
 
 
-Then I'm thinking they have some extensions that require independent learning.
-
-Ideas currently on the table:
-* Adding a global exception handler
-* Custom error page
-* Something about returning the most appropriate HTTP status codes.
-
-
-It feels a bit off to only work in an MVC application for all of this, would be nice to fit in revisions to a API application but this is already feeling like a very full day.
+<aside class="instructor-notes" markdown="1">
+    <p><strong>Instructor Note</strong><br>
+    If students finish early and are looking for more to do, you could point them towards researching/implementing a global exception handler or a custom error page.</p>
+</aside>
