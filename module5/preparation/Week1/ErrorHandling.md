@@ -15,7 +15,3 @@ Then read the following Error Handling Rules:
 * [Don't Fail Silently](https://developers.google.com/tech-writing/error-messages/error-handling#dont_fail_silently)
 * [Avoid Swallowing the Root Cause](https://developers.google.com/tech-writing/error-messages/error-handling#avoid_swallowing_the_root_cause)
 * [Log The Error Codes](https://developers.google.com/tech-writing/error-messages/error-handling#log_the_error_codes)
-* [Raise Errors Immediately](https://developers.google.com/tech-writing/error-messages/error-handling#raise_errors_immediately)
-
-
-✅ Deliverable: ???????????? TBD

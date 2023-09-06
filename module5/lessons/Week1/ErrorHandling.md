@@ -23,8 +23,12 @@ Today we're going to revisit the MVC Movies Application from Mod 3. Find the rep
 
 ## Ways Applications Can Break!
 
-There are so things that might cause an application to throw an error! 
+There are so many things that might cause an application to throw an error! 
 
+<aside class="instructor-notes" markdown="1">
+    <p><strong>Instructor Note</strong><br>
+    I recommend starting the board with a couple stickies. I started with "The database password has changed" and "The user tries to input the wrong type of data (e.g. a string for an integer field)"</p>
+</aside>
 Let's fill in [this](https://jamboard.google.com/d/1ggm_xNZFJJ1P4qQQ5PngRbSMsobha4cCvZuXHQh0XmY/edit?usp=sharing) Jamboard with some of these ways.
 
 <section class="call-to-action" markdown="1">
@@ -33,25 +37,25 @@ With your partner, take 10 minutes and add to the Jamboard as many ideas as you 
 The 400 error codes here are good place to start for API errors! [HTTP Cats](https://http.cat/)
 </section>
 
-<aside class="instructor-notes" markdown="1">
-    <p><strong>Instructor Note</strong><br>
-    Examples of things students might say:
-    Server:
-    * If an API you are calling is down
-    * If the API changes so the request now gives an error instead of data
-    * If the database is down
-    * If the database changes the password
-    * Missing necessary environmental variable
-    * Package changes version and the old version you are using doesn't work anymore
-    Client:
-    * Syntax errors like missing an equals in an API request.
-    * If you try to write something of the wrong type to the database
-    * If you try to write something to the database without a required field
-    * If you try to loop through something that is null
-    * If you try to go to a route that doesn't exist
-    * If you are not authorized to access a page</p>
-</aside>
+<section class="answer" markdown="1">
+### More Examples
 
+Server Side Errors:
+* An API you are calling is down
+* The API changes so the request now gives an error instead of data
+* The database is down
+* The database changes the password
+* Necessary environmental variables are missing
+* The package changes version and the old version you are using doesn't work anymore
+
+Client Side Errors:
+* The user has syntax errors like missing an equal sign in an API request.
+* You try to write something of the wrong type to the database
+* A user submits a form without a required field
+* The user tries to load something, but there are no records of that type in the database, and the frontend breaks when the database returns null
+* The user tries to go to a route that doesn't exist
+* The user is not authorized to access a page
+</section>
 
 ### What happens when an error occurs?
 
@@ -115,16 +119,44 @@ public IActionResult Show(int id)
 ```
 
 <section class="call-to-action" markdown="1">
-With your partner: Discuss what might be null here? What might happen if those values are null?
+With your partner: Discuss what might be null here? What might happen if a value is null?
 </section>
 
-Let's add some checks to make sure those values are not null.
+Let's add a null check to our controller
 
 ```c#
 [Route("Movies/{id:int}")]
 public IActionResult Show(int id)
 {
-    
+    var movie = _context.Movies.Find(id);
+    if (movie == null)
+    {
+        return NotFound();
+    }
+
+    return View(movie);
+}
+```
+
+What if our controller looked like this, with an optional parameter?
+
+```c#
+ // GET: /Movies/<id>
+[Route("Movies/{id:int}")]
+public IActionResult Show(int? id)
+{
+    var movie = _context.Movies.Find(id);
+    return View(movie);
+}
+```
+
+Then we would need to do two null checks!
+
+```c#
+// GET: /Movies/<id>
+[Route("Movies/{id:int}")]
+public IActionResult Show(int? id)
+{
     if (id == null)
     {
         return NotFound();
@@ -139,6 +171,7 @@ public IActionResult Show(int id)
     return View(movie);
 }
 ```
+
 
 This is much less likely to break, you will also hear this referred to as more "robust code".
 
@@ -256,6 +289,8 @@ We need to allow a movie to get passed into our view and display any available v
 
 It's out of scope of this lesson, but if you want to display what the user previous input I recommend looking into 
 .NET tag helpers, specifically [asp-for](https://learn.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=aspnetcore-5.0#the-input-tag-helper).
+
+This type of validation we implemented is called **server-side validation**. because the validation occurs in the web server after the client has submitted their information. There is another type of validation called **client-side validation** that takes place in the browser. You can learn more about .NET client-side validation in [this article](https://andrewlock.net/adding-client-side-validation-to-aspnet-core-without-jquery-or-unobtrusive-validation/).
 
 
 ## Try/Catch Blocks
