@@ -22,6 +22,8 @@ When writing code, there are many things to consider, including functionality, u
 
 Here is a good resource on the SOLID principles using c# examples: https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/
 
+We do want students to make a connection between the SOLID principles and OOP.  SOLID helps you build better OOP
+
 </section>
 
 <section class='call-to-action' markdown='1'>
@@ -38,8 +40,102 @@ After your individual research, you will have 30 minutes to discuss the 5 princi
 
 </section>
 
+# DRY - Don't Repeat Yourself!
+
+DRY is a coding principle that can be implented into _any_ design pattern (OOP or otherwise).  The goal of DRY is to **not** have any duplicate code.  
+
+<section class='call-to-action' markdown='1'>
+
+With a partner, take a look at the code below.  Identify as many areas of duplication as you can, and discuss options to cut down on duplication.  Be ready to share out your ideas!
+
+```c#
+namespace MvcMovie.Controllers
+{
+    public class MoviesController : Controller
+    {
+        private readonly MvcMovieContext _context;
+
+        public MoviesController(MvcMovieContext context)
+        {
+            _context = context;
+        }
+
+        // GET: /Movies
+        public IActionResult Index()
+        {
+            var movies = _context.Movies;
+            return View(movies);
+        }
+
+        // GET: /Movies/:id
+        [HttpGet]
+        [Route("Movies/{id:int}")]
+        public IActionResult Show(int id)
+        {
+            var movie = _context.Movies.Find(id);
+
+            return View(movie);
+        }
+
+        // GET: /Movies/New
+        public IActionResult New()
+        {
+            return View();
+        }
+
+        // POST: /Movies
+        [HttpPost]
+        public IActionResult Index(Movie movie)
+        {
+            _context.Movies.Add(movie);
+            _context.SaveChanges();
+
+            return RedirectToAction("show", new { id = movie.Id });
+        }
+
+        // GET: /Movies/:id/edit
+        [Route("/Movies/{id:int}/edit")]
+        public IActionResult Edit(int id)
+        {
+            var movie = _context.Movies.Find(id);
+
+            return View(movie);
+        }
+
+        // POST: /Movies/:id
+        [HttpPost]
+        [Route("/Movies/{id:int}")]
+        public IActionResult Update(Movie movie)
+        {
+            _context.Movies.Update(movie);
+            _context.SaveChanges();
+
+            return RedirectToAction("show", new { id = movie.Id });
+        }
+
+        // POST: /Movied/:id/delete
+        [Route("/Movies/{id:int}/delete)"]
+        public IActionResult Delete(int id)
+        {
+            var movie = _context.Movies.Find(id);
+            _context.Movies.Remove(movie);
+            _context.SaveChanges();
+
+            return RedirectToAction("index");
+        }
+    }
+}
+```
+
+</section>
+
+One of the earliest types of refactors that new developers identify are related to the DRY principle. If you took a look back at some of your early projects, you would probably find more than a few duplicate code issues 😅.
+
 
 # Refactoring Patterns
+
+In addition to refactoring to get closer to DRY code, there are many refactoring _patterns_ that you can learn to help you better adhere to the SOLID OOP principles.  We are going to take a look at 3 of those patterns today.
+
 ## Extract Method
 
 **The Problem**: A method is tooooo loooooong.  Long methods are difficult to read, and difficult to maintain.  The longer a method is, the easier it is for a bug to hide there. And, most of the time, they are breaking SRP.
@@ -178,6 +274,12 @@ public class ShoppingCart
 ```
 
 With the **extract method** refactoring pattern, our executing code can remain the same, but we have made our classes and methods _much_ easier to read.
+
+<section class='call-to-action' markdown='1'>
+
+Which of the SOLID principles does the Extract Method pattern help us with?
+
+</section>
 
 ## Extract Interfaces
 
@@ -335,6 +437,12 @@ public class SlidePlayer : IPlayable
 
 With the **Extract Interfaces** method, we have smaller, more re-usable interfaces!  This also adheres better to the Interface Segregation principle.
 
+<section class='call-to-action' markdown='1'>
+
+Which of the SOLID principles does the Extract Interfaces pattern help us with?
+
+</section>
+
 ## Move Method
 
 **The Problem**: A class has too many responsibilities.  Typically, this happens when a method on a class depends more on _another_ class than on the class it is housed in.  Take this example:
@@ -406,7 +514,13 @@ class Person
 }
 ```
 
-In this refactored version, we are not changing how we interact with the person class (so we know all of our existing code will still run); but we are changing _where_ the logic of getting a formatted address string lives.  
+In this refactored version, we are not changing how we interact with the person class (so we know all of our existing code will still run); but we are changing _where_ the logic of getting a formatted address string lives.
+
+<section class='call-to-action' markdown='1'>
+
+Which of the SOLID principles does the Move Method pattern help us with?
+
+</section>
 
 ### Other Refactoring Notes
 
