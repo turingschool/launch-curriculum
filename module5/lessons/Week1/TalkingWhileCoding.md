@@ -47,7 +47,7 @@ With your Partner: Look back at the competencies your interviewer is evaluating 
 
 ### Tip 1. Focus on the Purpose
 
-When folks first start trying to talk while coding a solution, they sometimes start by literally reading their code out loud or talking in a way that sounds like reading code. This is not adding value, the interviewer can see what you're typing! Instead, focus on the purpose of your code.
+When folks first start trying to talk in a technical interview, they sometimes start by literally reading their code out loud or talking in a way that sounds like reading code. This is not adding very much value, the interviewer can see what you're typing! Instead, focus on the purpose of your code.
 
 ### Tip 2. Share Tradeoffs or Uncertainty
 
@@ -55,7 +55,7 @@ Any time that you are considering different options, it's great to share that wi
 
 ### Tip 3. Think About Your Tone
 
-TODO Word this better: Be enthusiastic, even if you're nervous. Staying humble, not overly confident or overly unsure.
+Try to maintain an enthusiastic approach, even when feeling nervous. You can to to come across as competent and humble, so try to find the middle ground between overconfidence and excessive uncertainty.
 
 ### Tip 4. Take a Quiet Pause
 
