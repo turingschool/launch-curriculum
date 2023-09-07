@@ -15,7 +15,9 @@ Today, you are joining the Disordered Orders development team.  You have been ta
 * If you run into any errors, reach out to your instructor!
 
 ### The Refactors
-Implement the following refactoring patterns.  In your submission, we will ask for some reflection on each, so it would be helpful to keep notes as you go!
+Implement the following refactoring patterns.  Check out a new branch (from main) for each of the refactoring patterns.  That way you can always start fresh if you need to!
+
+In your submission, we will ask for some reflection on each, so it would be helpful to keep notes as you go!
 
 [ ] Extract Interfaces
 
