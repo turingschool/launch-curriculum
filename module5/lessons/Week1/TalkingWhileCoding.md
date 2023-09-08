@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talking While Coding - Technical Interview Prep
+title: How to Talk While Coding - Technical Interview Prep
 ---
 
 ## Learning Goals
