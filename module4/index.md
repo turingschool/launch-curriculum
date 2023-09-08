@@ -32,7 +32,7 @@ In Module 4, students will continue to expand their knowledge of MVC and learn t
 * [API Project](./projects/ApiCheckpoint)
 
 ### Week 3
-* Maintaining State: [Prep](./preparation/Week2/MaintainingState) &#124; [Lesson](./lessons/Week2/MaintainingState) &#124; [Lab](./labs/Week2/MaintainingState) 
+* Maintaining State: [Prep](./preparation/Week3/MaintainingState) &#124; [Lesson](./lessons/Week3/MaintainingState) &#124; [Lab](./labs/Week3/MaintainingState) 
 * Security Concerns: [Lesson](./lessons/Week3/SecurityConcerns) &#124; [Lab](./labs/Week3/SecurityConcerns)
 * [PD: Coffee Chats](./lessons/Week3/CoffeeChatPD)
 

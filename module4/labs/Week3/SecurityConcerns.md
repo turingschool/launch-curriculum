@@ -3,7 +3,7 @@ layout: page
 title: Security Concerns Lab
 ---
 
-<section class='call-to-action' markdown='1'>
+<section class='instructor-notes' markdown='1'>
 
 Encourage students to reach out to each other during this lesson.  If they complete it, they will be almost there on implementing authorization; we don't need them to get through the whole thing, but it would be good to wrap up with a short discussion of how we would compare two digests (database value to user input).
 

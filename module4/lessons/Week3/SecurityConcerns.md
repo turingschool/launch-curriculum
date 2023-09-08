@@ -202,13 +202,13 @@ Be ready to share your annotations!
 
 </section>
 
-Hashing data is a good way to securely store data, but it is not fool-proof.  Let's imagine hack into my application and are able to retrieve all my users’ hashed passwords. You find that the account with username `boss@example.com`` has this hashed password:
+Hashing data is a good way to securely store data, but it is not fool-proof.  Let's imagine you hack into my application and are able to retrieve all my users’ hashed passwords. You find that the account with username `boss@example.com`` has this hashed password:
 
 ```
 16e6b8af370f0d6b6e67c65bb6f4499c01a974f1dcd14a5f9429c6931531e6c4
 ```
 
-Based on the length of the digest you guess it’s a SHA256. You know that some users, particularly bosses, are lazy and they do dumb things like re-use their 4-digit ATM pin for their password. But the application required a password of eight digits, so they might have repeated the pin.
+Based on the length of the digest you guess it’s a SHA256. You know that some users, particularly bosses, are lazy and they do silly things like re-use their 4-digit ATM pin for their password. But the application required a password of eight digits, so they might have repeated the pin.
 
 If these assumptions are correct, you are close to cracking into this user's account - it might only take you a few minutes of coding to find their password. We can use brute force to find the combination of numbers that produces a matching hash value when run through the same algorithm.
 
