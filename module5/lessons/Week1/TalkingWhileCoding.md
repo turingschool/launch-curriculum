@@ -70,13 +70,15 @@ While watching, take notes of specific things she says while coding that you thi
 
 ### Your Turn!
 
-You and your partner will each get a chance to be the interviewer and interviewee.
+You and your partner will each get a chance to be the interviewer and interviewee. 
+
+Whoever is being interviewed will start by opening the appropriate dropdown below, forking the repl, and then sharing their screen so that their interviewer can see their work.
 
 **Schedule:**
-15 minutes, Partner 1 answers their question
-5 minutes, Partner 2 gives feedback to Partner 1
-15 minutes, Partner 2 answers their question
-5 minutes, Partner 1 gives feedback to Partner 2
+* 15 minutes, Partner 1 answers their question
+* 5 minutes, Partner 2 gives feedback to Partner 1
+* 15 minutes, Partner 2 answers their question
+* 5 minutes, Partner 1 gives feedback to Partner 2
 
 While the interviewer, here are three questions to guide your feedback
 * Did the interviewee explain at least one tradeoff they were making or another option they considered?
@@ -86,11 +88,63 @@ While the interviewer, here are three questions to guide your feedback
 <section class="answer" markdown="1">
 ### Partner 1's Question
 
-TODO: Fill in question
+**Part 1: Is already in [this](https://replit.com/@launch-team/Talking-While-Coding-1) Repl.**
+
+**Part 2: If Partner 1 finishes Part 1 quickly, they can paste the following into their repl for Part 2.**
+
+DESCRIPTION:
+You'll be given a list of two strings, and each will contain exactly one colon (":") in the middle (but not at beginning or end). The length of the strings, before and after the colon, are random.
+
+Your job is to return a list of two strings (in the same order as the original list), but with the characters after each colon swapped.
+
+Examples
+["abc:123", "cde:456"]  -->  ["abc:456", "cde:123"]
+["a:12345", "777:xyz"]  -->  ["a:xyz", "777:12345"]
+
+**They can also paste in the following test cases:**
+
+```c#
+List<string> inputList = new List<string> { "abc:123", "cde:456" };
+List<string> swappedList = SwapStrings(inputList);
+
+//Expected:
+//abc:456
+//cde:123
+foreach (string str in swappedList)
+{
+    Console.WriteLine(str);
+}
+```
 </section>
 
 <section class="answer" markdown="1">
 ### Partner 2's Question
 
-TODO: Fill in question
+**Part 1: Is already in [this](https://replit.com/@Zoe-Farrell/Talking-While-Coding-2) Repl.**
+
+**Part 2: If Partner 2 finishes Part 1 quickly, they can paste the following into their repl for Part 2.**
+
+Create a function that will trim a string (the first argument given) if it is longer than the requested maximum string length (the second argument given). The result should also end with "..."
+
+These dots at the end also add to the string length.
+
+For example, trim("Creating kata is fun", 14) should return "Creating ka..."
+
+If the string is smaller or equal than the maximum string length, then simply return the string with no trimming or dots required.
+
+e.g. trim("Code Wars is pretty rad", 50) should return "Code Wars is pretty rad"
+
+If the requested string length is smaller than or equal to 3 characters, then the length of the dots is not added to the string length.
+
+e.g. trim("He", 1) should return "H...", because 1 <= 3
+
+Requested maximum length will be greater than 0. Input string will not be empty.
+
+**They can also paste in these test cases:**
+```c#
+// Test cases
+Console.WriteLine(Trim("Creating kata is fun", 14)); // Should print "Creating ka..."
+Console.WriteLine(Trim("Code Wars is pretty rad", 50)); // Should print "Code Wars is pretty rad"
+Console.WriteLine(Trim("He", 1)); // Should print "H..."
+```
 </section>
