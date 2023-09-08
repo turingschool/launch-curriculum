@@ -4,9 +4,9 @@ title: How to Talk While Coding - Technical Interview Prep
 ---
 
 ## Learning Goals
-* Understand the benefits of talking in a technical interview
-* Develop a goal for exceptional talking during a technical interview
-* Start practicing the skill of talking while code
+* Understand the benefits of talking in a technical coding challenge
+* Develop a goal for what to say during a technical coding challenge
+* Start practicing the skill of talking while coding
 
 A technical interview is an interview conducted by an engineer and involving technical content. This interview can take many forms including talking over a project, code review on a take-home challenge, or live coding a solution to a problem provided by the interviewer. For today, we are going to focus on this third type where the interviewer will ask you a problem and then expect you to work through coding a solution while they watch and provide advice.
 
