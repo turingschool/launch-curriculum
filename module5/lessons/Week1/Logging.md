@@ -109,7 +109,7 @@ Your instructor will now drop the pairs into breakout rooms where you will decid
 </aside>
 
 
-TODO: I have Seralog logging working in MVC movies, it's quite quick set up! The tricky part is there are two big approaches to logging, there are zero-shared-state logger objects that use dependency injection, this is the approach currently in MVC movies. I haven't tried doing this with Seralog yet, I think it's prefered but it's more in depth.
+TODO: I have Seralog logging working in MVC movies, will end up linking that here for instructors to see, it's quite quick set up three steps total! The tricky part is there are two big approaches to logging, there are zero-shared-state logger objects that use dependency injection, this is the approach currently in MVC movies. I haven't tried doing this with Seralog yet, I think it's prefered but it's more in depth.
 
 ```c#
 private readonly ILogger<HomeController> _logger;
