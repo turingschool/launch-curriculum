@@ -69,7 +69,11 @@ Obviously including all of this would be a bit much. Think about - What do you w
 
 ## The How
 
-Markdown, the language of READMEs, can be tricky at first. [Here](https://about.gitlab.com/handbook/markdown-guide/) is a great guide to get you started. And as always, Google is your friend!
+Markdown, the language of READMEs, can be tricky at first. Here are some guides to get you started. And as always, Google is your friend!
+
+* [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
+* [https://www.markdownguide.org/extended-syntax](https://www.markdownguide.org/cheat-sheet/)
+* [https://about.gitlab.com/handbook/markdown-guide/](https://www.markdownguide.org/cheat-sheet/)
 
 <section class="call-to-action">
   <h3>Updating a README</h3>
