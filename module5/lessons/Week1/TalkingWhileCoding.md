@@ -120,7 +120,7 @@ foreach (string str in swappedList)
 <section class="answer" markdown="1">
 ### Partner 2's Question
 
-**Part 1: Is already in [this](https://replit.com/@Zoe-Farrell/Talking-While-Coding-2) Repl.**
+**Part 1: Is already in [this](https://replit.com/@launch-team/Talking-While-Coding-Partner-2) Repl.**
 
 **Part 2: If Partner 2 finishes Part 1 quickly, they can paste the following into their repl for Part 2.**
 
