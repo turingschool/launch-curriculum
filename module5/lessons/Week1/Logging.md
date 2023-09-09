@@ -79,7 +79,7 @@ Once you complete this deliverable, dive deeper into the world of .NET logging! 
     <p><strong>Instructor Note</strong><br>
     Here are the questions:
     * When should we use a console.log and when should we use logging?
-    * Who is using Seralog and who is using the built-in logger?
+    * How are you figuring out where to add a log message?
     * What's one other tradeoff you and your partner have run into so far? What options did you consider? (then group discussion about what others think on this topic)
     </p>
 </aside>
