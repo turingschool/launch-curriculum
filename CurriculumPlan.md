@@ -302,51 +302,61 @@ Move to Mod5, independent learning/tutorial
 <details><Summary><strong>Module 5</strong></Summary>
 
 
-## Better MVC
+## Better MVC, Auth/Auth, Calling 3rd Party APIs
 * Lab ideas
     - refactor a portion of the Mod3 project
 
-* Data Validations (2 days) - Let's try to break our apps, and then fix them.
+### Week 1
+* Mods 1-4 Review
+    - Includes SQL Review
+* Error Handling & Data Validations - Let's try to break our apps, and then fix them.
     - Identify the differences between Error Handling, and program crashing
     - Throw situation-specific errors
         * Input level-validation
         * 404 and other error codes (graceful breaking)
     - Implement try/catch blocks 
+* Logging
+* PD - Talking While Coding in Interviews
+    - start to prepare for talking through process while you are doing a thing.
+    - stop being silent while in conversation - entertain your interviewer.
+
+### Week 2
 * SOLID (Refactoring Patterns)
     - Reinforce our understanding of SRP
     - Introduce OLID Principles
-* Repository Pattern
 * Writing Good Documentation
     - Understand the reasons for good documentation
     - Identify what to include in your documentation
-* Project 
+* MVC Project 
     * Refactor Mod4 project
     * Work on someone else's project
     * Responding to tickets, working on a team
+* PD - Resumes
 
-## Calling APIs from .NET (more api, better api)
-* Working with 3rd party APIs
+### Week 3 Auth/Auth
+* Finish MVC Project
+* Authentication
+* Authorization
+* PD - Github 'Profile'
+
+### Week 4 Calling APIs from .NET (more api, better api)
+* Calling 3rd party APIs in .NET
     - Implement Secure Environment Variables
 * API Documentation
     - swagger ?
-* Auth/Auth
-
-## Prepping for Tech Interview Questions
 * BigO and Process Optimization (Time/space trade-offs)
 We want this lesson in Mod5, we still need to decide exactly what goes into it.
     - nested for-loops is bad
     - Understand the impact of poor optimization
     - Introduce the problem of over-iteration and optimization
     - Gain a familiarity with Big0 terminology (I've heard of this thing, but may not be an expert)
-* Talk while you are white-boarding/coding
-    - start to prepare for talking through process while you are doing a thing.
-    - stop being silent while in conversation - entertain your interviewer.
+* PD - Cover Letters
 
-## Project
-* Existing project
+### Weeks 5 & 6 Project
 * Call third-party API to build new feature
+* PD - LinkedIn Activities
 
-
+### Possible Other Topics
 
 * Interview Lifecycle
     - Identify the varying steps of an interview
