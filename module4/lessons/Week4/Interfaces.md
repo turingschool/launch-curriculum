@@ -142,8 +142,6 @@ class Program
 }
 ```
 
-The interface provides a common contract for both types, ensuring that each class has the required properties and methods. This allows us to interact with different types of employees in a unified and consistent way, promoting code reusability and flexibility.
-
 ### Another Example: IEnumarable
 
 IEnumerable is one of the fundamental interfaces in C# that is widely used to work with collections of data. It is part of the System.Collections namespace and provides a contract for classes that represent sequences of elements. The primary purpose of IEnumerable is to enable iteration over a collection, such as arrays, lists, or custom data structures, using a foreach loop or LINQ methods.
