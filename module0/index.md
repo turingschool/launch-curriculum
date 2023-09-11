@@ -13,7 +13,7 @@ In Module 0, students will begin to dive into the skills and mindsets necessary 
 * Richard Tillies
 * Zoe Farrell
 * Scott Ertmer
-* Eric Weissman (Director of Launch Program)
+* Eric Weissman (Director)
 
 ## Mod 0 Syllabus
 * [Syllabus](./lessons/syllabus)
