@@ -10,7 +10,6 @@ The Launch Program instructors and director will guide you through the Mod 0 ses
 * Zoe Farrell (Slack: @zoe)
 * Scott Ertmer (Slack: @ertmer)
 
-
 If you have any questions about the course or computer setup, contact any of us via Slack.
 
 ## Description
@@ -54,7 +53,7 @@ There are several steps you must complete before attending your first session of
 Students are expected to attend all scheduled live sessions, on time. Staff will work on a case-by-case basis with students who communicate any prior commitments or have emergencies arise. If a student must miss a live session, it is the student's responsibility to proactively let staff know, and make a plan for how they will make up for any content missed. 
 
 ### Schedule
-All sessions will be held via zoom.  Your cohort's zoom link will be bookmarked in your Mod0 Slack channel.
+All sessions will be held via zoom.  Your cohort's Zoom link will be bookmarked in your Mod0 Slack channel.
 - Monday September 11th from 6pm-8pm MT
 - Tuesday September 12th from 6pm-8pm MT
 
@@ -78,6 +77,7 @@ This may be your first time learning and/or working in a remote setting. There a
 ## Optional Supplies
 - **External Monitor/Display:** An extra monitor will allow you to have more screen space to write code, review technical documentation, and be more efficient in a remote workspace.  
 - **Headphones with Microphone:** While your Turing-issued laptop has built-in speakers and a microphone, if your workspace has a lot of ambient noise, it might be a good idea to invest in headphones + microphone. 
+- **External Monitor/Display:** We strongly suggest obtaining a second monitor to use with your laptop. This extra monitor will allow you to have more screen space to write code, review technical documentation, and be more efficient in a remote workspace.  If you have any issues obtaining a second monitor, please reach out to Eric Weissman on Slack! 
 - **Laptop Stand:** These can be useful when using a separate keyboard and for preventing strain on your neck. This also creates more real estate for your workspace.
 - **External Keyboard:** You may benefit from using a different keyboard than the integrated one in your laptop, especially if you are using a laptop stand. If you plan to use a wired keyboard, you'll likely need the USB-C hub mentioned above to connect to your keyboard in addition to your charger and monitor.
 
@@ -90,7 +90,7 @@ In order to secure a seat as a student at Turing, one must complete all the regi
 
 ## Tuition Questions
 
-If you are enrolled in Mod 0, that means you've paid your deposit. The remainder of your tuition is due 30 days prior to your Mod 1 start date. Turing does provides financial counseling, however, it is _the student's_ responsibility to take advantage of that resource if needed, and that should be done well in advance of the tuition deadline as exceptions will not be made. To set up a financial counseling session or ask clarifying questions about your tuition, please email `financialaid@turing.edu`.
+If you are enrolled in Mod 0, that means you've paid your deposit. The remainder of your tuition is due 30 days prior to your Mod 1 start date. Turing does provide financial counseling, however, it is _the student's_ responsibility to take advantage of that resource if needed, and that should be done well in advance of the tuition deadline as exceptions will not be made. To set up a financial counseling session or ask clarifying questions about your tuition, please email `financialaid@turing.edu`.
 
 <br>
 <br>
