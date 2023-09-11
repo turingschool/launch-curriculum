@@ -88,7 +88,7 @@ Animal is moving.
 Woof! Woof!
 ```
 
-In this example, the Dog class is a derived class inheriting from the Animal base class. The Dog class has its own property Breed and method Bark, while it also inherits the Species, Age, and MakeSound method from the Animal class.
+In this example, the Dog class is a derived class inheriting from the Animal base class. The Dog class has its own property Breed and method Bark, while it also inherits the Species, Age, and Move method from the Animal class.
 
 <section class="call-to-action" markdown="1">
 Check for Understanding <br>

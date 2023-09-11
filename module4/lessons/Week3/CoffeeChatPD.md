@@ -6,6 +6,7 @@ title: Coffee Chats
 ## Learning Goals
 * Understand what a coffee chat is and why it's incredibly useful
 * Develop a plan for before, during, and after a coffee chat
+* Have a comprehensive guide to look back to when you reach each step in the process
 
 ## What is a Coffee Chat?
 
@@ -18,14 +19,13 @@ With your partner, brainstorm why a coffee chat might be useful for you and wher
 </section>
 
 <section class="answer" markdown="1">
-Some Benefits of Coffee Chats
+### Some Benefits of Coffee Chats
 
 **Real-world Context**: Coffee chats help bridge the gap between theoretical knowledge gained in class and real-world applications. Interviewees will share real world examples that illustrate how coding skills are used in actual projects and workflows.
 
 **Networking**: Engaging in coffee chats allows you to expand your professional network. Building connections with experienced professionals can lead to mentorship opportunities, potential job referrals, and a broader understanding of the industry landscape. But it's key to note, the tone of the coffee chat should not be job seeking, even though there is a fair chance it might help lead to a job.
 
 **Interview Preparation**: While you are not the one interviewed in this context, coffee chats still develop your comfort level talking with an unknown professional and help the actual interviews feel less scary.
-
 </section>
 
 <section class="call-to-action" markdown="1">
@@ -67,18 +67,28 @@ I'm a big fan of the message structure introduced in the Muse article [How to As
 
 3. **Have a Hook**: A great way to increase your chance of landing the interview is to demonstrate why you really want to meet with this person. Do you admire their career path? Do you think the work they’re currently doing at company X stands out as the best? Maybe you have a shared connection and think they would be a great voice of wisdom. Don’t be afraid to share why you are specifically reaching out to this person. The more personalized your ask feels, the greater chance of success you’ll have.
 
-4. **Be Very Considerate**: Remember that, in asking for an informational interview, you’re literally asking someone to put their work on hold to help you. Show your contact you understand this by saying, “I can only imagine how busy you must get, so even 15-20 minutes would be so appreciated.”
+4. **Introduce Yourself**: This is similar to having a hook, the person is much more likely to say yes to chatting if they know who you are! A one sentance bio is all it takes and be sure to mention anything you and the potential interviewee have in common. 
 
-5. **Make Sure You Don't Seem Like You’re Looking for a Job (Even if You Are)**: If you sound like you’re really just looking for a job, there’s a good chance this person will push you to HR or the company’s career page. So be sure to make it clear that you really want to talk to them, to learn about their career history and perspective on the job or industry. After you meet and make a great impression is when you can mention the job hunt.
+5. **Be Very Considerate**: Remember that, in asking for an informational interview, you’re literally asking someone to put their work on hold to help you. Show your contact you understand this by saying, “I can only imagine how busy you must get, so even 15-20 minutes would be so appreciated.”
 
-Ideally, you are able to get the person's email from their LinkedIn profile or another means. You can also put your message in a connection request on LinkedIn as long as it's under 200 characters. 
+6. **Make Sure You Don't Seem Like You’re Looking for a Job (Even if You Are)**: If you sound like you’re really just looking for a job, there’s a good chance this person will push you to HR or the company’s career page. So be sure to make it clear that you really want to talk to them, to learn about their career history and perspective on the job or industry. After you meet and make a great impression is when you can mention the job hunt.
 
-It's tough to condense all five points to 200 characters, but something like the following should work:
+Ideally, you are able to get the person's email from their LinkedIn profile or another means. You can also put your message in a connection request on LinkedIn as long as it's under 300 characters. 
+
+It's tough to condense all five points to 300 characters, but something similar to the following should work:
 
 "Hi Zoe!
 
-I see you also attended Turing and are working in .NET! Would you be up for a 30-minute coffee chat to help me learn what it's like to work as a developer at Orchard? I would so appreciate it!
+I am currently a student at Turing, halfway through the Launch course. I see you also attended Turing and are working in .NET! Would you be up for a 30-minute coffee chat to help me learn what it's like to work as a developer at Orchard? I would so appreciate it!
 "
+
+### Scheduling a Coffee Chat
+
+You've found someone who is happy to chat with you, congrats! Now you need to find a time. I recommend starting by asking something simmilar to "What are some times in the next week that you are free for a 30 minute video chat?". Make sure you two clarify timezones! If you are going to meet in person you can also ask if they have a coffee shop near them that they prefer, but most likely you will be meeting online. 
+
+Once you agree on a time, your interviewee may offer to create a video chat link. If they do not, a good option is to create a google calendar event with Google Meet. Zoom is also free for meetings under 40 minutes.
+
+![Coffee Chat](/assets/images/module4/week3/CoffeeChat.png)
 
 ### Researching the Person and Their Company
 
@@ -136,7 +146,7 @@ Here's what I like to start with:
 
 Here is one example, but definitely make it your own!
 
-"Thank you so much for taking the time to chat with me! I'm currently 5 months into the Turing Launch program and I'm loving it and I've grown so much as a developer, but from class time alone it's hard to get a picture of what it's really like to work on a development team and I know each team is unique. So I'm eager to learn more about what your day-to-day is like and any advice you have for a budding developer like me. I see on your LinkedIn that you worked at ____ then transitioned to ______, could you share more about how you came to work at _____ and your journey as a developer so far?"
+"Thank you so much for taking the time to chat with me! I'm currently 5 months into the Turing Launch program and I'm loving it and I've grown so much as a developer, but from class time alone it's hard to get a picture of what it's really like to work on a development team and I know each team is unique. So I'm eager to learn more about what your day-to-day is like and any advice you have for a budding developer like me. I see on your LinkedIn that you worked at `<enter company here>` then transitioned to `<enter company here>`, could you share more about how you came to work at `<enter company here>` and your journey as a developer so far?"
 
 <section class="call-to-action" markdown="1">
 With your Partner: Take turns kicking off the conversation.

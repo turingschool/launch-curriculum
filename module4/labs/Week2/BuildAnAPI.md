@@ -46,10 +46,10 @@ Now, you will create the API endpoints necessary to CRUD a `Pet` object from the
 
 1. Determine the endpoints you will create, make sure to think about the verb, path, and status code for each outcome!
 
-✅ Send a slack message to your instructors with the endpoints you determine - they will give you the ok to move forward, and/or provide some updates to the endpoints.
+✅ Send a slack message to your instructor with the endpoints you determine - they will give you the ok to move forward, and/or provide some updates to the endpoints.
 
 2. Create the endpoints, being sure to write tests and verify with Postman! It will be helpful to look back at your MVC applications for a refresher 😉
 
-✅ Make sure all your code is committed and pushed to github, then send a link to your forked repository to your instructors!
+✅ Make sure all your code is committed and pushed to github, then send a link to your forked repository to your instructor!
 
 </section>
