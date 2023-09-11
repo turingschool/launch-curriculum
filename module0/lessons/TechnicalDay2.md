@@ -7,7 +7,7 @@ Like yesterday, this is an introduction designed to get you looking at code, get
 
 ### Warm Up
 
-In small groups, take a look at the code below.  Identify as many pieces as you can from [yesterday's technical session](./TechnicalDay1.md).  It is ok if not all of this code makes sense or is familiar!
+In small groups, take a look at the code below.  Identify as many pieces as you can from [yesterday's technical session](./TechnicalDay1.md).  It is OK if not all of this code makes sense or is familiar!
 
 ```c#
 var name = "Megan";
@@ -27,7 +27,7 @@ As humans, we often interact with physical objects in the world; let's call them
 
 We also use non-tangible objects like vocabulary, numbers, and dates which allow us to communicate with each other; let's call these objects `data`.  We can use data to communicate our needs, perform math and statistics, and relate spans of time (and many other tasks!). Using data, we can understand sentences like: On Tuesday, my son will be 12 years old. He is getting 2 lego sets for his birthday.
 
-With objects and data, we have everything we need to accomplish our daily tasks.  But there is one more concept that humans rely on: lists. Lists help us accomplish similar tasks more efficiently.  Let's say I need groceries.  I _could_ go to the grocery store, pick up milk, come home, put the milk away, go to the grocery store, pick up bread, come home, put the bread away, go to the gocery store, pick up coffee, come home, put the coffee away, etc...  While this method would work, it is not very efficient; it is much better to create a list of all the items I need from the grocery store, then use that list at the store to pick up everything I need.
+With objects and data, we have everything we need to accomplish our daily tasks.  But there is one more concept that humans rely on: lists. Lists help us accomplish similar tasks more efficiently.  Let's say I need groceries.  I _could_ go to the grocery store, pick up milk, come home, put the milk away, go to the grocery store, pick up bread, come home, put the bread away, go to the grocery store, pick up coffee, come home, put the coffee away, etc...  While this method would work, it is not very efficient; it is much better to create a list of all the items I need from the grocery store, then use that list at the store to pick up everything I need.
 
 
 ### Things and Computers
@@ -52,12 +52,11 @@ Open [this repl](https://replit.com/@MeganMcMahon1/WorkingWithLists#main.cs) and
 2. Run the program by clicking on the green play button!
 3. Identify as many of the tools you learned about above as you can.  Make a [comment](https://www.w3schools.com/cs/cs_comments.php) above each line where you see something you recognize. You may not recognize everything in this code - that's ok!
 
-** Instructor Note ** Check in with students and ask for volunteers to share their annotated code!
 
 ## Reflection Questions
 Your instructor will create a chat thread for each of the questions below; when you're ready, add your reflection to the thread!
 1. Look around you and see if you can group the objects that you see into one or more lists.  Ex: games, books.
 2. What questions do you have about lists so far?
-3. Imagine you are going to create an application like Instagram; what types of objects will you program need to know about? Take a look at the screenshot below for inspiration!
+3. Imagine you are going to create an application like Instagram; what types of objects will your program need to know about? Take a look at the screenshot below for inspiration!
 
 ![](/module0/images/instagram.png)
