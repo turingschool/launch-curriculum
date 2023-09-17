@@ -17,16 +17,19 @@ In your group of 3-4, share the questions each of you came up with. Then narrow 
 </section>
 
 <aside class="instructor-notes" markdown="1">
-    <p><strong>Instructor Note</strong><br>
-    Other possible questions could be: Why do we use logging? What should I log? Where do we want these logs go? Is logging already a part of .NET or is it some other tool I'll need to learn? <br>
-    We want to direct students to write to a file and the console.</p>
+<p><strong>Instructor Note</strong><br>
+Other possible questions could be: Why do we use logging? What should I log? Where do we want these logs go? Is logging already a part of .NET or is it some other tool I'll need to learn? <br>
+We want to direct students to write to a file and the console.</p>
 </aside>
 
-❓If you were really on a dev team, how might you go about figuring out the answers to these questions?
+<section class="call-to-action" markdown="1">
+With your partner, discuss the following question: If you were really on a dev team, how might you go about figuring out the answers to these questions? <br> <br> <br>When we come back together your instructor will call on folks to share. I encourage you to write down what's share to start building your "Tools for my First Job".
+</section>
+
 
 <aside class="instructor-notes" markdown="1">
-    <p><strong>Instructor Note</strong><br>
-    I want students to consider that they don't have to do all of the research on their own!! I want them to think about the fact that they could ask a fellow dev to sit down and talk about logging for 30 minutes. They could do some preliminary research and then ask to chat live with other Dev when they have some context and more detailed questions. They could also ask if there is another application where logging has already been implemented that they could look at.</p>
+<p><strong>Instructor Note</strong><br>
+I want students to consider that they don't have to do all of the research on their own!! I want them to think about the fact that they could ask a fellow dev to sit down and talk about logging for 30 minutes. They could do some preliminary research and then ask to chat live with other Dev when they have some context and more detailed questions. They could also ask if there is another application where logging has already been implemented that they could look at.</p>
 </aside>
 
 ## Research
@@ -64,24 +67,26 @@ If other questions come up as you are working, post them in the codehelp Slack c
 
 **✅Deliverable✅:** With your partner write up the steps required to log to a file and the console in a .NET application. Include screenshots of what the log file and console log should look like when it's working. A teammate should be able to follow your guide and get an initial message to log. Include any bugs/problems you ran into during set-up so that your teammate can avoid making the same mistake. Send these instructions in a slack message to your instructor.
 <aside class="instructor-notes" markdown="1">
-    <p><strong>Instructor Note</strong><br>These getting started instructions are all it takes, it's only about 3 steps! https://github.com/serilog/serilog/wiki/Getting-Started </p>
+<p><strong>Instructor Note</strong><br>
+These getting started instructions are all it takes, it's only about 3 steps! https://github.com/serilog/serilog/wiki/Getting-Started </p>
 </aside>
 
 Once you complete this deliverable, dive deeper into the world of .NET logging! You want to build the highest quality logging you can in the time block provided. 
 
 <aside class="instructor-notes" markdown="1">
-    <p><strong>Instructor Note</strong><br>I think it would helpful to put a goal time for when students finish this deliverable. I'm thinking about half way through the alloted time for this lesson. To set the expectation that this is just the bare bones, they should definitely keep improving their logging from here. I'd also probably share lal of the guides with the class once ever group has finished.</p>
+<p><strong>Instructor Note</strong><br>
+I think it would helpful to put a goal time for when students finish this deliverable. I'm thinking about half way through the alloted time for this lesson. To set the expectation that this is just the bare bones, they should definitely keep improving their logging from here. I'd also probably share lal of the guides with the class once ever group has finished.</p>
 </aside>
 
 **At some point your instructor will call the class back together to talk through some questions as a group and discuss tradeoffs you have run into.**
 
 <aside class="instructor-notes" markdown="1">
-    <p><strong>Instructor Note</strong><br>
-    Here are the questions:
-    * When should we use a console.log and when should we use logging?
-    * How are you figuring out where to add a log message?
-    * What's one other tradeoff you and your partner have run into so far? What options did you consider? (then group discussion about what others think on this topic)
-    </p>
+<p><strong>Instructor Note</strong><br>
+Here are the questions: <br> <br>
+* When should we use a console.log and when should we use logging?<br><br>
+* How are you figuring out where to add a log message?<br><br>
+* What's one other tradeoff you and your partner have run into so far? What options did you consider? (then group discussion about what others think on this topic)
+</p>
 </aside>
 
 ## Tiny Next Goal
@@ -93,11 +98,11 @@ At every point, you and your partner should have a "Tiny Next Goal" that you're 
 Periodically throughout worktime, I will post a Slack Thread for each group to share the "Tiny Next Goal" they are currently working towards. If your goal feels large, your instructor will encourage you to break it down into an even smaller part. If you're ever stuck on what to have as your next goal, reach out, your instructor will be happy to help.
 
 <aside class="instructor-notes" markdown="1">
-    <p><strong>Instructor Note</strong><br>
-    * The Seralog getting started page is a good resource: https://github.com/serilog/serilog/wiki/Getting-Started
-    * You can also have students look into the different logging levels and when you would use information, error, etc. https://github.com/serilog/serilog/wiki/Writing-Log-Events#log-event-levels
-    * You can have students look into where else the logs can go besides the console and a file. There are tons of different sinks to go to other databases and such. https://github.com/serilog/serilog/wiki/Provided-Sinks
-    * You can have students look into the idea of structured data and how you would write an object to the log, for example. https://github.com/serilog/serilog/wiki/Structured-Data#preserving-object-structure</p>
+<p><strong>Instructor Note</strong><br>
+* The Seralog getting started page is a good resource: https://github.com/serilog/serilog/wiki/Getting-Started<br><br>
+* You can also have students look into the different logging levels and when you would use information, error, etc. https://github.com/serilog/serilog/wiki/Writing-Log-Events#log-event-levels<br><br>
+* You can have students look into where else the logs can go besides the console and a file. There are tons of different sinks to go to other databases and such. https://github.com/serilog/serilog/wiki/Provided-Sinks<br><br>
+* You can have students look into the idea of structured data and how you would write an object to the log, for example. https://github.com/serilog/serilog/wiki/Structured-Data#preserving-object-structure</p>
 </aside>
 
 <section class="call-to-action" markdown="1">
@@ -105,38 +110,68 @@ Your instructor will now drop the pairs into breakout rooms where you will decid
 </section>
 
 <aside class="instructor-notes" markdown="1">
-    <p><strong>Instructor Note</strong><br>I would also run an end of day shareout where students share their screen and share something else interesting they learned about logging.</p>
+<p><strong>Instructor Note</strong><br>I would also run an end of day shareout where students share their screen and share something else interesting they learned about logging.</p>
 </aside>
 
 
-TODO: I have Seralog logging working in MVC movies, will end up linking that here for instructors to see, it's quite quick set up three steps total! The tricky part is there are two big approaches to logging, there are zero-shared-state logger objects that use dependency injection, this is the approach currently in MVC movies. I haven't tried doing this with Seralog yet, I think it's prefered but it's more in depth.
+<aside class="instructor-notes" markdown="1">
+<p><strong>Instructor Note</strong><br>Here is one example of what some logging could look like.
+</p>
+    
+    [Route("Movies/{id:int}")]
+    public IActionResult Show(int? id)
+    {
+        // Logging the start of the action
+        _logger.LogInformation("Show action started with ID: {id}", id);
 
-```c#
-private readonly ILogger<HomeController> _logger;
+        if (id == null)
+        {
+            // Logging a message when id is null
+            _logger.LogWarning("ID is null. Returning NotFoundResult.");
+            return NotFound();
+        }
 
-public HomeController(ILogger<HomeController> logger)
-{
-    _logger = logger;
-}
-```
+        var movie = _context.Movies.Find(id);
+        if (movie == null)
+        {
+            // Logging a message when the movie is not found
+            _logger.LogWarning("Movie with ID {id} not found. Returning NotFoundResult.", id);
+            return NotFound();
+        }
 
-The second option is to make a global static log class.
+        // Logging a message when the movie is found
+        _logger.LogInformation("Found movie with ID: {id}", id);
 
-```c#
-// In Program.cs
-Log.Logger = new LoggerConfiguration().MinimumLevel
+        return View(movie);
+    }
+    
+</aside>
+
+<aside class="instructor-notes" markdown="1">
+<p><strong>Instructor Note</strong><br>
+There are two main approaches to logging in .NET. The first is to make a global static log class. This is what the Seralog guide leads you to do and what I imagine most students will do because it's simplest. </p>
+    // In Program.cs
+    Log.Logger = new LoggerConfiguration().MinimumLevel
     .Debug()
     .WriteTo.Console()
     .WriteTo.File("logs/myapp.txt", rollingInterval: RollingInterval.Day)
     .CreateLogger();
 
-Log.Information("Hello, world!");
+    Log.Information("Hello, world!");
 
-//And in any other file you can put the following. The Log is globally accessible.
-Log.Information("Hello, world!");
-Log.Error("Bad thing happened");
-```
+    //And in any other file you can put the following. The Log is globally accessible.
+    Log.Information("Hello, world!");
+    Log.Error("Bad thing happened");</p>
+    ```
 
-I think most students will stick with the second option because it's simpler, and totally works for our purposes. And that's ok with me! More advanced students we can push to look at the existing logger and these two different patterns.
+    The second approach are zero-shared-state logger objects that use dependency injection, this is the approach currently in MVC movies. I haven't tried doing this with Seralog yet, I think it's prefered but it's more in depth. More advanced students might wonder about the logger that already exists and how to use that structure with Seralog.
 
-Open question: How important is calling `Log.CloseAndFlush();`s. I think it works without it until you are sending the logs to a more fancy sink. Not sure yet where it should go anyways.
+    ```c#
+    private readonly ILogger<HomeController> _logger;
+
+    public HomeController(ILogger<HomeController> logger)
+    {
+        _logger = logger;
+    }
+    
+</aside>
