@@ -9,11 +9,11 @@ title: MVC Maintenance Sprint Project aka "The Level Up Project"
 * Handle navigating a new team and codebase
 
 ## Output Goal
-* An even better project to add to your professional portfolio
+* An even better project to add to your professional portfolio!
 
 ## Overview
 
-Over the past week you've all learned many tools to improve the quality of your applications and level up your .NET MVC skills!
+Over the past week you've all learned many tools to improve the quality of your applications and level up your .NET skills!
 
 These tools include:
 * Error Handling and Validation
@@ -39,57 +39,63 @@ On your future teams, you will probably not spend an entire sprint only on maint
 
 But in a class setting, we mainly focus on new features, so for this project we're going all in on maintenance. You will be adding **no new features** only leveling up what's already there. 
 
-
 ## Project Requirements
 
-I'm thinking of requiring at least one implementation of each of the topics covered per team.
+Each team is responsible for implementing each of the following topics at least once:
 
 * Error Handling and Validation
 * Logging
 * Refactoring
-* Writing Good Documentation
+* Documentation Improvement
 
 You can also work on tasks related to:
 * Fixing bugs
 * Making small improvements to the user experience
 
+Each team must follow a git workflow and create pull requests instead of coding directly on the main branch. Each change must go through code review before merging unless it was build entirely with pair programming.
 
+### Working on a New Team and Codebase
 
-You have to use git workflow, code review before merging. Unless you did pair programming the entire time.
+For days 2, 3 and 4 of the project one team member will swap to a new team for the day. Joining a new team and codebase is HARD, but it's something you will all need to do in your first job and a great learning experience to practice with this skill now.
 
+We will brainstorm as a class at the end of day 1 ways to make this successful. At each day's stand down the team will gather and come up with a plan for welcoming the new member the next day and what would be a good ticket for the new team member to work on.
 
+✅Deliverable✅: Each team is responsible for sending a plan for the new member joining the next day to their team Slack Channel by 4:00pm MT.
 
-Proposed Schedule:
-Before Day 1: Students do a live user research session with a friend or family member, where they ask someone to try out their application and write down pain points and errors. Is this too much? We have given small assignments to start thinking about the project the weekend before in the past so I think it might fit alright.
+*It is the groups responsibility to make sure that the new member feels welcomed and able to contribute.*
 
+✅Deliverable✅: By 4:00pm MT on the day you swapped teams, send your instructors your answers to the following reflection questions:
+* How was this for you, jumping onto a new team and codebase and trying to contribute?
+* What did you and/or your teammates do that made this easier than it could have been?
+* What would you do differently next time?
 
-Day 1 (With the original team): 
-* Define the sprint goals and make tickets (maybe we have a goal of 10 tickets per group), prioritize each issue as low, medium, high priority. 
-* Start working
+## Schedule
 
-Day 2 (One partner swapped):
-* PD Resumes
-* Joining a New Team and Codebase
+**Day 1 (Everyone in original team):**
+* [Sprint Planning](./SprintPlanning)
 * Work Time
+* Class discussion: [Joining a New Team and Codebase](./JoiningANewTeamAndCodebase)
+* Stand Down
 
-Day 3 (One partner swapped):
+**Day 2 (One teammate swaps):**
+* PD: Resumes
+* Stand Up
 * Work Time
-* Assessment, better at start of end of day? Maybe the assessment is another project where they need to do some level ups and explain the why behind the decisions they made? Maybe they have to make one refactor, add one instance of error handling, and improve the documentation?
+* Stand Down
 
-Day 4 (One partner swapped):
+**Day 3 (One teammate swaps):**
+* Weekly Assessment
+* Stand Up
 * Work Time
-* End the day with share outs and retro.
-* I'm imagining this isn't a formal presenation but is more a share 2 to 3 improvements you're group is proud of.
+* Stand Down
 
-
-
-
-## Joining a New Team and Codebase
-
-Here's the sort of out there idea I'd like to try: On Wednesday/Thursday/Monday one person per day (or two one day for the group of three) leaves for another team. 
-
-End of the day they have a written assignment about takeaways, what was hard, what worked, what would they do differently.
-
-We also have a discussion Wednesday before anyone swaps about what the team can do to support someone new and what the swapping person can do. 
-
-Can we make a slack channel for each team that the swapper will join when they swap on?
+**Day 4 (One teammate swaps):**
+* Stand Up
+* Work Time
+* Stand Down
+* Share Outs (back in original team)
+    * `2 * numberOfGroupMembers` minutes per group, then a couple minutes for questions
+    * Not a formal presenation, no need to create a slideshow.
+    * Each student will pick a commit they are proud of and share the commit in github with the class
+    * You can also show the impact of that commit on your app
+* All Class Retro
