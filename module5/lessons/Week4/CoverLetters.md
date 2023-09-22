@@ -168,7 +168,7 @@ If you find yourself with:
 
 * Very long/wordy cover letters, try reading it out loud to find extraneous details. Cut those to make easily skimmable, shorter paragraphs
 * A cover letter that is all about you, try reframing sentences about you by starting the sentence talking about the company and segue into how you can provide value to them based on your experiences and skills
-* Grammar and spelling errors, try [Grammarly](https://www.grammarly.com/) or the [Hemingway App](http://www.hemingwayapp.com/). Reading cover letters aloud or having a peer proofread will also help you catch a lot of those mistakes.
+* Grammar and spelling errors, try [Grammarly](https://www.grammarly.com/) or the [Hemingway App](http://www.hemingwayapp.com/).
 
 ### Cover Letter Next Steps & Resources
 
@@ -184,6 +184,10 @@ You might want to prep a few job listing that are suited for our students, or he
 2. Create a cover letter based on a job description. 
 3. Format, structure, and create your cover letter using the [Cover letter guide and template](https://docs.google.com/document/d/1ctPSIEcZ5nrnfD4y0HlTUH9tdYRscbIjXhMQLjMPzPA/edit)
 4. Have the cover letter ready by Monday of Week 5.
+
+### A Word of Warning...
+
+Cover letters can easily become a time-sink.  As you start your job hunt, remember that a cover letter is only **one part** of the application process.  Before you start your cover letter, set a time limit for writing it, and stick to it!
 
 ### Resources:
 * Here are [additional resources](https://careerdev.turing.edu/resources/cover_letter_resources) and a general checklist to guide your draft.   
