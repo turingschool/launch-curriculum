@@ -52,11 +52,11 @@ You can also work on tasks related to:
 * Fixing bugs
 * Making small improvements to the user experience
 
-Each team must follow a git workflow and create pull requests instead of coding directly on the main branch. Each change must go through code review before merging unless it was build entirely with pair programming.
+Each team must follow a git workflow and create pull requests instead of coding directly on the main branch. Each change must go through code review before merging unless it was built entirely with pair programming.
 
 ### Working on a New Team and Codebase
 
-For days 2, 3 and 4 of the project one team member will swap to a new team for the day. Joining a new team and codebase is HARD, but it's something you will all need to do in your first job and a great learning experience to practice with this skill now.
+For days 2, 3 and 4 of the project one team member (or two one day for a group of 4!) will swap to a new team for the day. Joining a new team and codebase is HARD, but it's something you will all need to do in your first job and a great learning experience to practice with this skill now. Having a new team member join can also be difficult for existing team members as they now have the additional responsibility of helping the new teammate onboard.
 
 We will brainstorm as a class at the end of day 1 ways to make this successful. At each day's stand down the team will gather and come up with a plan for welcoming the new member the next day and what would be a good ticket for the new team member to work on.
 
@@ -83,7 +83,7 @@ We will brainstorm as a class at the end of day 1 ways to make this successful. 
 * Work Time
 * Stand Down
 
-**Day 3 (One teammate swaps):**
+**Day 3 (One teammate swaps, or two if in a group of four):**
 * Weekly Assessment
 * Stand Up
 * Work Time
