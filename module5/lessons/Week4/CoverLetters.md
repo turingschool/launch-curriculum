@@ -77,6 +77,14 @@ If you find yourself with:
 * Grammar and spelling errors, try [Grammarly](https://www.grammarly.com/) or the [Hemingway App](http://www.hemingwayapp.com/). Reading cover letters aloud or having a peer proofread will also help you catch a lot of those mistakes.
 
 ### Cover Letter Next Steps & Resources
+
+<section class='instructor-notes' markdown='1'>
+
+You might want to prep a few job listing that are suited for our students, or help them research one or two jobs they could choose from.  We want them to focus on the cover letter, not the availability of jobs!
+
+</section>
+
+
 ✅ **Deliverable for Cover Letter Lesson:** 
 1. Look for a job description that interests you.
 2. Create a cover letter based on a job description. 
