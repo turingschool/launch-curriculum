@@ -39,27 +39,121 @@ Now, create a connection between you and the company:
 
 #### But, how do I format the cover letter? 
 
+<section class='note' markdown='1'>
+
+Let's use the job post below to practice writing a cover letter together!
+
+</section>
+
+<section class='answer' markdown='1'>
+
+### Software Engineer I - Mesa Natural Gas Solutions
+
+Mesa Natural Gas Solutions, based in Loveland, Colorado, is a leading power solutions company specializing in the manufacturing, sales, leasing, and operations of natural gas and liquid propane-powered mobile and stationary generator sets and microgrids. Mesa’s best-in-class power solutions enable customers to reduce their energy costs and capital expenditures as well as increase reliability and operational up-time, all while lowering emissions and decreasing their carbon footprint. Mesa currently operates across the globe with headquarters and multiple satellite locations in the United States. Today, Mesa provides sustainable power generation for commercial and industrial prime power, microgrids, standby power, and a variety of other global applications.
+
+MISSION  
+To manufacture and provide superior responsible, reliable power solutions to industrial markets.
+
+VISION  
+Enable our customers to reduce capital expenditures, decrease operating expenses and increase their operational runtime.
+
+AWARDS  
+Department of Defense Freedom Award
+ESGR Employer Support Award
+Department of Labor HIRE Vets Medallion Program Platinum Award 2018, 2019, 2020, 2021, and 2022
+
+-------------------------------------------------------------------------------
+
+#### Job Title: Software Engineer I
+**Full Time, Hybrid with 2 days WFH after initial onboarding**  
+Pay: $75,000.00 - $85,000.00 per year  
+
+**Job Description:**  
+As a member of the software engineering team you will work on developing software solutions that best meet the needs of our customers. Under the mentorship of more senior engineers you will participate in all parts of the software development lifecycle. Someone with an interest in building web and mobile applications, the ability to solve problems and provide effective solutions for customers, and a strong desire to learn new programming languages, frameworks and technologies will be the best fit for this position.
+
+**Essential Duties:**  
+With guidance from your mentor you will be expected to.
+* Gather requirements and plan work related to a task.
+* Determine appropriate software design.
+* Implement bug fixes, improvements or new features.
+* Test changes before deployment to production environments.
+* Prepare changes for deployment to production environments.
+
+**Education and Experience**:  
+Required: 
+* Bachelor’s degree from accredited four-year university in Computer Science, Software Engineering or a related field or equivalent experience.
+* 0-2 years of related experience.  
+
+Preferred:   
+* Honorably discharged service veterans.
+
+**Knowledge, Skills, & Abilities:**
+* Self-motivated and a great teammate.
+* Strong communication and organizational skills.
+* Interest in developing web and mobile applications.
+* Proficiency with a high level programming language such as Python, JavaScript, Go, C#, or Java
+* Proficiency with web markup and styling, HTML and CSS.
+* Proficiency with SQL.
+
+</section>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lW0JbWwrj_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-##### First paragraph: The hook 
+### First paragraph: The hook 
 
 * Show why you’re interested in the position
 * Mention how you found out about the opening 
 * State the position you’re applying
 * Use the title from the job listing
 
-##### Middle paragraph: Why you? Why this company? 
+<section class='call-to-action' markdown='1'>
+
+Write a first paragraph for a cover letter for the job post above.  Be ready to share you paragraph in small groups!
+
+</section>
+
+<section class='instructor-notes' markdown='1'>
+
+Give students a few minutes to draft a paragraph, then put them in breakout rooms to share and discuss.  Go to different rooms and pull out examples of what we like to see, and identify some growth areas to share out with the whole class.
+
+</section>
+
+### Middle paragraph: Why you? Why this company? 
 
 * Connect your accomplishments, skills, and knowledge to the position and company
 * Demonstrate the soft skills the role requires by using examples from your experience
 * Tie the company to your experiences
 
+<section class='call-to-action' markdown='1'>
 
-##### Final paragraph: Now, bring the company + you together
+Write a middle paragraph (or two) for a cover letter for the job post above.  Be ready to share you paragraph in small groups!
+
+</section>
+
+<section class='instructor-notes' markdown='1'>
+
+Give students a few minutes to draft a paragraph, then put them in breakout rooms to share and discuss.  Go to different rooms and pull out examples of what we like to see, and identify some growth areas to share out with the whole class.
+
+</section>
+
+
+### Final paragraph: Now, bring the company + you together
 
 * Summarize what you would bring to the position and suggest next steps by requesting a meeting or a call (be specific) 
 * Thank them for reading your materials
 * Ask for an interview
+
+<section class='call-to-action' markdown='1'>
+
+Write the final paragraph for a cover letter for the job post above.  Be ready to share you paragraph in small groups!
+
+</section>
+
+<section class='instructor-notes' markdown='1'>
+
+Give students a few minutes to draft a paragraph, then put them in breakout rooms to share and discuss.  Go to different rooms and pull out examples of what we like to see, and identify some growth areas to share out with the whole class.
+
+</section>
 
 ### Do's and Don'ts on Cover Letters
 
