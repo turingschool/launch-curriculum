@@ -27,9 +27,9 @@ The expectation for Mod 5 is that **you will have two more coffee chats by the e
 
 * What do you want to do differently in your next coffee chat?
 
+3.5 weeks is a long time between assignment and deliverable! This is an opportunity to practice your time management skills. If I were you, I'd use tools such as Slack reminders or Google Calendar tasks to remind myself in a couple of days to follow up with folks I hadn't heard back from.
 
-*If you haven't found two people to chat with by the end of Week 2, reach out to your instructors. In your message, include everyone you tried reaching out to who hasn't responded, there should be at least 8 folks!*
-
+*If you haven't found two people to chat with by the end of Week 2, reach out to your instructors. In your message, include everyone you tried reaching out to who hasn't responded. There should be at least 6 folks!*
 
 ## Let's Get Started!
 
