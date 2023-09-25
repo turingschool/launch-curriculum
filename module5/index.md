@@ -25,6 +25,7 @@ In Module 5, students will begin learn tools to make their MVC applications even
 * Error Handling: [Prep](./preparation/Week1/ErrorHandling) &#124; [Lesson](./lessons/Week1/ErrorHandling) &#124; [Lab](./labs/Week1/ErrorHandling) 
 * Logging: [Prep](./preparation/Week1/Logging) &#124; [Lesson](./lessons/Week1/Logging) &#124; [Lab](./labs/Week1/Logging) 
 * [PD: Talking While Coding](./lessons/Week1/TalkingWhileCoding)
+* [API and SQL Review](./lessons/Week1/APIReview)
 
 ### Week 2
 * Refactoring Patterns: [Prep](./preparation/Week2/RefactoringPatterns) &#124; [Lesson](./lessons/Week2/RefactoringPatterns) &#124; [Lab](./labs/Week2/RefactoringPatterns)
