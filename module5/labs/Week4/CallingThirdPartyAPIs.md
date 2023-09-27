@@ -8,6 +8,10 @@ For today's lab you will be creating a form that when submitted will create an i
 
 Fork and Clone [this](https://github.com/turingschool-examples/IssueSubmitter) starter code. You will see a form has already been created that calls a controller action. You're responsible for filling in the TODOs in the GitHubService and GitHubController to get the form working. 
 
+<aside class="instructor-notes" markdown="1">
+<p><strong>Instructor Note</strong><br>
+There is a branch called  zf-fully-working that has all the necessary code to get this working minus the personal access token.</p>
+</aside>
 You will be working in traditional driver/navigator pair programming for this lab.
 
 ### Set-Up
