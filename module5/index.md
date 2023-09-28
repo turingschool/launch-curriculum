@@ -31,6 +31,9 @@ In Module 5, students will begin learn tools to make their MVC applications even
 * Refactoring Patterns: [Prep](./preparation/Week2/RefactoringPatterns) &#124; [Lesson](./lessons/Week2/RefactoringPatterns) &#124; [Lab](./labs/Week2/RefactoringPatterns)
 * [PD: WritingGoodDocumentation](./lessons/Week2/WritingGoodDocumentation)
 
+### Week 3
+* [PD: GitHub Profiles](./lessons/Week3/GithubProfiles)
+
 ### Week 4
 * [PD: Cover Letters](./lessons/Week4/CoverLetters)
 -->
