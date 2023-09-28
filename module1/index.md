@@ -54,3 +54,9 @@ Students will learn the basics of Object Oriented Programming to build software 
 ### Week 6
 * [Mod 1 Project](./project/Mod1Project)
 * [Peer Feedback](./project/PeerFeedback)
+
+## Calendar (Mountain Time)
+**NOTE**: Instead of copying events, _add this calendar_ to your own! <br>
+To add this calendar, click the "+ Google Calendar" button on the bottom-right side. Then, click "Add".
+
+<iframe src="https://calendar.google.com/calendar/embed?src=c_2o0kim19g8e75ag554m39v2ijs%40group.calendar.google.com&ctz=America%2FDenver&mode=week" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
