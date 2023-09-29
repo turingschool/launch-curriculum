@@ -9,30 +9,29 @@ Students will learn the basics of Object Oriented Programming to build software 
 
 ## Instructors
 
-* Megan McMahon
 * Richard Tillies
-* Zoe Farrell
+* Scott Ertmer
 
 ## Curriculum
 
 ### Week 1
 * Introduction: [Intro to Programming](./lessons/Week1/introToProgramming) &#124; [Intro to Labs](./labs/Week1/IntroToLabs)
-* Note Taking for Technical Content [Lesson](./lessons/Week1/NoteTaking.md)
+* Note Taking for Technical Content: [Lesson](./lessons/Week1/NoteTaking.md)
 * Conditional Logic: [Lesson](./lessons/Week1/ConditionalLogic) &#124; [Lab](./labs/Week1/ConditionalLogic)
 * Data Types and Variables: [Lesson](./lessons/Week1/datatypesAndVariables) &#124; [Lab](./labs/Week1/DatatypesAndVariables)
 * [Week 1 - Check Your Understanding](./lessons/Week1/CFUReview)
 
 
 ### Week 2
-* Collections : [Lesson](./lessons/Week2/Collections) &#124; [Lab](./labs/Week2/Collections)
-* Asking Technical Questions That Lead to Answers [Lesson](./lessons/Week2/AskingTechnicalQuestions)
+* Collections: [Lesson](./lessons/Week2/Collections) &#124; [Lab](./labs/Week2/Collections)
+* Asking Technical Questions That Lead to Answers: [Lesson](./lessons/Week2/AskingTechnicalQuestions)
 * Looping and Iteration: [Lesson](./lessons/Week2/Looping) &#124; [Lab](./labs/Week2/Looping)
 * Methods: [Lesson](./lessons/Week2/Methods) &#124; [Lab](./labs/Week2/Methods)
 * [Week 2 - Check Your Understanding](./lessons/Week2/CFUReview)
 
 ### Week 3
 * Classes: [Lesson](./lessons/Week3/Classes) &#124; [Lab](./labs/Week3/Classes)
-* Productivity + Time MGMT [Lesson](./lessons/Week3/ProductivityTimeMGMT)
+* Productivity + Time Management: [Lesson](./lessons/Week3/ProductivityTimeMGMT)
 * Object Oriented Programming (OOP): [Lesson](./lessons/Week3/OOP) &#124; [Lab](./labs/Week3/OOP)
 * Class Interaction: [Lesson](./lessons/Week3/ClassInteraction) &#124; [Lab](./labs/Week3/ClassInteraction)
 * [Week 3 - Check Your Understanding](./lessons/Week3/CFUReview)
@@ -52,6 +51,12 @@ Students will learn the basics of Object Oriented Programming to build software 
 * [Mod 1 Review](./lessons/Week5/Mod1Review)
 
 ## Mod 1 Project
-
+### Week 6
 * [Mod 1 Project](./project/Mod1Project)
 * [Peer Feedback](./project/PeerFeedback)
+
+## Calendar (Mountain Time)
+**NOTE**: Instead of copying events, _add this calendar_ to your own! <br>
+To add this calendar, click the "+ Google Calendar" button on the bottom-right side. Then, click "Add".
+
+<iframe src="https://calendar.google.com/calendar/embed?src=c_2o0kim19g8e75ag554m39v2ijs%40group.calendar.google.com&ctz=America%2FDenver&mode=week" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
