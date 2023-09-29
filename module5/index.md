@@ -17,20 +17,33 @@ In Module 5, students will begin learn tools to make their MVC applications even
 
 [Intermission Work](./intermission/)
 
-<!-- 
-
+ 
 ### Week 1
 
-* Error Handling: [Prep](./preparation/Week1/ErrorHandling) &#124; [Lesson](./lessons/Week1/ErrorHandling) &#124; [Lab](./labs/Week1/ErrorHandling) 
-* Logging: [Prep](./preparation/Week1/Logging) &#124; [Lesson](./lessons/Week1/Logging) &#124; [Lab](./labs/Week1/Logging) 
-* [PD: Talking While Coding](./lessons/Week1/TalkingWhileCoding)
 * [API and SQL Review](./lessons/Week1/APIReview)
+* Error Handling: [Prep](./preparation/Week1/ErrorHandling) &#124; [Lesson](./lessons/Week1/ErrorHandling) &#124; [Lab](./labs/Week1/ErrorHandling) 
+* Logging: [Prep](./preparation/Week1/Logging) &#124; [Lesson](./lessons/Week1/Logging)
+* [PD: Coffee Chat Kickoff](./lessons/Week1/CoffeeChatKickoff)
+* [PD: Talking While Coding](./lessons/Week1/TalkingWhileCoding)
 
 ### Week 2
 * Refactoring Patterns: [Prep](./preparation/Week2/RefactoringPatterns) &#124; [Lesson](./lessons/Week2/RefactoringPatterns) &#124; [Lab](./labs/Week2/RefactoringPatterns)
-* [PD: WritingGoodDocumentation](./lessons/Week2/WritingGoodDocumentation)
+* [Writing Good Documentation](./lessons/Week2/WritingGoodDocumentation)
+* [MVC Maintenance Sprint Project aka "The Level Up Project"](./projects/MVCLevelUp)
+* [PD: Resumes](./lessons/Week2/Resumes)
+
+### Week 3
+* Authentication
+* Authorization
+* PD: Github Profiles
 
 ### Week 4
+* Calling Third Party APIs
+* API Documentation
+* Process Optimization (Big O)
 * [PD: Cover Letters](./lessons/Week4/CoverLetters)
--->
+
+### Weeks 5 & 6
+Project
+* PD: LinkedIn Activity
 
