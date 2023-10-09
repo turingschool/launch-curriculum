@@ -48,7 +48,7 @@ Check out a new branch, and create the following endpoints:
 
 ## Create a Booking
 
-<section class='call-to-action'>
+<section class='call-to-action' markdown='1'>
 
 Check out a new branch, and implement the following client request:  
 
@@ -61,7 +61,7 @@ Check out a new branch, and implement the following client request:
 
 ## 🌶️ List Daily Bookings
 
-<section class='call-to-action'>
+<section class='call-to-action' markdown='1'>
 
 Check out a new branch, and implement the following client request:  
 
@@ -74,7 +74,7 @@ Check out a new branch, and implement the following client request:
 
 ## 🌶️🌶️ Member Landing Page
 
-<section class='call-to-action'>
+<section class='call-to-action' markdown='1'>
 
 Check out a new branch, and implement the following client request:  
 
