@@ -16,9 +16,9 @@ Students will learn the basics of Object Oriented Programming to build software 
 
 ### Week 1
 * Introduction: [Intro to Programming](./lessons/Week1/introToProgramming) &#124; [Intro to Labs](./labs/Week1/IntroToLabs)
-* Note Taking for Technical Content: [Lesson](./lessons/Week1/NoteTaking.md)
+* Data Types and Variables: [Lesson](./lessons/Week1/DatatypesAndVariables) &#124; [Lab](./labs/Week1/DatatypesAndVariables)
 * Conditional Logic: [Lesson](./lessons/Week1/ConditionalLogic) &#124; [Lab](./labs/Week1/ConditionalLogic)
-* Data Types and Variables: [Lesson](./lessons/Week1/datatypesAndVariables) &#124; [Lab](./labs/Week1/DatatypesAndVariables)
+* Note Taking for Technical Content: [Lesson](./lessons/Week1/NoteTaking.md)
 * [Week 1 - Check Your Understanding](./lessons/Week1/CFUReview)
 
 
