@@ -40,7 +40,7 @@ Check out a new branch, and create the following endpoints:
     * 🌶️optional: you could set the member as 'inactive' to preserve data history.  This will require more than an endpoint 😉  
 
 
-✅Create a Pull Request, and ask one of your cohort-mates to review it before merging.
+✅Create a Pull Request, and ask one of your cohort-mates to review it before merging.  
 ✅Send a link to your PR to your instructors!
 
 </section>
@@ -50,9 +50,9 @@ Check out a new branch, and create the following endpoints:
 
 <section class='call-to-action'>
 
-Check out a new branch, and implement the following client request:
+Check out a new branch, and implement the following client request:  
 
-"We need an endpoint that will create a new booking."  
+"We need an endpoint that will create a new booking."    
 
 ✅Create a Pull Request, and ask one of your cohort-mates to review it before merging.  
 ✅Send a link to your PR to your instructors!  
@@ -63,11 +63,11 @@ Check out a new branch, and implement the following client request:
 
 <section class='call-to-action'>
 
-Check out a new branch, and implement the following client request:
+Check out a new branch, and implement the following client request:  
 
-"We need endpoints that will list the bookings schedule for today, and all those in the upcoming week."  
+"We need endpoints that will list the bookings schedule for today, and all those in the upcoming week."    
 
-✅Create a Pull Request, and ask one of your cohort-mates to review it before merging.  
+✅Create a Pull Request, and ask one of your cohort-mates to review it before merging.    
 ✅Send a link to your PR to your instructors!  
 
 </section>
@@ -76,16 +76,16 @@ Check out a new branch, and implement the following client request:
 
 <section class='call-to-action'>
 
-Check out a new branch, and implement the following client request:
+Check out a new branch, and implement the following client request:  
 
-"We want our members to be able to create their own bookings with a user-friendly form"
+"We want our members to be able to create their own bookings with a user-friendly form"  
 
-**Important** This request will take much more than creating an endpoint.  We strongly encourage you to outline your design of this feature _before_ starting.  Be sure to consider the following:
-* What controller should handle this responsibility?
-* Are there database implications to allowing users to create bookings?
-* Are there any security risks?
+**Important** This request will take much more than creating an endpoint.  We strongly encourage you to outline your design of this feature _before_ starting.  Be sure to consider the following:  
+* What controller should handle this responsibility?  
+* Are there database implications to allowing users to create bookings?  
+* Are there any security risks?  
 
-✅Create a Pull Request, and ask one of your cohort-mates to review it before merging.  
+✅Create a Pull Request, and ask one of your cohort-mates to review it before merging.    
 ✅Send a link to your PR to your instructors!  
 
 </section>
