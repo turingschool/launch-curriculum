@@ -19,7 +19,7 @@ It's our job as developers to identify, manage, and respond to these situations.
 
 ## Set-Up
 
-Today we're going to revisit the MVC Movies Application from Mod 3. Rre-clone it [here](https://github.com/turingschool-examples/MvcMovieStarter) (you may need to re-name the directory). Then check out the branch `read-related-resources`. Start the application up and make sure it runs successfully!
+Today we're going to revisit the MVC Movies Application from Mod 3. Rre-fork and clone it [here](https://github.com/turingschool-examples/MvcMovieStarter) (you may need to re-name the directory). Then check out the branch `read-related-resources`. Start the application up and make sure it runs successfully!
 
 ## Ways Applications Can Break!
 
