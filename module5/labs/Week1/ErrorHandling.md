@@ -13,7 +13,7 @@ With a partner, add null validation throughout the rest of your MVCMovies applic
 
 ### Step 2: Adding Validation
 
-With a partner, add validations throughout your MVCMovies application.
+With a partner, add validations throughout your MVCMovies application.  When working on the Review validations, you will need to add `New` and `Create` actions; this is great practice for creating related resources in an MVC app!
 
 ✅ Invite your instructor into your room to verify!
 
