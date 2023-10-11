@@ -7,7 +7,7 @@ In today's lab, we are going to continue adding Error Handling to our MVC Movies
 
 ### Step 1: Adding Null Checking
 
-With a partner, pair program to add null validation throughout the rest of your MVCMovies application.
+With a partner, add null validation throughout the rest of your MVCMovies application.
 
 ✅ Invite your instructor into your room to verify!
 
