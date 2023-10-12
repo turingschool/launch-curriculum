@@ -38,7 +38,7 @@ In Module 5, students will begin learn tools to make their MVC applications even
 * PD: Github Profiles
 
 ### Week 4
-* Calling Third Party APIs
+* Calling Third Party APIs: [Prep](./preparation/Week4/CallingThirdPartyAPIs) &#124; [Lesson](./lessons/Week4/CallingThirdPartyAPIs) &#124; [Lab](./labs/Week4/CallingThirdPartyAPIs) 
 * API Documentation
 * Process Optimization (Big O)
 * [PD: Cover Letters](./lessons/Week4/CoverLetters)
