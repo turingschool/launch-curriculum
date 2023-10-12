@@ -48,9 +48,11 @@ As you work through the tutorial, add comments to specify what each part of your
 
 As with all tutorials, you have to expect it might not work perfectly and you might need to do some debugging to get your code to work! If you're stuck on something for more than 5 or 10 minutes reach out to your peers in code-help!
 
-Deliverable✅: Once you have finished the tutorial, send a message to your instructor with your answer to the following question:
+Deliverable✅: Once you have finished the tutorial, send the following two things in a message to your instructor:
 
-* When is learning from a tutorial helpful and when is it not helpful? (This can be both about a particular tutorial and about where you are with your coding experience!)
+* A screenshot of using your app to find holidays for a country other than the US.
+
+* Your answer to the question: When is learning from a tutorial helpful and when is it not helpful? (This can be both about a particular tutorial and about where you are with your coding experience!)
 
 It might be helpful to think about why we had you learn from a tutorial this week instead of last week for the auth lessons.
 
