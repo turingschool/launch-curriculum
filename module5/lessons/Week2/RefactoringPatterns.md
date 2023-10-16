@@ -31,10 +31,10 @@ We do want students to make a connection between the SOLID principles and OOP.  
 **Small Group Round Table**
 In groups of 5(ish), you and your peers will learn about and discuss each of the 5 SOLID principles.  Your instructor will split you into groups of 5, and assign each of you one of the principles to research.  
 
-You will have 20 minutes to learn as much as you can about your principle; as you research, consider the following:
-    * Have you seen this principle being practiced in a lab, project, or lesson?
-    * What analogy could you use to explain this principle to your peers?
-    * Find or create an example of this principle in C# - make sure you understand what each line of code is doing!
+You will have 20 minutes to learn as much as you can about your principle; as you research, consider the following:  
+ * Have you seen this principle being practiced in a lab, project, or lesson?  
+ * What analogy could you use to explain this principle to your peers?  
+ * Find or create an example of this principle in C# - make sure you understand what each line of code is doing!  
 
 After your individual research, you will have 30 minutes to discuss the 5 principles in your groups.  Make sure you ask questions of your peers as they present - you want to come away with as much understanding of these principles as you can! (though we do not expect you to be experts 🙂)
 
