@@ -33,7 +33,7 @@ Take a few minutes and see if you can find some other developers with great GitH
 
 ### What To Include
 
-A great GitHub profile should be all about YOU.  So, what to include will depend on each developer - you will see a ton of variety as you look around at other people's profiles.  What you include on your profile also depends on your goal; are you building a brand? lookinf or a job? trying to grow your community?  These are questions that can influence what you include on your profile.
+A great GitHub profile should be all about YOU.  So, what to include will depend on each developer - you will see a ton of variety as you look around at other people's profiles.  What you include on your profile also depends on your goal; are you building a brand? looking for a job? trying to grow your community?  These are questions that can influence what you include on your profile.
 
 Since we are all looking for a job, there are definitely some things that you will want to have:
 * A personal statement
