@@ -19,7 +19,7 @@ It's our job as developers to identify, manage, and respond to these situations.
 
 ## Set-Up
 
-Today we're going to revisit the MVC Movies Application from Mod 3. Find the repo locally or re-clone it [here](https://github.com/turingschool-examples/MvcMovieStarter). Then check out the branch `read-related-resources`. Start the application up and make sure it runs successfully!
+Today we're going to revisit the MVC Movies Application from Mod 3. Rre-fork and clone it [here](https://github.com/turingschool-examples/MvcMovieStarter) (you may need to re-name the directory). Then check out the branch `read-related-resources`. Start the application up and make sure it runs successfully!
 
 ## Ways Applications Can Break!
 
@@ -28,6 +28,8 @@ There are so many things that might cause an application to throw an error!
 <aside class="instructor-notes" markdown="1">
     <p><strong>Instructor Note</strong><br>
     I recommend starting the board with a couple stickies. I started with "The database password has changed" and "The user tries to input the wrong type of data (e.g. a string for an integer field)"</p>
+
+   Might be best to create a new copy of this jamboard for each cohort!
 </aside>
 Let's fill in [this](https://jamboard.google.com/d/1ggm_xNZFJJ1P4qQQ5PngRbSMsobha4cCvZuXHQh0XmY/edit?usp=sharing) Jamboard with some of these ways.
 
@@ -68,7 +70,7 @@ Can I get a show of hands, who has seen something like this before?
 <section class="call-to-action" markdown="1">
 With your partner discuss the following questions: 
 
-* Is a good user experience? Why or why Not? 
+* Is this a good user experience? Why or why Not? 
 * What would make this user experience better?
 </section>
 
@@ -290,7 +292,7 @@ We need to allow a movie to get passed into our view and display any available v
 It's out of scope of this lesson, but if you want to display what the user previous input I recommend looking into 
 .NET tag helpers, specifically [asp-for](https://learn.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=aspnetcore-5.0#the-input-tag-helper).
 
-This type of validation we implemented is called **server-side validation**. because the validation occurs in the web server after the client has submitted their information. There is another type of validation called **client-side validation** that takes place in the browser. You can learn more about .NET client-side validation in [this article](https://andrewlock.net/adding-client-side-validation-to-aspnet-core-without-jquery-or-unobtrusive-validation/).
+This type of validation we implemented is called **server-side validation**. because the validation logic is sent to the view from the server. There is another type of validation called **client-side validation** that takes place in the browser. You can learn more about .NET client-side validation in [this article](https://andrewlock.net/adding-client-side-validation-to-aspnet-core-without-jquery-or-unobtrusive-validation/).
 
 
 ## Try/Catch Blocks

@@ -7,23 +7,23 @@ In today's lab, we are going to continue adding Error Handling to our MVC Movies
 
 ### Step 1: Adding Null Checking
 
-First check out a new branch. Then add null checking throughout the rest of the application.
+With a partner, add null validation throughout the rest of your MVCMovies application.
 
-Once you think your application is thoroughly null-checked, create a PR and have a code review session with a peer.
+✅ Invite your instructor into your room to verify!
 
 ### Step 2: Adding Validation
 
-First check out a new branch. Then add validations throughout the rest of the application.
+With a partner, add validations throughout your MVCMovies application.  When working on the Review validations, you will need to add `New` and `Create` actions; this is great practice for creating related resources in an MVC app!
 
-Once you think your application is thoroughly validated, create a PR and have a code review session with a peer.
+✅ Invite your instructor into your room to verify!
 
 ### Step 3: Sad Path Testing
 
-First check out a new branch. Then spend five minutes researching "Sad path testing". Send a description of sad path testing in your own words to all instructors.
+Spend ten to fifteen minutes researching "Sad path testing". Send a description of sad path testing in your own words to all instructors.
 
 Then add two "Sad path" tests to your application.
 
-Once you have added your tests, create a PR and have a code review session with a peer.
+✅ Send a screenshot of your tests to your instructors!
 
 
 <aside class="instructor-notes" markdown="1">

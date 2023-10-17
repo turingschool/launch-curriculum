@@ -19,15 +19,11 @@ Implement the following refactoring patterns.  Check out a new branch (from main
 
 In your submission, we will ask for some reflection on each, so it would be helpful to keep notes as you go!
 
-[ ] Extract Interfaces
-
-[ ] Extract Methods
-
-[ ] 🌶️ Move Methods
-
-[ ] 🌶️🌶️ Extract Classes (We didn't cover this one in class!)
-
-[ ] 🌶️🌶️🌶️ Any other refactoring pattern that you think would make this code better
+* [ ] Extract Interfaces
+* [ ] Extract Methods
+* [ ] 🌶️ Move Methods
+* [ ] 🌶️🌶️ Extract Classes (We didn't cover this one in class!)
+* [ ] 🌶️🌶️🌶️ Any other refactoring pattern that you think would make this code better
 
 As you refactor, keep in mind that refactors **should not** cause any existing tests to break.  You may need to add tests, but you should not remove or change any existing tests.
 
