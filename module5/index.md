@@ -17,7 +17,6 @@ In Module 5, students will begin learn tools to make their MVC applications even
 
 [Intermission Work](./intermission/)
 
- 
 ### Week 1
 
 * [API and SQL Review](./lessons/Week1/APIReview)
@@ -35,7 +34,7 @@ In Module 5, students will begin learn tools to make their MVC applications even
 ### Week 3
 * Authentication
 * Authorization
-* PD: Github Profiles
+* [PD: GitHub Profiles](./lessons/Week3/GithubProfiles)
 
 ### Week 4
 * Calling Third Party APIs: [Prep](./preparation/Week4/CallingThirdPartyAPIs) &#124; [Lesson](./lessons/Week4/CallingThirdPartyAPIs) &#124; [Lab](./labs/Week4/CallingThirdPartyAPIs) 
