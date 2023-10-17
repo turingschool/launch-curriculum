@@ -11,14 +11,11 @@ In Module 5, students will begin learn tools to make their MVC applications even
 ## Instructors
 
 * Megan McMahon
-* Richard Tillies
 * Zoe Farrell
 
 ## Curriculum
 
 [Intermission Work](./intermission/)
-
-<!-- 
 
 ### Week 1
 
@@ -36,5 +33,4 @@ In Module 5, students will begin learn tools to make their MVC applications even
 
 ### Week 4
 * [PD: Cover Letters](./lessons/Week4/CoverLetters)
--->
 
