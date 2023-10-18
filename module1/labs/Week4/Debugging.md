@@ -92,10 +92,3 @@ Total: $46.64
     <li>23> Instead of replacing `", "`, they should repleace `"\n"` to get the correct price calculation.</li>
   </ul>
 </aside>
-
-## Preparation
-
-Individually, spend 10-15 minutes reflecting on the following questions. Take notes on your reflection to share out in tomorrow's lesson warm-up.
-
-* Up to now, how have you known if your code was functioning?
-* Imagine you are a developer working at Google; what might be some drawbacks to your current approach?
