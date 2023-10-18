@@ -212,6 +212,7 @@ In any looping statement, we refer to each *loop* as an **iteration**.  Each tim
 > {
 >   Console.WriteLine($"Counter is: {counter}");
 > }
+>```
 
 
 ### Check for Understanding
