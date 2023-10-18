@@ -26,7 +26,7 @@ Students will learn the basics of Object Oriented Programming to build software 
 * Collections: [Lesson](./lessons/Week2/Collections) &#124; [Lab](./labs/Week2/Collections)
 * Asking Technical Questions That Lead to Answers: [Lesson](./lessons/Week2/AskingTechnicalQuestions)
 * Looping and Iteration: [Lesson](./lessons/Week2/Looping) &#124; [Lab](./labs/Week2/Looping)
-* Methods: [Lesson](./lessons/Week2/Methods) &#124; [Lab](./labs/Week2/Methods)
+* Methods: [Prep](./preparation/Week2/Methods) [Lesson](./lessons/Week2/Methods) &#124; [Lab](./labs/Week2/Methods)
 * [Week 2 - Check Your Understanding](./lessons/Week2/CFUReview)
 
 ### Week 3
