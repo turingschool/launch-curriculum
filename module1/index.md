@@ -26,24 +26,24 @@ Students will learn the basics of Object Oriented Programming to build software 
 * Collections: [Lesson](./lessons/Week2/Collections) &#124; [Lab](./labs/Week2/Collections)
 * Asking Technical Questions That Lead to Answers: [Lesson](./lessons/Week2/AskingTechnicalQuestions)
 * Looping and Iteration: [Lesson](./lessons/Week2/Looping) &#124; [Lab](./labs/Week2/Looping)
-* Methods: [Prep](./preparation/Week2/Methods) [Lesson](./lessons/Week2/Methods) &#124; [Lab](./labs/Week2/Methods)
+* Methods: [Prep](./preparation/Week2/Methods) &#124; [Lesson](./lessons/Week2/Methods) &#124; [Lab](./labs/Week2/Methods)
 * [Week 2 - Check Your Understanding](./lessons/Week2/CFUReview)
 
 ### Week 3
-* Classes: [Prep](./preparation/Week3/Classes) [Lesson](./lessons/Week3/Classes) &#124; [Lab](./labs/Week3/Classes)
+* Classes: [Prep](./preparation/Week3/Classes) &#124; [Lesson](./lessons/Week3/Classes) &#124; [Lab](./labs/Week3/Classes)
 * Productivity + Time Management: [Lesson](./lessons/Week3/ProductivityTimeMGMT)
 * Object Oriented Programming (OOP): [Lesson](./lessons/Week3/OOP) &#124; [Lab](./labs/Week3/OOP)
 * Class Interaction: [Lesson](./lessons/Week3/ClassInteraction) &#124; [Lab](./labs/Week3/ClassInteraction)
 * [Week 3 - Check Your Understanding](./lessons/Week3/CFUReview)
 
 ### Week 4
-* Intro to IDE: [Prep](./preparation/Week4/IDE) [Lesson](./lessons/Week4/IntroToIDE) &#124; [Lab](./labs/Week4/IntrotoIDE)
-* Debugging: [Prep](./preparation/Week4/Debugging) [Lesson](./lessons/Week4/Debugging) &#124; [Lab](./labs/Week4/Debugging)
-* Unit Testing, Part 1: [Prep](./preparation/Week4/UnitTesting) [Lesson](./lessons/Week4/UnitTestingI) &#124; [Lab](./labs/Week4/UnitTestingI)
+* Intro to IDE: [Prep](./preparation/Week4/IDE) &#124; [Lesson](./lessons/Week4/IntroToIDE) &#124; [Lab](./labs/Week4/IntrotoIDE)
+* Debugging: [Prep](./preparation/Week4/Debugging) &#124; [Lesson](./lessons/Week4/Debugging) &#124; [Lab](./labs/Week4/Debugging)
+* Unit Testing, Part 1: [Prep](./preparation/Week4/UnitTesting) &#124; [Lesson](./lessons/Week4/UnitTestingI) &#124; [Lab](./labs/Week4/UnitTestingI)
 * [Week 4 - Check Your Understanding](./lessons/Week4/CFUReview)
 
 ### Week 5
-* Unit Testing, Part 2: [Prep](./preparation/Week5/UnitTestingII.md) [Lesson](./lessons/Week5/UnitTestingII) &#124; [Lab](./labs/Week5/UnitTestingII)
+* Unit Testing, Part 2: [Prep](./preparation/Week5/UnitTestingII.md) &#124; [Lesson](./lessons/Week5/UnitTestingII) &#124; [Lab](./labs/Week5/UnitTestingII)
 * Scope: [Lesson](./lessons/Week5/Scope)
 * Refactoring: [Lesson](./lessons/Week5/Refactoring) &#124; [Lab](./labs/Week5/Refactoring)
 * Using Technical Terminology: [Lesson](./lessons/Week5/TechnicalTerminology)
