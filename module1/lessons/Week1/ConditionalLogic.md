@@ -32,6 +32,13 @@ We can use them like so:
 
 ![Image of Comparison Operators in action](/assets/images/module1/Week1/ComparisonOperators.png)
 
+<section class="call-to-action" markdown="1">
+### A Quick Review
+- In the example above, what's the purpose of the `$` and the `{}`?
+- Is this concatenation or interpolation? What might you google if you aren't sure?
+
+</section>
+
 ## Using `!` 
 
 You can also use the negation operator `!` (also known as a "bang") to reverse something from true to false. The "bang" will always return the opposite boolean of the boolean that is returned from a method or variable. I use the word `not` in my head in conjunction with the negation operator.
