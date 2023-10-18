@@ -36,9 +36,18 @@ What types of activity could you do that would then show up in this section?
 
 * Comment, like, and repost!
     * Look for content you agree and would want associated with your developer identity you're building.
-* Post something!
-    * Some ideas are: a short reflection, a link to and explanation of a project you're proud of, a technical blog post, a short Today I Learned
-* You could try utilizing ChatGPT to come up with ideas
+* Post something! Here is a great list of post types to get you started that Tom shared [here](https://www.linkedin.com/feed/update/urn:li:activity:7120815349628895232/)!
+    * Nuggets of wisdom: “Today I learned that you can…”
+
+    * Helpful resources: “[Insert resource] is an excellent practice resource for…” 
+
+    * Crowdsourcing: “Does anyone know how to…?”
+
+    * Upcoming events: “Check out the [insert event] happening on Tuesday…”
+
+    * Repost with context: “I highly recommend following [tag person who posts helpful content] for great insights on [insert topic]! For example, check out this recent post:”
+
+    * Milestones: “Excited to be participating in [insert event]...”
 
 [Here](https://www.linkedin.com/in/nicolemgooden/) is a good example of activity from a Turing Grad! [Here](https://www.linkedin.com/in/landon-spell/recent-activity/all/) is another example of showing quick TIL style content. 
 
