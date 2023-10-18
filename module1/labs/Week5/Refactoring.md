@@ -25,9 +25,3 @@ For today's exercise, you will:
 3. Spend 40 minutes refactoring the code to better adhere to SRP
 
 Be Prepared to share out the responsibilities you identified, and the refactors you have made (or are making).  We will come together periodically as a group to share and discuss.
-
-## Preparation
-
-In your noteboook, reflect on the following:
-1. During the lesson and this lab, how did you know if your refactor was or was not breaking the function of the program?
-2. What if these examples had included tests?  Would that have impacted your ability to refactor the code?  Why or why not?

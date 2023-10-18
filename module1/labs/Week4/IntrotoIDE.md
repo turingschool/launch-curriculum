@@ -62,7 +62,3 @@ For example:
     * Nominate 1 person to share out 1 interesting thing your group discussed.
 
 **Keep an eye on Slack** We will be coming together to discuss your reflections!
-
-## Preparation
-
-Tomorrow, we are going to be discussing **debugging**.  Spend 5-10 minutes googling to come up with a definition of **debugging**; you could try phrases like `what is a bug in programming?`, `debugging code`, `c# debugging tools`.  In your notebook, write out your definition of debugging.

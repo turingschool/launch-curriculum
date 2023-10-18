@@ -98,17 +98,3 @@ console.WriteLine(jwords);
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br> We want to highlight student solutions to the first 3 exercises, and discuss good examples of psuedo-code for the last 3 exercises.</p>
 </aside>
-
-
-## Preparation
-### Namespaces
-
-As our programs get more complex, we will start working with more built-in c# tools and we will start writing code in multiple files.  With the increased complexity, we will need to be intentional about how we organize the code that we write.  One way that c# helps us with this organization is with `namespaces`.  Read through the two resources listed below:
-
-* [Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/namespaces)
-* [Tutorials Point](https://www.tutorialspoint.com/csharp/csharp_namespaces.htm)
-
-And, answer these questions in your notebook:
-* Why do we use the line `using System;` at the top of our program.cs file?
-* Is `using System;` required for our programs to execute?  Why, or why not?
-* In your own words, what is a `namespace`?
