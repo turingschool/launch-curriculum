@@ -9,8 +9,10 @@ So far, we've used basic data types like `strings`, `bool`'s, and `int`'s or `do
 
 <section class="call-to-action" markdown="1">
 ### In Your Notebook
-- What are some `properties` the user might have? These are piece of data like `username`, `friends` or `age` - brainstorm at least three more properties.
+- What are some `properties` the user might have? These are piece of data like `username`, `friends` or `age` - brainstorm at least three more properties and what their datatype might be.
 - What are some `behaviors` or actions a user needs to be able to take? Brainstorm at least three more behaviors.
+
+It would be a nightmare to track all of this data in separate variables. This is where `Classes` come into play. Do some research and write down your current definition of what a `Class` is in C#.
 </section>
 
 ## Namespaces
