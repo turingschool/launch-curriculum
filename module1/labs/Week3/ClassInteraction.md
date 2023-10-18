@@ -62,7 +62,7 @@ List<string> allBooksTitles = denverPublicLibrary.AllBooks();
 // { "To Kill a Mockingbird", "Mockingjay", "The Fault In Our Stars", "Catching Fire",  "The Hunger Games" }
 ```
 
-**Keep nn Eye on Slack!** We will be coming back together a few times to answer questions and any common issues that are coming up.
+**Keep an Eye on Slack!** We will be coming back together a few times to answer questions and any common issues that are coming up.
 
 
 
