@@ -17,8 +17,8 @@ Up to this point, we have worked with single pieces of data: a string, a number,
 
 The most common method to manage a list of data is an **Array**. A C# array allows you to store a sequence of values in a single data structure. In other words, an array is a single variable that can hold many values. 
 
-Work through [this arrays tutorial](
-https://docs.microsoft.com/en-us/learn/modules/csharp-arrays/1-introduction) (including the Knowledge Check at the end!)
+Fork and Work through [this arrays tutorial](
+https://replit.com/@launch-team/Arrays-Practice#main.cs) 
 
 In your notebook, answer the following questions:
   * What is an array?
