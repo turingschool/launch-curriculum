@@ -43,7 +43,7 @@ Students will learn the basics of Object Oriented Programming to build software 
 * [Week 4 - Check Your Understanding](./lessons/Week4/CFUReview)
 
 ### Week 5
-* Unit Testing, Part 2: [Lesson](./lessons/Week5/UnitTestingII) &#124; [Lab](./labs/Week5/UnitTestingII)
+* Unit Testing, Part 2: [Prep](./preparation/Week5/UnitTestingII.md) [Lesson](./lessons/Week5/UnitTestingII) &#124; [Lab](./labs/Week5/UnitTestingII)
 * Scope: [Lesson](./lessons/Week5/Scope)
 * Refactoring: [Lesson](./lessons/Week5/Refactoring) &#124; [Lab](./labs/Week5/Refactoring)
 * Using Technical Terminology: [Lesson](./lessons/Week5/TechnicalTerminology)
