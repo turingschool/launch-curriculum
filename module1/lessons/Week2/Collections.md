@@ -67,7 +67,7 @@ Just like arrays, a list can only contain **elements** of the same type - this i
 <!-- At this point do students have a way to validate if they successfully completed the task? I'm not seeing how. We might need to move the foreach console.writeline part up? -->
 > With a partner, take a look at the resources linked below, and see if you can accomplish the following:  
 > 1. Create a new replit called'Collections practice'
-> 2. Add this line to the replit on line 2 - right under the `using.System` on line 1: `using.System.Collections.Generic`
+> 2. Add this line to the replit on line 2 - right under the `using.System` on line 1: `using System.Collections.Generic`
 > 3. In 'Program.cs', create a variable `dogBreeds` that holds a `List<string>` of breeds (you can use the data from the example above)
 > 4. [Resource](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections#BKMK_SimpleCollection): Add another dog breed to `dogBreeds`.
 > 5. [Resource](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections#BKMK_SimpleCollection): Remove "poodle" from the list.
