@@ -127,7 +127,7 @@ In order to see Role based authenticaion in action we need to:
 * Create Roles
 * Assign Roles to Users
 
-In the past, we have created forms to add records to our database throug a web application - why might we not want to do that for roles?  At some point, a role will have to be assigned by a developer.  
+In the past, we have created forms to add records to our database through a web application - why might we not want to do that for roles?  At some point, a role will have to be assigned by a developer.  
 
 Think of an application like Amazon.  If you are a merchant on Amazon, you must be registered with the company.  Once registered, you may be able to create your own employee-users, but the initial setup will always be done by Amazon (or, a developer at Amazon).  So, it will be common to manage Roles from the database - using SQL!
 
@@ -146,6 +146,8 @@ Think of an application like Amazon.  If you are a merchant on Amazon, you must 
 </section>
 
 <section class='instructor-notes' markdown='1'>
+
+Before moving on, make sure that students have set things up correctly - ask for a chat waterfall of the SQL queries, if any look wonky, take the time now to debug!
 
 SQL Query for assigning Admin to a user in the database (by id):
 
@@ -190,11 +192,11 @@ So, while there is funtionality included in the Identity Framework to handle Cla
 
 <section class='call-to-action' markdown='1'>
 
-In small groups, design a solution for the following scenario.  You do not need to implement the solution just yet, but come up with some high-level structures for how you might achieve this goal.
+In small groups, design a solution for the following scenario.  You may use claims, roles, or any other strategy to accomplish this!  You do not need to implement the solution just yet, but come up with some high-level structures for how you might achieve this goal.
 
 ### The Scenario
 
-We want to use claims to control an 'easter egg' for our application.  When a user has exactly 7 messages created, they should get a special link to a special page only for our "lucky 7" users.
+We want to use claims to control an 'easter egg' for our application.  When a user has exactly 7 messages created, they should get see a link in the nav-bar to a special page only for our "lucky 7" users.
 
 ✅When your group has a design planned, reach out to an instructor for approval.
 
@@ -207,6 +209,6 @@ Individually, implement the design your group came up with - use each other as r
 </section>
 
 ## Checks for Understanding
-* Imagine you are talking to someone in Mod2 - they have just built their first MVC web application. How would you explain the differences between Authentication and Authorization?
+* Imagine you are talking to someone in Mod3 - they have just built their first MVC web application. How would you explain the differences between Authentication and Authorization?
 * In your own words, what is a user claim?
 * Could a user have multiple roles? Why or Why not?

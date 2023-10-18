@@ -71,7 +71,7 @@ In order to use the Identity API, we need to configure our Database Context to b
 
     namespace IdentityMessageBoard.DataAccess
     {
-        public class MessageBoardContext : IdentityDbContext
+        public class MessageBoardContext : IdentityDbContext // this line needs to be updated!
         {
             public DbSet<Message> Messages { get; set; }
 
@@ -249,6 +249,9 @@ As a logged in user
 When I create a new message
 Then my email address shows up on the Messages index, next to that message.
 ```
+
+**Step One**: Psuedo-code / plan the changes that you will need to make.  Take about 10 minutes for this, and then we will come together to discuss.
+**Step Two**: Implement your plan!
 
 </section>
 

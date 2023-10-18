@@ -24,3 +24,7 @@ You are tasked with designing authentication and authorization for a Library app
 Discuss your ideas with a cohort-mate - work together to come up with a single plan and send that to your instructors!
 
 </section>
+
+## Review Inheritance
+
+We are going to be using Inheritance for the next few lessons - take a few minutes to refresh your knowledge of inheritance by reviewing the [lesson](/module4/lessons/Week4/Inheritance), and doing additional research!
