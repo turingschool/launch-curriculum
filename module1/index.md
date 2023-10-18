@@ -37,8 +37,8 @@ Students will learn the basics of Object Oriented Programming to build software 
 * [Week 3 - Check Your Understanding](./lessons/Week3/CFUReview)
 
 ### Week 4
-* Intro to IDE: [Prep](./perparation/Week4/IDE) [Lesson](./lessons/Week4/IntroToIDE) &#124; [Lab](./labs/Week4/IntrotoIDE)
-* Debugging: [Lesson](./lessons/Week4/Debugging) &#124; [Lab](./labs/Week4/Debugging)
+* Intro to IDE: [Prep](./preparation/Week4/IDE) [Lesson](./lessons/Week4/IntroToIDE) &#124; [Lab](./labs/Week4/IntrotoIDE)
+* Debugging: [Prep](./preparation/Week4/Debugging) [Lesson](./lessons/Week4/Debugging) &#124; [Lab](./labs/Week4/Debugging)
 * Unit Testing, Part 1: [Lesson](./lessons/Week4/UnitTestingI) &#124; [Lab](./labs/Week4/UnitTestingI)
 * [Week 4 - Check Your Understanding](./lessons/Week4/CFUReview)
 
