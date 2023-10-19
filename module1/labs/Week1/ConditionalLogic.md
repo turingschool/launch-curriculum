@@ -48,7 +48,7 @@ We will come back together as a group to discuss what you have brainstormed - be
 
 ### Implementation
 
-Now that we have done some ideating on what the implementation of this program will look like, it's time to put that into code!
+Now that we have done some ideating on what the implementation of this program will look like, it's time to put that into code! Don't try to build the whole thing out all at once. Keep referring to the example output screenshot, and just try to get each line working one at a time. Start small, and expand on your features slowly. 
 
 You are going to fork [this starter repl](https://replit.com/@launch-team/M1W1-ConditionalLogicLab) and implement the simple Order Taker program for a restaurant.  Remember that cohort collaboration is encouraged!
 
