@@ -17,8 +17,8 @@ Up to this point, we have worked with single pieces of data: a string, a number,
 
 The most common method to manage a list of data is an **Array**. A C# array allows you to store a sequence of values in a single data structure. In other words, an array is a single variable that can hold many values. 
 
-Work through [this arrays tutorial](
-https://docs.microsoft.com/en-us/learn/modules/csharp-arrays/1-introduction) (including the Knowledge Check at the end!)
+Fork and Work through [this arrays tutorial](
+https://replit.com/@launch-team/Arrays-Practice#main.cs) 
 
 In your notebook, answer the following questions:
   * What is an array?
@@ -66,15 +66,16 @@ Just like arrays, a list can only contain **elements** of the same type - this i
 
 <!-- At this point do students have a way to validate if they successfully completed the task? I'm not seeing how. We might need to move the foreach console.writeline part up? -->
 > With a partner, take a look at the resources linked below, and see if you can accomplish the following:  
-> 1. Create a new Console Application in Visual Studio called 'Collections'
-> 1. In 'Program.cs', create a variable `dogBreeds` that holds a `List<string>` of breeds (you can use the data from the example above)
-> 1. [Resource](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections#BKMK_SimpleCollection): Add another dog breed to `dogBreeds`.
-> 2. [Resource](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections#BKMK_SimpleCollection): Remove "poodle" from the list.
-> 3. [Resource](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.sort?view=net-6.0): Use a method to sort the list alphabetically.
-> 4. [Resource](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0): Use the list to print "GOLDEN RETRIEVER" to the console.
+> 1. Create a new replit called'Collections practice'
+> 2. Add this line to the replit on line 2 - right under the `using.System` on line 1: `using System.Collections.Generic`
+> 3. In 'Program.cs', create a variable `dogBreeds` that holds a `List<string>` of breeds (you can use the data from the example above)
+> 4. [Resource](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections#BKMK_SimpleCollection): Add another dog breed to `dogBreeds`.
+> 5. [Resource](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections#BKMK_SimpleCollection): Remove "poodle" from the list.
+> 6. [Resource](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.sort?view=net-6.0): Use a method to sort the list alphabetically.
+> 7. [Resource](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0): Use the list to print "GOLDEN RETRIEVER" to the console.
 <!-- Love this inclusion of modeling how to search/utilize documentation -->
 <aside class="instructor-notes">
-    <p><strong>Instructor Note</strong><br>walk throught these examples showing _how_ you would research what to do.</p>
+    <p><strong>Instructor Note</strong><br>walk through these examples showing _how_ you would research what to do.</p>
 </aside>
 
 ## `foreach`
