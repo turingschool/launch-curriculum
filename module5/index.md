@@ -32,8 +32,8 @@ In Module 5, students will begin learn tools to make their MVC applications even
 * [PD: Resumes](./lessons/Week2/Resumes)
 
 ### Week 3
-* Authentication
-* Authorization
+* Authentication: [Prep](./preparation/Week1/Authentication) &#124; [Lesson](./lessons/Week1/Authentication) &#124; [Lab](./labs/Week1/Authentication)
+* Authorization: [Lesson](./lessons/Week1/Authorization) &#124; [Lab](./labs/Week1/Authorization)
 * [PD: GitHub Profiles](./lessons/Week3/GithubProfiles)
 
 ### Week 4
@@ -45,9 +45,5 @@ In Module 5, students will begin learn tools to make their MVC applications even
 ### Weeks 5 & 6
 Project
 * PD: LinkedIn Activity
-
-### Week 3
-* Authentication: [Prep](./preparation/Week1/Authentication) &#124; [Lesson](./lessons/Week1/Authentication) &#124; [Lab](./labs/Week1/Authentication)
-* Authorization: [Lesson](./lessons/Week1/Authorization) &#124; [Lab](./labs/Week1/Authorization)
 
 
