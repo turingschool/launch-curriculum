@@ -14,6 +14,7 @@ Instructions for all team members:
     * It will prompt you to make an account to view suggested improvements.
 3. Make the recommended changes to your profile to improve it - you have until lunch on Thursday to make changes
 4. Add up the percentages of each team member and average them.
+    * For example, if your scores are Teammate1: 70%, Teammate2: 83%, Teammate3: 88%. You would add 70 + 83 + 88 = 241. Then divide 241 by three because there are three teammates. So 241 / 3 = 80.3333. And you would send 80.3333 to your instructors.
 
 The team spokesperson will DM your instructors with your group’s average score and any bonus points earned (Each bonus point counts as adding a percentage point to your team average!). Average score is due at noon this Thursday!
 
@@ -24,7 +25,6 @@ The team with the highest average overall score will be the winners!
 #### Activity
 
 Each teammate who has at least three things in their activity gets one bonus point for their team. 
-
 
 Take a look at these two example activity feeds. Yours probably looks more like the first screenshot here! But our goal is to show you're activity engaged with the broader developer community and for your activity to look more like Jeff's!
 ![LinkedIn Activity Empty](/assets/images/module5/week5/LinkedInActivityEmpty.png)
@@ -60,3 +60,9 @@ Each teammate who has at least one recommendation on their profile gets one bonu
 Honestly, it doesn't so much matter what the recommendation says your future employer probably won't read it, what really has an impact is showing that there is someone out there willing to vouch that you're awesome to work with!
 
 I recommend asking your group mates from your group project to write a review! You have all worked together very closely and can speak about the strengths you brought to the team!
+
+#### No points, but an extra bonus!
+
+If you get the LinkedIn mobile app, there is a new feature where you can add a pronunciation to your name which adds a great personal touch 😀
+
+[Here](https://www.linkedin.com/help/linkedin/answer/a550527) are instructions for how to do this, and [here](https://www.linkedin.com/in/abelcak/) is an example of what that could sound like, or you could only record your first and last name.
