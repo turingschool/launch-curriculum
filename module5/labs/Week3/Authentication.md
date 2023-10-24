@@ -12,7 +12,9 @@ In today's lab, there are 2 tracks.  You may complete the tracks in any order.
 When we initially implemented the Identity scaffolding, we chose to override _all_ of the login related pages in the **Add Identity** Dialog.  Some of these pages are not necessary.  Your task is to experiment with which of these pages you want to include, or not.
 
 For each experiment:
-* Create a new ASP.NET MVC application (you will not need a database).
+* Create a new ASP.NET MVC application.
+    * You will need a DbContext Class, and the associated program.cs and appsetting.json setup.
+    * You will not need any models, though you _could_ create some if you want.
 * Try a new combination of pages to override at this step of the scaffolding.
     <img src='/assets/images/module5/week3/AddIdentityDialog.png' style='max-width: 50%;'>
 * Keep track of what combo you are using, and keep notes about how this selection impacted your application!
