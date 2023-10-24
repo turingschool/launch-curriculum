@@ -22,7 +22,7 @@ A new tool you'll run into with this project is [Swagger](https://swagger.io/)! 
 
 ## The User Experience - Your Job!
 
-The pair of you are responsible for creating a separate application that calls the API to get all gifs, create a gif, update a gif, and delete a gif. How you build the UI for these features is up to you!
+The pair of you are responsible for creating a separate application that calls the API to get all gifs, create a gif, update a gif, and delete a gif. How you build the UI for these features is up to you! You're welcome to either use the tools we have covered in class or dive more into javascript.
 
 You will be working in four iterations, it's recommended that you start by sketching a mockup of the UI for each phase before moving on to implementation. 
 
