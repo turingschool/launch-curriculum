@@ -117,20 +117,19 @@ In small groups, determine how many 'steps' are completed for the two code snipp
 **Option 1**  
 ```c#
 // find the duplicate
-int[] nums = {36, 84, 75, 20, 30, 44, 17, 98, 92, 27 };
-int? duplicate;
+int[] nums = { 36, 84, 75, 20, 30, 44, 17, 98, 44, 92, 27 };
+int? duplicate = null; // Initialize duplicate as null
 
-foreach (var numA in nums)
+for (int i = 0; i < nums.Length; i++)
 {
-    foreach (var numB in nums)
+    for (int j = i + 1; j < nums.Length; j++)
     {
-        if (numA == numB)
+        if (nums[i] == nums[j])
         {
-            duplicate = num1;
+            duplicate = nums[i];
         }
     }
 }
-
 Console.WriteLine(duplicate);
 ```
 **Option 2**
@@ -150,11 +149,13 @@ foreach (var num in nums)
 ```
 </section>
 
+<>
+
 ## Big O
 
-It's not very useful to have to describe algorithms in *exact* number of steps for every possible number of elements.  So, developers describe time complexity using mathematic expressions.  We call these expressions **Big O Notation** (big 'oh').  The BigO of an algorithm describes the _worst-case scenario_: what is the maximum number of stes an algorithm will take in relation to how the dataset grows.
+It's not very useful to have to describe algorithms in *exact* number of steps for every possible number of elements.  So, developers describe time complexity using mathematic expressions.  We call these expressions **Big O Notation** (big 'oh').  The BigO of an algorithm describes the _worst-case scenario_: what is the maximum number of steps an algorithm will take in relation to how the dataset grows.
 
-When describing BigO, we `"n"` to signify the amount of data. The most common examples you might see include:
+When describing BigO, we use `"n"` to signify the amount of data. The most common examples you might see include:
 
 - O(1)
 - O(log n)
@@ -168,7 +169,7 @@ We'll discuss each of these in order from least complex (best performance) to mo
 ### Constant Time - O(1)
 
 **Description:**
-- No matter how much data there is, it only takes one operation.
+- No matter how much data there is, it takes the same number of operations
 
 **Examples:**
 - Simple math operations and assignment operators
@@ -206,8 +207,7 @@ We'll discuss each of these in order from least complex (best performance) to mo
 - Often is a nested iteration where within each operation done in linear time, there are actions being done in logarithmic time over the same size of data
 
 **Examples:**
-- Efficient sorting algorithms such as `merge sort`
-- Some searching algorithms
+- The most efficient algorithms for sorting a list (quicksort and mergesort are the names of two very efficient sorting algorithms!)
 </section>
 
 <section class="answer" markdown='1'>
@@ -231,6 +231,58 @@ Usually when calculating Big O notation, an algorithm doesn't fall nicely into o
 * When operations are nested (within loops for example), their complexities multiply
 * When calculating Big O, we don't care about *constants* or *coefficients*. For example `O(2n + 1)` is simplified to `O(n)`
 * When calculating Big O, if your algorithm requires several sequential steps, your Big O notation would only list the worst of those complexities. For example, `O(n + n^2)` would be simplified to `O(n^2)`.
+
+</section>
+
+<section class="call-to-action" markdown='1'>
+
+With a partner, identify the BigO notation for each of the following code snippets.  Be ready to share out why you believe this is the correct identification!
+
+<section class='answer' markdown='1'>
+
+### Algorithm A
+
+Imagine you’re a librarian who needs to go through each book on a shelf to find the one requested by a patron.
+```c#
+public bool ContainsBook(Book[] shelf, Book target)
+{
+    foreach (Book book in shelf)
+    {
+        if (book == target)
+            return true;
+    }
+    return false;
+}
+```
+</section>
+
+<section class='answer' markdown='1'>
+
+### Algorithm B
+Imagine you’re hosting a party and want to introduce each person to every other person in the room.
+```c#
+public void IntroduceEveryone(string[] people)
+{
+    foreach (string personA in people)
+    {
+        foreach (string personB in people)
+        {
+            if (personA == personB)
+            {
+                continue;
+            }
+            Console.WriteLine($"{personA} says hello to {personB}");
+        }
+    }
+}
+```
+</section>
+
+<section class='instructor-notes' markdown='1'>
+
+Algorithm A is O(n). Algorithm B is O(n^2)
+
+</section>
 
 </section>
 
