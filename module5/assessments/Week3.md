@@ -1,1 +1,0 @@
-Create a library application (with scaffolding done) and ask students to implement authentication and authorization (with roles and claims)
