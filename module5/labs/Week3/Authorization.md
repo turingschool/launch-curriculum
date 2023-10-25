@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Authentication Lab
+title: Authorization Lab
 ---
 
 ## Adding Roles to MessageBoard
