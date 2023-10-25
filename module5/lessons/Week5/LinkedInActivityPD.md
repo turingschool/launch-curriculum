@@ -13,6 +13,7 @@ Instructions for all team members:
 2. Go to your Linkedin profile and click the blue box with a “C” in it on the right hand side of the page.
     * It will prompt you to make an account to view suggested improvements.
 3. Make the recommended changes to your profile to improve it - you have until lunch on Thursday to make changes
+    * Note that 80% is thought of as very strong! So don't worry about shooting for 100%.
 4. Add up the percentages of each team member and average them.
     * For example, if your scores are Teammate1: 70%, Teammate2: 83%, Teammate3: 88%. You would add 70 + 83 + 88 = 241. Then divide 241 by three because there are three teammates. So 241 / 3 = 80.3333. And you would send 80.3333 to your instructors.
 
