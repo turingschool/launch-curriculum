@@ -44,6 +44,6 @@ In Module 5, students will begin learn tools to make their MVC applications even
 
 ### Weeks 5 & 6
 Project
-* PD: LinkedIn Activity
+* [PD: LinkedIn Activity](./lessons/Week5/LinkedInActivityPD)
 
 
