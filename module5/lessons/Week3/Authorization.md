@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Authentication
+title: Authorization
 ---
 
 ## Learning Goals
