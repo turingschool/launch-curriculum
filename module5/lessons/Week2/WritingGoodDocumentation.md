@@ -73,7 +73,7 @@ Markdown, the language of READMEs, can be tricky at first. Here are some guides 
 
 * [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
 * [https://www.markdownguide.org/extended-syntax](https://www.markdownguide.org/cheat-sheet/)
-* [https://about.gitlab.com/handbook/markdown-guide/](https://www.markdownguide.org/cheat-sheet/)
+* [https://about.gitlab.com/handbook/markdown-guide/](https://about.gitlab.com/handbook/markdown-guide/)
 
 <section class="call-to-action">
   <h3>Updating a README</h3>

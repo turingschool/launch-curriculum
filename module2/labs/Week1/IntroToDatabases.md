@@ -17,7 +17,7 @@ In our Mod2 Labs, we are going to be building and working with a Database that c
 
 One thing you may have noticed in the lesson is that we often see datatypes in PostgreSQL that are not familiar to us (not the same as the c# datatypes).  
 
-> With a group, research and define the following PostgreSQL datatypes.  You can use [this cheatsheet](https://www.simplecode.io/blog/resources/postgres-data-types-cheat-sheet/) to get you started!
+> With a group, research and define the following PostgreSQL datatypes.  You can use [this cheatsheet](https://simplecode.io/blog/postgres-data-types-cheat-sheet/) to get you started!
 > * serial
 > * varchar
 > * text
