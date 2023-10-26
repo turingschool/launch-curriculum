@@ -9,7 +9,7 @@ title: Module 2 Assessments
   * [Practical](/module2/assessments/Week3Practical)
 * [Week 4](/module2/assessments/week4-9802)
 * [Week 5](/module2/assessments/week5-4577)
-* [Project](/module2/project/Mod2Project)
+* [Project](/module2/project/index)
 
 # Rubric
 
