@@ -12,7 +12,7 @@ title: Module 1 Assessments
 
 # Rubric
 
-## Week 1: [link](/module1/assessments/week1-3168)
+## Week 1
 * [link](/module1/assessments/week1-3168)
 * 20 points total
 * Passing score: 10/20
