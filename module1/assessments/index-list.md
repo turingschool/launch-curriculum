@@ -30,7 +30,7 @@ title: Module 1 Assessments
 * 2 points for excluding names that do not contain the letter `a` (or `A`).
 
 ## Week 2
-* [link](/module1/assessments/week1-3168)
+* [link](/module1/assessments/week2-4219)
 * 20 points total
 * Passing score: 10/20
 
