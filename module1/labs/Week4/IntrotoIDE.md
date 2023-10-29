@@ -19,6 +19,8 @@ Before the lab: create groups of 2-3 students and post them in slack!  The stude
 
 Today, we explored how to write code using Visual Studio.  This is where we will do _most_ of our work from now on, so it's a good idea to get really comfortable with this tool.
 
+<section class='call-to-action' markdown='1'>
+
 ### Process Review
 
 1. Create a new `Console Application` in Visual Studio. Name your solution 'FizzBuzz'.
@@ -30,6 +32,10 @@ Again, in your notebook write down what you do to accomplish this task.
 3. In your notebook, write a reflection of what is different about this Visual Studio process from what we were previously doing in REPLit.  What is different about creating a project?  Are there differences in how the applications are run?
 
 **Keep an eye on Slack** We will be coming together to discuss your reflections!
+
+</section>
+
+<section class='call-to-action' markdown='1'>
 
 ### FizzBuzz
 
@@ -47,18 +53,19 @@ For example:
 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 
 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz...
 ```
-
-1. In small groups, take 10-15 minutes to pseudocode an implementation of 'FizzBuzz' - it will probably be helpful to use one or more of the methods we learned in the [Looping](/module1/lessons/Week2/Looping) lesson 😉.  Use [Excalidraw](https://excalidraw.com/) to collaborate on the pseudocoding - send the collaboration link to your instructor, as well!
 <aside class="instructor-notes">
   <p><strong>Instructor Note</strong><br>Show a quick (1min) demo of how to use and collaborate with Excalidraw.</p>
 </aside>
 
+1. In small groups, take 10-15 minutes to pseudocode an implementation of 'FizzBuzz' - it will probably be helpful to use one or more of the methods we learned in the [Looping](/module1/lessons/Week2/Looping) lesson 😉.
+    * Use [Excalidraw](https://excalidraw.com/) to collaborate on the pseudocoding.
+    * ✅ send the collaboration link to your instructor, as well!
 2. Individually, In the 'FizzBuzz' Solution you created above, implement your psuedo-code!
-
-3. There are multiple ways to solve this problem - your instructor is going to pair you with someone (or a group of someones) who approached the problem in a different way.  In that group, discuss the following:
-    * Each person will do a walkthrough of their code and psuedo-code - share your screen and describe what is happening on each line of code, and describe how that is similar or different to what you psuedo-coded.
+3. Your instructor will send you out into small groups to discuss your solutions. There are multiple ways to solve this problem, so it is ok and expected that not everyone's code will look the same!  In that group, discuss the following:
+    * Each person will do a walkthrough of their code **and** psuedo-code - share your screen and describe what is happening on each line of code, and describe how that is similar or different to what you psuedo-coded.
     * Discuss which parts of the project were difficult, or didn't work as expected.  Did you come accross any errors? If so, how did you fix them?
     * As a group, come up with three benefits of using Visual Studio to write this code.  As you brainstorm, you might think about what tools Visual Studio has, or how you could (or could not) execute the program in an application like Microsoft Word or Google Docs.
-    * Nominate 1 person to share out 1 interesting thing your group discussed.
+    * ✅ Nominate 1 person to share out 1 interesting thing your group discussed.
 
 **Keep an eye on Slack** We will be coming together to discuss your reflections!
+</section>
