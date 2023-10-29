@@ -10,7 +10,7 @@ title: Calling An API Mini Project
 
 ## Overview
 
-For this mini project, imagine that you are working on a team with other developers. One of your teammate is responsible for building an API for keeping track of someone's favorite gifs. Your job is to build a .NET MVC application to call your teammate's API and allow for user interaction.
+For this mini project, imagine that you are working on a team with other developers. One of your teammates is responsible for building an API for keeping track of someone's favorite gifs. Your job is to build a .NET MVC application to call your teammate's API and allow for user interaction.
 
 For this project you will be working in pairs and utilizing driver/navigator pair programming.
 
@@ -20,13 +20,19 @@ A new tool you'll run into with this project is [Swagger](https://swagger.io/)! 
 
 [This](https://github.com/turingschool-examples/GifTracker) is the API repo your teammate is working on. Clone down this repo and checkout the branch `GET-all-gifs`. When you start up the application you should be directed to a Swagger page.
 
+Respond to the checkpoint your instructor will share in Slack when you see the Swagger page.
+
 ## The User Experience - Your Job!
 
-The pair of you are responsible for creating a separate application that calls the API to get all gifs, create a gif, update a gif, and delete a gif. How you build the UI for these features is up to you! You're welcome to either use the tools we have covered in class or dive more into javascript.
+calls the API endpoints implemented in GifTracker, so that users of your application can: get all gifs, create a gif...
+
+The pair of you are responsible for creating a separate application that calls the API endpoints implemented in GifTracker, so that the users of your application can: get all gifs, create a gif, update a gif, and delete a gif. Your application should not be directly interacting with a database. How you build the UI for these features is up to you! You're welcome to either use the tools we have covered in class or dive more into javascript.
 
 You will be working in four iterations, it's recommended that you start by sketching a mockup of the UI for each phase before moving on to implementation. 
 
 As is best practice, check out a new branch for each iteration. Once you have completed the iteration, make a PR and merge your changes in to main.
+
+Because we are simulating working with a teammate, after you finish each iteration you will check out a new branch of the API to simulate your teammate making additional changes.
 
 ✅ Once you've created your repo, one partner should send a link to all instructors. After each iteration, send a link to your PR to all instructors so they can follow your progress.
 

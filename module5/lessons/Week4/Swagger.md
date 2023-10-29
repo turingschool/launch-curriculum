@@ -10,6 +10,11 @@ Let's start by sharing our responses to the questions from today's prep in two S
 * Why would someone use Swagger API Documentation?
 * What questions to you have about Swagger?
 
+<aside class="instructor-notes" markdown="1">
+    <p><strong>Instructor Note</strong><br>
+    We want students to have the key takeaways that it's easily created documentation for someone new to understand your API endpoints without having to dig into the code. We also want them to understand it's an easy way to test calling the API, similarly to Postman but with less set up. </p>
+</aside>
+
 <section class="call-to-action" markdown="1">
 With your partner, discuss the following question. Be prepared to share your thoughts when we come back together.
 
