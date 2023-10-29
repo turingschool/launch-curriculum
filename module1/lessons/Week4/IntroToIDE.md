@@ -136,7 +136,7 @@ For more information on customizations, you can review the [Microsoft Docs](http
 ### Practice
 
 With a partner, work through the following exercises.  You should collaborate on how to complete the tasks, and both complete them on your own machine.
-1. Create a **Dictionary** with movie genres as Keys, and a movie in that genre as Values.  You could use this data as a starting point:
+1. Create a [**Dictionary**](/module1/lessons/Week2/Collections#Dictionary) with movie genres as Keys, and a movie in that genre as Values.  You could use this data as a starting point:
     * Comedy: Ghostbusters
     * Drama: the Imitation Game  
     * Thriller: Atomic Blonde
