@@ -83,6 +83,7 @@ Your instructor will ask for volunteers to share out answers to these questions 
 Make sure to talk about not getting stuck in tutorials and never moving to your own problem solving.</p>
 </aside>
 
+<!---
 ### Building It Together
 
 We're going to build through the key API request portion of this tutorial as a class.
@@ -90,6 +91,13 @@ We're going to build through the key API request portion of this tutorial as a c
 <aside class="instructor-notes" markdown="1">
 <p><strong>Instructor Note</strong><br>
 Here is the starter code that includes the Model, Interface, and View. That way you can add the service and controller code as a class.</p>
+</aside>
+
+-->
+
+<aside class="instructor-notes" markdown="1">
+<p><strong>Instructor Note</strong><br>
+Here https://github.com/turingschool-examples/PublicHolidays is a repo with the finished code.</p>
 </aside>
 
 ### Stretch Questions
