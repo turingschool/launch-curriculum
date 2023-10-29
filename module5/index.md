@@ -38,7 +38,8 @@ In Module 5, students will begin learn tools to make their MVC applications even
 
 ### Week 4
 * Calling Third Party APIs: [Prep](./preparation/Week4/CallingThirdPartyAPIs) &#124; [Lesson](./lessons/Week4/CallingThirdPartyAPIs) &#124; [Lab](./labs/Week4/CallingThirdPartyAPIs) 
-* API Documentation
+* Calling an API Mini Project:  [Prep](./preparation/Week4/Swagger) &#124; [Project](./projects/CallingAnApiMiniProject)
+    * [Swagger](./lessons/Week4/Swagger)
 * [Process Optimization (Big O)](./lessons/Week4/ProcessOptimization)
 * [PD: Cover Letters](./lessons/Week4/CoverLetters)
 
