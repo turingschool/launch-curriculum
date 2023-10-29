@@ -14,9 +14,9 @@ title:  Using an Integrated Development Environment
 ## IDE
 In order for our computers to execute code that we write, that code needs to be compiled, or built, into an executable program that a computer can understand.  We write programs in language that is easy for us, as humans, to read (in this course, we use c#), but that is not what is executed by computers directly.  Before a computer can understand the instructions of a program, our code needs to be transformed (compiled, or built) into computer language.  The important thing to understand is that there are multiple steps happening in the background when we 'run' a program.
 
-Think about the programs we have built in REPLit.  When we hit the 'Run' button, does anything happen immediately? No.  The REPLit program has to:
-    1. Compile our code into an executable program.
-    2. Tell its internal computer to execute (run) that program.
+Think about the programs we have built in REPLit.  When we hit the 'Run' button, does anything happen immediately? No.  The REPLit program has to:  
+1. Compile our code into an executable program.
+2. Tell its internal computer to execute (run) that program.
 
 The good news is that we do not have to worry too much about all this 'behind the scenes' stuff because we have **Integrated Development Environments (IDEs)** that do this work for us. 
 
@@ -40,7 +40,7 @@ We will follow these steps to download Visual Studio Community (a free IDE that 
 6. When completed, you should see a screen like this (with fewer options on the left hand side)
 ![](/assets/images/module1/Week4/VisualStudioDownloaded.png)
 
-### .NET and Different Types of Programs
+## .NET and Different Types of Programs
 Now that we have our IDE downloaded, let's start by creating a new program.
 
 ![](/assets/images/module1/Week4/CreateANewProject.png)
@@ -49,7 +49,7 @@ In REPLit, when we create a new project, all we do is select a language and we a
 
 We first need to decide what **type** of program we are going to create. Up to now, we have created programs that allow us to interact with the **console**; in other words, we have created **Console Applications**.  We will continue working with Console Applications for now, but you can see there a lot of different types of programs we could choose from: ASP.NET Core Web App, Blazor Server App, ASP.NET Core Web API, etc...
 
-#### .NET
+### .NET
 Many of these program types reference [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet-framework).  .NET is a **framework** and **Common Language Runtime** for developing lots of different types of applications.
 
 A **Framework** is a developer tool that gives us additional classes and methods that would not exist in plain c#.
@@ -132,15 +132,20 @@ Follow these steps:
 
 For more information on customizations, you can review the [Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/ide/personalizing-the-visual-studio-ide?view=vs-2022).
 
+<section class='call-to-action' markdown='1'>
 ### Practice
 
-> With a partner, work through the following exercises.  You should collaborate on how to complete the tasks, and both complete them on your own machine.
-> 1. Create a **Dictionary** with movie genres as Keys, and a movie in that genre as Values.  You could use this data as a starting point:
->       * Comedy: Ghostbusters
->       * Drama: the Imitation Game  
->       * Thriller: Atomic Blonde
-> 2. Ask a user for a movie genre; continue asking if the genre provided is not a key in the dictionary (you can hard-code this, or take a look at the [Contains()](https://www.geeksforgeeks.org/c-sharp-dictionary-containskey-method/) method.)
-> 3. Output a movie to the user based on their suggestion.
+With a partner, work through the following exercises.  You should collaborate on how to complete the tasks, and both complete them on your own machine.
+1. Create a **Dictionary** with movie genres as Keys, and a movie in that genre as Values.  You could use this data as a starting point:
+    * Comedy: Ghostbusters
+    * Drama: the Imitation Game  
+    * Thriller: Atomic Blonde
+2. Ask a user for a movie genre; continue asking if the genre provided is not a key in the dictionary (you can hard-code this, or take a look at the [Contains()](https://www.geeksforgeeks.org/c-sharp-dictionary-containskey-method/) method.)
+3. Output a movie to the user based on their suggestion.
+   
+</section>
+
+
 
 ## Checks for Understanding
 * What is an IDE?
