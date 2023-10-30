@@ -9,7 +9,11 @@ title:  Debugging
 
 ## Warmup
 
-> In your notebook, write about a time when you tried something and it didn't go as planned.  How did you know things were going off course?  Were you able to make adjustments and get back on track?
+<section class='call-to-action' markdown='1'>
+  
+In your notebook, write about a time when you tried something and it didn't go as planned.  How did you know things were going off course?  Were you able to make adjustments and get back on track?
+
+</section
 
 As developers there will often be times when things are not working in just the way we want.  It is a completely normal part of the process of writing code to come across issues and errors as we are developing.
 
@@ -21,9 +25,10 @@ A **bug** refers to any bit of code that is not functional. A bug might be preve
 
 There are a lot of different approaches to debugging.  Today, we are going to focus on using the tools that we have in our Visual Studio IDE.
 
-```markdown
+<section class='note' markdown='1'>
 Fun Fact: According to programming lore, the first computer bug was [an actual bug 🪲](https://education.nationalgeographic.org/resource/worlds-first-computer-bug)
-```
+</section>
+
 
 ## Using Breakpoints
 
