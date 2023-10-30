@@ -63,7 +63,7 @@ Define the features that will make up your [**Minimum Viable Product**](https://
 * For each page, create a [wireframe](https://www.usability.gov/how-to-and-tools/methods/wireframing.html) by sketching out what that user will see when they navigate to that page. Include details such as header text, buttons, drop downs, forms with the specific fields, graphs etc.
 * [Figma](https://www.figma.com/wireframe-tool/?utm_source=google&utm_medium=cpc&utm_campaign=17340391121&utm_term=free%20wireframe%20tools&utm_content=600487515776&gclid=CjwKCAjw5P2aBhAlEiwAAdY7dLtWlIVK0NWWHUXbjj8KMAaBN8P1lO16khOpesJ63utNI5b-cF1e2xoClmoQAvD_BwE) is a great tool for wireframing
 
-✅Deliverable: Send a link to your instructors with your wireframes.
+✅Deliverable: Send a link to your instructors with your wireframes. Your wireframes are due by EOD Monday.
 
 ### User Stories
 
@@ -85,4 +85,26 @@ Define the features that will make up your [**Minimum Viable Product**](https://
 * Create a project board using Github Projects
 * Translate each user story into a card on your project board
 
-✅Deliverable: Send the link to your project board to your instructors.
+✅Deliverable: Send the link to your project board to your instructors. Your project board is due by EOD Monday.
+
+## Development
+
+During the development phase, you will start each day with a small group standup.  Your small group will be your project accountabilibuddies.  During each standup you should:
+* Review your current project board
+* Discuss what you accomplished the previous day
+* Outline what you want to accomplish this day
+* Discuss any blockers you are experiencing, and help each other form strategies for moving past the blockers
+  * These strategies could be additional research, posting in code-help, and/or reaching out to an instructor
+
+You will also have scheduled check in times with an instructor - during these checkins be ready to share:
+* The current state of your project board
+* A walkthrough of your project in it's current state
+* Any blockers you are experiencing.
+
+## Presentation and Documentation
+
+The last full day of the project will be dedicated to documentation, and preparing a presentation for your project.
+
+Your project should include a README that follows [Good Documentation](../lessons/Week2/WritingGoodDocumentation) practices.
+
+You will prepare a project demonstration that should follow this [Demo Guide](./DemoGuide).  A great presentation can be a good addition to the documentation of your project, so we will be recording these presentations for you to use as you see fit!
