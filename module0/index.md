@@ -10,9 +10,7 @@ In Module 0, students will begin to dive into the skills and mindsets necessary 
 ## Launch Instructors
 
 * Megan McMahon
-* Richard Tillies
 * Zoe Farrell
-* Scott Ertmer
 * Eric Weissman (Director)
 
 ## Mod 0 Syllabus
