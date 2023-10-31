@@ -13,7 +13,7 @@ title:  Debugging
   
 In your notebook, write about a time when you tried something and it didn't go as planned.  How did you know things were going off course?  Were you able to make adjustments and get back on track?
 
-</section
+</section>
 
 As developers there will often be times when things are not working in just the way we want.  It is a completely normal part of the process of writing code to come across issues and errors as we are developing.
 
