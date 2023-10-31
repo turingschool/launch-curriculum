@@ -11,8 +11,6 @@ In Module 3, students will begin to dive into the skills and mindsets necessary 
 ## Instructors
 
 * Megan McMahon
-* Richard Tillies
-* Zoe Farrell
 
 ## Intermission
 * [Required and Recommended Intermission Work](./intermission/)

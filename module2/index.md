@@ -11,8 +11,6 @@ In Module 2, students will begin to dive into the skills and mindsets necessary 
 ## Instructors
 
 * Megan McMahon
-* Richard Tillies
-* Zoe Farrell
 
 ## Curriculum
 

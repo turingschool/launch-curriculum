@@ -11,7 +11,6 @@ In Module 4, students will continue to expand their knowledge of MVC and learn t
 ## Instructors
 
 * Megan McMahon
-* Richard Tillies
 * Zoe Farrell
 
 ## Curriculum

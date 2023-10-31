@@ -9,8 +9,7 @@ Students will learn the basics of Object Oriented Programming to build software 
 
 ## Instructors
 
-* Richard Tillies
-* Scott Ertmer
+* Megan McMahon
 
 ## Curriculum
 
