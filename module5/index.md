@@ -11,6 +11,7 @@ In Module 5, students will begin learn tools to make their MVC applications even
 ## Instructors
 
 * Zoe Farrell
+* Megan McMahon
 
 ## Curriculum
 
