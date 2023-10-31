@@ -92,3 +92,92 @@ Total: $46.64
     <li>23> Instead of replacing `", "`, they should repleace `"\n"` to get the correct price calculation.</li>
   </ul>
 </aside>
+
+## Choose Your Own Adventure!
+
+When you have finished with the debugging lab above, you can choose your own next steps.  Your instructor will open additional breakout rooms for student collaboration.
+
+<section class='answer' markdown='1'>
+  
+### Revisit the Library Lab
+
+Revisit the [Library Lab](https://launch.turing.edu/module1/labs/Week3/ClassInteraction) - but this time, complete it in Visual Studio! Try to build these classes from the ground up without looking back at your code from last week.
+
+</section>
+
+<section class='answer' markdown='1'>
+
+### 🌶️ Code Challenges
+
+#### Exercise 1
+Write a C# program that uses a while loop to calculate the sum of all odd numbers between 1 and 100 and prints the result to the console.
+
+#### Exercise 2
+Write a C# program that uses a for loop to iterate over a string and count the number of vowels it contains.
+
+#### Exercise 3
+Given an array of integers, write a method that returns the biggest number in this array.
+
+```c#
+int[] nums = { 190, 291, 145, 209, 280, 300 };
+TheBiggestNumber(nums);
+// output -> 291
+```
+
+```c#
+int[] nums = {-9, -2, -7, -8, -4};
+TheBiggestNumber(nums);
+// output -> -2
+```
+
+</section>
+
+<section class='answer' markdown='1'>
+  
+### 🌶️🌶️ More Spicy Code Challenges
+
+#### Exercise 1
+Implement a method called `SumSecondNumbers()` that takes a multidementional array as an argument, where each element is an array of 2 integers, and sums the second integer of each sub-array. You may want to take a look at [this resource](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/passing-arrays-as-arguments#passing-multidimensional-arrays-as-arguments) to help you get started. The method should be able to be called like this:
+```c#
+int[,] numberPairs = { { 1, 2 }, { 2, 3 }, { 3, 4 } };
+int sumOfSecondNums = SumSecondNumbers(numberPairs);
+
+Console.WriteLine(sumOfSecondNums);
+//Output -> 9
+```
+
+#### Exercise 2 
+Implement a method called `NormalizeZipCodes()` that takes an array of integers as an argument, and returns an array of stringified versions of those integers as zip codes.
+
+_A note on zip codes: All zip codes are 5 characters long; if an integer zip code is fewer than 5 digits, we should add as many 0s to the front of that number as we need to reach 5 characters. So, a given integer zip of 525 would be normalized into "00525"._ 
+
+The method should be able to be called like this:
+
+```c#
+var zipCodes = new[] {80228, 5031, 2112, 52556, 515 };
+string[] result = NormalizedZipCodes(zipCodes);
+
+Console.WriteLine(result);
+//Output -> 80228, 05031, 02112, 52556, 00515
+```
+
+#### Exercise 3 
+Implement a method called `GetWordsByFirstLetter()` that takes two arguments: a character, and a list of strings. The method should return a subset of the given list that contains all the words that start with the given character. The method should be able to be called like this:
+
+```c#
+var words = new List<string> {"weirdo", "quill", "fast", "krill", "quaint", "quieter", "koala"};
+var qWords = GetWordsByFirstLetter('q', words);
+var kWords = GetWordsByFirstLetter('k', words);
+var jWords = GetWordsByFirstLetter('j', words);
+
+Console.WriteLine(qWords);
+//Output -> quill, quaint, quieter
+
+Console.WriteLine(kWords);
+//Output -> krill, koala
+
+console.WriteLine(jwords);
+//Output -> 
+```
+
+</section>
