@@ -13,19 +13,21 @@ The project will be split into 4 Phases:
 * Development
 * Presentation/Documentation
 
-### Project Requirements
+### Project Expectations
 Your application must include the following:
 * Use of an external API
 * A database that contains a minimum of 2 related tables (not including Identity tables, if you choose to use Identity)
 * CRUD operations for the resources in your database
     * this could be accomplished either through user-facing forms, or API endpoints, or a combination.
 
+_Your first priority in this project should be the use of an external API_
+
 
 ## Ideation
 
 ### Project Template
 
-Keeping in mind the project requirements; use the following template for your project idea
+Keeping in mind the project expectations; use the following template for your project idea
 
 ```
 ### [Project Name]
@@ -54,7 +56,9 @@ Keeping in mind the project requirements; use the following template for your pr
 
 ### Determine MVP
 
-Define the features that will make up your [**Minimum Viable Product**](https://www.agilealliance.org/glossary/mvp/#q=~(infinite~false~filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)).  Your MVP may not be your full application as designed in your Project Pitch, but it should include enough features to meet the Project Requirements.
+Define the features that will make up your [**Minimum Viable Product**](https://www.agilealliance.org/glossary/mvp/#q=~(infinite~false~filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)).  Your MVP may not be your full application as designed in your Project Pitch, but it should include enough features to meet the Project Expectations.
+
+**Your MVP will not include auth**.  There is already alot going on in the Project Expectations - if you want to include users/login/logout in your application you should do that **after** your MVP has been achieved.
 
 ### Wireframes
 

@@ -3,7 +3,7 @@ layout: page
 title: Demo Guide
 ---
 
-A well developmed project domo is a great opportunity to showcase your hard work and to practice talking about a project in front of a group of people. Below is a guide on how to present a project.
+A well developmed project demo is a great opportunity to showcase your hard work and to practice talking about a project in front of a group of people. Below is a guide on how to present a project.
 
 
 ## Guidelines
