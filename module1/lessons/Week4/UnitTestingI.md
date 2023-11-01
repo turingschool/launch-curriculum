@@ -1,6 +1,6 @@
 ---
-layout:     page
-title:      Intro to Testing
+layout: page
+title: Intro to Testing
 ---
 
 <aside class="instructor-notes">
@@ -14,7 +14,7 @@ title:      Intro to Testing
 
 ## Warm Up
 
-In small groups, discuss your reflections to yesterday's [Lab preparation questions](/module1/labs/Week4/Debugging).  Be ready to share out!
+In small groups, discuss your reflections to yesterday's [Lab preparation questions](/module1/preparation/Week4/UnitTesting).  Be ready to share out!
 
 <aside class="instructor-notes">
   <p><strong>Instructor Note</strong><br>After the warmup, we want to highlight some of the downsides of manual testing.  Make sure to touch on:</p>
@@ -56,7 +56,9 @@ We are going to be creating a starter project in order to build some tests.  Fol
 1. Create a new Console Application in Visual Studio
 2. Call your project `IntroToTesting`
 3. Create a new class called `User`  
+
 ```c#
+
 using System;
 using System.Collections.Generic;
 
@@ -85,6 +87,7 @@ namespace IntroToTesting
         }
     }
 }
+
 ```
 
 ### Creating the Test Project
@@ -104,7 +107,11 @@ Name your project `IntroToTesting.UnitTests`. Click `Next` and then `Create`.
 
 We have now created a new project that is a `Console Application` with a few differences. One of the biggest differences between these two projects is the presence of a `Program.cs` file in IntroToTesting, and a lack of that file in IntroToTesting.UnitTests.
 
-> With a partner, discuss the purpose of the file `Program.cs`; how have we used this file in the past?  Why do you think we _don't_ have that file in the test project? Be ready to share out some ideas!
+<section class='call-to-action' markdown='1'>
+
+With a partner, discuss the purpose of the file `Program.cs`; how have we used this file in the past?  Why do you think we _don't_ have that file in the test project? Be ready to share out some ideas!
+
+</section>
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>we want students to start to think about the separation of <em>writing</em> and <em>executing</em> code.  Because the execution of code in tests looks so different from executing code in Program, it can be difficult for them to make the connection that the tests are <em>executing</em> the implementation code.</p>
@@ -227,7 +234,11 @@ We've tested that our user gets created with a Name, and an empty List of Tweets
 
 We can see that the structure of this test is just a bit different that our first test.  In addition to creating a user and making assertions, we are also executing some code (on line 17).  Frequently, we will need to do some execution of code in our tests to confirm that a particular behavior is working properly.  In this case, in order to verify that our User can be given a username, we have to actually execute that code - if the User class was not set up correctly, our tests will fail.
 
-> With a partner, write two more tests that verify the methods `Tweet()` and `MostRecentTweet()`.  
+<section class='call-to-action' markdown='1'>
+    
+With a partner, write two more tests that verify the methods `Tweet()` and `MostRecentTweet()`.  
+
+</section>
 
 <aside class="instructor-notes">
     <p><strong>Instructor Note</strong><br>Jump into some breakout rooms and see if there are any groups that have tests that we can share out and possibly build on to show a completed test.  If after 10 minutes or so, students are getting bogged down by the test for `Tweet()`, or if you are not seeing much progress, you can pull the group back together and walk through that test, and then release them to work on `MostRecentTweet()`</p>
