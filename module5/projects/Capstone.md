@@ -14,8 +14,8 @@ The project will be split into 4 Phases:
 * Presentation/Documentation
 
 ### Project Expectations
-Your application must include the following:
-* Use of an external API
+Your application should include the following:
+* A GET request to fetch data from an external API, and a way of displaying the fetched data to users.
 * A database that contains a minimum of 2 related tables (not including Identity tables, if you choose to use Identity)
 * CRUD operations for the resources in your database
     * this could be accomplished either through user-facing forms, or API endpoints, or a combination.
