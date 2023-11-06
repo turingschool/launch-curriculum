@@ -7,8 +7,10 @@ title:  Refactoring Lab
 * Practice refactoring using SRP
 * Introduce the relationship between Tests and Refactoring
 
-<aside class="instructor-notes">
+<aside class="instructor-notes" markdown='1'>
   <p><strong>Instructor Note</strong><br>Before the lab, prepare groups of 2/3 students and post them in slack.  During the practice time, bring students all together to share out their indentified responsibilities, and then again to share out some refactors.</p>
+
+If students finish refactoring the caesar cipher, you can give them the [gilded-rose problem](https://github.com/memcmahon/LaunchGildedRose)
 </aside>
 
 ## Practice
