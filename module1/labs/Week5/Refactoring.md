@@ -22,6 +22,6 @@ It is not necessary to become an expert on the Caesar Cipher; but, if you want m
 For today's exercise, you will:
 1. Fork and Clone the [starter repo](https://github.com/turingschool-examples/CaesarCipher_Launch)
 2. Spend 20 minutes reviewing and annotating the code to identify key responsibilities
-3. Spend 40 minutes refactoring the code to better adhere to SRP
+3. Refactor the code to better adhere to SRP
 
 Be Prepared to share out the responsibilities you identified, and the refactors you have made (or are making).  We will come together periodically as a group to share and discuss.
