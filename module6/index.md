@@ -10,10 +10,12 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
 
 ## Instructors
 
+* Megan McMahon
 * Zoe Farrell
 
 ## Curriculum
 
 [Intermission Work](./intermission/)
 
-
+### Week 1
+* [Job Tracking Intro - Teal](./lessons/Week1/JobTrackingIntro)
