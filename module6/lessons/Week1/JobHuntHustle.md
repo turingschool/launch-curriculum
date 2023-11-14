@@ -29,7 +29,7 @@ A snippet of the path towards Zoe's first development role:
 ![AppNexus 2](/assets/images/module6/week1/AppNexus2.png)
 
 #### Example 4
-A snippet of the path towards Zoe volunteering with Code.org for a week while in college (definitely a bit cringy to look back on my old messages, but I think it's a solid example of thoughtful and genuine persistance paying off):
+A snippet of the path towards Zoe volunteering with Code.org for a week while in college (it's definitely a bit embarrassing to look back on my old messages, but I think it's a solid example of thoughtful and genuine persistance paying off):
 
 For additional context Hadi Partovi is the CEO of Code.org, a non-profit that creates coding tutorials for K-12 students and pushes to expand k-12 computer science education. They organize The Hour of Code each December.
 
