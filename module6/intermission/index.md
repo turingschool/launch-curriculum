@@ -17,4 +17,10 @@ In order to complete the certification, you will need accounts with:
 
 As you work through this certification, much of the content will feel like review.  We encourage you to dive in and read through all of the documentation - you never know where you might find new information, or a different way to think about a problem!
 
-✅When finished, send your instructors a link to your certification!
+You should plan to work on this certification for about 8 hours.
+
+<section class='instructor-notes' markdown='1'>
+Let's set the expectation that if they don't finish during intermission, they should continue this wwork over the holiday break (2303 specific).
+</section>
+
+✅When finished, send your instructors either a link to your certification, or an overview of how far you were able to get in the time limit.
