@@ -16,7 +16,7 @@ For "Job Hunt Hustle" we are not going to focus on things that help you ace the 
 ### Examples of Job Hunt Hustle
 
 #### Example 1
-[Thoughts from Ian Douglass, a former Turing Instructor](https://twitter.com/iandouglas736/status/1593731985142226944)
+[Thoughts from Ian Douglas, a former Turing Instructor](https://twitter.com/iandouglas736/status/1593731985142226944)
 
 #### Example 2
 [Thoughts from a LinkedIn Career Coach](https://www.linkedin.com/feed/update/urn:li:activity:7121159930262261760/)
@@ -45,3 +45,14 @@ Take a look through the above examples as starting points, then with your partne
 ### Conclusion
 
 When talking about hustle, I think it's also important to talk about rest and self care. The job search can be draining and hustling can be exhausting. We need to keep an eye on our wellbeing and ways we can personally rest and refuel.
+
+<section class="call-to-action" markdown="1">
+You'll first have a few minutes to think on your own, then we will discuss in small groups, and finally as a class your thoughts on the following question:
+
+How are you currently feeling about starting the job hunt hustle?
+</section>
+
+<aside class="instructor-notes" markdown="1">
+    <p><strong>Instructor Note</strong><br>
+    When introducing this question, I would mention that there is no right or wrong answer here. Each person has a very unique perspective based on background, experiences, and identity. Also remind folks that when we share as a large group they should only share their own perspective. </p>
+</aside>
