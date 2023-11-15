@@ -20,6 +20,7 @@ Your project must implement a new technology.  You may choose from the following
 * Use websockets rather than traditional HTTP/HTTPS
 * Deploy your application
 * Build a new feature using a new-to-you language or framework
+* Implement a NoSQL database
 * Other (please discuss with an instructor)
 
 Throughout the project, you will have small group standups.  Your small group will be your project accountabilibuddies.  During each standup you should:
@@ -60,18 +61,18 @@ You must demonstrate progress toward this goal at your **second project checkin*
 Let's say you choose to Deploy Your Application as your new technology.  During the 2 week proof-of-concept period, you will need to demonstrate that you can deploy a database-connected .NET web application.  If at your 2nd project checkin you have not demonstrated that you can deploy a single-endpoint web application (without a database), you may be asked to reconsider your new technology.
 
 #### TIL
-As part of your project documentation, you will be expected to include a TIL type write-up on your new technology.  This can be added to your TIL repo on GitHub.
+As part of your project documentation, you will be expected to include a TIL type write-up on your new technology.  This can be added to your TIL repo on GitHub, and could be shared on LinkedIn!
 
 ## Inception
 
 ### Determine MVP
 
-Define the features that will make up your [**Minimum Viable Product**](https://www.agilealliance.org/glossary/mvp/#q=~(infinite~false~filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)).  Your MVP may not be your full application as designed in your Project Pitch, but it should include enough features to meet the Project Requirements.
+Define the functionality that will make up your [**Minimum Viable Product**](https://www.agilealliance.org/glossary/mvp/#q=~(infinite~false~filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)).  Your MVP may not be your full application as designed in your feature proposal, but it should include enough functionality to meet the Project Requirements.
 
 ### Wireframes
 
-* Create a high level [user flow diagram](https://bashooka.com/inspiration/33-excellent-user-flow-examples-for-inspiration/) that lists the steps a user will take when interacting with your application.
-* Make a list of all of the pages required for your application along with what features will exist on each page.
+* Create a high level [user flow diagram](https://bashooka.com/inspiration/33-excellent-user-flow-examples-for-inspiration/) that lists the steps a user will take when interacting with your new feature.
+* Make a list of all of the pages required for your new feature along with what will exist on each page.
 * For each page, create a [wireframe](https://www.usability.gov/how-to-and-tools/methods/wireframing.html) by sketching out what that user will see when they navigate to that page. Include details such as header text, buttons, drop downs, forms with the specific fields, graphs etc.
 * [Figma](https://www.figma.com/wireframe-tool/?utm_source=google&utm_medium=cpc&utm_campaign=17340391121&utm_term=free%20wireframe%20tools&utm_content=600487515776&gclid=CjwKCAjw5P2aBhAlEiwAAdY7dLtWlIVK0NWWHUXbjj8KMAaBN8P1lO16khOpesJ63utNI5b-cF1e2xoClmoQAvD_BwE) is a great tool for wireframing
 
@@ -101,8 +102,8 @@ During the development phase, you will have a few checkins with an instructor. D
 
 ## Presentation/Documentation
 
-The last full day of the project will be dedicated to documentation, and preparing a presentation for your project.
+The last full day of the project will be dedicated to documentation, and preparing a presentation for your project. You will prepare a project demonstration that should be about 5 minutes long (not more than 8!)
 
 Your project should include a README that follows [Good Documentation](../lessons/Week2/WritingGoodDocumentation) practices.
 
-You will prepare a project demonstration that should follow this [Demo Guide](./DemoGuide).  A great presentation can be a good addition to the documentation of your project, so we will be recording these presentations for you to use as you see fit!
+

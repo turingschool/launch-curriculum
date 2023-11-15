@@ -14,9 +14,9 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
 
 ## Curriculum
 
-<!-- 
 
-[Project]() 
 
--->
+[Project](./project) 
+
+
 
