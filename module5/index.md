@@ -44,7 +44,7 @@ In Module 5, students will begin learn tools to make their MVC applications even
 * [PD: Cover Letters](./lessons/Week4/CoverLetters)
 
 ### Weeks 5 & 6
-Project
+* [Project](./projects/Capstone)
 * [PD: LinkedIn Activity](./lessons/Week5/LinkedInActivityPD)
 
 

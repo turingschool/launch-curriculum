@@ -1,15 +1,12 @@
 ---
 layout: page
 title: Process Optimization
----
-* BigO and Process Optimization (Time/space trade-offs)
-We want this lesson in Mod5, we still need to decide exactly what goes into it.
-    - nested for-loops is bad
-    - Understand the impact of poor optimization
-    - Introduce the problem of over-iteration and optimization
-    - Gain a familiarity with Big0 terminology (I've heard of this thing, but may not be an expert)
+---  
 
 ## Learning Goals
+- Understand the concepts of time and space complexity
+- Understand the impact of poor optimization
+- Gain familiarity with Big0 terminology
 
 ## Warm Up
 
@@ -58,7 +55,7 @@ Let's practice solving a problem at a high level.  Just focus on writing out pse
 - How might you find the duplicate value?
 
     <section class="note" markdown='1'>
-    ### Note
+    Note
 
     There are a couple of solutions to the problem above that have various pros and cons.  Don't worry about trying to get the perfect solution.  Instead, practice breaking down the problem and thinking about the approach you could take.
     </section>
@@ -148,8 +145,6 @@ foreach (var num in nums)
 }
 ```
 </section>
-
-<>
 
 ## Big O
 
