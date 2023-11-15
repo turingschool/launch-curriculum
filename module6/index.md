@@ -14,6 +14,9 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
 
 ## Curriculum
 
-[Intermission Work](./intermission/)
+[Intermission Work](./intermission/)  
+[Project](./project) 
+
+
 
 
