@@ -27,3 +27,4 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
 * [Job Tracking Intro - Teal](./lessons/Week1/JobTrackingIntro)
 * [Job Hunt Hustle Intro](./lessons/Week1/JobHuntHustle)
 * [Asking Questions in an Interview](./lessons/Week1/AskingQuestionsInAnInterview)
+* [Tools For After An Interview](./lessons/Week1/ToolsForAfterAnInterview)
