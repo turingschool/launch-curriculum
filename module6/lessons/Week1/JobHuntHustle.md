@@ -39,7 +39,7 @@ For additional context Hadi Partovi is the CEO of Code.org, a non-profit that cr
 ![Code.org 4](/assets/images/module6/week1/Code4.png)
 
 <section class="call-to-action" markdown="1">
-Take a look through the above examples as starting points, then with your partner brainstorm ideas for how to "Job Hunt Hustle". Are there any "Job Hunt Hustle" strategies that have worked for you in the past? When we come back together your instructor will call on groups to share out ideas and compile a mega-list of ideas in Slack.
+Take a look through the above examples as starting points, then with your group brainstorm ideas for how to "Job Hunt Hustle". Are there any "Job Hunt Hustle" strategies that have worked for you in the past? When we come back together your instructor will call on groups to share out ideas and compile a mega-list of ideas in Slack.
 </section>
 
 ### Conclusion
@@ -54,5 +54,5 @@ How are you currently feeling about starting the job hunt hustle?
 
 <aside class="instructor-notes" markdown="1">
     <p><strong>Instructor Note</strong><br>
-    When introducing this question, I would mention that there is no right or wrong answer here. Each person has a very unique perspective based on background, experiences, and identity. Also remind folks that when we share as a large group they should only share their own perspective. </p>
+    When introducing this question, I would mention that there is no right or wrong answer here. Each person has a very unique perspective based on background, experiences, and identity. Also, remind folks that when we share as a large group they should only share their own perspective. </p>
 </aside>
