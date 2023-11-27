@@ -46,13 +46,14 @@ Then, in your group, take turns sharing your responses to these questions. Every
 
 Interviews are both a logical and an emotional activity. Once you check in about the logical part of the interview and what you want to improve on as a result, it's also important to check in emotionally with where you are and create a "soft landing" for yourself.
 
-Start by taking time to individually reflect on the following three questions.
+Start by taking time to individually reflect on the following two questions.
 
-1. How are you emotionally right now? (Check in for self-doubt, insecurity, or imposter syndrome feels)
-2. If your friend shared that they are feeling how you're feeling, what would you tell them?
-3. If you feel like you're having a vulnerability hangover, what can you do to create a "soft landing" and take care of yourself? (Think about if there is anything your group or other support people in your life can help you with here. You don't have to build your soft landing alone.)
+1. How are you emotionally right now? (Check in for self-doubt, insecurity, fatigue, cravings, wanting to hide)
+2. If you are having any vulnerability hangover symptoms, what can you do to create a "soft landing" and take care of yourself? (Think about if there is anything your group or other support people in your life can help you with here. You don't have to build your soft landing alone.)
 
 Then, in your group, take turns sharing as much as you're comfortable. Everyone processes differently, so it's normal if one person prefers to share briefly and the next chooses to share more and do more external processing. That being said, I encourage you to push yourself in sharing. Many people find that tough emotions have less power when they are named and shared.
+
+If you're a listener, remember that your job is to listen and maybe share empathy. Hold off from jumping in with solutions or ideas unless you're explicitly asked for that.
 
 ### Conclusion
 
