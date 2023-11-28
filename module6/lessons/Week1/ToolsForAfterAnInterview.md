@@ -7,7 +7,7 @@ title: Tools For After An Interview
 
 Interviews are often a vulnerable and stressful thing. They are also a necessary hurdle on the path to getting that first developer job. It's important to gather tools for resilience to navigate this portion of the job search process.
 
-Today we are going to learn and practice two routines for after your interviews. The first is an interview recap which should feel very similar to other reflections we have done in this course, and the second is doing an emotions check-in and creating a "soft landing" for yourself.
+We are going to learn two routines for after your interviews. The first is an interview recap which should feel very similar to other reflections we have done in this course, and the second is doing an emotions check-in and creating a "soft landing" for yourself.
 
 <aside class="instructor-notes" markdown="1">
 <p><strong>Instructor Note</strong><br>
@@ -28,7 +28,7 @@ What are some ways that you can nurse your vulnerability hangover so you can con
 
 Are there ways that your group can support you in your "soft landing"? For example, maybe there is something they can remind you to do for yourself or a mantra they can remind you of.
 
-When we come back together after today's interviews, you will discuss these questions with your group and then I'll ask for volunteers to share in the full group. Then we will move into an Interview Recap and Emotional Check-In for today's interview.
+After reflecting individually, you will discuss these questions with your group and then I'll ask for volunteers to share in the full group. 
 
 ### Interview Recaps
 
@@ -57,6 +57,6 @@ If you're a listener, remember that your job is to listen and maybe share empath
 
 ### Conclusion
 
-We will give space for groups to do Interview Recaps and Emotions Check SIns after each Friday interview. We encourage you to also find time to support each other after your real interviews. 
+We will give space for groups to do an Interview Recap and Emotions Check In after each Thursday interview. We encourage you to also find time to support each other after your real interviews. 
 
 It's also great if you build routines outside of these two that work well for you! You are resilient and creative and will find what works for you.
