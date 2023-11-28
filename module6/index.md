@@ -17,6 +17,9 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
 [Intermission Work](./intermission/)  
 [Project](./project) 
 
+## Week 1
+[Intro to CS](./cstopics)
+
 
 
 
