@@ -16,6 +16,8 @@ I think it would be best to do this activity in the job search stand-up groups f
 
 ### What is a Soft Landing?
 
+Any time we engage in a vulnerable activity, there is the chance we may experience a [vulnerability hangover](https://www.happiness.com/magazine/personal-growth/vulnerability-hangover/) - that feeling of doubt in our past activities or actions.  When unanticipated, these feelings can be a harsh and abrubt outcome of activities like interviewing.  We can plan for the aftermath of vulnerability by creating a 'soft landing'.
+
 What is a soft landing, you ask? The concept comes from [this](https://www.vickipavitt.com/blog/vulnerability-hangover) blog post titled **Nursing a Vulnerability Hangover**.
 
 Read through the blog post and then reflect on the following questions:
