@@ -21,6 +21,9 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
   
 [Free Throws](./freethrows)
 
+## Week 1
+[Intro to CS](./cstopics)
+
 
 
 ### Week 1
