@@ -10,7 +10,7 @@ You can ask these questions in any order.  There are some questions each week th
 * Describe the 4 Pillars of OOP
 * What is HTTP and give a brief definition?
 * Explain Routing in .NET Core MVC?
-* What happens if the implmented interfaces have conflicting method names? For example, what would happen if class A implements from IB and IC, and each class has a method `DoThing()`.
+* What happens if implemented interfaces have conflicting method names? For example, what would happen if class A implements from IB and IC, and each class has a method `DoThing()`.
 * What is an enum in C#?
 * Difference between the Equality Operator (==) and Equals() Method in C#
 * Describe your background. How did you get to where you are now? Why coding?
