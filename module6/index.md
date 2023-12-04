@@ -14,14 +14,13 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
 * Zoe Farrell
 
 ## Curriculum
+[Mock Interviews](./interviews)
 
 [Intermission Work](./intermission/)  
   
 [Project](./project) 
   
-[Free Throws](./freethrows)
-
-
+[Free Throws](./freethrows)  
 
 ### Week 1
 * [Job Tracking Intro - Teal](./lessons/Week1/JobTrackingIntro)
@@ -31,3 +30,4 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
 
 ### Week 2
 * [Revisiting the Graceful Exit](./lessons/Week2/RevisitingTheGracefulExit)
+* [Intro to CS](./cstopics)
