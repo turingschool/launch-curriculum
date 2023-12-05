@@ -14,6 +14,7 @@ Keep revisiting this page - we may add more opportunities for practice as we go!
 ### Programming Fundamentals
 
 * [Edabit](https://edabit.com/challenges) - Work through all the c# challenges, starting with 'Very Easy' and steadily increasing in difficulty.
+* [Advent of Code](https://adventofcode.com/) - Help some friendly elves in their mission!
 
 ### OOP Practice
 
