@@ -45,23 +45,7 @@ The InsertAtBeginning method is working, but to get the InsertAtEnd method worki
 <section class="answer" markdown="1">
 ### Finished InsertAtEnd
 
-```c#
-public void InsertAtEnd(int data)
-{
-    Node newNode = new Node(data);
-    if (head == null)
-    {
-        head = newNode;
-        return;
-    }
-    Node current = head;
-    while (current.Next != null)
-    {
-        current = current.Next;
-    }
-    current.Next = newNode;
-}
-```
+<img src="/assets/images/module6/week2/finishedInsertAtEnd.png" style="max-width: 50%;" >
 </section>
 
 Have one partner share their screen, and work together to get InsertAtEnd working!
