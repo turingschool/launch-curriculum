@@ -8,7 +8,7 @@ title: Revisiting Talking While Coding
 * Revisit strategies for talking during a technical interview
 * Strengthen your ability to talk while coding
 
-## Warm Up
+## Prep
 
 Think about what you remember about talking while coding (or look back on the initial lesson [here](https://launch.turing.edu/module5/lessons/Week1/TalkingWhileCoding)) and write down your answers to the following questions:
 
@@ -16,7 +16,9 @@ Think about what you remember about talking while coding (or look back on the in
 1. What sort of things should you say during a technical interview?
 1. What are some benefits of saying these things during a technical challenge?
 
-## Revisiting Four Tip
+This section is to be completed in the morning before this session begins after lunch. Your instructor will call on folks to share their responses at the start of the lesson.
+
+## Revisiting Four Tips
 
 ### Tip 1. Focus on the Purpose
 
@@ -56,9 +58,9 @@ I recommend that the candidate share their screen and use the zoom whiteboard fe
 <img src="/assets/images/module6/week3/ZoomWhiteboard.png" style="max-width: 50%;" >
 
 **Schedule:**
-* 20 minutes, Partner 1 answers their question
+* 15 minutes, Partner 1 answers their question
 * 5 minutes, Partner 2 gives feedback to Partner 1
-* 20 minutes, Partner 2 answers their question
+* 15 minutes, Partner 2 answers their question
 * 5 minutes, Partner 1 gives feedback to Partner 2
 
 While the interviewer, here are three questions to guide your feedback
