@@ -5,13 +5,7 @@ title: Binary Trees - CS Topic - Data Structure
 
 ## Introduction
 
-Today's lesson on the binary tree data structure comes to you in three parts. 
-
-**Part 1**: Independent research
-
-**Part 2**: Class walkthrough of key operations and time complexity
-
-**Part 3**: Diving into a C# implementation of a binary tree
+Today's lesson on binary trees will be a mixture of independent research, class walkthrough and discussion, and diving into a code implementation.
 
 ### Independent Learning
 Start by taking 30 minutes to independently research the binary tree Data Structure.
