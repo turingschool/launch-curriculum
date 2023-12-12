@@ -36,3 +36,4 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
 
 ### Week 3
 * [Revisiting Talking While Coding](./lessons/Week3/RevisitingTalkingWhileCoding)
+* [Binary Trees](./lessons/Week3/BinaryTrees)
