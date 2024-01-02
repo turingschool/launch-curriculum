@@ -7,13 +7,14 @@ title: Stacks and Queues - CS Topic - Data Structure
 
 Today's lesson on Stacks and Queues will be a mixture of independent research, class walkthrough and discussion, and diving into code implementations.
 
-### Independent Learning
+## Independent Learning
 Start by taking 30 minutes to independently research the Stack and Queue Data Structures.
 
 I recommend that you start by reading these two articles:
 * [Stacks and Overflows](https://medium.com/basecs/stacks-and-overflows-dbcf7854dc67#.3l76d12dq)
 * [Difference between Stacks and Queues](https://www.geeksforgeeks.org/difference-between-stack-and-queue-data-structures/)
 
+<section class="call-to-action" markdown="1">
 As you're researching, look for the answers to the following questions.
 
 1. What are the key operations that can be done on a Stack, what about for a Queue?
@@ -22,6 +23,19 @@ As you're researching, look for the answers to the following questions.
 1. What are examples of Stacks and Queues "in the wild"?
 
 Also, start thinking about how you would use a LinkedList or an Array to build a Stack or a Queue. We will dig more into implementation in the next section!
+</section>
+
+
+## Arrays and Linked Lists Review
+
+<section class="call-to-action" markdown="1">
+With your partner discuss the following questions:
+
+1. What do you remember about Arrays?
+1. What do you remember about Linked Lists?
+1. Why might these both be useful for building Stacks and Queues? (Might be helpful to think about why a dictionary would not be helpful here)
+</section>
+
 
 ## Walkthroughs and Code
 ### Stacks
