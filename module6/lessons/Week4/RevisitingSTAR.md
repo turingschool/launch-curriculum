@@ -42,3 +42,22 @@ And finally, what were the results of this project? What were you able to accomp
 
 ## Practice the Technique
 
+First, take a few minutes to reflect on your past experiences answering behavioral questions:
+* What topics have been difficult for you?
+* Which of the STAR components have you struggled with?
+
+<section class='call-to-action' markdown='1'>
+
+### With A Partner
+
+You and a partner are going to take turns asking each other questions, and analysing your STAR techniques.  For this exercise, you will be PERSON A and PERSON B.  Follow the format below:
+
+1. PERSON A asks a question
+2. PERSON B answers the question using the STAR technique
+3. PERSON A restates the **answer**, highlighting each of the components of STAR.  Ex: "The **situation** I heard you describe was... The **task** I heard you describe was..."
+4. PERSON B can then modify their original answer if clarification is needed, or if any of the STAR components are missing.
+5. Switch roles and continue through your question set.
+
+You instructor will send you a DM with the questions that you will ask (you will not know what questions you will _be asked_).
+
+</section>
