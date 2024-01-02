@@ -11,7 +11,7 @@ Today's lesson on Stacks and Queues will be a mixture of independent research, c
 Start by taking 30 minutes to independently research the Stack and Queue Data Structures.
 
 I recommend that you start by reading these two articles:
-* [Stacks and Overflows](https://medium.com/basecs/stacks-and-overflows-dbcf7854dc67#.3l76d12dq))
+* [Stacks and Overflows](https://medium.com/basecs/stacks-and-overflows-dbcf7854dc67#.3l76d12dq)
 * [Difference between Stacks and Queues](https://www.geeksforgeeks.org/difference-between-stack-and-queue-data-structures/)
 
 As you're researching, look for the answers to the following questions.
