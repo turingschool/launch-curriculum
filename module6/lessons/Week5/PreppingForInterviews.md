@@ -7,7 +7,37 @@ You've busted your butt and landed an interview! GREAT! Now what?
 
 Each interview deserves its own preparation.  Try to give yourself at least a few days before the interview so that you are fully prepared and confident on the day.
 
+# How to Talk about Turing
+
+You all have spent 9 months on this Turing journey, so *anything* you want to share about **your own experience** is great!  But, you might get some questions about Turing more generally - here are some key points that you can reference:
+
+* Turing School is an accredited, non-profit, fully-remote computer programming school, focused solely on helping students develop the technical and professional skills need for a  fulfilling career in technology.
+* All of Turing's programs are assessment-based; students continually prove their understanding through assessments.
+* Though not *always* on offer, [Launch](https://turing.edu/launch) is a program that teaches Web Development in C#/.NET with a focus on backend development.
+    * Our [curriculum](https://launch.turing.edu/) is open source and can be shared with anyone!
+    * Launch students work on a combination of individual and group projects throughout the program.
+    * The curriculum and projects are designed for career-starters to give a broad understanding of web-development.
+    * Launch is centered on Professional Development, students learn and practice topics including: Identifying Unproductive Struggle, Asking Good Questions, and Giving/Receiving Feedback.
+    * Students are expected to practice real-world developer skills like working on a team, and jumping into a new code-base.
+
+<section class='notes' markdown='1'>
+
+Because 'Launch' is not a specific name for the skills you have learned, we recommend that you include your experience at Turing with more industry-standard wording.  For example:
+
+```
+School: Turing School
+Program: Backend Development in C#/.Net
+Grad Date: Jan 2024
+```
+
+</section>
 # Prepping for an Interview - A Checklist!
+
+## Clarify Expecations
+Make sure you know what kind of interview you are walking in to!  Reach out the recruiter or the person you are interviewing with to determine if this is a: 
+* culture-fit interview
+* onsite tech challenge
+* take-home challenge
 
 ## Review the Job Description
 It might have been a while since you really read through the job description.  Make sure you do that before the interview so that you can:
@@ -77,26 +107,3 @@ Double check that these job descriptions are still active :)
 
 </section>
 
-
-# How to Talk about Turing
-
-You all have spent 9 months on this Turing journey, so *anything* you want to share about **your own experience** is great!  But, you might get some questions about Turing more generally - here are some key points that you can reference:
-
-* Turing School is an accredited, non-profit, fully-remote computer programming school, focused solely on helping students develop the technical and professional skills need for a  fulfilling career in technology.
-* All of Turing's programs are assessment-based; students continually prove their understanding through assessments.
-* Though not *always* on offer, [Launch](https://turing.edu/launch) is a program that teaches Web Development in C#/.NET with a focus on backend development.
-    * Our [curriculum](https://launch.turing.edu/) is open source and can be shared with anyone!
-    * Launch students work on a combination of individual and group projects throughout the program.
-    * The curriculum and projects are designed for career-starters to give a broad understanding of web-development.
-
-<section class='notes' markdown='1'>
-
-Because 'Launch' is not a specific name for the skills you have learned, we recommend that you include your experience at Turing with more industry-standard wording.  For example:
-
-```
-School: Turing School
-Program: Web Development in C#/.Net
-Grad Date: Jan 2024
-```
-
-</section>
