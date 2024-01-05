@@ -41,3 +41,6 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
 ### Week 4
 * [Revisiting the STAR Method](./lessons/Week4/RevisitingSTAR)
 * [Stacks and Queues](./lessons/Week4/StacksAndQueues)
+
+### Week 5
+* [Prepping for an Interview](./lessons/Week5/PreppingForInterviews)
