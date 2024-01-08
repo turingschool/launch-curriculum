@@ -82,6 +82,12 @@ A **callstack** is at the heart of how programs are executed - it keeps track of
 
 Let's discuss what happens on the stack when we execute methods!
 
+<section class='instructor-notes' markdown='1'>
+
+Use the slides below to walkthrough what is happening on the stack.  Not _everything_ that is happening on the stack is specifically called out - I tried to include only the most necessary information.
+
+</section>
+
 <section class='answer' markdown='1'>
 
 ### Diagramming the Call Stack
@@ -98,6 +104,13 @@ Let's discuss what happens on the stack when we execute methods!
 
 </section>
 
+<section class='answer' markdown='1'>
+
+### Recursive Functions
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTd07os2suundP21vi48fsSPO--NOzFnLHgMxgWODyvPEAVwCchApJLR10vQq3kK99OEmXmZGto_qL/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+</section>
 
 ## Exercises
 
