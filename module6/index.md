@@ -44,3 +44,5 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
 
 ### Week 5
 * [Prepping for an Interview](./lessons/Week5/PreppingForInterviews)
+* [Recursion](./lessons/Week5/Recursion)
+
