@@ -46,7 +46,7 @@ public class Program
 	
 	static void RecursiveCountdown(int num)
 	{
-		if (num == )
+		if (num == 0)
 		{
 			Console.WriteLine(num);
 		}
@@ -59,9 +59,15 @@ public class Program
 }
 ```
 
+<section class='instructor-notes' markdown='1'>
+
+Make sure to identify the following characteristics of the method above - talk specifically about how the recursive instructions move us closer to the base case.
+
+</section
+
 This is a very simple example of recursion, but it does give us a chance to identify the key features of a recursive function.  Every recursive function must have these two pieces:
 1. A **base case**: a terminating scenario that _does not use recursion_ to produce an answer
-2. A **recursive case**: a set of instructions, movign closer towards the base case, that ends in a call to the same function
+2. A **recursive case**: a set of instructions, moving closer towards the base case, that ends in a call to the same function
 
 ### Use Cases
 
