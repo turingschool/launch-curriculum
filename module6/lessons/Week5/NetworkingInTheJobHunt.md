@@ -18,7 +18,7 @@ Start a document and keep track of your companies, people, and who you've messag
 Step one is to compile a list of target companies. 
 
 Criteria for a target company:
-1. Company that hires developers like you. The company should meet some of the following criteria:
+1. Company that hires developers like you. You can determine this by looking at their job postings and looking at their current employees on LinkedIn. The company should meet some of the following criteria:
     * Hiring remotely or in locations you're interested in
     * .NET/C#
     * Has hired Turing grads in the past
@@ -34,7 +34,7 @@ Criteria for a target company:
 
 Your instructors are happy to look at your list of potential target companies and give feedback! Shoot for 5 companies!
 
-## 2. Who to Message?
+## 2. Who to Message
 
 Once you have your list of companies, the next step is to collect people at those companies to message on LinkedIn.
 
@@ -52,7 +52,7 @@ Now that you've collected 3-6 people for a particular company, it's time to reac
 The first step is finding a way to contact each person. This is tougher now that LinkedIn has a limit on custom connection messages.
 
 Here is what I would try:
-1. Use your connection: For Turing Alumni, start with a Slack message. For school alumni, see if your school has an alumni directory. For friends or friends, ask to be put in contact.
+1. Use your connection: For Turing Alumni, start with a Slack message. For school alumni, see if your school has an alumni directory. For friends of friends, ask to be put in contact.
 1. Try to find their email: Google the person's name. Does a personal website pop up that includes their email? Do they have a Github profile with an email? Or a LinkedIn with an email listed? Tracy has found that emails have a higher response rate anyway!
 1. Use one of your connection requests with a message.
 
@@ -66,8 +66,7 @@ The main focus of your message is two things:
 
 ## 5. When to follow up
 
-I would follow up if I don't hear a response in a week. Sometimes folks are busy or miss a message, so I think it's only helpful to send a follow-up.
-
+I would follow up if I don't hear a response in a week. Sometimes folks are busy or miss a message, so I think it's only helpful to send a follow-up. You can also follow up using a different platform. For example, if you started by reaching out to an Alumni on Slack maybe then reach out on LinkedIn or by email.
 
 ## 6. During and After Your Chat
 
