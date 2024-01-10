@@ -45,3 +45,4 @@ In Module 6, students will begin to dive into the skills and mindsets necessary 
 ### Week 5
 * [Prepping for an Interview](./lessons/Week5/PreppingForInterviews)
 * [Networking In the Job Hunt](./lessons/Week5/NetworkingInTheJobHunt)
+* [Recursion](./lessons/Week5/Recursion)
