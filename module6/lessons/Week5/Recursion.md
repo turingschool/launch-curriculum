@@ -12,7 +12,7 @@ Imagine you have been given the following code challenge in an interview:
 Build a function that takes in a string, and returns that string reversed.  EX: `input: "Megan", output: "nageM"`.  You must adhere to the following constraints:
 * You may not use _any_ LINQ methods
 * You may not use `for`, `foreach`, or `while`
-* The function must work for strings of any length\
+* The function must work for strings of any length
 
 Spend 5 minutes brainstorming what this function might look like.
 
@@ -63,7 +63,7 @@ public class Program
 
 Make sure to identify the following characteristics of the method above - talk specifically about how the recursive instructions move us closer to the base case.
 
-</section
+</section>
 
 This is a very simple example of recursion, but it does give us a chance to identify the key features of a recursive function.  Every recursive function must have these two pieces:
 1. A **base case**: a terminating scenario that _does not use recursion_ to produce an answer
