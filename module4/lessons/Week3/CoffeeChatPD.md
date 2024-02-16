@@ -148,10 +148,6 @@ Here is one example, but definitely make it your own!
 
 "Thank you so much for taking the time to chat with me! I'm currently 5 months into the Turing Launch program and I'm loving it and I've grown so much as a developer, but from class time alone it's hard to get a picture of what it's really like to work on a development team and I know each team is unique. So I'm eager to learn more about what your day-to-day is like and any advice you have for a budding developer like me. I see on your LinkedIn that you worked at `<enter company here>` then transitioned to `<enter company here>`, could you share more about how you came to work at `<enter company here>` and your journey as a developer so far?"
 
-<section class="call-to-action" markdown="1">
-With your Partner: Take turns kicking off the conversation.
-</section>
-
 ### Taking Notes
 
 It's recommended to have a notebook open and take notes of key takeaways.
